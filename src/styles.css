@@ -285,6 +285,7 @@ header {
 }
 .dataset-meta strong { display: block; color: var(--ink); font-size: 13px; line-height: 1.45; font-weight: 600; }
 .dataset-info-grid { margin-top: 28px; }
+.data-disclaimer { margin: 10px 0 0; color: var(--muted); font-size: 10px; font-style: italic; }
 .dataset-info-grid a {
   display: inline-flex; align-items: center; gap: 6px; margin-top: 14px;
   color: var(--acid); font-size: 11px; text-decoration: none;

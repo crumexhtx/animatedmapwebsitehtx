@@ -384,6 +384,9 @@ function DatasetPage({
           <small>02 · WHERE IT COMES FROM</small>
           <h2>Data source</h2>
           <p>{dataset.sourceLabel}. Values are shown as {dataset.unit}.</p>
+          <p className="data-disclaimer">
+            Figures on this page are illustrative approximations for demonstrating the layer, not a live feed from the source below.
+          </p>
           <a href={dataset.sourceUrl} target="_blank" rel="noreferrer">
             Open source <ExternalLink size={13} />
           </a>
@@ -460,6 +463,8 @@ function RegionDrawer({
           <i style={{ width: '100%', background: '#e8e5dc' }} />
         </div>
       </div>
+
+      <p className="data-disclaimer">Illustrative approximation, not a live feed from the cited source.</p>
 
       <a href={dataset.exampleReference} target="_blank" rel="noreferrer">
         deck.gl example <ExternalLink size={13} />
@@ -578,6 +583,16 @@ function App() {
     focusCountry(dataset.country, dataset.countryCode, dataset.id)
   }
 
+  function selectCategory(next: DatasetCategory | 'All') {
+    setCategory(next)
+    setSelectedRegion(null)
+  }
+
+  const focusCountryRef = useRef(focusCountry)
+  useEffect(() => {
+    focusCountryRef.current = focusCountry
+  })
+
   useEffect(() => {
     if (!mapContainer.current || mapRef.current) return
     const map = new maplibregl.Map({
@@ -655,7 +670,7 @@ function App() {
       map.on('click', 'countries-hit', (event: MapLayerMouseEvent) => {
         const country = event.features?.[0]?.properties?.name as string | undefined
         const code = event.features?.[0]?.properties?.['ISO3166-1-Alpha-2'] as string | undefined
-        if (country) focusCountry(country, code)
+        if (country) focusCountryRef.current(country, code)
       })
       map.on('mousemove', 'countries-hit', (event: MapLayerMouseEvent) => {
         const country = event.features?.[0]?.properties?.name as string | undefined
@@ -731,12 +746,6 @@ function App() {
       }),
     })
   }, [mapReady, activeDataset, selectedRegion])
-
-  useEffect(() => {
-    if (activeDataset && selectedRegion && !activeDataset.regions.some((region) => region.id === selectedRegion.id)) {
-      setSelectedRegion(null)
-    }
-  }, [activeDataset, selectedRegion])
 
   useEffect(() => {
     if (!mapReady || !mapRef.current) return
@@ -869,12 +878,12 @@ function App() {
               Open a dataset page to see what it measures, which country it covers, and where the data comes from.
             </p>
             <nav className="category-dock catalog-filters" aria-label="Dataset categories">
-              <button className={category === 'All' ? 'active' : ''} onClick={() => setCategory('All')}>✦ <span>Everything</span></button>
+              <button className={category === 'All' ? 'active' : ''} onClick={() => selectCategory('All')}>✦ <span>Everything</span></button>
               {categories.map((item) => (
                 <button
                   key={item.name}
                   className={category === item.name ? 'active' : ''}
-                  onClick={() => setCategory(item.name)}
+                  onClick={() => selectCategory(item.name)}
                 >
                   {item.emoji} <span>{item.name}</span>
                 </button>
@@ -940,11 +949,11 @@ function App() {
               Found a data issue, have a dataset suggestion, or want to contribute a new country view? Open a discussion in the project repository.
             </p>
             <div className="contact-actions">
-              <a href="https://github.com/crumexhtx/animatedmapwebsite/issues/new" target="_blank" rel="noreferrer">
+              <a href="https://github.com/crumexhtx/animatedmapwebsitehtx/issues/new" target="_blank" rel="noreferrer">
                 <span><b>Report or suggest</b><small>Open a GitHub issue</small></span>
                 <ArrowUpRight size={18} />
               </a>
-              <a href="https://github.com/crumexhtx/animatedmapwebsite" target="_blank" rel="noreferrer">
+              <a href="https://github.com/crumexhtx/animatedmapwebsitehtx" target="_blank" rel="noreferrer">
                 <span><b>View the project</b><small>Source code and updates</small></span>
                 <ExternalLink size={18} />
               </a>
@@ -975,12 +984,12 @@ function App() {
             </div>
 
             <nav className="category-dock" aria-label="Dataset categories">
-              <button className={category === 'All' ? 'active' : ''} onClick={() => setCategory('All')}>✦ <span>Everything</span></button>
+              <button className={category === 'All' ? 'active' : ''} onClick={() => selectCategory('All')}>✦ <span>Everything</span></button>
               {categories.map((item) => (
                 <button
                   key={item.name}
                   className={category === item.name ? 'active' : ''}
-                  onClick={() => setCategory(item.name)}
+                  onClick={() => selectCategory(item.name)}
                 >
                   {item.emoji} <span>{item.name}</span>
                 </button>
