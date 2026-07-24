@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Production output
+dist
+
+# Local environment
+.env
+.env.local
+
+# Editor and OS files
+.idea
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
