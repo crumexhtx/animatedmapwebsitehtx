@@ -384,6 +384,9 @@ function DatasetPage({
           <small>02 · WHERE IT COMES FROM</small>
           <h2>Data source</h2>
           <p>{dataset.sourceLabel}. Values are shown as {dataset.unit}.</p>
+          <p className="data-disclaimer">
+            Figures on this page are illustrative approximations for demonstrating the layer, not a live feed from the source below.
+          </p>
           <a href={dataset.sourceUrl} target="_blank" rel="noreferrer">
             Open source <ExternalLink size={13} />
           </a>
@@ -460,6 +463,8 @@ function RegionDrawer({
           <i style={{ width: '100%', background: '#e8e5dc' }} />
         </div>
       </div>
+
+      <p className="data-disclaimer">Illustrative approximation, not a live feed from the cited source.</p>
 
       <a href={dataset.exampleReference} target="_blank" rel="noreferrer">
         deck.gl example <ExternalLink size={13} />
@@ -583,6 +588,11 @@ function App() {
     setSelectedRegion(null)
   }
 
+  const focusCountryRef = useRef(focusCountry)
+  useEffect(() => {
+    focusCountryRef.current = focusCountry
+  })
+
   useEffect(() => {
     if (!mapContainer.current || mapRef.current) return
     const map = new maplibregl.Map({
@@ -660,7 +670,7 @@ function App() {
       map.on('click', 'countries-hit', (event: MapLayerMouseEvent) => {
         const country = event.features?.[0]?.properties?.name as string | undefined
         const code = event.features?.[0]?.properties?.['ISO3166-1-Alpha-2'] as string | undefined
-        if (country) focusCountry(country, code)
+        if (country) focusCountryRef.current(country, code)
       })
       map.on('mousemove', 'countries-hit', (event: MapLayerMouseEvent) => {
         const country = event.features?.[0]?.properties?.name as string | undefined
