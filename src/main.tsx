@@ -795,7 +795,7 @@ function App() {
                   <p>
                     {countryDatasets.length
                       ? 'Open a dataset page for source details, or select one to render it on the map below.'
-                      : 'No layer demos published for this country yet.'}
+                      : 'Not published yet — the US is live today, with more countries joining the atlas next.'}
                   </p>
                 </div>
 
@@ -859,7 +859,7 @@ function App() {
                 <span className="panel-kicker"><Compass size={14} /> DECK.GL SHOWCASE LAYERS</span>
                 <h1>Serious data,<br /><em>six layers.</em></h1>
                 <p>
-                  Search a country below, or browse dataset pages for what each layer measures, where the numbers come from, and which country they cover.
+                  Search any country on the globe — the United States is live today, with more countries joining the atlas as new datasets are added.
                 </p>
                 <div className="explore-hint">
                   <LocateFixed size={17} />
@@ -925,7 +925,7 @@ function App() {
               <section>
                 <small>01 · THE IDEA</small>
                 <h2>One map, six visual languages</h2>
-                <p>Compare polygon density, origin–destination arcs, spatial aggregation, screen grids, highway paths, and flight corridors without changing tools.</p>
+                <p>Compare polygon density, origin–destination arcs, spatial aggregation, screen grids, highway paths, and flight corridors without changing tools. The MVP ships with the United States; the same dataset model is built to extend to any country next.</p>
               </section>
               <section>
                 <small>02 · THE STACK</small>
