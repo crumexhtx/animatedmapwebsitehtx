@@ -1,7 +1,7 @@
 import { StrictMode, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import * as maplibregl from 'maplibre-gl'
-import type { Map as MapLibreMap, MapLayerMouseEvent } from 'maplibre-gl'
+import type { Map as MapLibreMap, MapLayerMouseEvent, StyleSpecification } from 'maplibre-gl'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import {
   ArcLayer,
@@ -41,6 +41,16 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import './styles.css'
 
 const COUNTRIES_URL = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson'
+// CARTO's free, no-key basemap CDN — meant for production use, unlike maplibre's own "demotiles" example server.
+const BASE_STYLE_URL = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json'
+// If the base style can't load at all (blocked network, CDN hiccup), fall back to a plain background
+// so the map never gets stuck spinning forever — the app draws its own country layers on top regardless.
+const OFFLINE_FALLBACK_STYLE: StyleSpecification = {
+  version: 8,
+  sources: {},
+  layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#e8e6e1' } }],
+}
+const STYLE_LOAD_TIMEOUT_MS = 8000
 
 interface CapitalRecord {
   name: string
@@ -597,7 +607,7 @@ function App() {
     if (!mapContainer.current || mapRef.current) return
     const map = new maplibregl.Map({
       container: mapContainer.current,
-      style: 'https://demotiles.maplibre.org/style.json',
+      style: BASE_STYLE_URL,
       center: [8, 18],
       zoom: 1.7,
       minZoom: 1.2,
@@ -615,7 +625,13 @@ function App() {
       map.setProjection({ type: 'mercator' })
     })
 
-    map.on('load', () => {
+    let initialized = false
+    let fallenBack = false
+
+    function initializeCountryLayers() {
+      if (initialized) return
+      initialized = true
+      window.clearTimeout(fallbackTimer)
       map.addSource('countries', { type: 'geojson', data: COUNTRIES_URL })
       map.addLayer({
         id: 'available-countries',
@@ -682,7 +698,21 @@ function App() {
         map.getCanvas().style.cursor = ''
       })
       setMapReady(true)
+    }
+
+    function fallBackToOfflineStyle() {
+      if (fallenBack || initialized) return
+      fallenBack = true
+      map.once('idle', initializeCountryLayers)
+      map.setStyle(OFFLINE_FALLBACK_STYLE)
+    }
+
+    map.once('load', initializeCountryLayers)
+    map.on('error', (event) => {
+      console.error('Map style failed to load, falling back to offline style:', event.error)
+      fallBackToOfflineStyle()
     })
+    const fallbackTimer = window.setTimeout(fallBackToOfflineStyle, STYLE_LOAD_TIMEOUT_MS)
 
     fetch(COUNTRIES_URL)
       .then((response) => response.json())
@@ -717,6 +747,7 @@ function App() {
       .catch(() => undefined)
 
     return () => {
+      window.clearTimeout(fallbackTimer)
       deckOverlayRef.current = null
       map.remove()
       mapRef.current = null
