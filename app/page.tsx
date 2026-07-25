@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { CityMap } from '@/components/CityMap'
+import { CityMapLazy } from '@/components/CityMapLazy'
 import { cityPath, getFeaturedCities, allCities } from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -9,10 +9,10 @@ export default function HomePage() {
   return (
     <>
       <section className="home-hero" aria-label="MapsToIt city explorer">
-        <div className="home-hero-map" aria-hidden={false}>
-          <CityMap cities={allCities} />
+        <div className="home-hero-map">
+          <CityMapLazy cities={allCities} variant="hero" />
         </div>
-        <div className="home-hero-scrim" />
+        <div className="home-hero-scrim" aria-hidden />
         <div className="home-hero-copy">
           <p className="home-brand">
             Maps<span>ToIt</span>
@@ -30,6 +30,7 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
+        <p className="home-hero-map-hint">Two-finger drag to explore · Tap a city</p>
       </section>
 
       <section className="section">

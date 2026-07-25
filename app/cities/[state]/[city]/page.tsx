@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { AdSlot } from '@/components/AdSlot'
 import { AffiliateZone } from '@/components/AffiliateZone'
-import { CityMap } from '@/components/CityMap'
+import { CityMapLazy } from '@/components/CityMapLazy'
 import { CityStats } from '@/components/CityStats'
 import { NearbyCities } from '@/components/NearbyCities'
 import { SourceList } from '@/components/SourceList'
@@ -68,7 +68,7 @@ export default async function CityPage({ params }: Props) {
       <div className="city-layout">
         <div>
           <div className="city-map-panel">
-            <CityMap cities={allCities} focus={city} />
+            <CityMapLazy cities={allCities} focus={city} />
           </div>
 
           <CityStats city={city} />

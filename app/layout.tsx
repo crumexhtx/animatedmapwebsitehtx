@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { SiteFooter } from '@/components/SiteFooter'
 import { SiteHeader } from '@/components/SiteHeader'
 import { siteUrl } from '@/lib/catalog'
@@ -16,6 +16,13 @@ export const metadata: Metadata = {
     siteName: 'MapsToIt',
     type: 'website',
   },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#0f6b5c',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
