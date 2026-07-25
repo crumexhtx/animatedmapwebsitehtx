@@ -1,44 +1,58 @@
-# mapstoit
+# MapsToIt
 
-Interactive MapLibre + deck.gl atlas that maps real geospatial themes onto the [deck.gl gallery layer examples](https://deck.gl/examples).
+U.S. city data explorer for people researching where to live before they move.
 
-Live site: [animatedmapwebsitehtx.vercel.app](https://animatedmapwebsitehtx.vercel.app)
+Live domain: [mapstoit.com](https://mapstoit.com)
 
-## Layer demos (United States)
+## What it is
 
-Figures are **illustrative demo approximations** modeled after public sources — not a live agency feed.
+MapsToIt presents cost of living, income, housing, safety, climate, and commute data per city, with an interactive MapLibre + deck.gl map as the browsing layer. City and state pages are statically generated for SEO.
 
-| Dataset | deck.gl layer | Example |
-| --- | --- | --- |
-| Population density by state | GeoJsonLayer polygons | [polygons](https://deck.gl/examples/geojson-layer-polygons) |
-| State-to-state migration | ArcLayer | [arcs](https://deck.gl/examples/arc-layer) |
-| Traffic fatality intensity | HexagonLayer | [hexagons](https://deck.gl/examples/hexagon-layer) |
-| Metro employment density | ScreenGridLayer | [screen grid](https://deck.gl/examples/screen-grid-layer) |
-| Interstate fatality rates | PathLayer | [paths](https://deck.gl/examples/geojson-layer-paths) |
-| Domestic flight corridors | LineLayer | [lines](https://deck.gl/examples/line-layer) |
+## Stack
+
+- Next.js App Router (static generation via `generateStaticParams`)
+- TypeScript
+- MapLibre GL + deck.gl
+- Curated JSON catalog checked into `data/catalog/`
 
 ## Routes
 
 | Path | Page |
 | --- | --- |
-| `/` | World atlas |
-| `/atlas/:countryCode` | Country explorer (e.g. `/atlas/us`) |
-| `/atlas/:countryCode/:datasetId` | Country + active layer |
-| `/datasets` | Dataset catalog |
-| `/datasets/:datasetId` | Dataset detail |
-| `/about` | About |
-| `/contact` | Contact |
+| `/` | Homepage + map entry |
+| `/cities` | Full city index (filterable by state) |
+| `/cities/[state]/[city]` | City profile (core SEO unit) |
+| `/states/[state]` | State overview |
+| `/methodology` | Data sources & publishing rules |
+| `/about`, `/contact` | Trust pages |
+
+Compare pages (`/compare/...`) are deferred until after the core city catalog is live.
+
+## Catalog workflow
+
+```bash
+npm run generate-catalog   # build curated seed → data/raw/cities-seed.json
+npm run build-catalog      # publish cities/states/index under data/catalog/
+npm run validate-catalog   # fail if any city is missing required fields
+```
+
+Live API enrichment stubs (wire later):
+
+```bash
+npm run enrich:census
+npm run enrich:bls
+npm run enrich:crime
+npm run enrich:climate
+```
+
+`npm run build` runs validation before `next build`.
 
 ## Development
 
 ```bash
 npm install
+npm run generate-catalog && npm run build-catalog
 npm run dev
 ```
 
-```bash
-npm run lint
-npm run build
-```
-
-Datasets live in `src/data.ts`. US state polygons are vendored at `public/data/us-states.json`. MapLibre draws the base map; deck.gl renders the overlay matched to each dataset’s `mapLayer`.
+Set `NEXT_PUBLIC_SITE_URL` for canonical URLs / sitemap (defaults to `https://mapstoit.com`).
