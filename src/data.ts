@@ -20,7 +20,7 @@ export const layerLabels: Record<AtlasDataset['mapLayer'], string> = {
   screengrid: 'ScreenGridLayer · GPU grid density',
   arc: 'ArcLayer · origin–destination flows',
   polygon: 'GeoJsonLayer · extruded polygons',
-  path: 'GeoJsonLayer · metric paths',
+  path: 'PathLayer · metric paths',
   line: 'LineLayer · corridor segments',
 }
 
@@ -245,7 +245,7 @@ export const datasets: AtlasDataset[] = [
     sourceLabel: 'US Census Bureau · PublicaMundi states GeoJSON',
     sourceUrl: 'https://www.census.gov/data.html',
     exampleReference: 'https://deck.gl/examples/geojson-layer-polygons',
-    polygonUrl: 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json',
+    polygonUrl: '/data/us-states.json',
     polygonValueKey: 'density',
     regions: densityRegions,
   },
