@@ -57,7 +57,7 @@ header {
   border-bottom: 1px solid var(--line);
 }
 .brand { display: flex; align-items: center; gap: 10px; letter-spacing: .04em; font-size: 14px; color: var(--ink); }
-.brand-button { padding: 0; color: inherit; background: transparent; }
+.brand-button { padding: 0; color: inherit; background: transparent; text-decoration: none; }
 .brand b { color: var(--acid); font-weight: 800; }
 .brand small {
   margin-left: 3px; padding: 3px 6px; color: #fff; background: var(--acid);
@@ -76,13 +76,14 @@ header {
   color: var(--muted); font-size: 8px; line-height: 1.3; letter-spacing: .07em; text-transform: uppercase;
 }
 .site-nav { display: flex; align-items: center; gap: 4px; margin-left: auto; }
-.site-nav button {
+.site-nav a {
   display: flex; align-items: center; gap: 7px; padding: 9px 12px;
   color: var(--muted); background: transparent; border-radius: 20px;
   font: 500 9px 'DM Mono'; letter-spacing: .06em; text-transform: uppercase;
+  text-decoration: none;
 }
-.site-nav button:hover { color: var(--ink); background: var(--surface); }
-.site-nav button.active { color: #fff; background: var(--acid); }
+.site-nav a:hover { color: var(--ink); background: var(--surface); }
+.site-nav a.active { color: #fff; background: var(--acid); }
 
 .explorer-panel { min-width: 0; }
 .panel-kicker {
@@ -97,6 +98,16 @@ header {
 }
 .explorer-intro > p { margin: 0; max-width: 54ch; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .world-intro { max-width: 720px; padding-bottom: 4px; }
+.data-banner {
+  margin: 18px 0 0; padding: 12px 14px; max-width: 70ch;
+  color: #174ea6; background: var(--acid-soft); border: 1px solid #d2e3fc; border-radius: 10px;
+  font-size: 12px; line-height: 1.55;
+}
+.data-banner.compact {
+  margin: 0 0 14px; width: max-content; max-width: 100%;
+  font: 500 8px 'DM Mono'; letter-spacing: .08em; text-transform: uppercase;
+}
+.world-cta { margin-top: 18px; }
 
 .controls-row {
   display: flex;
@@ -127,6 +138,10 @@ header {
   padding: 10px 12px; color: var(--ink); background: transparent; border-radius: 8px; font-size: 12px; text-align: left;
 }
 .search-results button:hover { color: #174ea6; background: var(--acid-soft); }
+.search-results button > span { display: flex; flex-direction: column; gap: 3px; }
+.search-meta {
+  color: var(--muted); font: 500 8px 'DM Mono'; letter-spacing: .06em; text-transform: uppercase;
+}
 .explore-hint { display: flex; align-items: center; gap: 12px; margin-top: 16px; color: var(--acid); }
 .explore-hint > span { color: var(--muted); font-size: 9px; line-height: 1.45; }
 .explore-hint b { display: block; color: #3c4043; font-size: 10px; }
@@ -138,8 +153,9 @@ header {
   font: 700 7px 'DM Mono'; letter-spacing: .06em; text-transform: uppercase;
 }
 .world-back {
-  display: flex; align-items: center; gap: 7px; margin: 0 0 14px; padding: 0;
+  display: inline-flex; align-items: center; gap: 7px; margin: 0 0 14px; padding: 0;
   color: var(--muted); background: transparent; font: 500 8px 'DM Mono'; letter-spacing: .1em; text-transform: uppercase;
+  text-decoration: none; border: 0; cursor: pointer;
 }
 .world-back:hover { color: var(--acid); }
 
@@ -265,7 +281,7 @@ header {
 .dataset-card {
   width: 100%; display: grid; grid-template-columns: 10px 1fr 18px; align-items: center; gap: 16px;
   padding: 18px 16px; color: var(--ink); background: #fff; border: 1px solid var(--line);
-  border-radius: 12px; text-align: left; box-shadow: var(--shadow);
+  border-radius: 12px; text-align: left; box-shadow: var(--shadow); text-decoration: none;
 }
 .dataset-card:hover { border-color: #1a73e8; background: #fafbff; }
 .dataset-card > i { width: 10px; height: 48px; border-radius: 99px; }
@@ -401,8 +417,8 @@ header {
   .data-section { padding: 0 16px 16px; }
   header { height: 56px; }
   .header-stat { display: none; }
-  .site-nav button { padding: 9px; }
-  .site-nav button svg { display: none; }
+  .site-nav a { padding: 9px; }
+  .site-nav a svg { display: none; }
   .explorer-intro h1 { font-size: 34px; }
   .fact-list { max-height: 180px; }
   .category-dock { max-width: 100%; overflow-x: auto; }
