@@ -724,6 +724,16 @@ function App() {
   }, [])
 
   useEffect(() => {
+    if (!mapContainer.current) return
+    const container = mapContainer.current
+    const observer = new ResizeObserver(() => {
+      mapRef.current?.resize()
+    })
+    observer.observe(container)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
     if (!mapReady || !mapRef.current) return
     mapRef.current.setFilter('country-selected', ['==', ['get', 'name'], selectedCountry ?? ''])
     mapRef.current.setFilter('country-selected-border', ['==', ['get', 'name'], selectedCountry ?? ''])
@@ -856,7 +866,6 @@ function App() {
               </>
             ) : (
               <div className="explorer-intro world-intro">
-                <span className="panel-kicker"><Compass size={14} /> DECK.GL SHOWCASE LAYERS</span>
                 <h1>Serious data,<br /><em>six layers.</em></h1>
                 <p>
                   Search any country on the globe — the United States is live today, with more countries joining the atlas as new datasets are added.
