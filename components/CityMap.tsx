@@ -21,26 +21,58 @@ type CityMapProps = {
   cities: CityRecord[]
   focus?: CityRecord | null
   className?: string
+  /** Larger hit targets + cooperative gestures for touch / hero embeds */
+  variant?: 'default' | 'hero'
 }
 
-export function CityMap({ cities, focus = null, className }: CityMapProps) {
+function useTouchUi() {
+  const [touchUi, setTouchUi] = useState(false)
+
+  useEffect(() => {
+    const coarse = window.matchMedia('(pointer: coarse)')
+    const narrow = window.matchMedia('(max-width: 720px)')
+    const update = () => setTouchUi(coarse.matches || narrow.matches)
+    update()
+    coarse.addEventListener('change', update)
+    narrow.addEventListener('change', update)
+    return () => {
+      coarse.removeEventListener('change', update)
+      narrow.removeEventListener('change', update)
+    }
+  }, [])
+
+  return touchUi
+}
+
+export function CityMap({
+  cities,
+  focus = null,
+  className,
+  variant = 'default',
+}: CityMapProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<maplibregl.Map | null>(null)
   const overlayRef = useRef<MapboxOverlay | null>(null)
   const router = useRouter()
   const [ready, setReady] = useState(false)
+  const touchUi = useTouchUi()
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
+    const narrow = window.matchMedia('(max-width: 720px)').matches
     const map = new maplibregl.Map({
       container: containerRef.current,
       style: BASE_STYLE,
       center: focus?.coordinates ?? [-98.35, 39.5],
-      zoom: focus ? 8.5 : 3.6,
-      minZoom: 2.8,
+      zoom: focus ? (narrow ? 7.1 : 8.5) : narrow ? 3.05 : 3.6,
+      minZoom: 2.5,
       maxZoom: 12,
       attributionControl: false,
+      cooperativeGestures: true,
+      dragRotate: false,
+      pitchWithRotate: false,
+      touchPitch: false,
     })
     mapRef.current = map
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
@@ -90,11 +122,11 @@ export function CityMap({ cities, focus = null, className }: CityMapProps) {
           stroked: true,
           filled: true,
           radiusScale: 1,
-          radiusMinPixels: 4,
-          radiusMaxPixels: 18,
+          radiusMinPixels: touchUi ? 8 : 4,
+          radiusMaxPixels: touchUi ? 24 : 18,
           lineWidthMinPixels: 1,
           getPosition: (city) => city.coordinates,
-          getRadius: (city) => Math.sqrt(city.population) * 0.9,
+          getRadius: (city) => Math.sqrt(city.population) * (touchUi ? 1.15 : 0.9),
           getFillColor: (city) =>
             focus?.slug === city.slug ? [14, 90, 78, 255] : [28, 120, 104, 200],
           getLineColor: [255, 255, 255, 220],
@@ -105,19 +137,20 @@ export function CityMap({ cities, focus = null, className }: CityMapProps) {
         }),
       ],
     })
-  }, [ready, cities, focus, router])
+  }, [ready, cities, focus, router, touchUi])
 
   useEffect(() => {
     if (!ready || !mapRef.current || !focus) return
+    const narrow = window.matchMedia('(max-width: 720px)').matches
     mapRef.current.easeTo({
       center: focus.coordinates,
-      zoom: Math.max(mapRef.current.getZoom(), 8.2),
+      zoom: Math.max(mapRef.current.getZoom(), narrow ? 7.1 : 8.2),
       duration: 900,
     })
   }, [ready, focus])
 
   return (
-    <div className={`city-map ${className ?? ''}`}>
+    <div className={`city-map city-map-${variant} ${className ?? ''}`.trim()}>
       <div ref={containerRef} className="city-map-canvas" />
       {!ready && <div className="city-map-loader">Loading map…</div>}
     </div>
