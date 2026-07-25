@@ -1,0 +1,697 @@
+[
+  {
+    "slug": "alabama",
+    "name": "Alabama",
+    "code": "AL",
+    "cityCount": 4,
+    "population": 803383,
+    "medianHouseholdIncome": 47394,
+    "costOfLivingIndex": 87,
+    "description": "Alabama currently includes 4 MapsToIt city profiles covering roughly 803,383 residents across the published set. Average median household income across those cities is about $47,394, with a blended cost-of-living index near 87 (100 = U.S. average). Larger places in this release include Huntsville, Birmingham, Montgomery. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "huntsville-al",
+      "birmingham-al",
+      "montgomery-al",
+      "mobile-al"
+    ]
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "code": "AK",
+    "cityCount": 1,
+    "population": 291247,
+    "medianHouseholdIncome": 84824,
+    "costOfLivingIndex": 128,
+    "description": "Alaska currently includes 1 MapsToIt city profiles covering roughly 291,247 residents across the published set. Average median household income across those cities is about $84,824, with a blended cost-of-living index near 128 (100 = U.S. average). Larger places in this release include Anchorage. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "anchorage-ak"
+    ]
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "code": "AZ",
+    "cityCount": 9,
+    "population": 4060189,
+    "medianHouseholdIncome": 72716,
+    "costOfLivingIndex": 104,
+    "description": "Arizona currently includes 9 MapsToIt city profiles covering roughly 4,060,189 residents across the published set. Average median household income across those cities is about $72,716, with a blended cost-of-living index near 104 (100 = U.S. average). Larger places in this release include Phoenix, Tucson, Mesa. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "phoenix-az",
+      "tucson-az",
+      "mesa-az",
+      "chandler-az",
+      "gilbert-az",
+      "glendale-az",
+      "scottsdale-az",
+      "peoria-az",
+      "tempe-az"
+    ]
+  },
+  {
+    "slug": "arkansas",
+    "name": "Arkansas",
+    "code": "AR",
+    "cityCount": 1,
+    "population": 202591,
+    "medianHouseholdIncome": 51925,
+    "costOfLivingIndex": 88,
+    "description": "Arkansas currently includes 1 MapsToIt city profiles covering roughly 202,591 residents across the published set. Average median household income across those cities is about $51,925, with a blended cost-of-living index near 88 (100 = U.S. average). Larger places in this release include Little Rock. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "little-rock-ar"
+    ]
+  },
+  {
+    "slug": "california",
+    "name": "California",
+    "code": "CA",
+    "cityCount": 36,
+    "population": 15278306,
+    "medianHouseholdIncome": 83679,
+    "costOfLivingIndex": 141,
+    "description": "California currently includes 36 MapsToIt city profiles covering roughly 15,278,306 residents across the published set. Average median household income across those cities is about $83,679, with a blended cost-of-living index near 141 (100 = U.S. average). Larger places in this release include Los Angeles, San Diego, San Jose. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "los-angeles-ca",
+      "san-diego-ca",
+      "san-jose-ca",
+      "san-francisco-ca",
+      "fresno-ca",
+      "sacramento-ca",
+      "long-beach-ca",
+      "oakland-ca",
+      "bakersfield-ca",
+      "anaheim-ca",
+      "stockton-ca",
+      "riverside-ca",
+      "santa-ana-ca",
+      "irvine-ca",
+      "chula-vista-ca",
+      "fremont-ca",
+      "santa-clarita-ca",
+      "san-bernardino-ca",
+      "modesto-ca",
+      "moreno-valley-ca",
+      "fontana-ca",
+      "oxnard-ca",
+      "huntington-beach-ca",
+      "glendale-ca",
+      "santa-rosa-ca",
+      "ontario-ca",
+      "oceanside-ca",
+      "rancho-cucamonga-ca",
+      "lancaster-ca",
+      "garden-grove-ca",
+      "hayward-ca",
+      "corona-ca",
+      "sunnyvale-ca",
+      "torrance-ca",
+      "pasadena-ca",
+      "santa-clara-ca"
+    ]
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "code": "CO",
+    "cityCount": 5,
+    "population": 1906538,
+    "medianHouseholdIncome": 71162,
+    "costOfLivingIndex": 112,
+    "description": "Colorado currently includes 5 MapsToIt city profiles covering roughly 1,906,538 residents across the published set. Average median household income across those cities is about $71,162, with a blended cost-of-living index near 112 (100 = U.S. average). Larger places in this release include Denver, Colorado Springs, Aurora. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "denver-co",
+      "colorado-springs-co",
+      "aurora-co",
+      "fort-collins-co",
+      "lakewood-co"
+    ]
+  },
+  {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "code": "CT",
+    "cityCount": 1,
+    "population": 148654,
+    "medianHouseholdIncome": 49049,
+    "costOfLivingIndex": 118,
+    "description": "Connecticut currently includes 1 MapsToIt city profiles covering roughly 148,654 residents across the published set. Average median household income across those cities is about $49,049, with a blended cost-of-living index near 118 (100 = U.S. average). Larger places in this release include Bridgeport. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "bridgeport-ct"
+    ]
+  },
+  {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia",
+    "code": "DC",
+    "cityCount": 1,
+    "population": 689545,
+    "medianHouseholdIncome": 93547,
+    "costOfLivingIndex": 152,
+    "description": "District of Columbia currently includes 1 MapsToIt city profiles covering roughly 689,545 residents across the published set. Average median household income across those cities is about $93,547, with a blended cost-of-living index near 152 (100 = U.S. average). Larger places in this release include Washington. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "washington-dc"
+    ]
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "code": "FL",
+    "cityCount": 12,
+    "population": 3667842,
+    "medianHouseholdIncome": 55034,
+    "costOfLivingIndex": 107,
+    "description": "Florida currently includes 12 MapsToIt city profiles covering roughly 3,667,842 residents across the published set. Average median household income across those cities is about $55,034, with a blended cost-of-living index near 107 (100 = U.S. average). Larger places in this release include Jacksonville, Miami, Tampa. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "jacksonville-fl",
+      "miami-fl",
+      "tampa-fl",
+      "orlando-fl",
+      "st-petersburg-fl",
+      "hialeah-fl",
+      "port-st-lucie-fl",
+      "tallahassee-fl",
+      "cape-coral-fl",
+      "fort-lauderdale-fl",
+      "pembroke-pines-fl",
+      "hollywood-fl"
+    ]
+  },
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "code": "GA",
+    "cityCount": 4,
+    "population": 1005922,
+    "medianHouseholdIncome": 49050,
+    "costOfLivingIndex": 93,
+    "description": "Georgia currently includes 4 MapsToIt city profiles covering roughly 1,005,922 residents across the published set. Average median household income across those cities is about $49,050, with a blended cost-of-living index near 93 (100 = U.S. average). Larger places in this release include Atlanta, Augusta, Macon. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "atlanta-ga",
+      "augusta-ga",
+      "macon-ga",
+      "savannah-ga"
+    ]
+  },
+  {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "code": "HI",
+    "cityCount": 1,
+    "population": 350964,
+    "medianHouseholdIncome": 85098,
+    "costOfLivingIndex": 168,
+    "description": "Hawaii currently includes 1 MapsToIt city profiles covering roughly 350,964 residents across the published set. Average median household income across those cities is about $85,098, with a blended cost-of-living index near 168 (100 = U.S. average). Larger places in this release include Honolulu. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "honolulu-hi"
+    ]
+  },
+  {
+    "slug": "idaho",
+    "name": "Idaho",
+    "code": "ID",
+    "cityCount": 1,
+    "population": 235684,
+    "medianHouseholdIncome": 63758,
+    "costOfLivingIndex": 105,
+    "description": "Idaho currently includes 1 MapsToIt city profiles covering roughly 235,684 residents across the published set. Average median household income across those cities is about $63,758, with a blended cost-of-living index near 105 (100 = U.S. average). Larger places in this release include Boise. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "boise-id"
+    ]
+  },
+  {
+    "slug": "illinois",
+    "name": "Illinois",
+    "code": "IL",
+    "cityCount": 5,
+    "population": 3338275,
+    "medianHouseholdIncome": 73019,
+    "costOfLivingIndex": 99,
+    "description": "Illinois currently includes 5 MapsToIt city profiles covering roughly 3,338,275 residents across the published set. Average median household income across those cities is about $73,019, with a blended cost-of-living index near 99 (100 = U.S. average). Larger places in this release include Chicago, Aurora, Naperville. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "chicago-il",
+      "aurora-il",
+      "naperville-il",
+      "rockford-il",
+      "peoria-il"
+    ]
+  },
+  {
+    "slug": "indiana",
+    "name": "Indiana",
+    "code": "IN",
+    "cityCount": 3,
+    "population": 1268826,
+    "medianHouseholdIncome": 48185,
+    "costOfLivingIndex": 86,
+    "description": "Indiana currently includes 3 MapsToIt city profiles covering roughly 1,268,826 residents across the published set. Average median household income across those cities is about $48,185, with a blended cost-of-living index near 86 (100 = U.S. average). Larger places in this release include Indianapolis, Fort Wayne, Evansville. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "indianapolis-in",
+      "fort-wayne-in",
+      "evansville-in"
+    ]
+  },
+  {
+    "slug": "iowa",
+    "name": "Iowa",
+    "code": "IA",
+    "cityCount": 1,
+    "population": 214133,
+    "medianHouseholdIncome": 54811,
+    "costOfLivingIndex": 86,
+    "description": "Iowa currently includes 1 MapsToIt city profiles covering roughly 214,133 residents across the published set. Average median household income across those cities is about $54,811, with a blended cost-of-living index near 86 (100 = U.S. average). Larger places in this release include Des Moines. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "des-moines-ia"
+    ]
+  },
+  {
+    "slug": "kansas",
+    "name": "Kansas",
+    "code": "KS",
+    "cityCount": 3,
+    "population": 751377,
+    "medianHouseholdIncome": 62642,
+    "costOfLivingIndex": 88,
+    "description": "Kansas currently includes 3 MapsToIt city profiles covering roughly 751,377 residents across the published set. Average median household income across those cities is about $62,642, with a blended cost-of-living index near 88 (100 = U.S. average). Larger places in this release include Wichita, Overland Park, Kansas City. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "wichita-ks",
+      "overland-park-ks",
+      "kansas-city-ks"
+    ]
+  },
+  {
+    "slug": "kentucky",
+    "name": "Kentucky",
+    "code": "KY",
+    "cityCount": 2,
+    "population": 955615,
+    "medianHouseholdIncome": 55910,
+    "costOfLivingIndex": 89,
+    "description": "Kentucky currently includes 2 MapsToIt city profiles covering roughly 955,615 residents across the published set. Average median household income across those cities is about $55,910, with a blended cost-of-living index near 89 (100 = U.S. average). Larger places in this release include Louisville, Lexington. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "louisville-ky",
+      "lexington-ky"
+    ]
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "code": "LA",
+    "cityCount": 3,
+    "population": 799060,
+    "medianHouseholdIncome": 42094,
+    "costOfLivingIndex": 91,
+    "description": "Louisiana currently includes 3 MapsToIt city profiles covering roughly 799,060 residents across the published set. Average median household income across those cities is about $42,094, with a blended cost-of-living index near 91 (100 = U.S. average). Larger places in this release include New Orleans, Baton Rouge, Shreveport. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "new-orleans-la",
+      "baton-rouge-la",
+      "shreveport-la"
+    ]
+  },
+  {
+    "slug": "maryland",
+    "name": "Maryland",
+    "code": "MD",
+    "cityCount": 1,
+    "population": 585708,
+    "medianHouseholdIncome": 54124,
+    "costOfLivingIndex": 108,
+    "description": "Maryland currently includes 1 MapsToIt city profiles covering roughly 585,708 residents across the published set. Average median household income across those cities is about $54,124, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include Baltimore. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "baltimore-md"
+    ]
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "code": "MA",
+    "cityCount": 2,
+    "population": 882165,
+    "medianHouseholdIncome": 66512,
+    "costOfLivingIndex": 133,
+    "description": "Massachusetts currently includes 2 MapsToIt city profiles covering roughly 882,165 residents across the published set. Average median household income across those cities is about $66,512, with a blended cost-of-living index near 133 (100 = U.S. average). Larger places in this release include Boston, Worcester. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "boston-ma",
+      "worcester-ma"
+    ]
+  },
+  {
+    "slug": "michigan",
+    "name": "Michigan",
+    "code": "MI",
+    "cityCount": 2,
+    "population": 838028,
+    "medianHouseholdIncome": 42843,
+    "costOfLivingIndex": 88,
+    "description": "Michigan currently includes 2 MapsToIt city profiles covering roughly 838,028 residents across the published set. Average median household income across those cities is about $42,843, with a blended cost-of-living index near 88 (100 = U.S. average). Larger places in this release include Detroit, Grand Rapids. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "detroit-mi",
+      "grand-rapids-mi"
+    ]
+  },
+  {
+    "slug": "minnesota",
+    "name": "Minnesota",
+    "code": "MN",
+    "cityCount": 3,
+    "population": 831468,
+    "medianHouseholdIncome": 68824,
+    "costOfLivingIndex": 104,
+    "description": "Minnesota currently includes 3 MapsToIt city profiles covering roughly 831,468 residents across the published set. Average median household income across those cities is about $68,824, with a blended cost-of-living index near 104 (100 = U.S. average). Larger places in this release include Minneapolis, Saint Paul, Bloomington. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "minneapolis-mn",
+      "saint-paul-mn",
+      "bloomington-mn"
+    ]
+  },
+  {
+    "slug": "mississippi",
+    "name": "Mississippi",
+    "code": "MS",
+    "cityCount": 1,
+    "population": 153701,
+    "medianHouseholdIncome": 39935,
+    "costOfLivingIndex": 82,
+    "description": "Mississippi currently includes 1 MapsToIt city profiles covering roughly 153,701 residents across the published set. Average median household income across those cities is about $39,935, with a blended cost-of-living index near 82 (100 = U.S. average). Larger places in this release include Jackson. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "jackson-ms"
+    ]
+  },
+  {
+    "slug": "missouri",
+    "name": "Missouri",
+    "code": "MO",
+    "cityCount": 3,
+    "population": 978844,
+    "medianHouseholdIncome": 48701,
+    "costOfLivingIndex": 87,
+    "description": "Missouri currently includes 3 MapsToIt city profiles covering roughly 978,844 residents across the published set. Average median household income across those cities is about $48,701, with a blended cost-of-living index near 87 (100 = U.S. average). Larger places in this release include Kansas City, St. Louis, Springfield. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "kansas-city-mo",
+      "st-louis-mo",
+      "springfield-mo"
+    ]
+  },
+  {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "code": "NE",
+    "cityCount": 2,
+    "population": 777133,
+    "medianHouseholdIncome": 61318,
+    "costOfLivingIndex": 89,
+    "description": "Nebraska currently includes 2 MapsToIt city profiles covering roughly 777,133 residents across the published set. Average median household income across those cities is about $61,318, with a blended cost-of-living index near 89 (100 = U.S. average). Larger places in this release include Omaha, Lincoln. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "omaha-ne",
+      "lincoln-ne"
+    ]
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "code": "NV",
+    "cityCount": 4,
+    "population": 1486205,
+    "medianHouseholdIncome": 63508,
+    "costOfLivingIndex": 105,
+    "description": "Nevada currently includes 4 MapsToIt city profiles covering roughly 1,486,205 residents across the published set. Average median household income across those cities is about $63,508, with a blended cost-of-living index near 105 (100 = U.S. average). Larger places in this release include Las Vegas, Henderson, Reno. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "las-vegas-nv",
+      "henderson-nv",
+      "reno-nv",
+      "north-las-vegas-nv"
+    ]
+  },
+  {
+    "slug": "new-jersey",
+    "name": "New Jersey",
+    "code": "NJ",
+    "cityCount": 4,
+    "population": 901028,
+    "medianHouseholdIncome": 51419,
+    "costOfLivingIndex": 131,
+    "description": "New Jersey currently includes 4 MapsToIt city profiles covering roughly 901,028 residents across the published set. Average median household income across those cities is about $51,419, with a blended cost-of-living index near 131 (100 = U.S. average). Larger places in this release include Newark, Jersey City, Paterson. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "newark-nj",
+      "jersey-city-nj",
+      "paterson-nj",
+      "elizabeth-nj"
+    ]
+  },
+  {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "code": "NM",
+    "cityCount": 1,
+    "population": 564559,
+    "medianHouseholdIncome": 53516,
+    "costOfLivingIndex": 94,
+    "description": "New Mexico currently includes 1 MapsToIt city profiles covering roughly 564,559 residents across the published set. Average median household income across those cities is about $53,516, with a blended cost-of-living index near 94 (100 = U.S. average). Larger places in this release include Albuquerque. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "albuquerque-nm"
+    ]
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "code": "NY",
+    "cityCount": 4,
+    "population": 9038063,
+    "medianHouseholdIncome": 55789,
+    "costOfLivingIndex": 123,
+    "description": "New York currently includes 4 MapsToIt city profiles covering roughly 9,038,063 residents across the published set. Average median household income across those cities is about $55,789, with a blended cost-of-living index near 123 (100 = U.S. average). Larger places in this release include New York, Buffalo, Yonkers. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "new-york-ny",
+      "buffalo-ny",
+      "yonkers-ny",
+      "rochester-ny"
+    ]
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina",
+    "code": "NC",
+    "cityCount": 7,
+    "population": 2557552,
+    "medianHouseholdIncome": 64436,
+    "costOfLivingIndex": 96,
+    "description": "North Carolina currently includes 7 MapsToIt city profiles covering roughly 2,557,552 residents across the published set. Average median household income across those cities is about $64,436, with a blended cost-of-living index near 96 (100 = U.S. average). Larger places in this release include Charlotte, Raleigh, Greensboro. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "charlotte-nc",
+      "raleigh-nc",
+      "greensboro-nc",
+      "durham-nc",
+      "winston-salem-nc",
+      "fayetteville-nc",
+      "cary-nc"
+    ]
+  },
+  {
+    "slug": "ohio",
+    "name": "Ohio",
+    "code": "OH",
+    "cityCount": 5,
+    "population": 2049029,
+    "medianHouseholdIncome": 42480,
+    "costOfLivingIndex": 87,
+    "description": "Ohio currently includes 5 MapsToIt city profiles covering roughly 2,049,029 residents across the published set. Average median household income across those cities is about $42,480, with a blended cost-of-living index near 87 (100 = U.S. average). Larger places in this release include Columbus, Cleveland, Cincinnati. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "columbus-oh",
+      "cleveland-oh",
+      "cincinnati-oh",
+      "toledo-oh",
+      "akron-oh"
+    ]
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "code": "OK",
+    "cityCount": 2,
+    "population": 1094120,
+    "medianHouseholdIncome": 54669,
+    "costOfLivingIndex": 86,
+    "description": "Oklahoma currently includes 2 MapsToIt city profiles covering roughly 1,094,120 residents across the published set. Average median household income across those cities is about $54,669, with a blended cost-of-living index near 86 (100 = U.S. average). Larger places in this release include Oklahoma City, Tulsa. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "oklahoma-city-ok",
+      "tulsa-ok"
+    ]
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "code": "OR",
+    "cityCount": 3,
+    "population": 1004692,
+    "medianHouseholdIncome": 61377,
+    "costOfLivingIndex": 114,
+    "description": "Oregon currently includes 3 MapsToIt city profiles covering roughly 1,004,692 residents across the published set. Average median household income across those cities is about $61,377, with a blended cost-of-living index near 114 (100 = U.S. average). Larger places in this release include Portland, Eugene, Salem. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "portland-or",
+      "eugene-or",
+      "salem-or"
+    ]
+  },
+  {
+    "slug": "pennsylvania",
+    "name": "Pennsylvania",
+    "code": "PA",
+    "cityCount": 2,
+    "population": 1906768,
+    "medianHouseholdIncome": 53390,
+    "costOfLivingIndex": 100,
+    "description": "Pennsylvania currently includes 2 MapsToIt city profiles covering roughly 1,906,768 residents across the published set. Average median household income across those cities is about $53,390, with a blended cost-of-living index near 100 (100 = U.S. average). Larger places in this release include Philadelphia, Pittsburgh. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "philadelphia-pa",
+      "pittsburgh-pa"
+    ]
+  },
+  {
+    "slug": "rhode-island",
+    "name": "Rhode Island",
+    "code": "RI",
+    "cityCount": 1,
+    "population": 190934,
+    "medianHouseholdIncome": 45752,
+    "costOfLivingIndex": 112,
+    "description": "Rhode Island currently includes 1 MapsToIt city profiles covering roughly 190,934 residents across the published set. Average median household income across those cities is about $45,752, with a blended cost-of-living index near 112 (100 = U.S. average). Larger places in this release include Providence. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "providence-ri"
+    ]
+  },
+  {
+    "slug": "south-carolina",
+    "name": "South Carolina",
+    "code": "SC",
+    "cityCount": 1,
+    "population": 150227,
+    "medianHouseholdIncome": 68768,
+    "costOfLivingIndex": 108,
+    "description": "South Carolina currently includes 1 MapsToIt city profiles covering roughly 150,227 residents across the published set. Average median household income across those cities is about $68,768, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include Charleston. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "charleston-sc"
+    ]
+  },
+  {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "code": "SD",
+    "cityCount": 1,
+    "population": 192517,
+    "medianHouseholdIncome": 61493,
+    "costOfLivingIndex": 90,
+    "description": "South Dakota currently includes 1 MapsToIt city profiles covering roughly 192,517 residents across the published set. Average median household income across those cities is about $61,493, with a blended cost-of-living index near 90 (100 = U.S. average). Larger places in this release include Sioux Falls. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "sioux-falls-sd"
+    ]
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "code": "TN",
+    "cityCount": 5,
+    "population": 1861112,
+    "medianHouseholdIncome": 51347,
+    "costOfLivingIndex": 91,
+    "description": "Tennessee currently includes 5 MapsToIt city profiles covering roughly 1,861,112 residents across the published set. Average median household income across those cities is about $51,347, with a blended cost-of-living index near 91 (100 = U.S. average). Larger places in this release include Nashville, Memphis, Knoxville. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "nashville-tn",
+      "memphis-tn",
+      "knoxville-tn",
+      "chattanooga-tn",
+      "clarksville-tn"
+    ]
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "code": "TX",
+    "cityCount": 18,
+    "population": 10544537,
+    "medianHouseholdIncome": 68850,
+    "costOfLivingIndex": 97,
+    "description": "Texas currently includes 18 MapsToIt city profiles covering roughly 10,544,537 residents across the published set. Average median household income across those cities is about $68,850, with a blended cost-of-living index near 97 (100 = U.S. average). Larger places in this release include Houston, San Antonio, Dallas. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "houston-tx",
+      "san-antonio-tx",
+      "dallas-tx",
+      "austin-tx",
+      "fort-worth-tx",
+      "el-paso-tx",
+      "arlington-tx",
+      "corpus-christi-tx",
+      "plano-tx",
+      "lubbock-tx",
+      "irving-tx",
+      "laredo-tx",
+      "garland-tx",
+      "frisco-tx",
+      "amarillo-tx",
+      "grand-prairie-tx",
+      "mckinney-tx",
+      "round-rock-tx"
+    ]
+  },
+  {
+    "slug": "utah",
+    "name": "Utah",
+    "code": "UT",
+    "cityCount": 1,
+    "population": 199723,
+    "medianHouseholdIncome": 63124,
+    "costOfLivingIndex": 108,
+    "description": "Utah currently includes 1 MapsToIt city profiles covering roughly 199,723 residents across the published set. Average median household income across those cities is about $63,124, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include Salt Lake City. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "salt-lake-city-ut"
+    ]
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "code": "VA",
+    "cityCount": 6,
+    "population": 1519221,
+    "medianHouseholdIncome": 69813,
+    "costOfLivingIndex": 108,
+    "description": "Virginia currently includes 6 MapsToIt city profiles covering roughly 1,519,221 residents across the published set. Average median household income across those cities is about $69,813, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include Virginia Beach, Chesapeake, Norfolk. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "virginia-beach-va",
+      "chesapeake-va",
+      "norfolk-va",
+      "richmond-va",
+      "newport-news-va",
+      "alexandria-va"
+    ]
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "code": "WA",
+    "cityCount": 5,
+    "population": 1528119,
+    "medianHouseholdIncome": 85037,
+    "costOfLivingIndex": 125,
+    "description": "Washington currently includes 5 MapsToIt city profiles covering roughly 1,528,119 residents across the published set. Average median household income across those cities is about $85,037, with a blended cost-of-living index near 125 (100 = U.S. average). Larger places in this release include Seattle, Spokane, Tacoma. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "seattle-wa",
+      "spokane-wa",
+      "tacoma-wa",
+      "vancouver-wa",
+      "bellevue-wa"
+    ]
+  },
+  {
+    "slug": "wisconsin",
+    "name": "Wisconsin",
+    "code": "WI",
+    "cityCount": 2,
+    "population": 847062,
+    "medianHouseholdIncome": 56517,
+    "costOfLivingIndex": 97,
+    "description": "Wisconsin currently includes 2 MapsToIt city profiles covering roughly 847,062 residents across the published set. Average median household income across those cities is about $56,517, with a blended cost-of-living index near 97 (100 = U.S. average). Larger places in this release include Milwaukee, Madison. Use the city list below to compare housing costs, commute times, climate, and safety before relocating.",
+    "citySlugs": [
+      "milwaukee-wi",
+      "madison-wi"
+    ]
+  }
+]

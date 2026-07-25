@@ -1,0 +1,24 @@
+import type { CityRecord } from '@/lib/types'
+
+export function SourceList({ city }: { city: CityRecord }) {
+  const entries = [
+    city.sources.census && ['Census / ACS', city.sources.census],
+    city.sources.bls && ['BLS', city.sources.bls],
+    city.sources.fbi && ['Crime', city.sources.fbi],
+    city.sources.noaa && ['Climate', city.sources.noaa],
+  ].filter(Boolean) as [string, string][]
+
+  return (
+    <section className="sources-block">
+      <h2>Sources</h2>
+      <ul>
+        {entries.map(([label, value]) => (
+          <li key={label}>
+            <strong>{label}:</strong> {value}
+          </li>
+        ))}
+      </ul>
+      <p className="sources-updated">Last updated {city.lastUpdated}</p>
+    </section>
+  )
+}
