@@ -30,7 +30,7 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-        <p className="home-hero-map-hint">Two-finger drag to explore · Tap a city</p>
+        <p className="home-hero-map-hint">Teal dots are cities · Tap one to open its profile</p>
       </section>
 
       <section className="section">
