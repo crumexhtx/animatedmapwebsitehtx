@@ -34,8 +34,10 @@ export default function MethodologyPage() {
           (`scripts/enrich-bls.ts`), joined to each city through FCC lat/lon → county FIPS.
         </li>
         <li>
-          <strong>FBI Crime Data Explorer</strong> — agency violent and property offense rates, annualized from monthly
-          per-100k series (`scripts/enrich-crime.ts`). When an agency match or usable rate is missing, we publish{' '}
+          <strong>FBI Crime Data Explorer / CIUS</strong> — agency violent and property offense rates
+          (`scripts/enrich-crime.ts`). Prefer live CDE annualized monthly rates per 100k. When the CDE API gateway is
+          unavailable, we fall back to FBI CIUS Table 8 city offense counts converted to rates per 100k (vintage noted
+          in the source string). When an agency/city match is still missing, we publish{' '}
           <code>crimeIndex.source: &quot;data unavailable&quot;</code> instead of keeping a placeholder number.
         </li>
         <li>

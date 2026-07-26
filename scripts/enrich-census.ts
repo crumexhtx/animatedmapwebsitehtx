@@ -87,6 +87,15 @@ function loadTableEstimates(path: string, needed: Set<string>): Map<string, numb
   return map
 }
 
+/** Known ACS place GEOIDs where the coordinate geocoder returns a non-ACS / consolidated mismatch. */
+const PLACE_OVERRIDES: Record<string, PlaceHit> = {
+  // Louisville–Jefferson County metro government (balance)
+  'louisville-ky': {
+    geoid: '1600000US2148006',
+    name: 'Louisville/Jefferson County metro government (balance), Kentucky',
+  },
+}
+
 async function geocodePlace(lon: number, lat: number): Promise<PlaceHit | null> {
   const url =
     `https://geocoding.geo.census.gov/geocoder/geographies/coordinates` +
@@ -136,6 +145,11 @@ async function main() {
   for (let i = 0; i < seed.length; i++) {
     const city = seed[i]
     process.stdout.write(`\rgeocode [${i + 1}/${seed.length}] ${city.slug}          `)
+    if (PLACE_OVERRIDES[city.slug]) {
+      placeBySlug.set(city.slug, PLACE_OVERRIDES[city.slug])
+      geoOk += 1
+      continue
+    }
     try {
       const [lon, lat] = city.coordinates
       const hit = await geocodePlace(lon, lat)

@@ -36,6 +36,36 @@ const INVENTORY_URL =
 const STATION_CSV = (id: string) =>
   `https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/${id}.csv`
 
+function parseCsvLine(line: string): string[] {
+  const out: string[] = []
+  let cur = ''
+  let quoted = false
+  for (let i = 0; i < line.length; i += 1) {
+    const ch = line[i]
+    if (quoted) {
+      if (ch === '"') {
+        if (line[i + 1] === '"') {
+          cur += '"'
+          i += 1
+        } else {
+          quoted = false
+        }
+      } else {
+        cur += ch
+      }
+    } else if (ch === '"') {
+      quoted = true
+    } else if (ch === ',') {
+      out.push(cur)
+      cur = ''
+    } else {
+      cur += ch
+    }
+  }
+  out.push(cur)
+  return out
+}
+
 function parseInventory(text: string): Station[] {
   const stations: Station[] = []
   for (const line of text.split('\n')) {
@@ -57,24 +87,28 @@ function parseNumber(raw: string) {
 
 function parseNormalsCsv(csv: string) {
   const lines = csv.trim().split(/\r?\n/)
-  const header = lines[0].split(',').map((part) => part.replaceAll('"', ''))
+  const header = parseCsvLine(lines[0])
   const idx = (name: string) => header.indexOf(name)
   const monthIdx = idx('month')
   const tmaxIdx = idx('MLY-TMAX-NORMAL')
   const tminIdx = idx('MLY-TMIN-NORMAL')
   const prcpIdx = idx('MLY-PRCP-NORMAL')
   const wetDaysIdx = idx('MLY-PRCP-AVGNDS-GE001HI')
+  if ([monthIdx, tmaxIdx, tminIdx, prcpIdx].some((i) => i < 0)) return null
 
-  const byMonth = new Map<number, { tmax: number | null; tmin: number | null; prcp: number | null; wet: number | null }>()
+  const byMonth = new Map<
+    number,
+    { tmax: number | null; tmin: number | null; prcp: number | null; wet: number | null }
+  >()
   for (const line of lines.slice(1)) {
-    const cols = line.split(',')
-    const month = Number(cols[monthIdx]?.replaceAll('"', ''))
+    const cols = parseCsvLine(line)
+    const month = Number(cols[monthIdx])
     if (!Number.isFinite(month)) continue
     byMonth.set(month, {
-      tmax: parseNumber((cols[tmaxIdx] ?? '').replaceAll('"', '')),
-      tmin: parseNumber((cols[tminIdx] ?? '').replaceAll('"', '')),
-      prcp: parseNumber((cols[prcpIdx] ?? '').replaceAll('"', '')),
-      wet: parseNumber((cols[wetDaysIdx] ?? '').replaceAll('"', '')),
+      tmax: parseNumber(cols[tmaxIdx] ?? ''),
+      tmin: parseNumber(cols[tminIdx] ?? ''),
+      prcp: parseNumber(cols[prcpIdx] ?? ''),
+      wet: wetDaysIdx >= 0 ? parseNumber(cols[wetDaysIdx] ?? '') : null,
     })
   }
 
@@ -160,7 +194,7 @@ async function main() {
       failed += 1
       console.warn(`climate FAIL ${city.slug}: no station normals`)
     }
-    await sleep(60)
+    await sleep(40)
   }
 
   const payload: ClimateEnrichment = {

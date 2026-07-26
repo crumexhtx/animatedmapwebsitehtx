@@ -1,0 +1,1801 @@
+{
+  "generatedAt": "2026-07-26T18:04:38.647Z",
+  "vintage": "ACS 2023 5-year",
+  "national": {
+    "medianHomeValue": 303400,
+    "medianGrossRent": 1348,
+    "medianHouseholdIncome": 78538
+  },
+  "cities": {
+    "new-york-ny": {
+      "geoid": "1600000US3651000",
+      "placeName": "New York city",
+      "population": 8516202,
+      "medianHouseholdIncome": 79713,
+      "medianHomePrice": 751700,
+      "medianRent": 1779,
+      "costOfLivingIndex": 190,
+      "source": "U.S. Census Bureau ACS 2023 5-year (New York city, 1600000US3651000)"
+    },
+    "los-angeles-ca": {
+      "geoid": "1600000US0644000",
+      "placeName": "Los Angeles city",
+      "population": 3857897,
+      "medianHouseholdIncome": 80366,
+      "medianHomePrice": 879500,
+      "medianRent": 1879,
+      "costOfLivingIndex": 215,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Los Angeles city, 1600000US0644000)"
+    },
+    "chicago-il": {
+      "geoid": "1600000US1714000",
+      "placeName": "Chicago city",
+      "population": 2707648,
+      "medianHouseholdIncome": 75134,
+      "medianHomePrice": 315200,
+      "medianRent": 1380,
+      "costOfLivingIndex": 103,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Chicago city, 1600000US1714000)"
+    },
+    "houston-tx": {
+      "geoid": "1600000US4835000",
+      "placeName": "Houston city",
+      "population": 2300419,
+      "medianHouseholdIncome": 62894,
+      "medianHomePrice": 253400,
+      "medianRent": 1313,
+      "costOfLivingIndex": 90,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Houston city, 1600000US4835000)"
+    },
+    "phoenix-az": {
+      "geoid": "1600000US0455000",
+      "placeName": "Phoenix city",
+      "population": 1624832,
+      "medianHouseholdIncome": 77041,
+      "medianHomePrice": 381900,
+      "medianRent": 1458,
+      "costOfLivingIndex": 117,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Phoenix city, 1600000US0455000)"
+    },
+    "philadelphia-pa": {
+      "geoid": "1600000US4260000",
+      "placeName": "Philadelphia city",
+      "population": 1582432,
+      "medianHouseholdIncome": 60698,
+      "medianHomePrice": 232400,
+      "medianRent": 1323,
+      "costOfLivingIndex": 87,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Philadelphia city, 1600000US4260000)"
+    },
+    "san-antonio-tx": {
+      "geoid": "1600000US4865000",
+      "placeName": "San Antonio city",
+      "population": 1458954,
+      "medianHouseholdIncome": 62917,
+      "medianHomePrice": 219700,
+      "medianRent": 1258,
+      "costOfLivingIndex": 83,
+      "source": "U.S. Census Bureau ACS 2023 5-year (San Antonio city, 1600000US4865000)"
+    },
+    "san-diego-ca": {
+      "geoid": "1600000US0666000",
+      "placeName": "San Diego city",
+      "population": 1385061,
+      "medianHouseholdIncome": 104321,
+      "medianHomePrice": 848500,
+      "medianRent": 2223,
+      "costOfLivingIndex": 222,
+      "source": "U.S. Census Bureau ACS 2023 5-year (San Diego city, 1600000US0666000)"
+    },
+    "dallas-tx": {
+      "geoid": "1600000US4819000",
+      "placeName": "Dallas city",
+      "population": 1299553,
+      "medianHouseholdIncome": 67760,
+      "medianHomePrice": 295300,
+      "medianRent": 1403,
+      "costOfLivingIndex": 101,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Dallas city, 1600000US4819000)"
+    },
+    "austin-tx": {
+      "geoid": "1600000US4805000",
+      "placeName": "Austin city",
+      "population": 967862,
+      "medianHouseholdIncome": 91461,
+      "medianHomePrice": 512700,
+      "medianRent": 1655,
+      "costOfLivingIndex": 146,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Austin city, 1600000US4805000)"
+    },
+    "jacksonville-fl": {
+      "geoid": "1600000US1235000",
+      "placeName": "Jacksonville city",
+      "population": 961739,
+      "medianHouseholdIncome": 66981,
+      "medianHomePrice": 266100,
+      "medianRent": 1375,
+      "costOfLivingIndex": 95,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Jacksonville city, 1600000US1235000)"
+    },
+    "san-jose-ca": {
+      "geoid": "1600000US0668000",
+      "placeName": "San Jose city",
+      "population": 990054,
+      "medianHouseholdIncome": 141565,
+      "medianHomePrice": 1187800,
+      "medianRent": 2617,
+      "costOfLivingIndex": 293,
+      "source": "U.S. Census Bureau ACS 2023 5-year (San Jose city, 1600000US0668000)"
+    },
+    "fort-worth-tx": {
+      "geoid": "1600000US4827000",
+      "placeName": "Fort Worth city",
+      "population": 941311,
+      "medianHouseholdIncome": 76602,
+      "medianHomePrice": 277300,
+      "medianRent": 1412,
+      "costOfLivingIndex": 98,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fort Worth city, 1600000US4827000)"
+    },
+    "columbus-oh": {
+      "geoid": "1600000US3918000",
+      "placeName": "Columbus city",
+      "population": 906480,
+      "medianHouseholdIncome": 65327,
+      "medianHomePrice": 234500,
+      "medianRent": 1224,
+      "costOfLivingIndex": 84,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Columbus city, 1600000US3918000)"
+    },
+    "charlotte-nc": {
+      "geoid": "1600000US3712000",
+      "placeName": "Charlotte city",
+      "population": 886283,
+      "medianHouseholdIncome": 78438,
+      "medianHomePrice": 351500,
+      "medianRent": 1504,
+      "costOfLivingIndex": 114,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Charlotte city, 1600000US3712000)"
+    },
+    "indianapolis-in": {
+      "geoid": "1600000US1836003",
+      "placeName": "Indianapolis city (balance)",
+      "population": 882043,
+      "medianHouseholdIncome": 62995,
+      "medianHomePrice": 207000,
+      "medianRent": 1112,
+      "costOfLivingIndex": 75,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Indianapolis city (balance), 1600000US1836003)"
+    },
+    "san-francisco-ca": {
+      "geoid": "1600000US0667000",
+      "placeName": "San Francisco city",
+      "population": 836321,
+      "medianHouseholdIncome": 141446,
+      "medianHomePrice": 1380500,
+      "medianRent": 2419,
+      "costOfLivingIndex": 317,
+      "source": "U.S. Census Bureau ACS 2023 5-year (San Francisco city, 1600000US0667000)"
+    },
+    "seattle-wa": {
+      "geoid": "1600000US5363000",
+      "placeName": "Seattle city",
+      "population": 741440,
+      "medianHouseholdIncome": 121984,
+      "medianHomePrice": 912100,
+      "medianRent": 1998,
+      "costOfLivingIndex": 224,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Seattle city, 1600000US5363000)"
+    },
+    "denver-co": {
+      "geoid": "1600000US0820000",
+      "placeName": "Denver city",
+      "population": 713734,
+      "medianHouseholdIncome": 91681,
+      "medianHomePrice": 586700,
+      "medianRent": 1770,
+      "costOfLivingIndex": 162,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Denver city, 1600000US0820000)"
+    },
+    "washington-dc": {
+      "geoid": "1600000US1150000",
+      "placeName": "Washington city",
+      "population": 672079,
+      "medianHouseholdIncome": 106287,
+      "medianHomePrice": 724600,
+      "medianRent": 1900,
+      "costOfLivingIndex": 190,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Washington city, 1600000US1150000)"
+    },
+    "boston-ma": {
+      "geoid": "1600000US2507000",
+      "placeName": "Boston city",
+      "population": 663972,
+      "medianHouseholdIncome": 94755,
+      "medianHomePrice": 710400,
+      "medianRent": 2093,
+      "costOfLivingIndex": 195,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Boston city, 1600000US2507000)"
+    },
+    "el-paso-tx": {
+      "geoid": "1600000US4824000",
+      "placeName": "El Paso city",
+      "population": 678147,
+      "medianHouseholdIncome": 58734,
+      "medianHomePrice": 171700,
+      "medianRent": 1041,
+      "costOfLivingIndex": 67,
+      "source": "U.S. Census Bureau ACS 2023 5-year (El Paso city, 1600000US4824000)"
+    },
+    "nashville-tn": {
+      "geoid": "1600000US4752006",
+      "placeName": "Nashville-Davidson metropolitan government (balance)",
+      "population": 684298,
+      "medianHouseholdIncome": 75197,
+      "medianHomePrice": 383100,
+      "medianRent": 1486,
+      "costOfLivingIndex": 118,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Nashville-Davidson metropolitan government (balance), 1600000US4752006)"
+    },
+    "detroit-mi": {
+      "geoid": "1600000US2622000",
+      "placeName": "Detroit city",
+      "population": 636644,
+      "medianHouseholdIncome": 39575,
+      "medianHomePrice": 76800,
+      "medianRent": 1034,
+      "costOfLivingIndex": 51,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Detroit city, 1600000US2622000)"
+    },
+    "oklahoma-city-ok": {
+      "geoid": "1600000US4055000",
+      "placeName": "Oklahoma City city",
+      "population": 688693,
+      "medianHouseholdIncome": 66702,
+      "medianHomePrice": 215100,
+      "medianRent": 1083,
+      "costOfLivingIndex": 76,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Oklahoma City city, 1600000US4055000)"
+    },
+    "portland-or": {
+      "geoid": "1600000US4159000",
+      "placeName": "Portland city",
+      "population": 642715,
+      "medianHouseholdIncome": 88792,
+      "medianHomePrice": 557600,
+      "medianRent": 1596,
+      "costOfLivingIndex": 151,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Portland city, 1600000US4159000)"
+    },
+    "las-vegas-nv": {
+      "geoid": "1600000US3240000",
+      "placeName": "Las Vegas city",
+      "population": 650873,
+      "medianHouseholdIncome": 70723,
+      "medianHomePrice": 395300,
+      "medianRent": 1456,
+      "costOfLivingIndex": 119,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Las Vegas city, 1600000US3240000)"
+    },
+    "memphis-tn": {
+      "geoid": "1600000US4748000",
+      "placeName": "Memphis city",
+      "population": 629063,
+      "medianHouseholdIncome": 51211,
+      "medianHomePrice": 157100,
+      "medianRent": 1123,
+      "costOfLivingIndex": 68,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Memphis city, 1600000US4748000)"
+    },
+    "baltimore-md": {
+      "geoid": "1600000US2404000",
+      "placeName": "Baltimore city",
+      "population": 577193,
+      "medianHouseholdIncome": 59623,
+      "medianHomePrice": 219300,
+      "medianRent": 1290,
+      "costOfLivingIndex": 84,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Baltimore city, 1600000US2404000)"
+    },
+    "milwaukee-wi": {
+      "geoid": "1600000US5553000",
+      "placeName": "Milwaukee city",
+      "population": 569756,
+      "medianHouseholdIncome": 51888,
+      "medianHomePrice": 172000,
+      "medianRent": 1033,
+      "costOfLivingIndex": 67,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Milwaukee city, 1600000US5553000)"
+    },
+    "albuquerque-nm": {
+      "geoid": "1600000US3502000",
+      "placeName": "Albuquerque city",
+      "population": 562488,
+      "medianHouseholdIncome": 65604,
+      "medianHomePrice": 266700,
+      "medianRent": 1085,
+      "costOfLivingIndex": 84,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Albuquerque city, 1600000US3502000)"
+    },
+    "tucson-az": {
+      "geoid": "1600000US0477000",
+      "placeName": "Tucson city",
+      "population": 543348,
+      "medianHouseholdIncome": 54546,
+      "medianHomePrice": 242200,
+      "medianRent": 1079,
+      "costOfLivingIndex": 80,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Tucson city, 1600000US0477000)"
+    },
+    "fresno-ca": {
+      "geoid": "1600000US0627000",
+      "placeName": "Fresno city",
+      "population": 543615,
+      "medianHouseholdIncome": 66804,
+      "medianHomePrice": 348500,
+      "medianRent": 1324,
+      "costOfLivingIndex": 107,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fresno city, 1600000US0627000)"
+    },
+    "sacramento-ca": {
+      "geoid": "1600000US0664000",
+      "placeName": "Sacramento city",
+      "population": 524802,
+      "medianHouseholdIncome": 83753,
+      "medianHomePrice": 484600,
+      "medianRent": 1694,
+      "costOfLivingIndex": 143,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Sacramento city, 1600000US0664000)"
+    },
+    "mesa-az": {
+      "geoid": "1600000US0446000",
+      "placeName": "Mesa city",
+      "population": 507478,
+      "medianHouseholdIncome": 78779,
+      "medianHomePrice": 364300,
+      "medianRent": 1478,
+      "costOfLivingIndex": 115,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Mesa city, 1600000US0446000)"
+    },
+    "kansas-city-mo": {
+      "geoid": "1600000US2938000",
+      "placeName": "Kansas City city",
+      "population": 508233,
+      "medianHouseholdIncome": 67449,
+      "medianHomePrice": 227000,
+      "medianRent": 1186,
+      "costOfLivingIndex": 81,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2938000)"
+    },
+    "atlanta-ga": {
+      "geoid": "1600000US1304000",
+      "placeName": "Atlanta city",
+      "population": 499287,
+      "medianHouseholdIncome": 81938,
+      "medianHomePrice": 420600,
+      "medianRent": 1617,
+      "costOfLivingIndex": 129,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Atlanta city, 1600000US1304000)"
+    },
+    "colorado-springs-co": {
+      "geoid": "1600000US0816000",
+      "placeName": "Colorado Springs city",
+      "population": 483099,
+      "medianHouseholdIncome": 83198,
+      "medianHomePrice": 420700,
+      "medianRent": 1562,
+      "costOfLivingIndex": 127,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Colorado Springs city, 1600000US0816000)"
+    },
+    "raleigh-nc": {
+      "geoid": "1600000US3755000",
+      "placeName": "Raleigh city",
+      "population": 470763,
+      "medianHouseholdIncome": 82424,
+      "medianHomePrice": 377800,
+      "medianRent": 1468,
+      "costOfLivingIndex": 117,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Raleigh city, 1600000US3755000)"
+    },
+    "omaha-ne": {
+      "geoid": "1600000US3137000",
+      "placeName": "Omaha city",
+      "population": 488197,
+      "medianHouseholdIncome": 72708,
+      "medianHomePrice": 230100,
+      "medianRent": 1150,
+      "costOfLivingIndex": 81,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Omaha city, 1600000US3137000)"
+    },
+    "miami-fl": {
+      "geoid": "1600000US1245000",
+      "placeName": "Miami city",
+      "population": 446663,
+      "medianHouseholdIncome": 59390,
+      "medianHomePrice": 475200,
+      "medianRent": 1657,
+      "costOfLivingIndex": 140,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Miami city, 1600000US1245000)"
+    },
+    "long-beach-ca": {
+      "geoid": "1600000US0643000",
+      "placeName": "Long Beach city",
+      "population": 458491,
+      "medianHouseholdIncome": 83969,
+      "medianHomePrice": 762200,
+      "medianRent": 1803,
+      "costOfLivingIndex": 192,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Long Beach city, 1600000US0643000)"
+    },
+    "virginia-beach-va": {
+      "geoid": "1600000US5182000",
+      "placeName": "Virginia Beach city",
+      "population": 457066,
+      "medianHouseholdIncome": 90685,
+      "medianHomePrice": 366300,
+      "medianRent": 1649,
+      "costOfLivingIndex": 122,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Virginia Beach city, 1600000US5182000)"
+    },
+    "oakland-ca": {
+      "geoid": "1600000US0653000",
+      "placeName": "Oakland city",
+      "population": 438072,
+      "medianHouseholdIncome": 97369,
+      "medianHomePrice": 924700,
+      "medianRent": 1917,
+      "costOfLivingIndex": 223,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Oakland city, 1600000US0653000)"
+    },
+    "minneapolis-mn": {
+      "geoid": "1600000US2743000",
+      "placeName": "Minneapolis city",
+      "population": 426845,
+      "medianHouseholdIncome": 80269,
+      "medianHomePrice": 345600,
+      "medianRent": 1329,
+      "costOfLivingIndex": 106,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Minneapolis city, 1600000US2743000)"
+    },
+    "tulsa-ok": {
+      "geoid": "1600000US4075000",
+      "placeName": "Tulsa city",
+      "population": 412322,
+      "medianHouseholdIncome": 58407,
+      "medianHomePrice": 189600,
+      "medianRent": 998,
+      "costOfLivingIndex": 68,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Tulsa city, 1600000US4075000)"
+    },
+    "tampa-fl": {
+      "geoid": "1600000US1271000",
+      "placeName": "Tampa city",
+      "population": 393389,
+      "medianHouseholdIncome": 71302,
+      "medianHomePrice": 375300,
+      "medianRent": 1567,
+      "costOfLivingIndex": 120,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Tampa city, 1600000US1271000)"
+    },
+    "arlington-tx": {
+      "geoid": "1600000US4804000",
+      "placeName": "Arlington city",
+      "population": 394769,
+      "medianHouseholdIncome": 73519,
+      "medianHomePrice": 276400,
+      "medianRent": 1389,
+      "costOfLivingIndex": 97,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Arlington city, 1600000US4804000)"
+    },
+    "new-orleans-la": {
+      "geoid": "1600000US2255000",
+      "placeName": "New Orleans city",
+      "population": 376035,
+      "medianHouseholdIncome": 55339,
+      "medianHomePrice": 296400,
+      "medianRent": 1211,
+      "costOfLivingIndex": 94,
+      "source": "U.S. Census Bureau ACS 2023 5-year (New Orleans city, 1600000US2255000)"
+    },
+    "wichita-ks": {
+      "geoid": "1600000US2079000",
+      "placeName": "Wichita city",
+      "population": 396488,
+      "medianHouseholdIncome": 63072,
+      "medianHomePrice": 179500,
+      "medianRent": 960,
+      "costOfLivingIndex": 65,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Wichita city, 1600000US2079000)"
+    },
+    "cleveland-oh": {
+      "geoid": "1600000US3916000",
+      "placeName": "Cleveland city",
+      "population": 367523,
+      "medianHouseholdIncome": 39187,
+      "medianHomePrice": 94100,
+      "medianRent": 894,
+      "costOfLivingIndex": 49,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Cleveland city, 1600000US3916000)"
+    },
+    "bakersfield-ca": {
+      "geoid": "1600000US0603526",
+      "placeName": "Bakersfield city",
+      "population": 408366,
+      "medianHouseholdIncome": 77397,
+      "medianHomePrice": 347300,
+      "medianRent": 1371,
+      "costOfLivingIndex": 108,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Bakersfield city, 1600000US0603526)"
+    },
+    "aurora-co": {
+      "geoid": "1600000US0804000",
+      "placeName": "Aurora city",
+      "population": 390201,
+      "medianHouseholdIncome": 84320,
+      "medianHomePrice": 444500,
+      "medianRent": 1759,
+      "costOfLivingIndex": 138,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US0804000)"
+    },
+    "anaheim-ca": {
+      "geoid": "1600000US0602000",
+      "placeName": "Anaheim city",
+      "population": 344553,
+      "medianHouseholdIncome": 90583,
+      "medianHomePrice": 771700,
+      "medianRent": 2082,
+      "costOfLivingIndex": 204,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Anaheim city, 1600000US0602000)"
+    },
+    "honolulu-hi": {
+      "geoid": "1600000US1571550",
+      "placeName": "Urban Honolulu CDP",
+      "population": 346323,
+      "medianHouseholdIncome": 85428,
+      "medianHomePrice": 834100,
+      "medianRent": 1783,
+      "costOfLivingIndex": 204,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Urban Honolulu CDP, 1600000US1571550)"
+    },
+    "santa-ana-ca": {
+      "geoid": "1600000US0669000",
+      "placeName": "Santa Ana city",
+      "population": 311639,
+      "medianHouseholdIncome": 88354,
+      "medianHomePrice": 657800,
+      "medianRent": 1975,
+      "costOfLivingIndex": 182,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Santa Ana city, 1600000US0669000)"
+    },
+    "riverside-ca": {
+      "geoid": "1600000US0662000",
+      "placeName": "Riverside city",
+      "population": 316241,
+      "medianHouseholdIncome": 88575,
+      "medianHomePrice": 542100,
+      "medianRent": 1812,
+      "costOfLivingIndex": 157,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Riverside city, 1600000US0662000)"
+    },
+    "corpus-christi-tx": {
+      "geoid": "1600000US4817000",
+      "placeName": "Corpus Christi city",
+      "population": 317383,
+      "medianHouseholdIncome": 66325,
+      "medianHomePrice": 197100,
+      "medianRent": 1230,
+      "costOfLivingIndex": 78,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Corpus Christi city, 1600000US4817000)"
+    },
+    "lexington-ky": {
+      "geoid": "1600000US2146027",
+      "placeName": "Lexington-Fayette urban county",
+      "population": 321122,
+      "medianHouseholdIncome": 67631,
+      "medianHomePrice": 272100,
+      "medianRent": 1101,
+      "costOfLivingIndex": 86,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Lexington-Fayette urban county, 1600000US2146027)"
+    },
+    "henderson-nv": {
+      "geoid": "1600000US3231900",
+      "placeName": "Henderson city",
+      "population": 324523,
+      "medianHouseholdIncome": 88654,
+      "medianHomePrice": 465000,
+      "medianRent": 1750,
+      "costOfLivingIndex": 142,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Henderson city, 1600000US3231900)"
+    },
+    "stockton-ca": {
+      "geoid": "1600000US0675000",
+      "placeName": "Stockton city",
+      "population": 320470,
+      "medianHouseholdIncome": 76851,
+      "medianHomePrice": 412900,
+      "medianRent": 1495,
+      "costOfLivingIndex": 123,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Stockton city, 1600000US0675000)"
+    },
+    "saint-paul-mn": {
+      "geoid": "1600000US2758000",
+      "placeName": "St. Paul city",
+      "population": 307762,
+      "medianHouseholdIncome": 73055,
+      "medianHomePrice": 280300,
+      "medianRent": 1248,
+      "costOfLivingIndex": 92,
+      "source": "U.S. Census Bureau ACS 2023 5-year (St. Paul city, 1600000US2758000)"
+    },
+    "cincinnati-oh": {
+      "geoid": "1600000US3915000",
+      "placeName": "Cincinnati city",
+      "population": 309595,
+      "medianHouseholdIncome": 51707,
+      "medianHomePrice": 215300,
+      "medianRent": 953,
+      "costOfLivingIndex": 71,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Cincinnati city, 1600000US3915000)"
+    },
+    "st-louis-mo": {
+      "geoid": "1600000US2965000",
+      "placeName": "St. Louis city",
+      "population": 293109,
+      "medianHouseholdIncome": 55279,
+      "medianHomePrice": 185100,
+      "medianRent": 978,
+      "costOfLivingIndex": 67,
+      "source": "U.S. Census Bureau ACS 2023 5-year (St. Louis city, 1600000US2965000)"
+    },
+    "pittsburgh-pa": {
+      "geoid": "1600000US4261000",
+      "placeName": "Pittsburgh city",
+      "population": 303620,
+      "medianHouseholdIncome": 64137,
+      "medianHomePrice": 193200,
+      "medianRent": 1221,
+      "costOfLivingIndex": 77,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Pittsburgh city, 1600000US4261000)"
+    },
+    "greensboro-nc": {
+      "geoid": "1600000US3728000",
+      "placeName": "Greensboro city",
+      "population": 298564,
+      "medianHouseholdIncome": 58884,
+      "medianHomePrice": 221300,
+      "medianRent": 1114,
+      "costOfLivingIndex": 78,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Greensboro city, 1600000US3728000)"
+    },
+    "lincoln-ne": {
+      "geoid": "1600000US3128000",
+      "placeName": "Lincoln city",
+      "population": 291932,
+      "medianHouseholdIncome": 69991,
+      "medianHomePrice": 248200,
+      "medianRent": 1045,
+      "costOfLivingIndex": 80,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Lincoln city, 1600000US3128000)"
+    },
+    "plano-tx": {
+      "geoid": "1600000US4858016",
+      "placeName": "Plano city",
+      "population": 287339,
+      "medianHouseholdIncome": 108649,
+      "medianHomePrice": 440600,
+      "medianRent": 1792,
+      "costOfLivingIndex": 139,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Plano city, 1600000US4858016)"
+    },
+    "anchorage-ak": {
+      "geoid": "1600000US0203000",
+      "placeName": "Anchorage municipality",
+      "population": 289069,
+      "medianHouseholdIncome": 98152,
+      "medianHomePrice": 375900,
+      "medianRent": 1453,
+      "costOfLivingIndex": 116,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Anchorage municipality, 1600000US0203000)"
+    },
+    "orlando-fl": {
+      "geoid": "1600000US1253000",
+      "placeName": "Orlando city",
+      "population": 311732,
+      "medianHouseholdIncome": 69268,
+      "medianHomePrice": 359000,
+      "medianRent": 1650,
+      "costOfLivingIndex": 120,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Orlando city, 1600000US1253000)"
+    },
+    "irvine-ca": {
+      "geoid": "1600000US0636770",
+      "placeName": "Irvine city",
+      "population": 308160,
+      "medianHouseholdIncome": 129647,
+      "medianHomePrice": 1115400,
+      "medianRent": 2893,
+      "costOfLivingIndex": 291,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Irvine city, 1600000US0636770)"
+    },
+    "newark-nj": {
+      "geoid": "1600000US3451000",
+      "placeName": "Newark city",
+      "population": 307188,
+      "medianHouseholdIncome": 48416,
+      "medianHomePrice": 337800,
+      "medianRent": 1330,
+      "costOfLivingIndex": 105,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Newark city, 1600000US3451000)"
+    },
+    "durham-nc": {
+      "geoid": "1600000US3719000",
+      "placeName": "Durham city",
+      "population": 288465,
+      "medianHouseholdIncome": 79234,
+      "medianHomePrice": 355300,
+      "medianRent": 1412,
+      "costOfLivingIndex": 111,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Durham city, 1600000US3719000)"
+    },
+    "chula-vista-ca": {
+      "geoid": "1600000US0613392",
+      "placeName": "Chula Vista city",
+      "population": 275030,
+      "medianHouseholdIncome": 105173,
+      "medianHomePrice": 697400,
+      "medianRent": 2122,
+      "costOfLivingIndex": 194,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Chula Vista city, 1600000US0613392)"
+    },
+    "toledo-oh": {
+      "geoid": "1600000US3977000",
+      "placeName": "Toledo city",
+      "population": 268461,
+      "medianHouseholdIncome": 47532,
+      "medianHomePrice": 107000,
+      "medianRent": 880,
+      "costOfLivingIndex": 50,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Toledo city, 1600000US3977000)"
+    },
+    "fort-wayne-in": {
+      "geoid": "1600000US1825000",
+      "placeName": "Fort Wayne city",
+      "population": 266235,
+      "medianHouseholdIncome": 60293,
+      "medianHomePrice": 169700,
+      "medianRent": 959,
+      "costOfLivingIndex": 64,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fort Wayne city, 1600000US1825000)"
+    },
+    "st-petersburg-fl": {
+      "geoid": "1600000US1263000",
+      "placeName": "St. Petersburg city",
+      "population": 260646,
+      "medianHouseholdIncome": 73118,
+      "medianHomePrice": 331500,
+      "medianRent": 1542,
+      "costOfLivingIndex": 112,
+      "source": "U.S. Census Bureau ACS 2023 5-year (St. Petersburg city, 1600000US1263000)"
+    },
+    "laredo-tx": {
+      "geoid": "1600000US4841464",
+      "placeName": "Laredo city",
+      "population": 255949,
+      "medianHouseholdIncome": 63264,
+      "medianHomePrice": 182400,
+      "medianRent": 1001,
+      "costOfLivingIndex": 67,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Laredo city, 1600000US4841464)"
+    },
+    "jersey-city-nj": {
+      "geoid": "1600000US3436000",
+      "placeName": "Jersey City city",
+      "population": 289691,
+      "medianHouseholdIncome": 94813,
+      "medianHomePrice": 534500,
+      "medianRent": 1902,
+      "costOfLivingIndex": 159,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Jersey City city, 1600000US3436000)"
+    },
+    "chandler-az": {
+      "geoid": "1600000US0412000",
+      "placeName": "Chandler city",
+      "population": 278123,
+      "medianHouseholdIncome": 103691,
+      "medianHomePrice": 469800,
+      "medianRent": 1806,
+      "costOfLivingIndex": 144,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Chandler city, 1600000US0412000)"
+    },
+    "madison-wi": {
+      "geoid": "1600000US5548000",
+      "placeName": "Madison city",
+      "population": 275568,
+      "medianHouseholdIncome": 76983,
+      "medianHomePrice": 346900,
+      "medianRent": 1364,
+      "costOfLivingIndex": 108,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Madison city, 1600000US5548000)"
+    },
+    "lubbock-tx": {
+      "geoid": "1600000US4845000",
+      "placeName": "Lubbock city",
+      "population": 261078,
+      "medianHouseholdIncome": 60487,
+      "medianHomePrice": 197900,
+      "medianRent": 1137,
+      "costOfLivingIndex": 75,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Lubbock city, 1600000US4845000)"
+    },
+    "scottsdale-az": {
+      "geoid": "1600000US0465000",
+      "placeName": "Scottsdale city",
+      "population": 242169,
+      "medianHouseholdIncome": 107372,
+      "medianHomePrice": 709900,
+      "medianRent": 1910,
+      "costOfLivingIndex": 188,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Scottsdale city, 1600000US0465000)"
+    },
+    "reno-nv": {
+      "geoid": "1600000US3260600",
+      "placeName": "Reno city",
+      "population": 268959,
+      "medianHouseholdIncome": 78448,
+      "medianHomePrice": 498600,
+      "medianRent": 1453,
+      "costOfLivingIndex": 136,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Reno city, 1600000US3260600)"
+    },
+    "buffalo-ny": {
+      "geoid": "1600000US3611000",
+      "placeName": "Buffalo city",
+      "population": 276397,
+      "medianHouseholdIncome": 48050,
+      "medianHomePrice": 152300,
+      "medianRent": 989,
+      "costOfLivingIndex": 62,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Buffalo city, 1600000US3611000)"
+    },
+    "gilbert-az": {
+      "geoid": "1600000US0427400",
+      "placeName": "Gilbert town",
+      "population": 271118,
+      "medianHouseholdIncome": 121351,
+      "medianHomePrice": 518600,
+      "medianRent": 2028,
+      "costOfLivingIndex": 161,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Gilbert town, 1600000US0427400)"
+    },
+    "glendale-az": {
+      "geoid": "1600000US0427820",
+      "placeName": "Glendale city",
+      "population": 250193,
+      "medianHouseholdIncome": 70139,
+      "medianHomePrice": 347000,
+      "medianRent": 1397,
+      "costOfLivingIndex": 109,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0427820)"
+    },
+    "north-las-vegas-nv": {
+      "geoid": "1600000US3251800",
+      "placeName": "North Las Vegas city",
+      "population": 270773,
+      "medianHouseholdIncome": 76772,
+      "medianHomePrice": 372300,
+      "medianRent": 1605,
+      "costOfLivingIndex": 121,
+      "source": "U.S. Census Bureau ACS 2023 5-year (North Las Vegas city, 1600000US3251800)"
+    },
+    "winston-salem-nc": {
+      "geoid": "1600000US3775000",
+      "placeName": "Winston-Salem city",
+      "population": 250887,
+      "medianHouseholdIncome": 57673,
+      "medianHomePrice": 208200,
+      "medianRent": 1033,
+      "costOfLivingIndex": 73,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Winston-Salem city, 1600000US3775000)"
+    },
+    "chesapeake-va": {
+      "geoid": "1600000US5116000",
+      "placeName": "Chesapeake city",
+      "population": 251153,
+      "medianHouseholdIncome": 94189,
+      "medianHomePrice": 359100,
+      "medianRent": 1523,
+      "costOfLivingIndex": 116,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Chesapeake city, 1600000US5116000)"
+    },
+    "norfolk-va": {
+      "geoid": "1600000US5157000",
+      "placeName": "Norfolk city",
+      "population": 235037,
+      "medianHouseholdIncome": 64017,
+      "medianHomePrice": 271900,
+      "medianRent": 1246,
+      "costOfLivingIndex": 91,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Norfolk city, 1600000US5157000)"
+    },
+    "fremont-ca": {
+      "geoid": "1600000US0626000",
+      "placeName": "Fremont city",
+      "population": 228518,
+      "medianHouseholdIncome": 176350,
+      "medianHomePrice": 1289400,
+      "medianRent": 2905,
+      "costOfLivingIndex": 320,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fremont city, 1600000US0626000)"
+    },
+    "garland-tx": {
+      "geoid": "1600000US4829000",
+      "placeName": "Garland city",
+      "population": 245298,
+      "medianHouseholdIncome": 74717,
+      "medianHomePrice": 248900,
+      "medianRent": 1525,
+      "costOfLivingIndex": 98,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Garland city, 1600000US4829000)"
+    },
+    "irving-tx": {
+      "geoid": "1600000US4837000",
+      "placeName": "Irving city",
+      "population": 255036,
+      "medianHouseholdIncome": 79641,
+      "medianHomePrice": 287300,
+      "medianRent": 1517,
+      "costOfLivingIndex": 104,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Irving city, 1600000US4837000)"
+    },
+    "hialeah-fl": {
+      "geoid": "1600000US1230000",
+      "placeName": "Hialeah city",
+      "population": 221901,
+      "medianHouseholdIncome": 53079,
+      "medianHomePrice": 359200,
+      "medianRent": 1558,
+      "costOfLivingIndex": 117,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Hialeah city, 1600000US1230000)"
+    },
+    "richmond-va": {
+      "geoid": "1600000US5167000",
+      "placeName": "Richmond city",
+      "population": 227595,
+      "medianHouseholdIncome": 62671,
+      "medianHomePrice": 328100,
+      "medianRent": 1314,
+      "costOfLivingIndex": 103,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Richmond city, 1600000US5167000)"
+    },
+    "boise-id": {
+      "geoid": "1600000US1608830",
+      "placeName": "Boise City city",
+      "population": 235701,
+      "medianHouseholdIncome": 81308,
+      "medianHomePrice": 456000,
+      "medianRent": 1359,
+      "costOfLivingIndex": 126,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Boise City city, 1600000US1608830)"
+    },
+    "spokane-wa": {
+      "geoid": "1600000US5367000",
+      "placeName": "Spokane city",
+      "population": 229228,
+      "medianHouseholdIncome": 65745,
+      "medianHomePrice": 326200,
+      "medianRent": 1141,
+      "costOfLivingIndex": 96,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Spokane city, 1600000US5367000)"
+    },
+    "baton-rouge-la": {
+      "geoid": "1600000US2205000",
+      "placeName": "Baton Rouge city",
+      "population": 223699,
+      "medianHouseholdIncome": 49944,
+      "medianHomePrice": 224500,
+      "medianRent": 1044,
+      "costOfLivingIndex": 76,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Baton Rouge city, 1600000US2205000)"
+    },
+    "tacoma-wa": {
+      "geoid": "1600000US5370000",
+      "placeName": "Tacoma city",
+      "population": 220482,
+      "medianHouseholdIncome": 83857,
+      "medianHomePrice": 454600,
+      "medianRent": 1597,
+      "costOfLivingIndex": 134,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Tacoma city, 1600000US5370000)"
+    },
+    "san-bernardino-ca": {
+      "geoid": "1600000US0665000",
+      "placeName": "San Bernardino city",
+      "population": 221774,
+      "medianHouseholdIncome": 63988,
+      "medianHomePrice": 384900,
+      "medianRent": 1433,
+      "costOfLivingIndex": 117,
+      "source": "U.S. Census Bureau ACS 2023 5-year (San Bernardino city, 1600000US0665000)"
+    },
+    "modesto-ca": {
+      "geoid": "1600000US0648354",
+      "placeName": "Modesto city",
+      "population": 218614,
+      "medianHouseholdIncome": 77899,
+      "medianHomePrice": 415600,
+      "medianRent": 1609,
+      "costOfLivingIndex": 128,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Modesto city, 1600000US0648354)"
+    },
+    "fontana-ca": {
+      "geoid": "1600000US0624680",
+      "placeName": "Fontana city",
+      "population": 211921,
+      "medianHouseholdIncome": 98187,
+      "medianHomePrice": 558500,
+      "medianRent": 1733,
+      "costOfLivingIndex": 156,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fontana city, 1600000US0624680)"
+    },
+    "des-moines-ia": {
+      "geoid": "1600000US1921000",
+      "placeName": "Des Moines city",
+      "population": 212464,
+      "medianHouseholdIncome": 63966,
+      "medianHomePrice": 183700,
+      "medianRent": 1054,
+      "costOfLivingIndex": 69,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Des Moines city, 1600000US1921000)"
+    },
+    "moreno-valley-ca": {
+      "geoid": "1600000US0649270",
+      "placeName": "Moreno Valley city",
+      "population": 210378,
+      "medianHouseholdIncome": 87477,
+      "medianHomePrice": 461400,
+      "medianRent": 2036,
+      "costOfLivingIndex": 152,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Moreno Valley city, 1600000US0649270)"
+    },
+    "santa-clarita-ca": {
+      "geoid": "1600000US0669088",
+      "placeName": "Santa Clarita city",
+      "population": 229021,
+      "medianHouseholdIncome": 119926,
+      "medianHomePrice": 721000,
+      "medianRent": 2486,
+      "costOfLivingIndex": 211,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Santa Clarita city, 1600000US0669088)"
+    },
+    "fayetteville-nc": {
+      "geoid": "1600000US3722920",
+      "placeName": "Fayetteville city",
+      "population": 209692,
+      "medianHouseholdIncome": 56395,
+      "medianHomePrice": 171900,
+      "medianRent": 1179,
+      "costOfLivingIndex": 72,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fayetteville city, 1600000US3722920)"
+    },
+    "birmingham-al": {
+      "geoid": "1600000US0107000",
+      "placeName": "Birmingham city",
+      "population": 199322,
+      "medianHouseholdIncome": 44376,
+      "medianHomePrice": 138600,
+      "medianRent": 1047,
+      "costOfLivingIndex": 62,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Birmingham city, 1600000US0107000)"
+    },
+    "oxnard-ca": {
+      "geoid": "1600000US0654652",
+      "placeName": "Oxnard city",
+      "population": 201014,
+      "medianHouseholdIncome": 93372,
+      "medianHomePrice": 617800,
+      "medianRent": 1962,
+      "costOfLivingIndex": 175,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Oxnard city, 1600000US0654652)"
+    },
+    "rochester-ny": {
+      "geoid": "1600000US3663000",
+      "placeName": "Rochester city",
+      "population": 209720,
+      "medianHouseholdIncome": 46628,
+      "medianHomePrice": 120600,
+      "medianRent": 1039,
+      "costOfLivingIndex": 58,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Rochester city, 1600000US3663000)"
+    },
+    "port-st-lucie-fl": {
+      "geoid": "1600000US1258715",
+      "placeName": "Port St. Lucie city",
+      "population": 220453,
+      "medianHouseholdIncome": 78137,
+      "medianHomePrice": 327700,
+      "medianRent": 1781,
+      "costOfLivingIndex": 120,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Port St. Lucie city, 1600000US1258715)"
+    },
+    "grand-rapids-mi": {
+      "geoid": "1600000US2634000",
+      "placeName": "Grand Rapids city",
+      "population": 197768,
+      "medianHouseholdIncome": 65526,
+      "medianHomePrice": 225500,
+      "medianRent": 1191,
+      "costOfLivingIndex": 81,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Grand Rapids city, 1600000US2634000)"
+    },
+    "huntsville-al": {
+      "geoid": "1600000US0137000",
+      "placeName": "Huntsville city",
+      "population": 218814,
+      "medianHouseholdIncome": 70778,
+      "medianHomePrice": 263100,
+      "medianRent": 1078,
+      "costOfLivingIndex": 83,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Huntsville city, 1600000US0137000)"
+    },
+    "salt-lake-city-ut": {
+      "geoid": "1600000US4967000",
+      "placeName": "Salt Lake City city",
+      "population": 203888,
+      "medianHouseholdIncome": 74925,
+      "medianHomePrice": 495700,
+      "medianRent": 1343,
+      "costOfLivingIndex": 132,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Salt Lake City city, 1600000US4967000)"
+    },
+    "tallahassee-fl": {
+      "geoid": "1600000US1270600",
+      "placeName": "Tallahassee city",
+      "population": 199696,
+      "medianHouseholdIncome": 55931,
+      "medianHomePrice": 276000,
+      "medianRent": 1238,
+      "costOfLivingIndex": 91,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Tallahassee city, 1600000US1270600)"
+    },
+    "worcester-ma": {
+      "geoid": "1600000US2582000",
+      "placeName": "Worcester city",
+      "population": 205501,
+      "medianHouseholdIncome": 67544,
+      "medianHomePrice": 339500,
+      "medianRent": 1415,
+      "costOfLivingIndex": 108,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Worcester city, 1600000US2582000)"
+    },
+    "newport-news-va": {
+      "geoid": "1600000US5156000",
+      "placeName": "Newport News city",
+      "population": 184774,
+      "medianHouseholdIncome": 66718,
+      "medianHomePrice": 243300,
+      "medianRent": 1285,
+      "costOfLivingIndex": 88,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Newport News city, 1600000US5156000)"
+    },
+    "overland-park-ks": {
+      "geoid": "1600000US2053775",
+      "placeName": "Overland Park city",
+      "population": 197199,
+      "medianHouseholdIncome": 103838,
+      "medianHomePrice": 384400,
+      "medianRent": 1455,
+      "costOfLivingIndex": 117,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Overland Park city, 1600000US2053775)"
+    },
+    "santa-rosa-ca": {
+      "geoid": "1600000US0670098",
+      "placeName": "Santa Rosa city",
+      "population": 177216,
+      "medianHouseholdIncome": 97410,
+      "medianHomePrice": 685000,
+      "medianRent": 2084,
+      "costOfLivingIndex": 190,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Santa Rosa city, 1600000US0670098)"
+    },
+    "providence-ri": {
+      "geoid": "1600000US4459000",
+      "placeName": "Providence city",
+      "population": 190214,
+      "medianHouseholdIncome": 66772,
+      "medianHomePrice": 322800,
+      "medianRent": 1333,
+      "costOfLivingIndex": 103,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Providence city, 1600000US4459000)"
+    },
+    "garden-grove-ca": {
+      "geoid": "1600000US0629000",
+      "placeName": "Garden Grove city",
+      "population": 170603,
+      "medianHouseholdIncome": 90166,
+      "medianHomePrice": 765500,
+      "medianRent": 1971,
+      "costOfLivingIndex": 199,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Garden Grove city, 1600000US0629000)"
+    },
+    "chattanooga-tn": {
+      "geoid": "1600000US4714000",
+      "placeName": "Chattanooga city",
+      "population": 182832,
+      "medianHouseholdIncome": 61028,
+      "medianHomePrice": 259200,
+      "medianRent": 1155,
+      "costOfLivingIndex": 86,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Chattanooga city, 1600000US4714000)"
+    },
+    "oceanside-ca": {
+      "geoid": "1600000US0653322",
+      "placeName": "Oceanside city",
+      "population": 172542,
+      "medianHouseholdIncome": 93724,
+      "medianHomePrice": 702000,
+      "medianRent": 2207,
+      "costOfLivingIndex": 198,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Oceanside city, 1600000US0653322)"
+    },
+    "jackson-ms": {
+      "geoid": "1600000US2836000",
+      "placeName": "Jackson city",
+      "population": 149827,
+      "medianHouseholdIncome": 43238,
+      "medianHomePrice": 108200,
+      "medianRent": 1018,
+      "costOfLivingIndex": 56,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Jackson city, 1600000US2836000)"
+    },
+    "fort-lauderdale-fl": {
+      "geoid": "1600000US1224000",
+      "placeName": "Fort Lauderdale city",
+      "population": 183032,
+      "medianHouseholdIncome": 79935,
+      "medianHomePrice": 455600,
+      "medianRent": 1776,
+      "costOfLivingIndex": 141,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fort Lauderdale city, 1600000US1224000)"
+    },
+    "santa-clara-ca": {
+      "geoid": "1600000US0669084",
+      "placeName": "Santa Clara city",
+      "population": 129239,
+      "medianHouseholdIncome": 173670,
+      "medianHomePrice": 1527900,
+      "medianRent": 2985,
+      "costOfLivingIndex": 363,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Santa Clara city, 1600000US0669084)"
+    },
+    "bloomington-mn": {
+      "geoid": "1600000US2706616",
+      "placeName": "Bloomington city",
+      "population": 88838,
+      "medianHouseholdIncome": 90677,
+      "medianHomePrice": 346200,
+      "medianRent": 1526,
+      "costOfLivingIndex": 114,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Bloomington city, 1600000US2706616)"
+    },
+    "sioux-falls-sd": {
+      "geoid": "1600000US4659020",
+      "placeName": "Sioux Falls city",
+      "population": 197642,
+      "medianHouseholdIncome": 74714,
+      "medianHomePrice": 271400,
+      "medianRent": 993,
+      "costOfLivingIndex": 82,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Sioux Falls city, 1600000US4659020)"
+    },
+    "little-rock-ar": {
+      "geoid": "1600000US0541000",
+      "placeName": "Little Rock city",
+      "population": 202739,
+      "medianHouseholdIncome": 60583,
+      "medianHomePrice": 221200,
+      "medianRent": 1067,
+      "costOfLivingIndex": 76,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Little Rock city, 1600000US0541000)"
+    },
+    "augusta-ga": {
+      "geoid": "1600000US1304204",
+      "placeName": "Augusta-Richmond County consolidated government (balance)",
+      "population": 201504,
+      "medianHouseholdIncome": 53134,
+      "medianHomePrice": 162900,
+      "medianRent": 1087,
+      "costOfLivingIndex": 67,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Augusta-Richmond County consolidated government (balance), 1600000US1304204)"
+    },
+    "mobile-al": {
+      "geoid": "1600000US0150000",
+      "placeName": "Mobile city",
+      "population": 185097,
+      "medianHouseholdIncome": 51090,
+      "medianHomePrice": 170300,
+      "medianRent": 1029,
+      "costOfLivingIndex": 66,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Mobile city, 1600000US0150000)"
+    },
+    "knoxville-tn": {
+      "geoid": "1600000US4740000",
+      "placeName": "Knoxville city",
+      "population": 193721,
+      "medianHouseholdIncome": 50994,
+      "medianHomePrice": 214000,
+      "medianRent": 1116,
+      "costOfLivingIndex": 77,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Knoxville city, 1600000US4740000)"
+    },
+    "cape-coral-fl": {
+      "geoid": "1600000US1210275",
+      "placeName": "Cape Coral city",
+      "population": 206387,
+      "medianHouseholdIncome": 76062,
+      "medianHomePrice": 339200,
+      "medianRent": 1751,
+      "costOfLivingIndex": 121,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Cape Coral city, 1600000US1210275)"
+    },
+    "shreveport-la": {
+      "geoid": "1600000US2270000",
+      "placeName": "Shreveport city",
+      "population": 183483,
+      "medianHouseholdIncome": 48465,
+      "medianHomePrice": 178100,
+      "medianRent": 980,
+      "costOfLivingIndex": 66,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Shreveport city, 1600000US2270000)"
+    },
+    "frisco-tx": {
+      "geoid": "1600000US4827684",
+      "placeName": "Frisco city",
+      "population": 210238,
+      "medianHouseholdIncome": 146158,
+      "medianHomePrice": 595400,
+      "medianRent": 1902,
+      "costOfLivingIndex": 169,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Frisco city, 1600000US4827684)"
+    },
+    "mckinney-tx": {
+      "geoid": "1600000US4845744",
+      "placeName": "McKinney city",
+      "population": 202314,
+      "medianHouseholdIncome": 120273,
+      "medianHomePrice": 439500,
+      "medianRent": 1841,
+      "costOfLivingIndex": 141,
+      "source": "U.S. Census Bureau ACS 2023 5-year (McKinney city, 1600000US4845744)"
+    },
+    "yonkers-ny": {
+      "geoid": "1600000US3684000",
+      "placeName": "Yonkers city",
+      "population": 209529,
+      "medianHouseholdIncome": 81816,
+      "medianHomePrice": 478000,
+      "medianRent": 1730,
+      "costOfLivingIndex": 143,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Yonkers city, 1600000US3684000)"
+    },
+    "aurora-il": {
+      "geoid": "1600000US1703012",
+      "placeName": "Aurora city",
+      "population": 179867,
+      "medianHouseholdIncome": 90109,
+      "medianHomePrice": 260400,
+      "medianRent": 1535,
+      "costOfLivingIndex": 100,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US1703012)"
+    },
+    "montgomery-al": {
+      "geoid": "1600000US0151000",
+      "placeName": "Montgomery city",
+      "population": 198440,
+      "medianHouseholdIncome": 55687,
+      "medianHomePrice": 148500,
+      "medianRent": 1059,
+      "costOfLivingIndex": 64,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Montgomery city, 1600000US0151000)"
+    },
+    "akron-oh": {
+      "geoid": "1600000US3901000",
+      "placeName": "Akron city",
+      "population": 189526,
+      "medianHouseholdIncome": 48544,
+      "medianHomePrice": 111200,
+      "medianRent": 930,
+      "costOfLivingIndex": 53,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Akron city, 1600000US3901000)"
+    },
+    "huntington-beach-ca": {
+      "geoid": "1600000US0636000",
+      "placeName": "Huntington Beach city",
+      "population": 196010,
+      "medianHouseholdIncome": 119885,
+      "medianHomePrice": 1047300,
+      "medianRent": 2424,
+      "costOfLivingIndex": 263,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Huntington Beach city, 1600000US0636000)"
+    },
+    "glendale-ca": {
+      "geoid": "1600000US0630000",
+      "placeName": "Glendale city",
+      "population": 192270,
+      "medianHouseholdIncome": 84262,
+      "medianHomePrice": 1043900,
+      "medianRent": 2095,
+      "costOfLivingIndex": 250,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0630000)"
+    },
+    "grand-prairie-tx": {
+      "geoid": "1600000US4830464",
+      "placeName": "Grand Prairie city",
+      "population": 198564,
+      "medianHouseholdIncome": 78889,
+      "medianHomePrice": 272200,
+      "medianRent": 1470,
+      "costOfLivingIndex": 99,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Grand Prairie city, 1600000US4830464)"
+    },
+    "vancouver-wa": {
+      "geoid": "1600000US5374060",
+      "placeName": "Vancouver city",
+      "population": 192696,
+      "medianHouseholdIncome": 78156,
+      "medianHomePrice": 440300,
+      "medianRent": 1632,
+      "costOfLivingIndex": 133,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Vancouver city, 1600000US5374060)"
+    },
+    "peoria-az": {
+      "geoid": "1600000US0454050",
+      "placeName": "Peoria city",
+      "population": 194338,
+      "medianHouseholdIncome": 93403,
+      "medianHomePrice": 429400,
+      "medianRent": 1743,
+      "costOfLivingIndex": 135,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US0454050)"
+    },
+    "rancho-cucamonga-ca": {
+      "geoid": "1600000US0659451",
+      "placeName": "Rancho Cucamonga city",
+      "population": 174693,
+      "medianHouseholdIncome": 109511,
+      "medianHomePrice": 694400,
+      "medianRent": 2286,
+      "costOfLivingIndex": 199,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Rancho Cucamonga city, 1600000US0659451)"
+    },
+    "ontario-ca": {
+      "geoid": "1600000US0653896",
+      "placeName": "Ontario city",
+      "population": 178347,
+      "medianHouseholdIncome": 82806,
+      "medianHomePrice": 568000,
+      "medianRent": 1916,
+      "costOfLivingIndex": 165,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Ontario city, 1600000US0653896)"
+    },
+    "tempe-az": {
+      "geoid": "1600000US0473000",
+      "placeName": "Tempe city",
+      "population": 186419,
+      "medianHouseholdIncome": 77643,
+      "medianHomePrice": 421900,
+      "medianRent": 1623,
+      "costOfLivingIndex": 130,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Tempe city, 1600000US0473000)"
+    },
+    "springfield-mo": {
+      "geoid": "1600000US2970000",
+      "placeName": "Springfield city",
+      "population": 169432,
+      "medianHouseholdIncome": 45984,
+      "medianHomePrice": 165200,
+      "medianRent": 920,
+      "costOfLivingIndex": 61,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Springfield city, 1600000US2970000)"
+    },
+    "lancaster-ca": {
+      "geoid": "1600000US0640130",
+      "placeName": "Lancaster city",
+      "population": 170013,
+      "medianHouseholdIncome": 76083,
+      "medianHomePrice": 409100,
+      "medianRent": 1696,
+      "costOfLivingIndex": 130,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Lancaster city, 1600000US0640130)"
+    },
+    "eugene-or": {
+      "geoid": "1600000US4123850",
+      "placeName": "Eugene city",
+      "population": 177520,
+      "medianHouseholdIncome": 63836,
+      "medianHomePrice": 435400,
+      "medianRent": 1347,
+      "costOfLivingIndex": 122,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Eugene city, 1600000US4123850)"
+    },
+    "pembroke-pines-fl": {
+      "geoid": "1600000US1255775",
+      "placeName": "Pembroke Pines city",
+      "population": 170557,
+      "medianHouseholdIncome": 81675,
+      "medianHomePrice": 411700,
+      "medianRent": 1910,
+      "costOfLivingIndex": 139,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Pembroke Pines city, 1600000US1255775)"
+    },
+    "salem-or": {
+      "geoid": "1600000US4164900",
+      "placeName": "Salem city",
+      "population": 176666,
+      "medianHouseholdIncome": 71900,
+      "medianHomePrice": 382400,
+      "medianRent": 1323,
+      "costOfLivingIndex": 112,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Salem city, 1600000US4164900)"
+    },
+    "pasadena-ca": {
+      "geoid": "1600000US0656000",
+      "placeName": "Pasadena city",
+      "population": 136462,
+      "medianHouseholdIncome": 103778,
+      "medianHomePrice": 1045000,
+      "medianRent": 2218,
+      "costOfLivingIndex": 254,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Pasadena city, 1600000US0656000)"
+    },
+    "peoria-il": {
+      "geoid": "1600000US1759000",
+      "placeName": "Peoria city",
+      "population": 112126,
+      "medianHouseholdIncome": 58716,
+      "medianHomePrice": 149500,
+      "medianRent": 951,
+      "costOfLivingIndex": 60,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US1759000)"
+    },
+    "corona-ca": {
+      "geoid": "1600000US0616350",
+      "placeName": "Corona city",
+      "population": 158839,
+      "medianHouseholdIncome": 106438,
+      "medianHomePrice": 656500,
+      "medianRent": 2136,
+      "costOfLivingIndex": 187,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Corona city, 1600000US0616350)"
+    },
+    "elizabeth-nj": {
+      "geoid": "1600000US3421000",
+      "placeName": "Elizabeth city",
+      "population": 135887,
+      "medianHouseholdIncome": 63874,
+      "medianHomePrice": 393500,
+      "medianRent": 1463,
+      "costOfLivingIndex": 119,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Elizabeth city, 1600000US3421000)"
+    },
+    "hayward-ca": {
+      "geoid": "1600000US0633000",
+      "placeName": "Hayward city",
+      "population": 159201,
+      "medianHouseholdIncome": 113775,
+      "medianHomePrice": 820700,
+      "medianRent": 2360,
+      "costOfLivingIndex": 223,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Hayward city, 1600000US0633000)"
+    },
+    "fort-collins-co": {
+      "geoid": "1600000US0827425",
+      "placeName": "Fort Collins city",
+      "population": 169705,
+      "medianHouseholdIncome": 83598,
+      "medianHomePrice": 548400,
+      "medianRent": 1661,
+      "costOfLivingIndex": 152,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fort Collins city, 1600000US0827425)"
+    },
+    "evansville-in": {
+      "geoid": "1600000US1822000",
+      "placeName": "Evansville city",
+      "population": 116441,
+      "medianHouseholdIncome": 52251,
+      "medianHomePrice": 129100,
+      "medianRent": 949,
+      "costOfLivingIndex": 56,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Evansville city, 1600000US1822000)"
+    },
+    "round-rock-tx": {
+      "geoid": "1600000US4863500",
+      "placeName": "Round Rock city",
+      "population": 124288,
+      "medianHouseholdIncome": 97187,
+      "medianHomePrice": 383700,
+      "medianRent": 1713,
+      "costOfLivingIndex": 127,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Round Rock city, 1600000US4863500)"
+    },
+    "charleston-sc": {
+      "geoid": "1600000US4513330",
+      "placeName": "Charleston city",
+      "population": 152014,
+      "medianHouseholdIncome": 90038,
+      "medianHomePrice": 469100,
+      "medianRent": 1632,
+      "costOfLivingIndex": 138,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Charleston city, 1600000US4513330)"
+    },
+    "savannah-ga": {
+      "geoid": "1600000US1369000",
+      "placeName": "Savannah city",
+      "population": 147546,
+      "medianHouseholdIncome": 56782,
+      "medianHomePrice": 225200,
+      "medianRent": 1302,
+      "costOfLivingIndex": 85,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Savannah city, 1600000US1369000)"
+    },
+    "naperville-il": {
+      "geoid": "1600000US1751622",
+      "placeName": "Naperville city",
+      "population": 149424,
+      "medianHouseholdIncome": 150937,
+      "medianHomePrice": 509900,
+      "medianRent": 1852,
+      "costOfLivingIndex": 153,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Naperville city, 1600000US1751622)"
+    },
+    "bellevue-wa": {
+      "geoid": "1600000US5305210",
+      "placeName": "Bellevue city",
+      "population": 151199,
+      "medianHouseholdIncome": 161300,
+      "medianHomePrice": 1203100,
+      "medianRent": 2505,
+      "costOfLivingIndex": 291,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Bellevue city, 1600000US5305210)"
+    },
+    "cary-nc": {
+      "geoid": "1600000US3710740",
+      "placeName": "Cary town",
+      "population": 176686,
+      "medianHouseholdIncome": 129399,
+      "medianHomePrice": 525200,
+      "medianRent": 1621,
+      "costOfLivingIndex": 147,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Cary town, 1600000US3710740)"
+    },
+    "alexandria-va": {
+      "geoid": "1600000US5101000",
+      "placeName": "Alexandria city",
+      "population": 156788,
+      "medianHouseholdIncome": 113638,
+      "medianHomePrice": 696800,
+      "medianRent": 2031,
+      "costOfLivingIndex": 190,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Alexandria city, 1600000US5101000)"
+    },
+    "sunnyvale-ca": {
+      "geoid": "1600000US0677000",
+      "placeName": "Sunnyvale city",
+      "population": 153455,
+      "medianHouseholdIncome": 181862,
+      "medianHomePrice": 1816600,
+      "medianRent": 3065,
+      "costOfLivingIndex": 413,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Sunnyvale city, 1600000US0677000)"
+    },
+    "lakewood-co": {
+      "geoid": "1600000US0843000",
+      "placeName": "Lakewood city",
+      "population": 156309,
+      "medianHouseholdIncome": 85789,
+      "medianHomePrice": 548200,
+      "medianRent": 1746,
+      "costOfLivingIndex": 155,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Lakewood city, 1600000US0843000)"
+    },
+    "hollywood-fl": {
+      "geoid": "1600000US1232000",
+      "placeName": "Hollywood city",
+      "population": 152935,
+      "medianHouseholdIncome": 65359,
+      "medianHomePrice": 374200,
+      "medianRent": 1555,
+      "costOfLivingIndex": 119,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Hollywood city, 1600000US1232000)"
+    },
+    "paterson-nj": {
+      "geoid": "1600000US3457000",
+      "placeName": "Paterson city",
+      "population": 157660,
+      "medianHouseholdIncome": 53766,
+      "medianHomePrice": 335400,
+      "medianRent": 1457,
+      "costOfLivingIndex": 109,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Paterson city, 1600000US3457000)"
+    },
+    "clarksville-tn": {
+      "geoid": "1600000US4715160",
+      "placeName": "Clarksville city",
+      "population": 171897,
+      "medianHouseholdIncome": 66786,
+      "medianHomePrice": 236100,
+      "medianRent": 1215,
+      "costOfLivingIndex": 84,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Clarksville city, 1600000US4715160)"
+    },
+    "torrance-ca": {
+      "geoid": "1600000US0680000",
+      "placeName": "Torrance city",
+      "population": 143499,
+      "medianHouseholdIncome": 113105,
+      "medianHomePrice": 1036600,
+      "medianRent": 2214,
+      "costOfLivingIndex": 253,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Torrance city, 1600000US0680000)"
+    },
+    "rockford-il": {
+      "geoid": "1600000US1765000",
+      "placeName": "Rockford city",
+      "population": 147649,
+      "medianHouseholdIncome": 53328,
+      "medianHomePrice": 120900,
+      "medianRent": 954,
+      "costOfLivingIndex": 55,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Rockford city, 1600000US1765000)"
+    },
+    "macon-ga": {
+      "geoid": "1600000US1349008",
+      "placeName": "Macon-Bibb County",
+      "population": 156543,
+      "medianHouseholdIncome": 50747,
+      "medianHomePrice": 165800,
+      "medianRent": 1026,
+      "costOfLivingIndex": 65,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Macon-Bibb County, 1600000US1349008)"
+    },
+    "kansas-city-ks": {
+      "geoid": "1600000US2036000",
+      "placeName": "Kansas City city",
+      "population": 154776,
+      "medianHouseholdIncome": 59183,
+      "medianHomePrice": 147100,
+      "medianRent": 1073,
+      "costOfLivingIndex": 64,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2036000)"
+    },
+    "bridgeport-ct": {
+      "geoid": "1600000US0908000",
+      "placeName": "Bridgeport city",
+      "population": 148012,
+      "medianHouseholdIncome": 56584,
+      "medianHomePrice": 252400,
+      "medianRent": 1405,
+      "costOfLivingIndex": 94,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Bridgeport city, 1600000US0908000)"
+    },
+    "amarillo-tx": {
+      "geoid": "1600000US4803000",
+      "placeName": "Amarillo city",
+      "population": 200945,
+      "medianHouseholdIncome": 62469,
+      "medianHomePrice": 186800,
+      "medianRent": 1049,
+      "costOfLivingIndex": 70,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Amarillo city, 1600000US4803000)"
+    },
+    "louisville-ky": {
+      "geoid": "1600000US2148006",
+      "placeName": "Louisville/Jefferson County metro government (balance), Kentucky",
+      "population": 627210,
+      "medianHouseholdIncome": 64731,
+      "medianHomePrice": 221500,
+      "medianRent": 1069,
+      "costOfLivingIndex": 76,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Louisville/Jefferson County metro government (balance), Kentucky, 1600000US2148006)"
+    }
+  }
+}
