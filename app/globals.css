@@ -516,6 +516,39 @@ a:hover { color: var(--map-deep); }
   box-shadow: 0 0 0 2px #fff;
 }
 
+.city-marker {
+  position: relative;
+  padding: 0;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  background: #0f6b5c;
+  box-shadow: 0 2px 8px rgba(20, 32, 28, 0.35);
+  cursor: pointer;
+  appearance: none;
+}
+
+.city-marker.is-focused {
+  background: #f0a202;
+  z-index: 2;
+}
+
+.city-marker-label {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #14201c;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 1px 4px rgba(20, 32, 28, 0.18);
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
@@ -848,4 +881,18 @@ a:hover { color: var(--map-deep); }
 
 .home-hero .map-legend-dot {
   background: #8fd6c4;
+}
+
+.home-hero .city-marker {
+  background: #0f6b5c;
+  border-color: #f4faf7;
+}
+
+.home-hero .city-marker.is-focused {
+  background: #f0a202;
+}
+
+.home-hero .maplibregl-cooperative-gesture-screen {
+  background: rgba(12, 32, 28, 0.72);
+  color: #f4faf7;
 }
