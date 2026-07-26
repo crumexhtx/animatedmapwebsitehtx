@@ -17,28 +17,40 @@ export default function MethodologyPage() {
         a catalog validation step at build time.
       </p>
 
-      <h2>Launch data (v1)</h2>
+      <h2>Live enrichment sources</h2>
       <p>
-        The initial catalog is curated JSON checked into the repository — approximate figures aligned to publicly
-        reported Census ACS, BLS, FBI UCR / Crime Data Explorer, and NOAA Climate Normals patterns. Each city page
-        lists its source labels and a last-updated date.
+        City figures are merged from public agency feeds into checked-in enrichment JSON, then built into the published
+        catalog (`npm run build-catalog`). Each city page lists source labels and a last-updated date.
       </p>
-
-      <h2>Upcoming live enrichment</h2>
       <ul>
         <li>
-          <strong>U.S. Census / ACS</strong> — population, income, housing costs (`scripts/enrich-census.ts`)
+          <strong>U.S. Census Bureau ACS 5-year</strong> — population, median household income, median home value, and
+          median gross rent from Census summary files (`scripts/enrich-census.ts`). The on-page housing cost index is
+          derived from home value and rent versus national ACS medians (100 ≈ U.S. average) — not a BLS consumer price
+          index.
         </li>
         <li>
-          <strong>BLS</strong> — unemployment and labor context (`scripts/enrich-bls.ts`)
+          <strong>BLS LAUS</strong> — county unemployment rates via Local Area Unemployment Statistics series
+          (`scripts/enrich-bls.ts`), joined to each city through FCC lat/lon → county FIPS.
         </li>
         <li>
-          <strong>FBI Crime Data Explorer</strong> — violent and property crime indexes (`scripts/enrich-crime.ts`)
+          <strong>FBI Crime Data Explorer / CIUS</strong> — agency violent and property offense rates
+          (`scripts/enrich-crime.ts`). Prefer live CDE annualized monthly rates per 100k. When the CDE API gateway is
+          unavailable, we fall back to FBI CIUS Table 8 city offense counts converted to rates per 100k (vintage noted
+          in the source string). When an agency/city match is still missing, we publish{' '}
+          <code>crimeIndex.source: &quot;data unavailable&quot;</code> instead of keeping a placeholder number.
         </li>
         <li>
-          <strong>NOAA Climate Normals</strong> — temperature, rainfall, sunshine proxies (`scripts/enrich-climate.ts`)
+          <strong>NOAA Climate Normals (1991–2020)</strong> — summer high, winter low, annual rainfall, and a sunny-day
+          proxy from the nearest normals station (`scripts/enrich-climate.ts`).
         </li>
       </ul>
+
+      <h2>What we still curate</h2>
+      <p>
+        Commute minutes, Walk Score (where shown), featured flags, neighborhood shortlists, and nearby-city links remain
+        curated companion fields. They are not overwritten by the enrichment scripts.
+      </p>
 
       <h2>Publishing rules</h2>
       <p>

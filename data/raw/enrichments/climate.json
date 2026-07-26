@@ -1,0 +1,1795 @@
+{
+  "generatedAt": "2026-07-26T18:07:50.999Z",
+  "cities": {
+    "new-york-ny": {
+      "stationId": "USW00094728",
+      "stationName": "NEW YORK CNTRL PK TWR",
+      "distanceMiles": 5,
+      "avgHighSummer": 83,
+      "avgLowWinter": 30,
+      "annualRainfall": 49.5,
+      "sunnyDays": 240,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094728 NEW YORK CNTRL PK TWR)"
+    },
+    "los-angeles-ca": {
+      "stationId": "USW00093134",
+      "stationName": "LOS ANGELES DWTN USC CAMPUS",
+      "distanceMiles": 0.5,
+      "avgHighSummer": 81,
+      "avgLowWinter": 49,
+      "annualRainfall": 14.3,
+      "sunnyDays": 331,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093134 LOS ANGELES DWTN USC CAMPUS)"
+    },
+    "chicago-il": {
+      "stationId": "USW00014819",
+      "stationName": "CHICAGO MIDWAY AP",
+      "distanceMiles": 9,
+      "avgHighSummer": 83,
+      "avgLowWinter": 22,
+      "annualRainfall": 34.4,
+      "sunnyDays": 244,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014819 CHICAGO MIDWAY AP)"
+    },
+    "houston-tx": {
+      "stationId": "USW00012918",
+      "stationName": "HOUSTON HOBBY AP",
+      "distanceMiles": 10,
+      "avgHighSummer": 92,
+      "avgLowWinter": 48,
+      "annualRainfall": 55.6,
+      "sunnyDays": 258,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012918 HOUSTON HOBBY AP)"
+    },
+    "phoenix-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 4.3,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "philadelphia-pa": {
+      "stationId": "USW00013739",
+      "stationName": "PHILADELPHIA INTL AP",
+      "distanceMiles": 6.8,
+      "avgHighSummer": 86,
+      "avgLowWinter": 28,
+      "annualRainfall": 44.1,
+      "sunnyDays": 244,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013739 PHILADELPHIA INTL AP)"
+    },
+    "san-antonio-tx": {
+      "stationId": "USW00012970",
+      "stationName": "SAN ANTONIO STINSON AP",
+      "distanceMiles": 6,
+      "avgHighSummer": 96,
+      "avgLowWinter": 44,
+      "annualRainfall": 29.7,
+      "sunnyDays": 293,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012970 SAN ANTONIO STINSON AP)"
+    },
+    "san-diego-ca": {
+      "stationId": "USW00023188",
+      "stationName": "SAN DIEGO LINDBERGH FLD",
+      "distanceMiles": 1.8,
+      "avgHighSummer": 75,
+      "avgLowWinter": 51,
+      "annualRainfall": 9.8,
+      "sunnyDays": 325,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023188 SAN DIEGO LINDBERGH FLD)"
+    },
+    "dallas-tx": {
+      "stationId": "USW00013960",
+      "stationName": "DALLAS LOVE FLD",
+      "distanceMiles": 6.2,
+      "avgHighSummer": 96,
+      "avgLowWinter": 40,
+      "annualRainfall": 38.3,
+      "sunnyDays": 283,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013960 DALLAS LOVE FLD)"
+    },
+    "austin-tx": {
+      "stationId": "USW00013958",
+      "stationName": "AUSTIN-CAMP MABRY",
+      "distanceMiles": 3.8,
+      "avgHighSummer": 96,
+      "avgLowWinter": 44,
+      "annualRainfall": 36.3,
+      "sunnyDays": 279,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013958 AUSTIN-CAMP MABRY)"
+    },
+    "jacksonville-fl": {
+      "stationId": "USW00093837",
+      "stationName": "JACKSONVILLE NAS",
+      "distanceMiles": 6.9,
+      "avgHighSummer": 91,
+      "avgLowWinter": 49,
+      "annualRainfall": 47.6,
+      "sunnyDays": 245,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093837 JACKSONVILLE NAS)"
+    },
+    "san-jose-ca": {
+      "stationId": "USW00023293",
+      "stationName": "SAN JOSE",
+      "distanceMiles": 2.5,
+      "avgHighSummer": 80,
+      "avgLowWinter": 42,
+      "annualRainfall": 13.5,
+      "sunnyDays": 306,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023293 SAN JOSE)"
+    },
+    "fort-worth-tx": {
+      "stationId": "USW00013961",
+      "stationName": "FT WORTH MEACHAM FLD",
+      "distanceMiles": 4.7,
+      "avgHighSummer": 94,
+      "avgLowWinter": 37,
+      "annualRainfall": 35.3,
+      "sunnyDays": 288,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013961 FT WORTH MEACHAM FLD)"
+    },
+    "columbus-oh": {
+      "stationId": "USW00014821",
+      "stationName": "COLUMBUS PORT COLUMBUS INTL AP",
+      "distanceMiles": 6.6,
+      "avgHighSummer": 84,
+      "avgLowWinter": 25,
+      "annualRainfall": 41.6,
+      "sunnyDays": 224,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014821 COLUMBUS PORT COLUMBUS INTL AP)"
+    },
+    "charlotte-nc": {
+      "stationId": "USW00013881",
+      "stationName": "CHARLOTTE DOUGLAS AP",
+      "distanceMiles": 6.3,
+      "avgHighSummer": 89,
+      "avgLowWinter": 34,
+      "annualRainfall": 43.6,
+      "sunnyDays": 253,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013881 CHARLOTTE DOUGLAS AP)"
+    },
+    "indianapolis-in": {
+      "stationId": "USW00093819",
+      "stationName": "INDIANAPOLIS",
+      "distanceMiles": 7.7,
+      "avgHighSummer": 84,
+      "avgLowWinter": 24,
+      "annualRainfall": 43.6,
+      "sunnyDays": 237,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093819 INDIANAPOLIS)"
+    },
+    "san-francisco-ca": {
+      "stationId": "USW00023272",
+      "stationName": "SAN FRANCISCO DWTN",
+      "distanceMiles": 0.5,
+      "avgHighSummer": 67,
+      "avgLowWinter": 47,
+      "annualRainfall": 22.9,
+      "sunnyDays": 294,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023272 SAN FRANCISCO DWTN)"
+    },
+    "seattle-wa": {
+      "stationId": "USW00024234",
+      "stationName": "SEATTLE BOEING FLD",
+      "distanceMiles": 5.4,
+      "avgHighSummer": 75,
+      "avgLowWinter": 37,
+      "annualRainfall": 36.5,
+      "sunnyDays": 211,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024234 SEATTLE BOEING FLD)"
+    },
+    "denver-co": {
+      "stationId": "USW00023062",
+      "stationName": "DENVER-STAPLETON",
+      "distanceMiles": 6.6,
+      "avgHighSummer": 87,
+      "avgLowWinter": 18,
+      "annualRainfall": 15.4,
+      "sunnyDays": 281,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023062 DENVER-STAPLETON)"
+    },
+    "washington-dc": {
+      "stationId": "USW00013743",
+      "stationName": "WASHINGTON REAGAN AP",
+      "distanceMiles": 4.1,
+      "avgHighSummer": 88,
+      "avgLowWinter": 32,
+      "annualRainfall": 41.8,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013743 WASHINGTON REAGAN AP)"
+    },
+    "boston-ma": {
+      "stationId": "USW00014739",
+      "stationName": "BOSTON LOGAN INTL AP",
+      "distanceMiles": 2.5,
+      "avgHighSummer": 80,
+      "avgLowWinter": 26,
+      "annualRainfall": 43.6,
+      "sunnyDays": 237,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014739 BOSTON LOGAN INTL AP)"
+    },
+    "el-paso-tx": {
+      "stationId": "USW00023044",
+      "stationName": "EL PASO INTL AP",
+      "distanceMiles": 7.3,
+      "avgHighSummer": 96,
+      "avgLowWinter": 36,
+      "annualRainfall": 8.8,
+      "sunnyDays": 317,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023044 EL PASO INTL AP)"
+    },
+    "nashville-tn": {
+      "stationId": "USW00013897",
+      "stationName": "NASHVILLE INTL AP",
+      "distanceMiles": 6,
+      "avgHighSummer": 90,
+      "avgLowWinter": 32,
+      "annualRainfall": 50.5,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013897 NASHVILLE INTL AP)"
+    },
+    "detroit-mi": {
+      "stationId": "USW00014822",
+      "stationName": "DETROIT CITY AP",
+      "distanceMiles": 5.7,
+      "avgHighSummer": 81,
+      "avgLowWinter": 22,
+      "annualRainfall": 29.9,
+      "sunnyDays": 240,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014822 DETROIT CITY AP)"
+    },
+    "oklahoma-city-ok": {
+      "stationId": "USW00013967",
+      "stationName": "OKLAHOMA CITY WILL ROGERS AP",
+      "distanceMiles": 7.2,
+      "avgHighSummer": 91,
+      "avgLowWinter": 29,
+      "annualRainfall": 36.4,
+      "sunnyDays": 282,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013967 OKLAHOMA CITY WILL ROGERS AP)"
+    },
+    "portland-or": {
+      "stationId": "USW00024229",
+      "stationName": "PORTLAND INTL AP",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 80,
+      "avgLowWinter": 36,
+      "annualRainfall": 36.9,
+      "sunnyDays": 208,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024229 PORTLAND INTL AP)"
+    },
+    "las-vegas-nv": {
+      "stationId": "USW00053123",
+      "stationName": "LAS VEGAS AIR TERMINAL",
+      "distanceMiles": 4.3,
+      "avgHighSummer": 102,
+      "avgLowWinter": 40,
+      "annualRainfall": 4,
+      "sunnyDays": 343,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053123 LAS VEGAS AIR TERMINAL)"
+    },
+    "memphis-tn": {
+      "stationId": "USW00013893",
+      "stationName": "MEMPHIS INTL AP",
+      "distanceMiles": 7.3,
+      "avgHighSummer": 91,
+      "avgLowWinter": 35,
+      "annualRainfall": 54.9,
+      "sunnyDays": 254,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013893 MEMPHIS INTL AP)"
+    },
+    "louisville-ky": {
+      "stationId": "USW00093821",
+      "stationName": "LOUISVILLE INTL AP",
+      "distanceMiles": 5.1,
+      "avgHighSummer": 88,
+      "avgLowWinter": 30,
+      "annualRainfall": 48.3,
+      "sunnyDays": 241,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093821 LOUISVILLE INTL AP)"
+    },
+    "baltimore-md": {
+      "stationId": "USW00093784",
+      "stationName": "MD SCI CTR BALTIMORE",
+      "distanceMiles": 0.6,
+      "avgHighSummer": 88,
+      "avgLowWinter": 32,
+      "annualRainfall": 43.7,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093784 MD SCI CTR BALTIMORE)"
+    },
+    "milwaukee-wi": {
+      "stationId": "USW00014839",
+      "stationName": "MILWAUKEE MITCHELL AP",
+      "distanceMiles": 5.8,
+      "avgHighSummer": 80,
+      "avgLowWinter": 20,
+      "annualRainfall": 34.6,
+      "sunnyDays": 240,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014839 MILWAUKEE MITCHELL AP)"
+    },
+    "albuquerque-nm": {
+      "stationId": "USW00023050",
+      "stationName": "ALBUQUERQUE INTL AP",
+      "distanceMiles": 3.5,
+      "avgHighSummer": 90,
+      "avgLowWinter": 28,
+      "annualRainfall": 8.8,
+      "sunnyDays": 309,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023050 ALBUQUERQUE INTL AP)"
+    },
+    "tucson-az": {
+      "stationId": "USW00023160",
+      "stationName": "TUCSON INTL AP",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 100,
+      "avgLowWinter": 42,
+      "annualRainfall": 10.6,
+      "sunnyDays": 318,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023160 TUCSON INTL AP)"
+    },
+    "fresno-ca": {
+      "stationId": "USW00093193",
+      "stationName": "FRESNO YOSEMITE INTL AP",
+      "distanceMiles": 4.7,
+      "avgHighSummer": 95,
+      "avgLowWinter": 41,
+      "annualRainfall": 11,
+      "sunnyDays": 319,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093193 FRESNO YOSEMITE INTL AP)"
+    },
+    "sacramento-ca": {
+      "stationId": "USW00023271",
+      "stationName": "SACRAMENTO 5 ESE",
+      "distanceMiles": 4.6,
+      "avgHighSummer": 92,
+      "avgLowWinter": 42,
+      "annualRainfall": 19.2,
+      "sunnyDays": 304,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023271 SACRAMENTO 5 ESE)"
+    },
+    "mesa-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 10,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "kansas-city-mo": {
+      "stationId": "USW00013988",
+      "stationName": "KANSAS CITY DOWNTOWN AP",
+      "distanceMiles": 1.8,
+      "avgHighSummer": 88,
+      "avgLowWinter": 25,
+      "annualRainfall": 38.1,
+      "sunnyDays": 279,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013988 KANSAS CITY DOWNTOWN AP)"
+    },
+    "atlanta-ga": {
+      "stationId": "USW00003888",
+      "stationName": "ATLANTA FULTON CO AP",
+      "distanceMiles": 7.9,
+      "avgHighSummer": 89,
+      "avgLowWinter": 35,
+      "annualRainfall": 48.1,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003888 ATLANTA FULTON CO AP)"
+    },
+    "colorado-springs-co": {
+      "stationId": "USW00093037",
+      "stationName": "COLORADO SPRINGS MUNI AP",
+      "distanceMiles": 7.4,
+      "avgHighSummer": 84,
+      "avgLowWinter": 19,
+      "annualRainfall": 15.9,
+      "sunnyDays": 278,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093037 COLORADO SPRINGS MUNI AP)"
+    },
+    "raleigh-nc": {
+      "stationId": "USW00013722",
+      "stationName": "RALEIGH DURHAM INTL AP",
+      "distanceMiles": 11.2,
+      "avgHighSummer": 89,
+      "avgLowWinter": 33,
+      "annualRainfall": 46.1,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013722 RALEIGH DURHAM INTL AP)"
+    },
+    "omaha-ne": {
+      "stationId": "USW00014942",
+      "stationName": "OMAHA EPPLEY AIRFIELD",
+      "distanceMiles": 4.1,
+      "avgHighSummer": 86,
+      "avgLowWinter": 18,
+      "annualRainfall": 31.9,
+      "sunnyDays": 262,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014942 OMAHA EPPLEY AIRFIELD)"
+    },
+    "miami-fl": {
+      "stationId": "USW00092811",
+      "stationName": "MIAMI BEACH",
+      "distanceMiles": 4.8,
+      "avgHighSummer": 87,
+      "avgLowWinter": 63,
+      "annualRainfall": 57.2,
+      "sunnyDays": 253,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00092811 MIAMI BEACH)"
+    },
+    "long-beach-ca": {
+      "stationId": "USW00023129",
+      "stationName": "LONG BEACH DAUGHERTY FLD",
+      "distanceMiles": 4,
+      "avgHighSummer": 80,
+      "avgLowWinter": 47,
+      "annualRainfall": 12,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023129 LONG BEACH DAUGHERTY FLD)"
+    },
+    "virginia-beach-va": {
+      "stationId": "USW00013769",
+      "stationName": "OCEANA NAS",
+      "distanceMiles": 4,
+      "avgHighSummer": 85,
+      "avgLowWinter": 33,
+      "annualRainfall": 46.6,
+      "sunnyDays": 243,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013769 OCEANA NAS)"
+    },
+    "oakland-ca": {
+      "stationId": "USW00023230",
+      "stationName": "OAKLAND METRO INTL AP",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 72,
+      "avgLowWinter": 43,
+      "annualRainfall": 18.7,
+      "sunnyDays": 297,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023230 OAKLAND METRO INTL AP)"
+    },
+    "minneapolis-mn": {
+      "stationId": "USW00014922",
+      "stationName": "MINNEAPOLIS/ST PAUL AP",
+      "distanceMiles": 6.8,
+      "avgHighSummer": 81,
+      "avgLowWinter": 12,
+      "annualRainfall": 31.6,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014922 MINNEAPOLIS/ST PAUL AP)"
+    },
+    "tulsa-ok": {
+      "stationId": "USW00013968",
+      "stationName": "TULSA INTL AP",
+      "distanceMiles": 6.7,
+      "avgHighSummer": 92,
+      "avgLowWinter": 30,
+      "annualRainfall": 41,
+      "sunnyDays": 271,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013968 TULSA INTL AP)"
+    },
+    "tampa-fl": {
+      "stationId": "USW00012842",
+      "stationName": "TAMPA INTL AP",
+      "distanceMiles": 5.1,
+      "avgHighSummer": 91,
+      "avgLowWinter": 55,
+      "annualRainfall": 49.5,
+      "sunnyDays": 257,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012842 TAMPA INTL AP)"
+    },
+    "arlington-tx": {
+      "stationId": "USW00053907",
+      "stationName": "ARLINGTON MUNI AP",
+      "distanceMiles": 5,
+      "avgHighSummer": 95,
+      "avgLowWinter": 39,
+      "annualRainfall": 36.2,
+      "sunnyDays": 285,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053907 ARLINGTON MUNI AP)"
+    },
+    "new-orleans-la": {
+      "stationId": "USW00012930",
+      "stationName": "NEW ORLEANS AUDUBON",
+      "distanceMiles": 4.2,
+      "avgHighSummer": 93,
+      "avgLowWinter": 49,
+      "annualRainfall": 64.6,
+      "sunnyDays": 251,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012930 NEW ORLEANS AUDUBON)"
+    },
+    "wichita-ks": {
+      "stationId": "USW00003928",
+      "stationName": "WICHITA",
+      "distanceMiles": 6.6,
+      "avgHighSummer": 91,
+      "avgLowWinter": 25,
+      "annualRainfall": 34.3,
+      "sunnyDays": 278,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003928 WICHITA)"
+    },
+    "cleveland-oh": {
+      "stationId": "USW00004853",
+      "stationName": "CLEVELAND BURKE AP",
+      "distanceMiles": 1.4,
+      "avgHighSummer": 79,
+      "avgLowWinter": 26,
+      "annualRainfall": 33.3,
+      "sunnyDays": 227,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00004853 CLEVELAND BURKE AP)"
+    },
+    "bakersfield-ca": {
+      "stationId": "USW00023155",
+      "stationName": "BAKERSFIELD AP",
+      "distanceMiles": 4.7,
+      "avgHighSummer": 96,
+      "avgLowWinter": 41,
+      "annualRainfall": 6.4,
+      "sunnyDays": 327,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023155 BAKERSFIELD AP)"
+    },
+    "aurora-co": {
+      "stationId": "USW00023062",
+      "stationName": "DENVER-STAPLETON",
+      "distanceMiles": 3.1,
+      "avgHighSummer": 87,
+      "avgLowWinter": 18,
+      "annualRainfall": 15.4,
+      "sunnyDays": 281,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023062 DENVER-STAPLETON)"
+    },
+    "anaheim-ca": {
+      "stationId": "USW00003166",
+      "stationName": "FULLERTON MUNI AP",
+      "distanceMiles": 4.4,
+      "avgHighSummer": 83,
+      "avgLowWinter": 47,
+      "annualRainfall": 11.9,
+      "sunnyDays": 327,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003166 FULLERTON MUNI AP)"
+    },
+    "honolulu-hi": {
+      "stationId": "USW00022521",
+      "stationName": "HONOLULU INTL AP",
+      "distanceMiles": 4.7,
+      "avgHighSummer": 88,
+      "avgLowWinter": 68,
+      "annualRainfall": 16.4,
+      "sunnyDays": 276,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00022521 HONOLULU INTL AP)"
+    },
+    "santa-ana-ca": {
+      "stationId": "USW00093184",
+      "stationName": "SANTA ANA JOHN WAYNE AP",
+      "distanceMiles": 4.5,
+      "avgHighSummer": 78,
+      "avgLowWinter": 49,
+      "annualRainfall": 11.2,
+      "sunnyDays": 324,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093184 SANTA ANA JOHN WAYNE AP)"
+    },
+    "riverside-ca": {
+      "stationId": "USW00003171",
+      "stationName": "RIVERSIDE MUNI AP",
+      "distanceMiles": 4.1,
+      "avgHighSummer": 92,
+      "avgLowWinter": 44,
+      "annualRainfall": 9.4,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003171 RIVERSIDE MUNI AP)"
+    },
+    "corpus-christi-tx": {
+      "stationId": "USW00012924",
+      "stationName": "CORPUS CHRISTI",
+      "distanceMiles": 7.1,
+      "avgHighSummer": 93,
+      "avgLowWinter": 50,
+      "annualRainfall": 31.7,
+      "sunnyDays": 286,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012924 CORPUS CHRISTI)"
+    },
+    "lexington-ky": {
+      "stationId": "USW00093820",
+      "stationName": "LEXINGTON BLUEGRASS AP",
+      "distanceMiles": 5.6,
+      "avgHighSummer": 86,
+      "avgLowWinter": 28,
+      "annualRainfall": 49.8,
+      "sunnyDays": 231,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093820 LEXINGTON BLUEGRASS AP)"
+    },
+    "henderson-nv": {
+      "stationId": "USW00023169",
+      "stationName": "LAS VEGAS MCCARRAN AP",
+      "distanceMiles": 10.4,
+      "avgHighSummer": 102,
+      "avgLowWinter": 41,
+      "annualRainfall": 4.2,
+      "sunnyDays": 339,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023169 LAS VEGAS MCCARRAN AP)"
+    },
+    "stockton-ca": {
+      "stationId": "USW00023237",
+      "stationName": "STOCKTON METRO AP",
+      "distanceMiles": 5.9,
+      "avgHighSummer": 93,
+      "avgLowWinter": 40,
+      "annualRainfall": 13.4,
+      "sunnyDays": 309,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023237 STOCKTON METRO AP)"
+    },
+    "saint-paul-mn": {
+      "stationId": "USW00014927",
+      "stationName": "ST PAUL DOWNTOWN AP",
+      "distanceMiles": 2.3,
+      "avgHighSummer": 81,
+      "avgLowWinter": 12,
+      "annualRainfall": 29.2,
+      "sunnyDays": 264,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014927 ST PAUL DOWNTOWN AP)"
+    },
+    "cincinnati-oh": {
+      "stationId": "USW00093812",
+      "stationName": "CINCINNATI LUNKEN AP",
+      "distanceMiles": 5,
+      "avgHighSummer": 85,
+      "avgLowWinter": 26,
+      "annualRainfall": 43.4,
+      "sunnyDays": 233,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093812 CINCINNATI LUNKEN AP)"
+    },
+    "st-louis-mo": {
+      "stationId": "USW00003960",
+      "stationName": "CAHOKIA ST LOUIS AP",
+      "distanceMiles": 4.5,
+      "avgHighSummer": 88,
+      "avgLowWinter": 27,
+      "annualRainfall": 40.8,
+      "sunnyDays": 248,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003960 CAHOKIA ST LOUIS AP)"
+    },
+    "pittsburgh-pa": {
+      "stationId": "USW00014762",
+      "stationName": "PITTSBURGH ALLEGHENY CO AP",
+      "distanceMiles": 7.1,
+      "avgHighSummer": 81,
+      "avgLowWinter": 25,
+      "annualRainfall": 41.3,
+      "sunnyDays": 204,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014762 PITTSBURGH ALLEGHENY CO AP)"
+    },
+    "greensboro-nc": {
+      "stationId": "USW00013723",
+      "stationName": "PIEDMONT TRIAD INTL AP",
+      "distanceMiles": 8.6,
+      "avgHighSummer": 87,
+      "avgLowWinter": 32,
+      "annualRainfall": 44,
+      "sunnyDays": 249,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013723 PIEDMONT TRIAD INTL AP)"
+    },
+    "lincoln-ne": {
+      "stationId": "USW00014939",
+      "stationName": "LINCOLN MUNI AP",
+      "distanceMiles": 3.5,
+      "avgHighSummer": 87,
+      "avgLowWinter": 17,
+      "annualRainfall": 29.3,
+      "sunnyDays": 270,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014939 LINCOLN MUNI AP)"
+    },
+    "plano-tx": {
+      "stationId": "USW00053914",
+      "stationName": "MCKINNEY MUNI AP",
+      "distanceMiles": 12.7,
+      "avgHighSummer": 94,
+      "avgLowWinter": 36,
+      "annualRainfall": 38.3,
+      "sunnyDays": 275,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053914 MCKINNEY MUNI AP)"
+    },
+    "anchorage-ak": {
+      "stationId": "USW00026409",
+      "stationName": "ANCHORAGE MERRILL FLD",
+      "distanceMiles": 1.5,
+      "avgHighSummer": 67,
+      "avgLowWinter": 11,
+      "annualRainfall": 14.2,
+      "sunnyDays": 256,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00026409 ANCHORAGE MERRILL FLD)"
+    },
+    "orlando-fl": {
+      "stationId": "USW00012841",
+      "stationName": "ORLANDO EXECUTIVE AP",
+      "distanceMiles": 2.8,
+      "avgHighSummer": 91,
+      "avgLowWinter": 54,
+      "annualRainfall": 51.5,
+      "sunnyDays": 235,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012841 ORLANDO EXECUTIVE AP)"
+    },
+    "irvine-ca": {
+      "stationId": "USW00093184",
+      "stationName": "SANTA ANA JOHN WAYNE AP",
+      "distanceMiles": 2.3,
+      "avgHighSummer": 78,
+      "avgLowWinter": 49,
+      "annualRainfall": 11.2,
+      "sunnyDays": 324,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093184 SANTA ANA JOHN WAYNE AP)"
+    },
+    "newark-nj": {
+      "stationId": "USW00014734",
+      "stationName": "NEWARK INTL AP",
+      "distanceMiles": 3.7,
+      "avgHighSummer": 84,
+      "avgLowWinter": 28,
+      "annualRainfall": 46.6,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014734 NEWARK INTL AP)"
+    },
+    "durham-nc": {
+      "stationId": "USW00013722",
+      "stationName": "RALEIGH DURHAM INTL AP",
+      "distanceMiles": 9.6,
+      "avgHighSummer": 89,
+      "avgLowWinter": 33,
+      "annualRainfall": 46.1,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013722 RALEIGH DURHAM INTL AP)"
+    },
+    "chula-vista-ca": {
+      "stationId": "USW00093115",
+      "stationName": "IMPERIAL BEACH REAM FLD NAS",
+      "distanceMiles": 5.4,
+      "avgHighSummer": 73,
+      "avgLowWinter": 47,
+      "annualRainfall": 8.6,
+      "sunnyDays": 365,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093115 IMPERIAL BEACH REAM FLD NAS)"
+    },
+    "toledo-oh": {
+      "stationId": "USW00004848",
+      "stationName": "TOLEDO METCALF FLD",
+      "distanceMiles": 7,
+      "avgHighSummer": 83,
+      "avgLowWinter": 23,
+      "annualRainfall": 32.4,
+      "sunnyDays": 238,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00004848 TOLEDO METCALF FLD)"
+    },
+    "fort-wayne-in": {
+      "stationId": "USW00014827",
+      "stationName": "FT WAYNE INTL AP",
+      "distanceMiles": 8.3,
+      "avgHighSummer": 82,
+      "avgLowWinter": 21,
+      "annualRainfall": 39.5,
+      "sunnyDays": 230,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014827 FT WAYNE INTL AP)"
+    },
+    "st-petersburg-fl": {
+      "stationId": "USW00092806",
+      "stationName": "ST PETERSBURG AP",
+      "distanceMiles": 0.9,
+      "avgHighSummer": 89,
+      "avgLowWinter": 57,
+      "annualRainfall": 46.6,
+      "sunnyDays": 256,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00092806 ST PETERSBURG AP)"
+    },
+    "laredo-tx": {
+      "stationId": "USW00012907",
+      "stationName": "LAREDO AFB",
+      "distanceMiles": 0.9,
+      "avgHighSummer": 100,
+      "avgLowWinter": 48,
+      "annualRainfall": 21.3,
+      "sunnyDays": 365,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012907 LAREDO AFB)"
+    },
+    "jersey-city-nj": {
+      "stationId": "USW00094728",
+      "stationName": "NEW YORK CNTRL PK TWR",
+      "distanceMiles": 5.7,
+      "avgHighSummer": 83,
+      "avgLowWinter": 30,
+      "annualRainfall": 49.5,
+      "sunnyDays": 240,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094728 NEW YORK CNTRL PK TWR)"
+    },
+    "chandler-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 12.6,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "madison-wi": {
+      "stationId": "USW00014837",
+      "stationName": "MADISON DANE RGNL AP",
+      "distanceMiles": 5.5,
+      "avgHighSummer": 80,
+      "avgLowWinter": 15,
+      "annualRainfall": 37.1,
+      "sunnyDays": 239,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014837 MADISON DANE RGNL AP)"
+    },
+    "lubbock-tx": {
+      "stationId": "USW00023042",
+      "stationName": "LUBBOCK",
+      "distanceMiles": 5.8,
+      "avgHighSummer": 92,
+      "avgLowWinter": 29,
+      "annualRainfall": 18.3,
+      "sunnyDays": 302,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023042 LUBBOCK)"
+    },
+    "scottsdale-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "reno-nv": {
+      "stationId": "USW00023185",
+      "stationName": "RENO TAHOE INTL AP",
+      "distanceMiles": 3.9,
+      "avgHighSummer": 90,
+      "avgLowWinter": 27,
+      "annualRainfall": 7.4,
+      "sunnyDays": 315,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023185 RENO TAHOE INTL AP)"
+    },
+    "buffalo-ny": {
+      "stationId": "USW00014733",
+      "stationName": "BUFFALO",
+      "distanceMiles": 8.4,
+      "avgHighSummer": 78,
+      "avgLowWinter": 21,
+      "annualRainfall": 40.7,
+      "sunnyDays": 199,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014733 BUFFALO)"
+    },
+    "gilbert-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 13.4,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "glendale-az": {
+      "stationId": "USW00003184",
+      "stationName": "PHOENIX DEER VALLEY MUNI AP",
+      "distanceMiles": 12,
+      "avgHighSummer": 103,
+      "avgLowWinter": 44,
+      "annualRainfall": 8.9,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003184 PHOENIX DEER VALLEY MUNI AP)"
+    },
+    "north-las-vegas-nv": {
+      "stationId": "USW00053123",
+      "stationName": "LAS VEGAS AIR TERMINAL",
+      "distanceMiles": 4.5,
+      "avgHighSummer": 102,
+      "avgLowWinter": 40,
+      "annualRainfall": 4,
+      "sunnyDays": 343,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053123 LAS VEGAS AIR TERMINAL)"
+    },
+    "winston-salem-nc": {
+      "stationId": "USW00093807",
+      "stationName": "WINSTON SALEM RYNLDS AP",
+      "distanceMiles": 2.6,
+      "avgHighSummer": 86,
+      "avgLowWinter": 33,
+      "annualRainfall": 43.2,
+      "sunnyDays": 240,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093807 WINSTON SALEM RYNLDS AP)"
+    },
+    "chesapeake-va": {
+      "stationId": "USW00013762",
+      "stationName": "FENTRESS NAAS",
+      "distanceMiles": 9.8,
+      "avgHighSummer": 90,
+      "avgLowWinter": 35,
+      "annualRainfall": 48.6,
+      "sunnyDays": 365,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013762 FENTRESS NAAS)"
+    },
+    "norfolk-va": {
+      "stationId": "USW00013737",
+      "stationName": "NORFOLK INTL AP",
+      "distanceMiles": 6.3,
+      "avgHighSummer": 87,
+      "avgLowWinter": 35,
+      "annualRainfall": 49.2,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013737 NORFOLK INTL AP)"
+    },
+    "fremont-ca": {
+      "stationId": "USW00093228",
+      "stationName": "HAYWARD AIR TERMINAL",
+      "distanceMiles": 10.1,
+      "avgHighSummer": 75,
+      "avgLowWinter": 44,
+      "annualRainfall": 16,
+      "sunnyDays": 306,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093228 HAYWARD AIR TERMINAL)"
+    },
+    "garland-tx": {
+      "stationId": "USW00013960",
+      "stationName": "DALLAS LOVE FLD",
+      "distanceMiles": 13.3,
+      "avgHighSummer": 96,
+      "avgLowWinter": 40,
+      "annualRainfall": 38.3,
+      "sunnyDays": 283,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013960 DALLAS LOVE FLD)"
+    },
+    "irving-tx": {
+      "stationId": "USW00013960",
+      "stationName": "DALLAS LOVE FLD",
+      "distanceMiles": 6,
+      "avgHighSummer": 96,
+      "avgLowWinter": 40,
+      "annualRainfall": 38.3,
+      "sunnyDays": 283,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013960 DALLAS LOVE FLD)"
+    },
+    "hialeah-fl": {
+      "stationId": "USW00012882",
+      "stationName": "MIAMI OPA LOCKA AP",
+      "distanceMiles": 3.4,
+      "avgHighSummer": 91,
+      "avgLowWinter": 61,
+      "annualRainfall": 62.7,
+      "sunnyDays": 221,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012882 MIAMI OPA LOCKA AP)"
+    },
+    "richmond-va": {
+      "stationId": "USW00013740",
+      "stationName": "RICHMOND INTL AP",
+      "distanceMiles": 6.8,
+      "avgHighSummer": 88,
+      "avgLowWinter": 30,
+      "annualRainfall": 45.5,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013740 RICHMOND INTL AP)"
+    },
+    "boise-id": {
+      "stationId": "USW00024131",
+      "stationName": "BOISE AIR TERMINAL",
+      "distanceMiles": 3.8,
+      "avgHighSummer": 88,
+      "avgLowWinter": 27,
+      "annualRainfall": 11.5,
+      "sunnyDays": 276,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024131 BOISE AIR TERMINAL)"
+    },
+    "spokane-wa": {
+      "stationId": "USW00094176",
+      "stationName": "SPOKANE FELTS FLD",
+      "distanceMiles": 5.1,
+      "avgHighSummer": 83,
+      "avgLowWinter": 26,
+      "annualRainfall": 17.4,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094176 SPOKANE FELTS FLD)"
+    },
+    "baton-rouge-la": {
+      "stationId": "USW00013970",
+      "stationName": "BATON ROUGE RYAN AP",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 92,
+      "avgLowWinter": 43,
+      "annualRainfall": 61.9,
+      "sunnyDays": 251,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013970 BATON ROUGE RYAN AP)"
+    },
+    "tacoma-wa": {
+      "stationId": "USW00094274",
+      "stationName": "TACOMA NARROWS AP",
+      "distanceMiles": 6.3,
+      "avgHighSummer": 74,
+      "avgLowWinter": 36,
+      "annualRainfall": 42,
+      "sunnyDays": 197,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094274 TACOMA NARROWS AP)"
+    },
+    "san-bernardino-ca": {
+      "stationId": "USW00003171",
+      "stationName": "RIVERSIDE MUNI AP",
+      "distanceMiles": 13.8,
+      "avgHighSummer": 92,
+      "avgLowWinter": 44,
+      "annualRainfall": 9.4,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003171 RIVERSIDE MUNI AP)"
+    },
+    "modesto-ca": {
+      "stationId": "USW00023258",
+      "stationName": "MODESTO CITY CO AP",
+      "distanceMiles": 2.7,
+      "avgHighSummer": 93,
+      "avgLowWinter": 40,
+      "annualRainfall": 12.3,
+      "sunnyDays": 312,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023258 MODESTO CITY CO AP)"
+    },
+    "fontana-ca": {
+      "stationId": "USW00003171",
+      "stationName": "RIVERSIDE MUNI AP",
+      "distanceMiles": 9.7,
+      "avgHighSummer": 92,
+      "avgLowWinter": 44,
+      "annualRainfall": 9.4,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003171 RIVERSIDE MUNI AP)"
+    },
+    "des-moines-ia": {
+      "stationId": "USW00014933",
+      "stationName": "DES MOINES INTL AP",
+      "distanceMiles": 3.9,
+      "avgHighSummer": 84,
+      "avgLowWinter": 17,
+      "annualRainfall": 36.5,
+      "sunnyDays": 252,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014933 DES MOINES INTL AP)"
+    },
+    "moreno-valley-ca": {
+      "stationId": "USW00003171",
+      "stationName": "RIVERSIDE MUNI AP",
+      "distanceMiles": 12,
+      "avgHighSummer": 92,
+      "avgLowWinter": 44,
+      "annualRainfall": 9.4,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003171 RIVERSIDE MUNI AP)"
+    },
+    "santa-clarita-ca": {
+      "stationId": "USW00023130",
+      "stationName": "VAN NUYS AP",
+      "distanceMiles": 12.9,
+      "avgHighSummer": 90,
+      "avgLowWinter": 46,
+      "annualRainfall": 13.4,
+      "sunnyDays": 331,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023130 VAN NUYS AP)"
+    },
+    "fayetteville-nc": {
+      "stationId": "USW00093740",
+      "stationName": "FAYETTEVILLE RGNL AP",
+      "distanceMiles": 4.2,
+      "avgHighSummer": 90,
+      "avgLowWinter": 36,
+      "annualRainfall": 44.6,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093740 FAYETTEVILLE RGNL AP)"
+    },
+    "birmingham-al": {
+      "stationId": "USW00013876",
+      "stationName": "BIRMINGHAM AP",
+      "distanceMiles": 5,
+      "avgHighSummer": 90,
+      "avgLowWinter": 37,
+      "annualRainfall": 56.6,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013876 BIRMINGHAM AP)"
+    },
+    "oxnard-ca": {
+      "stationId": "USW00093110",
+      "stationName": "OXNARD VENTURA CO AP",
+      "distanceMiles": 1.7,
+      "avgHighSummer": 72,
+      "avgLowWinter": 47,
+      "annualRainfall": 12.9,
+      "sunnyDays": 321,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093110 OXNARD VENTURA CO AP)"
+    },
+    "rochester-ny": {
+      "stationId": "USW00014768",
+      "stationName": "ROCHESTER GTR INTL AP",
+      "distanceMiles": 4.4,
+      "avgHighSummer": 80,
+      "avgLowWinter": 21,
+      "annualRainfall": 35.1,
+      "sunnyDays": 197,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014768 ROCHESTER GTR INTL AP)"
+    },
+    "port-st-lucie-fl": {
+      "stationId": "USW00012895",
+      "stationName": "FT PIERCE ST LUCIE CO INTL AP",
+      "distanceMiles": 15.6,
+      "avgHighSummer": 90,
+      "avgLowWinter": 54,
+      "annualRainfall": 51.2,
+      "sunnyDays": 232,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012895 FT PIERCE ST LUCIE CO INTL AP)"
+    },
+    "grand-rapids-mi": {
+      "stationId": "USW00094860",
+      "stationName": "GRAND RAPIDS",
+      "distanceMiles": 7.9,
+      "avgHighSummer": 81,
+      "avgLowWinter": 21,
+      "annualRainfall": 39.4,
+      "sunnyDays": 216,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094860 GRAND RAPIDS)"
+    },
+    "huntsville-al": {
+      "stationId": "USW00003856",
+      "stationName": "HUNTSVILLE INTL AP",
+      "distanceMiles": 12.8,
+      "avgHighSummer": 91,
+      "avgLowWinter": 35,
+      "annualRainfall": 54.3,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003856 HUNTSVILLE INTL AP)"
+    },
+    "salt-lake-city-ut": {
+      "stationId": "USW00024127",
+      "stationName": "SALT LAKE CITY INTL AP",
+      "distanceMiles": 4.3,
+      "avgHighSummer": 90,
+      "avgLowWinter": 26,
+      "annualRainfall": 15.5,
+      "sunnyDays": 274,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024127 SALT LAKE CITY INTL AP)"
+    },
+    "tallahassee-fl": {
+      "stationId": "USW00093805",
+      "stationName": "TALLAHASSEE",
+      "distanceMiles": 4,
+      "avgHighSummer": 91,
+      "avgLowWinter": 42,
+      "annualRainfall": 58.8,
+      "sunnyDays": 251,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093805 TALLAHASSEE)"
+    },
+    "worcester-ma": {
+      "stationId": "USW00094746",
+      "stationName": "WORCESTER RGNL AP",
+      "distanceMiles": 3.7,
+      "avgHighSummer": 77,
+      "avgLowWinter": 20,
+      "annualRainfall": 48.3,
+      "sunnyDays": 227,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094746 WORCESTER RGNL AP)"
+    },
+    "newport-news-va": {
+      "stationId": "USW00093741",
+      "stationName": "NEWPORT NEWS INTL AP",
+      "distanceMiles": 3.3,
+      "avgHighSummer": 87,
+      "avgLowWinter": 32,
+      "annualRainfall": 45.1,
+      "sunnyDays": 236,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093741 NEWPORT NEWS INTL AP)"
+    },
+    "overland-park-ks": {
+      "stationId": "USW00003967",
+      "stationName": "OLATHE JOHNSON CO EXEC AP",
+      "distanceMiles": 9.8,
+      "avgHighSummer": 86,
+      "avgLowWinter": 24,
+      "annualRainfall": 37.7,
+      "sunnyDays": 265,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003967 OLATHE JOHNSON CO EXEC AP)"
+    },
+    "santa-rosa-ca": {
+      "stationId": "USW00023213",
+      "stationName": "SANTA ROSA SONOMA CO AP",
+      "distanceMiles": 6.8,
+      "avgHighSummer": 83,
+      "avgLowWinter": 38,
+      "annualRainfall": 33.8,
+      "sunnyDays": 290,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023213 SANTA ROSA SONOMA CO AP)"
+    },
+    "providence-ri": {
+      "stationId": "USW00014765",
+      "stationName": "PROVIDENCE T F GREEN AP",
+      "distanceMiles": 7.1,
+      "avgHighSummer": 81,
+      "avgLowWinter": 24,
+      "annualRainfall": 47.5,
+      "sunnyDays": 238,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014765 PROVIDENCE T F GREEN AP)"
+    },
+    "garden-grove-ca": {
+      "stationId": "USW00003166",
+      "stationName": "FULLERTON MUNI AP",
+      "distanceMiles": 7.1,
+      "avgHighSummer": 83,
+      "avgLowWinter": 47,
+      "annualRainfall": 11.9,
+      "sunnyDays": 327,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003166 FULLERTON MUNI AP)"
+    },
+    "chattanooga-tn": {
+      "stationId": "USW00013882",
+      "stationName": "CHATTANOOGA LOVELL AP",
+      "distanceMiles": 6.2,
+      "avgHighSummer": 89,
+      "avgLowWinter": 34,
+      "annualRainfall": 55,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013882 CHATTANOOGA LOVELL AP)"
+    },
+    "oceanside-ca": {
+      "stationId": "USW00053121",
+      "stationName": "OCEANSIDE MUNI AP",
+      "distanceMiles": 2.4,
+      "avgHighSummer": 76,
+      "avgLowWinter": 41,
+      "annualRainfall": 11.9,
+      "sunnyDays": 311,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053121 OCEANSIDE MUNI AP)"
+    },
+    "jackson-ms": {
+      "stationId": "USW00013927",
+      "stationName": "JACKSON HAWKINS FLD",
+      "distanceMiles": 3.4,
+      "avgHighSummer": 92,
+      "avgLowWinter": 39,
+      "annualRainfall": 51.3,
+      "sunnyDays": 257,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013927 JACKSON HAWKINS FLD)"
+    },
+    "fort-lauderdale-fl": {
+      "stationId": "USW00012849",
+      "stationName": "FT LAUDERDALE HOLLYWOOD AP",
+      "distanceMiles": 3.6,
+      "avgHighSummer": 89,
+      "avgLowWinter": 63,
+      "annualRainfall": 60.9,
+      "sunnyDays": 234,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012849 FT LAUDERDALE HOLLYWOOD AP)"
+    },
+    "santa-clara-ca": {
+      "stationId": "USW00023293",
+      "stationName": "SAN JOSE",
+      "distanceMiles": 1.8,
+      "avgHighSummer": 80,
+      "avgLowWinter": 42,
+      "annualRainfall": 13.5,
+      "sunnyDays": 306,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023293 SAN JOSE)"
+    },
+    "bloomington-mn": {
+      "stationId": "USW00014922",
+      "stationName": "MINNEAPOLIS/ST PAUL AP",
+      "distanceMiles": 4.5,
+      "avgHighSummer": 81,
+      "avgLowWinter": 12,
+      "annualRainfall": 31.6,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014922 MINNEAPOLIS/ST PAUL AP)"
+    },
+    "sioux-falls-sd": {
+      "stationId": "USW00014944",
+      "stationName": "SIOUX FALLS",
+      "distanceMiles": 3,
+      "avgHighSummer": 83,
+      "avgLowWinter": 12,
+      "annualRainfall": 27.8,
+      "sunnyDays": 261,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014944 SIOUX FALLS)"
+    },
+    "little-rock-ar": {
+      "stationId": "USW00013963",
+      "stationName": "LITTLE ROCK AP ADAMS FLD",
+      "distanceMiles": 3.2,
+      "avgHighSummer": 90,
+      "avgLowWinter": 33,
+      "annualRainfall": 50.4,
+      "sunnyDays": 259,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013963 LITTLE ROCK AP ADAMS FLD)"
+    },
+    "augusta-ga": {
+      "stationId": "USW00013837",
+      "stationName": "AUGUSTA DANIEL FLD AP",
+      "distanceMiles": 1.7,
+      "avgHighSummer": 92,
+      "avgLowWinter": 42,
+      "annualRainfall": 44.8,
+      "sunnyDays": 256,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013837 AUGUSTA DANIEL FLD AP)"
+    },
+    "mobile-al": {
+      "stationId": "USW00013838",
+      "stationName": "MOBILE DWTN AP",
+      "distanceMiles": 5.1,
+      "avgHighSummer": 91,
+      "avgLowWinter": 45,
+      "annualRainfall": 60.5,
+      "sunnyDays": 232,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013838 MOBILE DWTN AP)"
+    },
+    "knoxville-tn": {
+      "stationId": "USW00013891",
+      "stationName": "KNOXVILLE MCGHEE TYSON AP",
+      "distanceMiles": 10.5,
+      "avgHighSummer": 87,
+      "avgLowWinter": 32,
+      "annualRainfall": 51.9,
+      "sunnyDays": 236,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013891 KNOXVILLE MCGHEE TYSON AP)"
+    },
+    "cape-coral-fl": {
+      "stationId": "USW00012835",
+      "stationName": "FT MYERS PAGE FLD AP",
+      "distanceMiles": 5.7,
+      "avgHighSummer": 91,
+      "avgLowWinter": 56,
+      "annualRainfall": 57.4,
+      "sunnyDays": 249,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012835 FT MYERS PAGE FLD AP)"
+    },
+    "shreveport-la": {
+      "stationId": "USW00053905",
+      "stationName": "SHREVEPORT DWTN AP",
+      "distanceMiles": 1.3,
+      "avgHighSummer": 94,
+      "avgLowWinter": 41,
+      "annualRainfall": 48.9,
+      "sunnyDays": 264,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053905 SHREVEPORT DWTN AP)"
+    },
+    "frisco-tx": {
+      "stationId": "USW00053914",
+      "stationName": "MCKINNEY MUNI AP",
+      "distanceMiles": 13.6,
+      "avgHighSummer": 94,
+      "avgLowWinter": 36,
+      "annualRainfall": 38.3,
+      "sunnyDays": 275,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053914 MCKINNEY MUNI AP)"
+    },
+    "mckinney-tx": {
+      "stationId": "USW00053914",
+      "stationName": "MCKINNEY MUNI AP",
+      "distanceMiles": 3.1,
+      "avgHighSummer": 94,
+      "avgLowWinter": 36,
+      "annualRainfall": 38.3,
+      "sunnyDays": 275,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053914 MCKINNEY MUNI AP)"
+    },
+    "yonkers-ny": {
+      "stationId": "USW00094741",
+      "stationName": "TETERBORO AP",
+      "distanceMiles": 10.2,
+      "avgHighSummer": 85,
+      "avgLowWinter": 28,
+      "annualRainfall": 46.3,
+      "sunnyDays": 239,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094741 TETERBORO AP)"
+    },
+    "aurora-il": {
+      "stationId": "USW00004808",
+      "stationName": "CHICAGO AURORA MUNI AP",
+      "distanceMiles": 8.3,
+      "avgHighSummer": 83,
+      "avgLowWinter": 18,
+      "annualRainfall": 33.8,
+      "sunnyDays": 239,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00004808 CHICAGO AURORA MUNI AP)"
+    },
+    "montgomery-al": {
+      "stationId": "USW00013895",
+      "stationName": "MONTGOMERY AP",
+      "distanceMiles": 7.8,
+      "avgHighSummer": 93,
+      "avgLowWinter": 39,
+      "annualRainfall": 51.2,
+      "sunnyDays": 258,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013895 MONTGOMERY AP)"
+    },
+    "akron-oh": {
+      "stationId": "USW00014813",
+      "stationName": "AKRON FULTON INTL AP",
+      "distanceMiles": 4.2,
+      "avgHighSummer": 83,
+      "avgLowWinter": 23,
+      "annualRainfall": 32.5,
+      "sunnyDays": 232,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014813 AKRON FULTON INTL AP)"
+    },
+    "huntington-beach-ca": {
+      "stationId": "USW00093184",
+      "stationName": "SANTA ANA JOHN WAYNE AP",
+      "distanceMiles": 7.7,
+      "avgHighSummer": 78,
+      "avgLowWinter": 49,
+      "annualRainfall": 11.2,
+      "sunnyDays": 324,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093184 SANTA ANA JOHN WAYNE AP)"
+    },
+    "glendale-ca": {
+      "stationId": "USW00093134",
+      "stationName": "LOS ANGELES DWTN USC CAMPUS",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 81,
+      "avgLowWinter": 49,
+      "annualRainfall": 14.3,
+      "sunnyDays": 331,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093134 LOS ANGELES DWTN USC CAMPUS)"
+    },
+    "grand-prairie-tx": {
+      "stationId": "USW00053907",
+      "stationName": "ARLINGTON MUNI AP",
+      "distanceMiles": 8,
+      "avgHighSummer": 95,
+      "avgLowWinter": 39,
+      "annualRainfall": 36.2,
+      "sunnyDays": 285,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053907 ARLINGTON MUNI AP)"
+    },
+    "vancouver-wa": {
+      "stationId": "USW00094298",
+      "stationName": "VANCOUVER PEARSON AP",
+      "distanceMiles": 1.3,
+      "avgHighSummer": 79,
+      "avgLowWinter": 35,
+      "annualRainfall": 37.5,
+      "sunnyDays": 202,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094298 VANCOUVER PEARSON AP)"
+    },
+    "peoria-az": {
+      "stationId": "USW00003184",
+      "stationName": "PHOENIX DEER VALLEY MUNI AP",
+      "distanceMiles": 11.6,
+      "avgHighSummer": 103,
+      "avgLowWinter": 44,
+      "annualRainfall": 8.9,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003184 PHOENIX DEER VALLEY MUNI AP)"
+    },
+    "rancho-cucamonga-ca": {
+      "stationId": "USW00003102",
+      "stationName": "ONTARIO INTL AP",
+      "distanceMiles": 3.5,
+      "avgHighSummer": 92,
+      "avgLowWinter": 45,
+      "annualRainfall": 11.6,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003102 ONTARIO INTL AP)"
+    },
+    "ontario-ca": {
+      "stationId": "USW00003102",
+      "stationName": "ONTARIO INTL AP",
+      "distanceMiles": 2.9,
+      "avgHighSummer": 92,
+      "avgLowWinter": 45,
+      "annualRainfall": 11.6,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003102 ONTARIO INTL AP)"
+    },
+    "tempe-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 3.7,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "springfield-mo": {
+      "stationId": "USW00093981",
+      "stationName": "SPRINGFIELD WBO",
+      "distanceMiles": 0.8,
+      "avgHighSummer": 87,
+      "avgLowWinter": 25,
+      "annualRainfall": 46.5,
+      "sunnyDays": 365,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093981 SPRINGFIELD WBO)"
+    },
+    "lancaster-ca": {
+      "stationId": "USW00003159",
+      "stationName": "LANCASTER WM J FOX FLD",
+      "distanceMiles": 5,
+      "avgHighSummer": 96,
+      "avgLowWinter": 32,
+      "annualRainfall": 6.8,
+      "sunnyDays": 337,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003159 LANCASTER WM J FOX FLD)"
+    },
+    "eugene-or": {
+      "stationId": "USW00024221",
+      "stationName": "EUGENE MAHLON SWEET AP",
+      "distanceMiles": 8.5,
+      "avgHighSummer": 81,
+      "avgLowWinter": 35,
+      "annualRainfall": 40.8,
+      "sunnyDays": 219,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024221 EUGENE MAHLON SWEET AP)"
+    },
+    "pembroke-pines-fl": {
+      "stationId": "USW00092809",
+      "stationName": "HOLLYWOOD NORTH PERRY AP",
+      "distanceMiles": 3.5,
+      "avgHighSummer": 91,
+      "avgLowWinter": 61,
+      "annualRainfall": 62,
+      "sunnyDays": 217,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00092809 HOLLYWOOD NORTH PERRY AP)"
+    },
+    "salem-or": {
+      "stationId": "USW00024232",
+      "stationName": "SALEM MCNARY FLD",
+      "distanceMiles": 3.1,
+      "avgHighSummer": 81,
+      "avgLowWinter": 36,
+      "annualRainfall": 40.1,
+      "sunnyDays": 217,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024232 SALEM MCNARY FLD)"
+    },
+    "pasadena-ca": {
+      "stationId": "USW00093134",
+      "stationName": "LOS ANGELES DWTN USC CAMPUS",
+      "distanceMiles": 8.5,
+      "avgHighSummer": 81,
+      "avgLowWinter": 49,
+      "annualRainfall": 14.3,
+      "sunnyDays": 331,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093134 LOS ANGELES DWTN USC CAMPUS)"
+    },
+    "peoria-il": {
+      "stationId": "USW00014842",
+      "stationName": "PEORIA GTR PEORIA AP",
+      "distanceMiles": 5.3,
+      "avgHighSummer": 85,
+      "avgLowWinter": 21,
+      "annualRainfall": 37.6,
+      "sunnyDays": 248,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014842 PEORIA GTR PEORIA AP)"
+    },
+    "corona-ca": {
+      "stationId": "USW00003179",
+      "stationName": "CHINO AP",
+      "distanceMiles": 8,
+      "avgHighSummer": 93,
+      "avgLowWinter": 42,
+      "annualRainfall": 10,
+      "sunnyDays": 331,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003179 CHINO AP)"
+    },
+    "elizabeth-nj": {
+      "stationId": "USW00014734",
+      "stationName": "NEWARK INTL AP",
+      "distanceMiles": 2.5,
+      "avgHighSummer": 84,
+      "avgLowWinter": 28,
+      "annualRainfall": 46.6,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014734 NEWARK INTL AP)"
+    },
+    "hayward-ca": {
+      "stationId": "USW00093228",
+      "stationName": "HAYWARD AIR TERMINAL",
+      "distanceMiles": 2.1,
+      "avgHighSummer": 75,
+      "avgLowWinter": 44,
+      "annualRainfall": 16,
+      "sunnyDays": 306,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093228 HAYWARD AIR TERMINAL)"
+    },
+    "fort-collins-co": {
+      "stationId": "USW00094074",
+      "stationName": "NUNN 7 NNE",
+      "distanceMiles": 23,
+      "avgHighSummer": 84,
+      "avgLowWinter": 14,
+      "annualRainfall": 13.4,
+      "sunnyDays": 276,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094074 NUNN 7 NNE)"
+    },
+    "evansville-in": {
+      "stationId": "USW00093817",
+      "stationName": "EVANSVILLE REGIONAL AP",
+      "distanceMiles": 5.7,
+      "avgHighSummer": 87,
+      "avgLowWinter": 28,
+      "annualRainfall": 47.9,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093817 EVANSVILLE REGIONAL AP)"
+    },
+    "round-rock-tx": {
+      "stationId": "USW00013958",
+      "stationName": "AUSTIN-CAMP MABRY",
+      "distanceMiles": 13.8,
+      "avgHighSummer": 96,
+      "avgLowWinter": 44,
+      "annualRainfall": 36.3,
+      "sunnyDays": 279,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013958 AUSTIN-CAMP MABRY)"
+    },
+    "charleston-sc": {
+      "stationId": "USW00013782",
+      "stationName": "CHARLESTON CITY",
+      "distanceMiles": 0.2,
+      "avgHighSummer": 86,
+      "avgLowWinter": 46,
+      "annualRainfall": 44.3,
+      "sunnyDays": 263,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013782 CHARLESTON CITY)"
+    },
+    "savannah-ga": {
+      "stationId": "USW00003822",
+      "stationName": "SAVANNAH INTL AP",
+      "distanceMiles": 7.7,
+      "avgHighSummer": 91,
+      "avgLowWinter": 42,
+      "annualRainfall": 48.1,
+      "sunnyDays": 257,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003822 SAVANNAH INTL AP)"
+    },
+    "naperville-il": {
+      "stationId": "USW00094892",
+      "stationName": "WEST CHICAGO DUPAGE AP",
+      "distanceMiles": 12.3,
+      "avgHighSummer": 82,
+      "avgLowWinter": 19,
+      "annualRainfall": 33.2,
+      "sunnyDays": 244,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094892 WEST CHICAGO DUPAGE AP)"
+    },
+    "bellevue-wa": {
+      "stationId": "USW00094290",
+      "stationName": "SEATTLE SAND PT WSFO",
+      "distanceMiles": 5.9,
+      "avgHighSummer": 75,
+      "avgLowWinter": 37,
+      "annualRainfall": 37.8,
+      "sunnyDays": 202,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094290 SEATTLE SAND PT WSFO)"
+    },
+    "cary-nc": {
+      "stationId": "USW00013722",
+      "stationName": "RALEIGH DURHAM INTL AP",
+      "distanceMiles": 7,
+      "avgHighSummer": 89,
+      "avgLowWinter": 33,
+      "annualRainfall": 46.1,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013722 RALEIGH DURHAM INTL AP)"
+    },
+    "alexandria-va": {
+      "stationId": "USW00013743",
+      "stationName": "WASHINGTON REAGAN AP",
+      "distanceMiles": 3.1,
+      "avgHighSummer": 88,
+      "avgLowWinter": 32,
+      "annualRainfall": 41.8,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013743 WASHINGTON REAGAN AP)"
+    },
+    "sunnyvale-ca": {
+      "stationId": "USW00023244",
+      "stationName": "MOFFETT FEDERAL AIRFIELD",
+      "distanceMiles": 2.6,
+      "avgHighSummer": 77,
+      "avgLowWinter": 43,
+      "annualRainfall": 13.4,
+      "sunnyDays": 299,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023244 MOFFETT FEDERAL AIRFIELD)"
+    },
+    "lakewood-co": {
+      "stationId": "USW00023062",
+      "stationName": "DENVER-STAPLETON",
+      "distanceMiles": 12,
+      "avgHighSummer": 87,
+      "avgLowWinter": 18,
+      "annualRainfall": 15.4,
+      "sunnyDays": 281,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023062 DENVER-STAPLETON)"
+    },
+    "hollywood-fl": {
+      "stationId": "USW00012849",
+      "stationName": "FT LAUDERDALE HOLLYWOOD AP",
+      "distanceMiles": 4.2,
+      "avgHighSummer": 89,
+      "avgLowWinter": 63,
+      "annualRainfall": 60.9,
+      "sunnyDays": 234,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012849 FT LAUDERDALE HOLLYWOOD AP)"
+    },
+    "paterson-nj": {
+      "stationId": "USW00054743",
+      "stationName": "CALDWELL ESSEX CO AP",
+      "distanceMiles": 6.4,
+      "avgHighSummer": 83,
+      "avgLowWinter": 25,
+      "annualRainfall": 44.9,
+      "sunnyDays": 232,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00054743 CALDWELL ESSEX CO AP)"
+    },
+    "clarksville-tn": {
+      "stationId": "USW00003894",
+      "stationName": "CLARKSVILLE OUTLAW AP",
+      "distanceMiles": 7.3,
+      "avgHighSummer": 88,
+      "avgLowWinter": 30,
+      "annualRainfall": 47.2,
+      "sunnyDays": 237,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003894 CLARKSVILLE OUTLAW AP)"
+    },
+    "torrance-ca": {
+      "stationId": "USW00003122",
+      "stationName": "TORRANCE AP",
+      "distanceMiles": 2.4,
+      "avgHighSummer": 76,
+      "avgLowWinter": 47,
+      "annualRainfall": 13.6,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003122 TORRANCE AP)"
+    },
+    "rockford-il": {
+      "stationId": "USW00094822",
+      "stationName": "ROCKFORD GTR ROCKFORD AP",
+      "distanceMiles": 5.4,
+      "avgHighSummer": 82,
+      "avgLowWinter": 18,
+      "annualRainfall": 37.2,
+      "sunnyDays": 244,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094822 ROCKFORD GTR ROCKFORD AP)"
+    },
+    "macon-ga": {
+      "stationId": "USW00003813",
+      "stationName": "MACON MIDDLE GA RGNL AP",
+      "distanceMiles": 10.8,
+      "avgHighSummer": 92,
+      "avgLowWinter": 38,
+      "annualRainfall": 46.9,
+      "sunnyDays": 257,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003813 MACON MIDDLE GA RGNL AP)"
+    },
+    "kansas-city-ks": {
+      "stationId": "USW00013988",
+      "stationName": "KANSAS CITY DOWNTOWN AP",
+      "distanceMiles": 1.7,
+      "avgHighSummer": 88,
+      "avgLowWinter": 25,
+      "annualRainfall": 38.1,
+      "sunnyDays": 279,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013988 KANSAS CITY DOWNTOWN AP)"
+    },
+    "bridgeport-ct": {
+      "stationId": "USW00094702",
+      "stationName": "BRIDGEPORT SIKORSKY MEM AP",
+      "distanceMiles": 4,
+      "avgHighSummer": 81,
+      "avgLowWinter": 27,
+      "annualRainfall": 44.1,
+      "sunnyDays": 240,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094702 BRIDGEPORT SIKORSKY MEM AP)"
+    },
+    "amarillo-tx": {
+      "stationId": "USW00023047",
+      "stationName": "AMARILLO",
+      "distanceMiles": 7,
+      "avgHighSummer": 91,
+      "avgLowWinter": 26,
+      "annualRainfall": 19.7,
+      "sunnyDays": 296,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023047 AMARILLO)"
+    }
+  }
+}

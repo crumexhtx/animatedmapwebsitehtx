@@ -1,18 +1,29 @@
 /**
- * Merges raw seed / enrichment outputs into the published catalog used by the site.
- * Today: copies curated seed cities and builds state rollups + index.
- * Later: merge enrich-census / enrich-bls / enrich-crime / enrich-climate patches.
+ * Merge seed cities with enrichment patches into the published catalog.
  */
 
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { CatalogIndex, CityRecord, StateRecord } from '../lib/types'
+import type { BlsEnrichment } from './enrich-bls'
+import type { CensusEnrichment } from './enrich-census'
+import type { ClimateEnrichment } from './enrich-climate'
+import type { CrimeEnrichment } from './enrich-crime'
+import { buildUniqueDescription } from './lib/descriptions'
+import { ENRICH_DIR, SEED_PATH } from './lib/io'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
-const RAW = join(ROOT, 'data', 'raw', 'cities-seed.json')
 const OUT_DIR = join(ROOT, 'data', 'catalog')
+
+function readJson<T>(path: string): T | null {
+  try {
+    return JSON.parse(readFileSync(path, 'utf8')) as T
+  } catch {
+    return null
+  }
+}
 
 function buildStates(cities: CityRecord[]): StateRecord[] {
   const byState = new Map<string, CityRecord[]>()
@@ -56,10 +67,63 @@ function buildStates(cities: CityRecord[]): StateRecord[] {
     .sort((a, b) => a.name.localeCompare(b.name))
 }
 
-function main() {
-  const cities = JSON.parse(readFileSync(RAW, 'utf8')) as CityRecord[]
-  mkdirSync(OUT_DIR, { recursive: true })
+function mergeCity(
+  seed: CityRecord,
+  census: CensusEnrichment | null,
+  bls: BlsEnrichment | null,
+  crime: CrimeEnrichment | null,
+  climate: ClimateEnrichment | null,
+): CityRecord {
+  const censusRow = census?.cities[seed.slug]
+  const blsRow = bls?.cities[seed.slug]
+  const crimeRow = crime?.cities[seed.slug]
+  const climateRow = climate?.cities[seed.slug]
 
+  const merged: CityRecord = {
+    ...seed,
+    population: censusRow?.population ?? seed.population,
+    medianHouseholdIncome: censusRow?.medianHouseholdIncome ?? seed.medianHouseholdIncome,
+    medianHomePrice: censusRow?.medianHomePrice ?? seed.medianHomePrice,
+    medianRent: censusRow?.medianRent ?? seed.medianRent,
+    costOfLivingIndex: censusRow?.costOfLivingIndex ?? seed.costOfLivingIndex,
+    unemploymentRate: blsRow?.unemploymentRate ?? seed.unemploymentRate,
+    crimeIndex: crimeRow
+      ? {
+          violent: crimeRow.violent,
+          property: crimeRow.property,
+          source: crimeRow.source,
+        }
+      : seed.crimeIndex,
+    climate: climateRow
+      ? {
+          avgHighSummer: climateRow.avgHighSummer,
+          avgLowWinter: climateRow.avgLowWinter,
+          annualRainfall: climateRow.annualRainfall,
+          sunnyDays: climateRow.sunnyDays,
+        }
+      : seed.climate,
+    sources: {
+      census: censusRow?.source ?? seed.sources.census,
+      bls: blsRow?.source ?? seed.sources.bls,
+      fbi: crimeRow?.source ?? seed.sources.fbi,
+      noaa: climateRow?.source ?? seed.sources.noaa,
+    },
+    lastUpdated: new Date().toISOString().slice(0, 10),
+  }
+
+  merged.description = buildUniqueDescription(merged)
+  return merged
+}
+
+function main() {
+  const seed = JSON.parse(readFileSync(SEED_PATH, 'utf8')) as CityRecord[]
+  const census = readJson<CensusEnrichment>(join(ENRICH_DIR, 'census.json'))
+  const bls = readJson<BlsEnrichment>(join(ENRICH_DIR, 'bls.json'))
+  const crime = readJson<CrimeEnrichment>(join(ENRICH_DIR, 'crime.json'))
+  const climate = readJson<ClimateEnrichment>(join(ENRICH_DIR, 'climate.json'))
+
+  const cities = seed.map((city) => mergeCity(city, census, bls, crime, climate))
+  mkdirSync(OUT_DIR, { recursive: true })
   writeFileSync(join(OUT_DIR, 'cities.json'), JSON.stringify(cities, null, 2))
 
   const states = buildStates(cities)
@@ -73,7 +137,13 @@ function main() {
   }
   writeFileSync(join(OUT_DIR, 'index.json'), JSON.stringify(index, null, 2))
 
-  console.log(`Catalog built: ${cities.length} cities, ${states.length} states → ${OUT_DIR}`)
+  console.log(
+    `Catalog built: ${cities.length} cities, ${states.length} states` +
+      ` (census=${census ? Object.keys(census.cities).length : 0}` +
+      `, bls=${bls ? Object.keys(bls.cities).length : 0}` +
+      `, crime=${crime ? Object.keys(crime.cities).length : 0}` +
+      `, climate=${climate ? Object.keys(climate.cities).length : 0}) → ${OUT_DIR}`,
+  )
 }
 
 main()

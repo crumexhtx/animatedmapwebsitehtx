@@ -15,7 +15,8 @@ export function SiteFooter() {
         <Link href="/contact">Contact</Link>
       </div>
       <p className="footer-note">
-        Figures are curated public-source estimates for research — not live agency feeds. See methodology for citations.
+        Figures compile Census ACS, BLS LAUS, FBI CDE, and NOAA normals for research — see methodology for citations and
+        coverage gaps.
       </p>
     </footer>
   )
