@@ -13,7 +13,8 @@
     "enrich:census": "tsx scripts/enrich-census.ts",
     "enrich:bls": "tsx scripts/enrich-bls.ts",
     "enrich:crime": "tsx scripts/enrich-crime.ts",
-    "enrich:climate": "tsx scripts/enrich-climate.ts"
+    "enrich:climate": "tsx scripts/enrich-climate.ts",
+    "detect-duplicate-content": "tsx scripts/detect-duplicate-content.ts"
   },
   "dependencies": {
     "maplibre-gl": "^6.0.0",

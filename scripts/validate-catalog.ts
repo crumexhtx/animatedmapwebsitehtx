@@ -72,11 +72,22 @@ function main() {
       ['commute.avgMinutes', city.commute?.avgMinutes],
     ]
 
+    const crimeUnavailable = city.crimeIndex?.source === 'data unavailable'
+
     for (const [label, value] of numbers) {
       if (typeof value !== 'number' || !Number.isFinite(value) || value <= 0) {
         // winter lows and unemployment can be low but should still be finite; unemployment can be 0 theoretically
         if (label === 'climate.avgLowWinter' && typeof value === 'number' && Number.isFinite(value)) continue
         if (label === 'unemploymentRate' && typeof value === 'number' && value >= 0) continue
+        // FBI coverage gaps: allow zero rates only when explicitly flagged unavailable
+        if (
+          crimeUnavailable &&
+          (label === 'crimeIndex.violent' || label === 'crimeIndex.property') &&
+          typeof value === 'number' &&
+          value === 0
+        ) {
+          continue
+        }
         errors.push(`${city.slug}: invalid ${label}`)
       }
     }

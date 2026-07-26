@@ -14,13 +14,13 @@ export default function AboutPage() {
         MapsToIt helps people research a U.S. city before moving, relocating for a job, or comparing places to live.
       </p>
       <p>
-        The interactive map is the browsing layer. Each city page is a full, indexable profile — cost of living,
-        income, housing costs, commute, climate, and safety context — with sources cited on every page.
+        The interactive map is the browsing layer. Each city page is a full, indexable profile — housing costs, income,
+        commute, climate, and safety context — with sources cited on every page.
       </p>
       <p>
-        We launch with a curated set of major cities and expand the catalog in batches. Live API enrichment from Census,
-        BLS, FBI, and NOAA is planned next; today&apos;s figures are curated public-source estimates documented on the
-        methodology page.
+        We compile figures from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals, then refresh
+        the catalog in batches. Coverage gaps (especially FBI agency rates for smaller cities) are labeled explicitly
+        rather than filled with placeholders. Details live on the methodology page.
       </p>
     </article>
   )
