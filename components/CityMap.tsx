@@ -8,21 +8,26 @@ import type { CityRecord } from '@/lib/types'
 import { cityPath } from '@/lib/paths'
 import 'maplibre-gl/dist/maplibre-gl.css'
 
-/** Raster basemap — more reliable than CARTO vector GL styles on mobile Safari/Edge. */
+/**
+ * Voyager raster basemap — readable streets/terrain so the map isn’t a flat gray field.
+ * City profiles are overlaid as tappable dots (size ≈ population).
+ */
 const BASE_STYLE: maplibregl.StyleSpecification = {
   version: 8,
-  name: 'MapsToIt raster',
+  name: 'MapsToIt cities',
+  glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
   sources: {
     'raster-tiles': {
       type: 'raster',
       tiles: [
-        'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-        'https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-        'https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-        'https://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+        'https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://d.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
       ],
       tileSize: 256,
-      attribution: '© <a href="https://carto.com/">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      attribution:
+        '© <a href="https://carto.com/">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxzoom: 20,
     },
   },
@@ -30,7 +35,7 @@ const BASE_STYLE: maplibregl.StyleSpecification = {
     {
       id: 'background',
       type: 'background',
-      paint: { 'background-color': '#d7e0d9' },
+      paint: { 'background-color': '#c5d6c8' },
     },
     {
       id: 'raster-basemap',
@@ -44,7 +49,9 @@ const BASE_STYLE: maplibregl.StyleSpecification = {
 
 const CITY_SOURCE = 'cities'
 const CITY_LAYER = 'city-points'
-const CITY_LAYER_STROKE = 'city-points-stroke'
+const CITY_LAYER_HALO = 'city-points-halo'
+const CITY_LABELS = 'city-labels'
+const LABEL_MIN_POPULATION = 350_000
 
 type CityMapProps = {
   cities: CityRecord[]
@@ -67,6 +74,7 @@ function citiesToGeoJSON(
         name: city.name,
         population: city.population,
         focused: city.slug === focusedSlug,
+        label: city.population >= LABEL_MIN_POPULATION || city.slug === focusedSlug ? 1 : 0,
       },
       geometry: {
         type: 'Point',
@@ -95,6 +103,57 @@ function useTouchUi() {
   return touchUi
 }
 
+function populationRadius(touchUi: boolean): maplibregl.ExpressionSpecification {
+  // Use raw population (not sqrt) so mid-size cities stay visible at U.S. zoom.
+  return [
+    'interpolate',
+    ['linear'],
+    ['zoom'],
+    2,
+    [
+      'interpolate',
+      ['linear'],
+      ['get', 'population'],
+      50_000,
+      touchUi ? 5 : 4,
+      300_000,
+      touchUi ? 8 : 6,
+      1_000_000,
+      touchUi ? 11 : 9,
+      5_000_000,
+      touchUi ? 16 : 13,
+    ],
+    5,
+    [
+      'interpolate',
+      ['linear'],
+      ['get', 'population'],
+      50_000,
+      touchUi ? 8 : 6,
+      300_000,
+      touchUi ? 12 : 10,
+      1_000_000,
+      touchUi ? 16 : 13,
+      5_000_000,
+      touchUi ? 22 : 18,
+    ],
+    8,
+    [
+      'interpolate',
+      ['linear'],
+      ['get', 'population'],
+      50_000,
+      touchUi ? 10 : 8,
+      300_000,
+      touchUi ? 15 : 12,
+      1_000_000,
+      touchUi ? 20 : 16,
+      5_000_000,
+      touchUi ? 28 : 22,
+    ],
+  ]
+}
+
 function ensureCityLayers(map: maplibregl.Map, touchUi: boolean) {
   if (!map.getSource(CITY_SOURCE)) {
     map.addSource(CITY_SOURCE, {
@@ -103,28 +162,16 @@ function ensureCityLayers(map: maplibregl.Map, touchUi: boolean) {
     })
   }
 
-  const radiusExpr: maplibregl.ExpressionSpecification = [
-    'interpolate',
-    ['linear'],
-    ['sqrt', ['get', 'population']],
-    300,
-    touchUi ? 6 : 4,
-    1500,
-    touchUi ? 12 : 9,
-    3000,
-    touchUi ? 18 : 14,
-  ]
-
-  if (!map.getLayer(CITY_LAYER_STROKE)) {
+  if (!map.getLayer(CITY_LAYER_HALO)) {
     map.addLayer({
-      id: CITY_LAYER_STROKE,
+      id: CITY_LAYER_HALO,
       type: 'circle',
       source: CITY_SOURCE,
       paint: {
-        'circle-radius': radiusExpr,
+        'circle-radius': populationRadius(touchUi),
         'circle-color': '#ffffff',
-        'circle-opacity': 0.95,
-        'circle-blur': 0.05,
+        'circle-opacity': 0.9,
+        'circle-blur': 0.15,
       },
     })
   }
@@ -138,23 +185,83 @@ function ensureCityLayers(map: maplibregl.Map, touchUi: boolean) {
         'circle-radius': [
           'interpolate',
           ['linear'],
-          ['sqrt', ['get', 'population']],
-          300,
-          touchUi ? 4 : 3,
-          1500,
-          touchUi ? 9 : 7,
-          3000,
-          touchUi ? 14 : 11,
+          ['zoom'],
+          2,
+          [
+            'interpolate',
+            ['linear'],
+            ['get', 'population'],
+            50_000,
+            touchUi ? 3.5 : 3,
+            300_000,
+            touchUi ? 6 : 5,
+            1_000_000,
+            touchUi ? 9 : 7,
+            5_000_000,
+            touchUi ? 13 : 11,
+          ],
+          5,
+          [
+            'interpolate',
+            ['linear'],
+            ['get', 'population'],
+            50_000,
+            touchUi ? 6 : 5,
+            300_000,
+            touchUi ? 10 : 8,
+            1_000_000,
+            touchUi ? 13 : 11,
+            5_000_000,
+            touchUi ? 18 : 15,
+          ],
+          8,
+          [
+            'interpolate',
+            ['linear'],
+            ['get', 'population'],
+            50_000,
+            touchUi ? 8 : 6,
+            300_000,
+            touchUi ? 12 : 10,
+            1_000_000,
+            touchUi ? 16 : 13,
+            5_000_000,
+            touchUi ? 22 : 18,
+          ],
         ],
         'circle-color': [
           'case',
           ['boolean', ['get', 'focused'], false],
-          '#0e5a4e',
-          '#1c7868',
+          '#f0a202',
+          '#0f6b5c',
         ],
         'circle-opacity': 0.95,
-        'circle-stroke-width': 1,
+        'circle-stroke-width': 1.5,
         'circle-stroke-color': '#ffffff',
+      },
+    })
+  }
+
+  if (!map.getLayer(CITY_LABELS)) {
+    map.addLayer({
+      id: CITY_LABELS,
+      type: 'symbol',
+      source: CITY_SOURCE,
+      filter: ['==', ['get', 'label'], 1],
+      layout: {
+        'text-field': ['get', 'name'],
+        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+        'text-size': touchUi ? 12 : 11,
+        'text-offset': [0, 1.2],
+        'text-anchor': 'top',
+        'text-optional': true,
+        'text-padding': 2,
+        'symbol-sort-key': ['-', ['get', 'population']],
+      },
+      paint: {
+        'text-color': '#14201c',
+        'text-halo-color': '#ffffff',
+        'text-halo-width': 1.4,
       },
     })
   }
@@ -190,8 +297,8 @@ export function CityMap({
     const map = new maplibregl.Map({
       container: containerRef.current,
       style: BASE_STYLE,
-      center: focusRef.current?.coordinates ?? [-98.35, 39.5],
-      zoom: focusRef.current ? (narrow ? 7.1 : 8.5) : narrow ? 3.2 : 3.7,
+      center: focusRef.current?.coordinates ?? [-97.5, 38.5],
+      zoom: focusRef.current ? (narrow ? 7.1 : 8.5) : narrow ? 3.35 : 3.85,
       minZoom: 2,
       maxZoom: 14,
       attributionControl: false,
@@ -199,23 +306,25 @@ export function CityMap({
       dragRotate: false,
       pitchWithRotate: false,
       touchPitch: false,
-      // Pixel ratio can be high on phones; keep rendering sharp without blowing memory.
       pixelRatio: Math.min(window.devicePixelRatio || 1, 2),
     })
     mapRef.current = map
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
     map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right')
 
+    const openCity = (event: MapLayerMouseEvent) => {
+      const slug = event.features?.[0]?.properties?.slug as string | undefined
+      const stateSlug = event.features?.[0]?.properties?.stateSlug as string | undefined
+      if (!slug || !stateSlug) return
+      router.push(cityPath({ slug, stateSlug }))
+    }
+
     const bindInteractions = () => {
       if (interactionsBound) return
       interactionsBound = true
 
-      map.on('click', CITY_LAYER, (event: MapLayerMouseEvent) => {
-        const slug = event.features?.[0]?.properties?.slug as string | undefined
-        const stateSlug = event.features?.[0]?.properties?.stateSlug as string | undefined
-        if (!slug || !stateSlug) return
-        router.push(cityPath({ slug, stateSlug }))
-      })
+      map.on('click', CITY_LAYER, openCity)
+      map.on('click', CITY_LABELS, openCity)
       map.on('mouseenter', CITY_LAYER, () => {
         map.getCanvas().style.cursor = 'pointer'
       })
@@ -301,6 +410,16 @@ export function CityMap({
   return (
     <div className={`city-map city-map-${variant} ${className ?? ''}`.trim()}>
       <div ref={containerRef} className="city-map-canvas" />
+      {ready && (
+        <div className="map-legend" role="note">
+          <span className="map-legend-dot" aria-hidden />
+          <span>
+            <strong>{cities.length} cities</strong>
+            {' — '}
+            larger dots = bigger population. Tap a dot for cost of living, housing, safety & climate.
+          </span>
+        </div>
+      )}
       {!ready && <div className="city-map-loader">Loading map…</div>}
     </div>
   )
