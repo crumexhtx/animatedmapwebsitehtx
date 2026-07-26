@@ -6,13 +6,13 @@ Live domain: [mapstoit.com](https://mapstoit.com)
 
 ## What it is
 
-MapsToIt presents cost of living, income, housing, safety, climate, and commute data per city, with an interactive MapLibre + deck.gl map as the browsing layer. City and state pages are statically generated for SEO.
+MapsToIt presents cost of living, income, housing, safety, climate, and commute data per city, with an interactive MapLibre map as the browsing layer. City and state pages are statically generated for SEO.
 
 ## Stack
 
 - Next.js App Router (static generation via `generateStaticParams`)
 - TypeScript
-- MapLibre GL + deck.gl
+- MapLibre GL (city points as native circle layers)
 - Curated JSON catalog checked into `data/catalog/`
 
 ## Routes
