@@ -8,9 +8,10 @@ import type { CityRecord } from '@/lib/types'
 import { cityPath } from '@/lib/paths'
 import 'maplibre-gl/dist/maplibre-gl.css'
 
-const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json'
-const FALLBACK_STYLE: maplibregl.StyleSpecification = {
+/** Raster basemap — more reliable than CARTO vector GL styles on mobile Safari/Edge. */
+const BASE_STYLE: maplibregl.StyleSpecification = {
   version: 8,
+  name: 'MapsToIt raster',
   sources: {
     'raster-tiles': {
       type: 'raster',
@@ -18,21 +19,32 @@ const FALLBACK_STYLE: maplibregl.StyleSpecification = {
         'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
         'https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
         'https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+        'https://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
       ],
       tileSize: 256,
-      attribution: '© CARTO © OpenStreetMap contributors',
+      attribution: '© <a href="https://carto.com/">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxzoom: 20,
     },
   },
   layers: [
-    { id: 'background', type: 'background', paint: { 'background-color': '#d9e4dc' } },
-    { id: 'raster-basemap', type: 'raster', source: 'raster-tiles', minzoom: 0, maxzoom: 19 },
+    {
+      id: 'background',
+      type: 'background',
+      paint: { 'background-color': '#d7e0d9' },
+    },
+    {
+      id: 'raster-basemap',
+      type: 'raster',
+      source: 'raster-tiles',
+      minzoom: 0,
+      maxzoom: 22,
+    },
   ],
 }
 
 const CITY_SOURCE = 'cities'
 const CITY_LAYER = 'city-points'
 const CITY_LAYER_STROKE = 'city-points-stroke'
-const STYLE_TIMEOUT_MS = 6000
 
 type CityMapProps = {
   cities: CityRecord[]
@@ -91,25 +103,28 @@ function ensureCityLayers(map: maplibregl.Map, touchUi: boolean) {
     })
   }
 
+  const radiusExpr: maplibregl.ExpressionSpecification = [
+    'interpolate',
+    ['linear'],
+    ['sqrt', ['get', 'population']],
+    300,
+    touchUi ? 6 : 4,
+    1500,
+    touchUi ? 12 : 9,
+    3000,
+    touchUi ? 18 : 14,
+  ]
+
   if (!map.getLayer(CITY_LAYER_STROKE)) {
     map.addLayer({
       id: CITY_LAYER_STROKE,
       type: 'circle',
       source: CITY_SOURCE,
       paint: {
-        'circle-radius': [
-          'interpolate',
-          ['linear'],
-          ['sqrt', ['get', 'population']],
-          200,
-          touchUi ? 7 : 4,
-          2000,
-          touchUi ? 14 : 10,
-          5000,
-          touchUi ? 20 : 16,
-        ],
+        'circle-radius': radiusExpr,
         'circle-color': '#ffffff',
         'circle-opacity': 0.95,
+        'circle-blur': 0.05,
       },
     })
   }
@@ -124,12 +139,12 @@ function ensureCityLayers(map: maplibregl.Map, touchUi: boolean) {
           'interpolate',
           ['linear'],
           ['sqrt', ['get', 'population']],
-          200,
-          touchUi ? 5 : 3,
-          2000,
-          touchUi ? 11 : 8,
-          5000,
-          touchUi ? 17 : 13,
+          300,
+          touchUi ? 4 : 3,
+          1500,
+          touchUi ? 9 : 7,
+          3000,
+          touchUi ? 14 : 11,
         ],
         'circle-color': [
           'case',
@@ -137,7 +152,9 @@ function ensureCityLayers(map: maplibregl.Map, touchUi: boolean) {
           '#0e5a4e',
           '#1c7868',
         ],
-        'circle-opacity': 0.92,
+        'circle-opacity': 0.95,
+        'circle-stroke-width': 1,
+        'circle-stroke-color': '#ffffff',
       },
     })
   }
@@ -174,14 +191,16 @@ export function CityMap({
       container: containerRef.current,
       style: BASE_STYLE,
       center: focusRef.current?.coordinates ?? [-98.35, 39.5],
-      zoom: focusRef.current ? (narrow ? 7.1 : 8.5) : narrow ? 3.05 : 3.6,
-      minZoom: 2.5,
-      maxZoom: 12,
+      zoom: focusRef.current ? (narrow ? 7.1 : 8.5) : narrow ? 3.2 : 3.7,
+      minZoom: 2,
+      maxZoom: 14,
       attributionControl: false,
       cooperativeGestures: true,
       dragRotate: false,
       pitchWithRotate: false,
       touchPitch: false,
+      // Pixel ratio can be high on phones; keep rendering sharp without blowing memory.
+      pixelRatio: Math.min(window.devicePixelRatio || 1, 2),
     })
     mapRef.current = map
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
@@ -214,12 +233,19 @@ export function CityMap({
       source.setData(citiesToGeoJSON(citiesRef.current, focusRef.current?.slug))
     }
 
+    const forceResize = () => {
+      if (cancelled || !mapRef.current) return
+      map.resize()
+    }
+
     const markReady = () => {
       if (readySet || cancelled) return
       readySet = true
-      window.clearTimeout(styleTimer)
       setReady(true)
-      requestAnimationFrame(() => map.resize())
+      forceResize()
+      requestAnimationFrame(forceResize)
+      window.setTimeout(forceResize, 100)
+      window.setTimeout(forceResize, 400)
     }
 
     const onStyleReady = () => {
@@ -233,31 +259,11 @@ export function CityMap({
 
     map.on('load', onStyleReady)
     map.on('style.load', onStyleReady)
-
     map.on('error', (event) => {
-      const message = `${event.error?.message ?? ''} ${event.error ?? ''}`
-      const isStyleFailure =
-        /failed to fetch|ajaxerror|could not load|status 4\d\d|status 5\d\d/i.test(message)
-      if (cancelled || !isStyleFailure) return
-      // Avoid thrashing if we already fell back.
-      if (map.getSource('raster-tiles')) return
-      console.warn('Basemap style failed, using raster fallback', event.error)
-      map.setStyle(FALLBACK_STYLE)
+      console.warn('MapLibre error', event.error)
     })
 
-    const styleTimer = window.setTimeout(() => {
-      if (readySet || cancelled) return
-      if (!map.isStyleLoaded()) {
-        console.warn('Basemap style timed out, using raster fallback')
-        map.setStyle(FALLBACK_STYLE)
-        return
-      }
-      onStyleReady()
-    }, STYLE_TIMEOUT_MS)
-
-    const observer = new ResizeObserver(() => {
-      map.resize()
-    })
+    const observer = new ResizeObserver(() => forceResize())
     observer.observe(containerRef.current)
 
     if (map.loaded() || map.isStyleLoaded()) {
@@ -266,7 +272,6 @@ export function CityMap({
 
     return () => {
       cancelled = true
-      window.clearTimeout(styleTimer)
       observer.disconnect()
       map.remove()
       mapRef.current = null
