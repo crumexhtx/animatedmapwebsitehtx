@@ -5,6 +5,7 @@ import { AdSlot } from '@/components/AdSlot'
 import { AffiliateZone } from '@/components/AffiliateZone'
 import { CityMapLazy } from '@/components/CityMapLazy'
 import { CityStats } from '@/components/CityStats'
+import { CityUrlButton } from '@/components/CityUrlButton'
 import { NearbyCities } from '@/components/NearbyCities'
 import { SourceList } from '@/components/SourceList'
 import {
@@ -12,6 +13,8 @@ import {
   cityPath,
   getCity,
   getNearbyCities,
+  nationalBaselines,
+  siteUrl,
   statePath,
 } from '@/lib/catalog'
 import { cityJsonLd, cityMetadata } from '@/lib/seo'
@@ -57,9 +60,15 @@ export default async function CityPage({ params }: Props) {
           <span>/</span>
           <span>{city.name}</span>
         </nav>
-        <h1>
-          {city.name}, {city.state}
-        </h1>
+        <div className="city-title-row">
+          <h1>
+            {city.name}, {city.state}
+          </h1>
+          <CityUrlButton
+            url={`${siteUrl()}${cityPath(city)}`}
+            label={`${city.name}, ${city.state}`}
+          />
+        </div>
         <p className="lead">
           Cost of living, housing, income, commute, climate, and safety — compiled for relocators researching {city.name}.
         </p>
@@ -71,7 +80,7 @@ export default async function CityPage({ params }: Props) {
             <CityMapLazy cities={allCities} focus={city} />
           </div>
 
-          <CityStats city={city} />
+          <CityStats city={city} national={nationalBaselines} />
 
           <div className="prose">
             {city.description.split('\n\n').map((paragraph) => (

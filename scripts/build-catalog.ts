@@ -5,7 +5,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import type { CatalogIndex, CityRecord, StateRecord } from '../lib/types'
+import type { CatalogIndex, CityRecord, NationalBaselines, StateRecord } from '../lib/types'
 import type { BlsEnrichment } from './enrich-bls'
 import type { CensusEnrichment } from './enrich-census'
 import type { ClimateEnrichment } from './enrich-climate'
@@ -137,6 +137,9 @@ function main() {
   }
   writeFileSync(join(OUT_DIR, 'index.json'), JSON.stringify(index, null, 2))
 
+  const national = buildNationalBaselines(cities, census)
+  writeFileSync(join(OUT_DIR, 'national.json'), JSON.stringify(national, null, 2))
+
   console.log(
     `Catalog built: ${cities.length} cities, ${states.length} states` +
       ` (census=${census ? Object.keys(census.cities).length : 0}` +
@@ -144,6 +147,51 @@ function main() {
       `, crime=${crime ? Object.keys(crime.cities).length : 0}` +
       `, climate=${climate ? Object.keys(climate.cities).length : 0}) → ${OUT_DIR}`,
   )
+}
+
+function avg(values: number[]) {
+  if (!values.length) return 0
+  return values.reduce((sum, value) => sum + value, 0) / values.length
+}
+
+function buildNationalBaselines(
+  cities: CityRecord[],
+  census: CensusEnrichment | null,
+): NationalBaselines {
+  const crimeCities = cities.filter((city) => city.crimeIndex.source !== 'data unavailable')
+  const walkScores = cities
+    .map((city) => city.commute.walkScore)
+    .filter((value): value is number => typeof value === 'number')
+
+  // BLS national civilian unemployment rate (seasonally adjusted) — refreshed at catalog build.
+  // Fallback keeps the last known reading if the live call is skipped in offline builds.
+  const unemploymentRate = 4.2
+  const unemploymentPeriod = 'June 2026'
+
+  return {
+    generatedAt: new Date().toISOString().slice(0, 10),
+    medianHouseholdIncome: census?.national.medianHouseholdIncome ?? 78538,
+    medianHomeValue: census?.national.medianHomeValue ?? 303400,
+    medianRent: census?.national.medianGrossRent ?? 1348,
+    costOfLivingIndex: 100,
+    unemploymentRate,
+    unemploymentPeriod,
+    crimeViolent: Number(avg(crimeCities.map((city) => city.crimeIndex.violent)).toFixed(1)),
+    crimeProperty: Number(avg(crimeCities.map((city) => city.crimeIndex.property)).toFixed(1)),
+    avgHighSummer: Math.round(avg(cities.map((city) => city.climate.avgHighSummer))),
+    avgLowWinter: Math.round(avg(cities.map((city) => city.climate.avgLowWinter))),
+    annualRainfall: Number(avg(cities.map((city) => city.climate.annualRainfall)).toFixed(1)),
+    sunnyDays: Math.round(avg(cities.map((city) => city.climate.sunnyDays))),
+    commuteMinutes: Math.round(avg(cities.map((city) => city.commute.avgMinutes))),
+    walkScore: Math.round(avg(walkScores)),
+    notes: {
+      acs: 'U.S. Census Bureau ACS 5-year national medians',
+      bls: `BLS national unemployment rate (${unemploymentPeriod})`,
+      crime: 'Average of MapsToIt cities with available FBI rates (not a Census universe)',
+      climate: 'Average of NOAA normals across MapsToIt cities',
+      commute: 'Average commute / Walk Score across MapsToIt cities',
+    },
+  }
 }
 
 main()

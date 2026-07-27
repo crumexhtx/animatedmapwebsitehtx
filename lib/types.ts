@@ -65,3 +65,29 @@ export type CatalogIndex = {
   stateCount: number
   featuredSlugs: string[]
 }
+
+/** Baselines used on city pages for “vs national / catalog average” comparisons. */
+export type NationalBaselines = {
+  generatedAt: string
+  medianHouseholdIncome: number
+  medianHomeValue: number
+  medianRent: number
+  costOfLivingIndex: number
+  unemploymentRate: number
+  unemploymentPeriod?: string
+  crimeViolent: number
+  crimeProperty: number
+  avgHighSummer: number
+  avgLowWinter: number
+  annualRainfall: number
+  sunnyDays: number
+  commuteMinutes: number
+  walkScore: number
+  notes: {
+    acs: string
+    bls: string
+    crime: string
+    climate: string
+    commute: string
+  }
+}

@@ -42,7 +42,7 @@
       "paterson-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New York city, 1600000US3651000)",
       "bls": "BLS LAUS LAUCN360610000000003 (New York County, May 2026)",
@@ -97,7 +97,7 @@
       "anaheim-ca",
       "garden-grove-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Los Angeles city, 1600000US0644000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -152,7 +152,7 @@
       "madison-wi",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chicago city, 1600000US1714000)",
       "bls": "BLS LAUS LAUCN170310000000003 (Cook County, May 2026)",
@@ -207,7 +207,7 @@
       "shreveport-la",
       "dallas-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Houston city, 1600000US4835000)",
       "bls": "BLS LAUS LAUCN482010000000003 (Harris County, May 2026)",
@@ -262,7 +262,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Phoenix city, 1600000US0455000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -317,7 +317,7 @@
       "paterson-nj",
       "baltimore-md"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Philadelphia city, 1600000US4260000)",
       "bls": "BLS LAUS LAUCN421010000000003 (Philadelphia County, May 2026)",
@@ -372,7 +372,7 @@
       "houston-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Antonio city, 1600000US4865000)",
       "bls": "BLS LAUS LAUCN480290000000003 (Bexar County, May 2026)",
@@ -426,7 +426,7 @@
       "santa-ana-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Diego city, 1600000US0666000)",
       "bls": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)",
@@ -481,7 +481,7 @@
       "arlington-tx",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Dallas city, 1600000US4819000)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -536,7 +536,7 @@
       "fort-worth-tx",
       "arlington-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Austin city, 1600000US4805000)",
       "bls": "BLS LAUS LAUCN484530000000003 (Travis County, May 2026)",
@@ -585,7 +585,7 @@
       "st-petersburg-fl",
       "charleston-sc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jacksonville city, 1600000US1235000)",
       "bls": "BLS LAUS LAUCN120310000000003 (Duval County, May 2026)",
@@ -638,7 +638,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Jose city, 1600000US0668000)",
       "bls": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)",
@@ -687,7 +687,7 @@
       "frisco-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Worth city, 1600000US4827000)",
       "bls": "BLS LAUS LAUCN484390000000003 (Tarrant County, May 2026)",
@@ -735,7 +735,7 @@
       "fort-wayne-in",
       "lexington-ky"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Columbus city, 1600000US3918000)",
       "bls": "BLS LAUS LAUCN390490000000003 (Franklin County, May 2026)",
@@ -784,7 +784,7 @@
       "cary-nc",
       "raleigh-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charlotte city, 1600000US3712000)",
       "bls": "BLS LAUS LAUCN371190000000003 (Mecklenburg County, May 2026)",
@@ -833,7 +833,7 @@
       "lexington-ky",
       "chicago-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Indianapolis city (balance), 1600000US1836003)",
       "bls": "BLS LAUS LAUCN180970000000003 (Marion County, May 2026)",
@@ -887,7 +887,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Francisco city, 1600000US0667000)",
       "bls": "BLS LAUS LAUCN060750000000003 (San Francisco County, May 2026)",
@@ -942,7 +942,7 @@
       "salem-or",
       "spokane-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Seattle city, 1600000US5363000)",
       "bls": "BLS LAUS LAUCN530330000000003 (King County, May 2026)",
@@ -997,7 +997,7 @@
       "albuquerque-nm",
       "amarillo-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Denver city, 1600000US0820000)",
       "bls": "BLS LAUS LAUCN080310000000003 (Denver County, May 2026)",
@@ -1052,7 +1052,7 @@
       "newport-news-va",
       "norfolk-va"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Washington city, 1600000US1150000)",
       "bls": "BLS LAUS LAUCN110010000000003 (District of Columbia, June 2026)",
@@ -1107,7 +1107,7 @@
       "paterson-nj",
       "new-york-ny"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boston city, 1600000US2507000)",
       "bls": "BLS LAUS LAUCN250250000000003 (Suffolk County, May 2026)",
@@ -1156,7 +1156,7 @@
       "chandler-az",
       "mesa-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (El Paso city, 1600000US4824000)",
       "bls": "BLS LAUS LAUCN481410000000003 (El Paso County, May 2026)",
@@ -1204,7 +1204,7 @@
       "louisville-ky",
       "knoxville-tn"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Nashville-Davidson metropolitan government (balance), 1600000US4752006)",
       "bls": "BLS LAUS LAUCN470370000000003 (Davidson County, May 2026)",
@@ -1253,7 +1253,7 @@
       "grand-rapids-mi",
       "columbus-oh"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Detroit city, 1600000US2622000)",
       "bls": "BLS LAUS LAUCN261630000000003 (Wayne County, May 2026)",
@@ -1301,7 +1301,7 @@
       "plano-tx",
       "garland-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oklahoma City city, 1600000US4055000)",
       "bls": "BLS LAUS LAUCN401090000000003 (Oklahoma County, May 2026)",
@@ -1349,7 +1349,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Portland city, 1600000US4159000)",
       "bls": "BLS LAUS LAUCN410510000000003 (Multnomah County, May 2026)",
@@ -1398,7 +1398,7 @@
       "moreno-valley-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Las Vegas city, 1600000US3240000)",
       "bls": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)",
@@ -1447,7 +1447,7 @@
       "huntsville-al",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Memphis city, 1600000US4748000)",
       "bls": "BLS LAUS LAUCN471570000000003 (Shelby County, May 2026)",
@@ -1495,7 +1495,7 @@
       "clarksville-tn",
       "nashville-tn"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Louisville/Jefferson County metro government (balance), Kentucky, 1600000US2148006)",
       "bls": "BLS LAUS LAUCN211110000000003 (Jefferson County, May 2026)",
@@ -1543,7 +1543,7 @@
       "newport-news-va",
       "elizabeth-nj"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Baltimore city, 1600000US2404000)",
       "bls": "BLS LAUS LAUCN245100000000003 (Baltimore city, May 2026)",
@@ -1591,7 +1591,7 @@
       "aurora-il",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Milwaukee city, 1600000US5553000)",
       "bls": "BLS LAUS LAUCN550790000000003 (Milwaukee County, May 2026)",
@@ -1639,7 +1639,7 @@
       "gilbert-az",
       "mesa-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Albuquerque city, 1600000US3502000)",
       "bls": "BLS LAUS LAUCN350010000000003 (Bernalillo County, May 2026)",
@@ -1687,7 +1687,7 @@
       "scottsdale-az",
       "phoenix-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tucson city, 1600000US0477000)",
       "bls": "BLS LAUS LAUCN040190000000003 (Pima County, May 2026)",
@@ -1735,7 +1735,7 @@
       "santa-clara-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fresno city, 1600000US0627000)",
       "bls": "BLS LAUS LAUCN060190000000003 (Fresno County, May 2026)",
@@ -1783,7 +1783,7 @@
       "hayward-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sacramento city, 1600000US0664000)",
       "bls": "BLS LAUS LAUCN060670000000003 (Sacramento County, May 2026)",
@@ -1831,7 +1831,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Mesa city, 1600000US0446000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -1879,7 +1879,7 @@
       "omaha-ne",
       "wichita-ks"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2938000)",
       "bls": "BLS LAUS LAUCN290950000000003 (Jackson County, May 2026)",
@@ -1933,7 +1933,7 @@
       "huntsville-al",
       "montgomery-al"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Atlanta city, 1600000US1304000)",
       "bls": "BLS LAUS LAUCN131210000000003 (Fulton County, May 2026)",
@@ -1982,7 +1982,7 @@
       "albuquerque-nm",
       "amarillo-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Colorado Springs city, 1600000US0816000)",
       "bls": "BLS LAUS LAUCN080410000000003 (El Paso County, May 2026)",
@@ -2030,7 +2030,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Raleigh city, 1600000US3755000)",
       "bls": "BLS LAUS LAUCN371830000000003 (Wake County, May 2026)",
@@ -2079,7 +2079,7 @@
       "kansas-city-mo",
       "overland-park-ks"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Omaha city, 1600000US3137000)",
       "bls": "BLS LAUS LAUCN310550000000003 (Douglas County, May 2026)",
@@ -2127,7 +2127,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Miami city, 1600000US1245000)",
       "bls": "BLS LAUS LAUCN120860000000003 (Miami-Dade County, June 2026)",
@@ -2176,7 +2176,7 @@
       "santa-ana-ca",
       "los-angeles-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Long Beach city, 1600000US0643000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -2224,7 +2224,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Virginia Beach city, 1600000US5182000)",
       "bls": "BLS LAUS LAUCN518100000000003 (Virginia Beach city, May 2026)",
@@ -2272,7 +2272,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oakland city, 1600000US0653000)",
       "bls": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)",
@@ -2320,7 +2320,7 @@
       "des-moines-ia",
       "rockford-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Minneapolis city, 1600000US2743000)",
       "bls": "BLS LAUS LAUCN270530000000003 (Hennepin County, May 2026)",
@@ -2369,7 +2369,7 @@
       "overland-park-ks",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tulsa city, 1600000US4075000)",
       "bls": "BLS LAUS LAUCN401430000000003 (Tulsa County, May 2026)",
@@ -2417,7 +2417,7 @@
       "jacksonville-fl",
       "pembroke-pines-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tampa city, 1600000US1271000)",
       "bls": "BLS LAUS LAUCN120570000000003 (Hillsborough County, May 2026)",
@@ -2466,7 +2466,7 @@
       "garland-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Arlington city, 1600000US4804000)",
       "bls": "BLS LAUS LAUCN484390000000003 (Tarrant County, May 2026)",
@@ -2514,7 +2514,7 @@
       "shreveport-la",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New Orleans city, 1600000US2255000)",
       "bls": "BLS LAUS LAUCN220710000000003 (Orleans Parish, May 2026)",
@@ -2563,7 +2563,7 @@
       "kansas-city-mo",
       "lincoln-ne"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Wichita city, 1600000US2079000)",
       "bls": "BLS LAUS LAUCN201730000000003 (Sedgwick County, May 2026)",
@@ -2611,7 +2611,7 @@
       "columbus-oh",
       "buffalo-ny"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cleveland city, 1600000US3916000)",
       "bls": "BLS LAUS LAUCN390350000000003 (Cuyahoga County, May 2026)",
@@ -2659,7 +2659,7 @@
       "pasadena-ca",
       "los-angeles-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bakersfield city, 1600000US0603526)",
       "bls": "BLS LAUS LAUCN060290000000003 (Kern County, May 2026)",
@@ -2707,7 +2707,7 @@
       "albuquerque-nm",
       "amarillo-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US0804000)",
       "bls": "BLS LAUS LAUCN080050000000003 (Arapahoe County, May 2026)",
@@ -2755,7 +2755,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Anaheim city, 1600000US0602000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -2803,7 +2803,7 @@
       "hayward-ca",
       "santa-clara-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Urban Honolulu CDP, 1600000US1571550)",
       "bls": "BLS LAUS LAUCN150030000000003 (Honolulu County, May 2026)",
@@ -2852,7 +2852,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Ana city, 1600000US0669000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -2900,7 +2900,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Riverside city, 1600000US0662000)",
       "bls": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)",
@@ -2948,7 +2948,7 @@
       "round-rock-tx",
       "arlington-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Corpus Christi city, 1600000US4817000)",
       "bls": "BLS LAUS LAUCN483550000000003 (Nueces County, May 2026)",
@@ -2996,7 +2996,7 @@
       "columbus-oh",
       "evansville-in"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lexington-Fayette urban county, 1600000US2146027)",
       "bls": "BLS LAUS LAUCN210670000000003 (Fayette County, May 2026)",
@@ -3044,7 +3044,7 @@
       "fontana-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Henderson city, 1600000US3231900)",
       "bls": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)",
@@ -3092,7 +3092,7 @@
       "san-jose-ca",
       "oakland-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Stockton city, 1600000US0675000)",
       "bls": "BLS LAUS LAUCN060770000000003 (San Joaquin County, May 2026)",
@@ -3140,7 +3140,7 @@
       "des-moines-ia",
       "rockford-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Paul city, 1600000US2758000)",
       "bls": "BLS LAUS LAUCN271230000000003 (Ramsey County, May 2026)",
@@ -3188,7 +3188,7 @@
       "fort-wayne-in",
       "evansville-in"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cincinnati city, 1600000US3915000)",
       "bls": "BLS LAUS LAUCN390610000000003 (Hamilton County, May 2026)",
@@ -3236,7 +3236,7 @@
       "indianapolis-in",
       "kansas-city-mo"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Louis city, 1600000US2965000)",
       "bls": "BLS LAUS LAUCN295100000000003 (St. Louis city, May 2026)",
@@ -3284,7 +3284,7 @@
       "washington-dc",
       "alexandria-va"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pittsburgh city, 1600000US4261000)",
       "bls": "BLS LAUS LAUCN420030000000003 (Allegheny County, May 2026)",
@@ -3333,7 +3333,7 @@
       "charlotte-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Greensboro city, 1600000US3728000)",
       "bls": "BLS LAUS LAUCN370810000000003 (Guilford County, May 2026)",
@@ -3381,7 +3381,7 @@
       "des-moines-ia",
       "sioux-falls-sd"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lincoln city, 1600000US3128000)",
       "bls": "BLS LAUS LAUCN311090000000003 (Lancaster County, May 2026)",
@@ -3429,7 +3429,7 @@
       "irving-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Plano city, 1600000US4858016)",
       "bls": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)",
@@ -3477,7 +3477,7 @@
       "portland-or",
       "salem-or"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Anchorage municipality, 1600000US0203000)",
       "bls": "BLS LAUS LAUCN020200000000003 (Anchorage Municipality, May 2026)",
@@ -3525,7 +3525,7 @@
       "cape-coral-fl",
       "fort-lauderdale-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Orlando city, 1600000US1253000)",
       "bls": "BLS LAUS LAUCN120950000000003 (Orange County, May 2026)",
@@ -3574,7 +3574,7 @@
       "corona-ca",
       "long-beach-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Irvine city, 1600000US0636770)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -3622,7 +3622,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Newark city, 1600000US3451000)",
       "bls": "BLS LAUS LAUCN340130000000003 (Essex County, May 2026)",
@@ -3670,7 +3670,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Durham city, 1600000US3719000)",
       "bls": "BLS LAUS LAUCN370630000000003 (Durham County, May 2026)",
@@ -3718,7 +3718,7 @@
       "santa-ana-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chula Vista city, 1600000US0613392)",
       "bls": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)",
@@ -3766,7 +3766,7 @@
       "columbus-oh",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Toledo city, 1600000US3977000)",
       "bls": "BLS LAUS LAUCN390950000000003 (Lucas County, May 2026)",
@@ -3814,7 +3814,7 @@
       "detroit-mi",
       "chicago-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Wayne city, 1600000US1825000)",
       "bls": "BLS LAUS LAUCN180030000000003 (Allen County, May 2026)",
@@ -3862,7 +3862,7 @@
       "jacksonville-fl",
       "pembroke-pines-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Petersburg city, 1600000US1263000)",
       "bls": "BLS LAUS LAUCN121030000000003 (Pinellas County, May 2026)",
@@ -3910,7 +3910,7 @@
       "houston-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Laredo city, 1600000US4841464)",
       "bls": "BLS LAUS LAUCN484790000000003 (Webb County, May 2026)",
@@ -3958,7 +3958,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jersey City city, 1600000US3436000)",
       "bls": "BLS LAUS LAUCN340170000000003 (Hudson County, May 2026)",
@@ -4006,7 +4006,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chandler city, 1600000US0412000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4054,7 +4054,7 @@
       "chicago-il",
       "peoria-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Madison city, 1600000US5548000)",
       "bls": "BLS LAUS LAUCN550250000000003 (Dane County, May 2026)",
@@ -4102,7 +4102,7 @@
       "grand-prairie-tx",
       "irving-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lubbock city, 1600000US4845000)",
       "bls": "BLS LAUS LAUCN483030000000003 (Lubbock County, May 2026)",
@@ -4150,7 +4150,7 @@
       "chandler-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Scottsdale city, 1600000US0465000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4198,7 +4198,7 @@
       "hayward-ca",
       "oakland-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Reno city, 1600000US3260600)",
       "bls": "BLS LAUS LAUCN320310000000003 (Washoe County, May 2026)",
@@ -4246,7 +4246,7 @@
       "detroit-mi",
       "toledo-oh"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Buffalo city, 1600000US3611000)",
       "bls": "BLS LAUS LAUCN360290000000003 (Erie County, May 2026)",
@@ -4294,7 +4294,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Gilbert town, 1600000US0427400)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4342,7 +4342,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0427820)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4390,7 +4390,7 @@
       "moreno-valley-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (North Las Vegas city, 1600000US3251800)",
       "bls": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)",
@@ -4438,7 +4438,7 @@
       "raleigh-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Winston-Salem city, 1600000US3775000)",
       "bls": "BLS LAUS LAUCN370670000000003 (Forsyth County, May 2026)",
@@ -4486,7 +4486,7 @@
       "alexandria-va",
       "raleigh-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chesapeake city, 1600000US5116000)",
       "bls": "BLS LAUS LAUCN515500000000003 (Chesapeake city, May 2026)",
@@ -4534,7 +4534,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Norfolk city, 1600000US5157000)",
       "bls": "BLS LAUS LAUCN517100000000003 (Norfolk city, May 2026)",
@@ -4582,7 +4582,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fremont city, 1600000US0626000)",
       "bls": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)",
@@ -4630,7 +4630,7 @@
       "mckinney-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Garland city, 1600000US4829000)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -4678,7 +4678,7 @@
       "plano-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Irving city, 1600000US4837000)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -4726,7 +4726,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hialeah city, 1600000US1230000)",
       "bls": "BLS LAUS LAUCN120860000000003 (Miami-Dade County, June 2026)",
@@ -4774,7 +4774,7 @@
       "virginia-beach-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Richmond city, 1600000US5167000)",
       "bls": "BLS LAUS LAUCN517600000000003 (Richmond city, May 2026)",
@@ -4822,7 +4822,7 @@
       "portland-or",
       "vancouver-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boise City city, 1600000US1608830)",
       "bls": "BLS LAUS LAUCN160010000000003 (Ada County, May 2026)",
@@ -4871,7 +4871,7 @@
       "boise-id",
       "portland-or"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Spokane city, 1600000US5367000)",
       "bls": "BLS LAUS LAUCN530630000000003 (Spokane County, May 2026)",
@@ -4919,7 +4919,7 @@
       "houston-tx",
       "little-rock-ar"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Baton Rouge city, 1600000US2205000)",
       "bls": "BLS LAUS LAUCN220330000000003 (East Baton Rouge Parish, May 2026)",
@@ -4967,7 +4967,7 @@
       "salem-or",
       "eugene-or"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tacoma city, 1600000US5370000)",
       "bls": "BLS LAUS LAUCN530530000000003 (Pierce County, May 2026)",
@@ -5015,7 +5015,7 @@
       "ontario-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Bernardino city, 1600000US0665000)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -5063,7 +5063,7 @@
       "hayward-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Modesto city, 1600000US0648354)",
       "bls": "BLS LAUS LAUCN060990000000003 (Stanislaus County, May 2026)",
@@ -5111,7 +5111,7 @@
       "moreno-valley-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fontana city, 1600000US0624680)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -5159,7 +5159,7 @@
       "overland-park-ks",
       "sioux-falls-sd"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Des Moines city, 1600000US1921000)",
       "bls": "BLS LAUS LAUCN191530000000003 (Polk County, May 2026)",
@@ -5207,7 +5207,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Moreno Valley city, 1600000US0649270)",
       "bls": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)",
@@ -5255,7 +5255,7 @@
       "oxnard-ca",
       "torrance-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Clarita city, 1600000US0669088)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -5303,7 +5303,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fayetteville city, 1600000US3722920)",
       "bls": "BLS LAUS LAUCN370510000000003 (Cumberland County, May 2026)",
@@ -5351,7 +5351,7 @@
       "nashville-tn",
       "macon-ga"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Birmingham city, 1600000US0107000)",
       "bls": "BLS LAUS LAUCN010730000000003 (Jefferson County, May 2026)",
@@ -5399,7 +5399,7 @@
       "pasadena-ca",
       "long-beach-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oxnard city, 1600000US0654652)",
       "bls": "BLS LAUS LAUCN061110000000003 (Ventura County, May 2026)",
@@ -5447,7 +5447,7 @@
       "newark-nj",
       "yonkers-ny"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rochester city, 1600000US3663000)",
       "bls": "BLS LAUS LAUCN360550000000003 (Monroe County, May 2026)",
@@ -5495,7 +5495,7 @@
       "miami-fl",
       "orlando-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Port St. Lucie city, 1600000US1258715)",
       "bls": "BLS LAUS LAUCN121110000000003 (St. Lucie County, May 2026)",
@@ -5543,7 +5543,7 @@
       "toledo-oh",
       "naperville-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Grand Rapids city, 1600000US2634000)",
       "bls": "BLS LAUS LAUCN260810000000003 (Kent County, May 2026)",
@@ -5591,7 +5591,7 @@
       "atlanta-ga",
       "montgomery-al"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Huntsville city, 1600000US0137000)",
       "bls": "BLS LAUS LAUCN010890000000003 (Madison County, May 2026)",
@@ -5639,7 +5639,7 @@
       "lakewood-co",
       "henderson-nv"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Salt Lake City city, 1600000US4967000)",
       "bls": "BLS LAUS LAUCN490350000000003 (Salt Lake County, May 2026)",
@@ -5688,7 +5688,7 @@
       "st-petersburg-fl",
       "orlando-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tallahassee city, 1600000US1270600)",
       "bls": "BLS LAUS LAUCN120730000000003 (Leon County, May 2026)",
@@ -5736,7 +5736,7 @@
       "paterson-nj",
       "new-york-ny"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Worcester city, 1600000US2582000)",
       "bls": "BLS LAUS LAUCN250270000000003 (Worcester County, May 2026)",
@@ -5784,7 +5784,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Newport News city, 1600000US5156000)",
       "bls": "BLS LAUS LAUCN517000000000003 (Newport News city, May 2026)",
@@ -5832,7 +5832,7 @@
       "wichita-ks",
       "omaha-ne"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Overland Park city, 1600000US2053775)",
       "bls": "BLS LAUS LAUCN200910000000003 (Johnson County, May 2026)",
@@ -5880,7 +5880,7 @@
       "fremont-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Rosa city, 1600000US0670098)",
       "bls": "BLS LAUS LAUCN060970000000003 (Sonoma County, May 2026)",
@@ -5928,7 +5928,7 @@
       "new-york-ny",
       "paterson-nj"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Providence city, 1600000US4459000)",
       "bls": "BLS LAUS LAUCN440070000000003 (Providence County, May 2026)",
@@ -5976,7 +5976,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Garden Grove city, 1600000US0629000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -6024,7 +6024,7 @@
       "birmingham-al",
       "clarksville-tn"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chattanooga city, 1600000US4714000)",
       "bls": "BLS LAUS LAUCN470650000000003 (Hamilton County, May 2026)",
@@ -6072,7 +6072,7 @@
       "huntington-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oceanside city, 1600000US0653322)",
       "bls": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)",
@@ -6120,7 +6120,7 @@
       "little-rock-ar",
       "shreveport-la"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jackson city, 1600000US2836000)",
       "bls": "BLS LAUS LAUCN280490000000003 (Hinds County, May 2026)",
@@ -6168,7 +6168,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Lauderdale city, 1600000US1224000)",
       "bls": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)",
@@ -6216,7 +6216,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Clara city, 1600000US0669084)",
       "bls": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)",
@@ -6264,7 +6264,7 @@
       "madison-wi",
       "rockford-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bloomington city, 1600000US2706616)",
       "bls": "BLS LAUS LAUCN270530000000003 (Hennepin County, May 2026)",
@@ -6312,7 +6312,7 @@
       "saint-paul-mn",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sioux Falls city, 1600000US4659020)",
       "bls": "BLS LAUS LAUCN460990000000003 (Minnehaha County, May 2026)",
@@ -6360,7 +6360,7 @@
       "tulsa-ok",
       "mckinney-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Little Rock city, 1600000US0541000)",
       "bls": "BLS LAUS LAUCN051190000000003 (Pulaski County, May 2026)",
@@ -6408,7 +6408,7 @@
       "charlotte-nc",
       "knoxville-tn"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Augusta-Richmond County consolidated government (balance), 1600000US1304204)",
       "bls": "BLS LAUS LAUCN132450000000003 (Richmond County, May 2026)",
@@ -6456,7 +6456,7 @@
       "birmingham-al",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Mobile city, 1600000US0150000)",
       "bls": "BLS LAUS LAUCN010970000000003 (Mobile County, May 2026)",
@@ -6504,7 +6504,7 @@
       "huntsville-al",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Knoxville city, 1600000US4740000)",
       "bls": "BLS LAUS LAUCN470930000000003 (Knox County, May 2026)",
@@ -6552,7 +6552,7 @@
       "hialeah-fl",
       "fort-lauderdale-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cape Coral city, 1600000US1210275)",
       "bls": "BLS LAUS LAUCN120710000000003 (Lee County, May 2026)",
@@ -6600,7 +6600,7 @@
       "dallas-tx",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Shreveport city, 1600000US2270000)",
       "bls": "BLS LAUS LAUCN220170000000003 (Caddo Parish, May 2026)",
@@ -6648,7 +6648,7 @@
       "dallas-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Frisco city, 1600000US4827684)",
       "bls": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)",
@@ -6696,7 +6696,7 @@
       "irving-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (McKinney city, 1600000US4845744)",
       "bls": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)",
@@ -6744,7 +6744,7 @@
       "elizabeth-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Yonkers city, 1600000US3684000)",
       "bls": "BLS LAUS LAUCN361190000000003 (Westchester County, May 2026)",
@@ -6792,7 +6792,7 @@
       "peoria-il",
       "madison-wi"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US1703012)",
       "bls": "BLS LAUS LAUCN170890000000003 (Kane County, May 2026)",
@@ -6840,7 +6840,7 @@
       "huntsville-al",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Montgomery city, 1600000US0151000)",
       "bls": "BLS LAUS LAUCN011010000000003 (Montgomery County, May 2026)",
@@ -6888,7 +6888,7 @@
       "detroit-mi",
       "buffalo-ny"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Akron city, 1600000US3901000)",
       "bls": "BLS LAUS LAUCN391530000000003 (Summit County, May 2026)",
@@ -6936,7 +6936,7 @@
       "long-beach-ca",
       "torrance-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Huntington Beach city, 1600000US0636000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -6984,7 +6984,7 @@
       "long-beach-ca",
       "anaheim-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0630000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -7032,7 +7032,7 @@
       "garland-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Grand Prairie city, 1600000US4830464)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -7080,7 +7080,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Vancouver city, 1600000US5374060)",
       "bls": "BLS LAUS LAUCN530110000000003 (Clark County, May 2026)",
@@ -7128,7 +7128,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US0454050)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -7176,7 +7176,7 @@
       "san-bernardino-ca",
       "moreno-valley-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rancho Cucamonga city, 1600000US0659451)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -7224,7 +7224,7 @@
       "san-bernardino-ca",
       "anaheim-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Ontario city, 1600000US0653896)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -7272,7 +7272,7 @@
       "gilbert-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tempe city, 1600000US0473000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -7320,7 +7320,7 @@
       "little-rock-ar",
       "st-louis-mo"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Springfield city, 1600000US2970000)",
       "bls": "BLS LAUS LAUCN290770000000003 (Greene County, May 2026)",
@@ -7368,7 +7368,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lancaster city, 1600000US0640130)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -7416,7 +7416,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Eugene city, 1600000US4123850)",
       "bls": "BLS LAUS LAUCN410390000000003 (Lane County, May 2026)",
@@ -7464,7 +7464,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pembroke Pines city, 1600000US1255775)",
       "bls": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)",
@@ -7512,7 +7512,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Salem city, 1600000US4164900)",
       "bls": "BLS LAUS LAUCN410470000000003 (Marion County, May 2026)",
@@ -7560,7 +7560,7 @@
       "long-beach-ca",
       "santa-clarita-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pasadena city, 1600000US0656000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -7608,7 +7608,7 @@
       "st-louis-mo",
       "madison-wi"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US1759000)",
       "bls": "BLS LAUS LAUCN171430000000003 (Peoria County, May 2026)",
@@ -7656,7 +7656,7 @@
       "santa-ana-ca",
       "moreno-valley-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Corona city, 1600000US0616350)",
       "bls": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)",
@@ -7704,7 +7704,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Elizabeth city, 1600000US3421000)",
       "bls": "BLS LAUS LAUCN340390000000003 (Union County, May 2026)",
@@ -7752,7 +7752,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hayward city, 1600000US0633000)",
       "bls": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)",
@@ -7800,7 +7800,7 @@
       "salt-lake-city-ut",
       "albuquerque-nm"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Collins city, 1600000US0827425)",
       "bls": "BLS LAUS LAUCN080690000000003 (Larimer County, May 2026)",
@@ -7848,7 +7848,7 @@
       "st-louis-mo",
       "lexington-ky"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Evansville city, 1600000US1822000)",
       "bls": "BLS LAUS LAUCN181630000000003 (Vanderburgh County, May 2026)",
@@ -7896,7 +7896,7 @@
       "arlington-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Round Rock city, 1600000US4863500)",
       "bls": "BLS LAUS LAUCN484910000000003 (Williamson County, May 2026)",
@@ -7944,7 +7944,7 @@
       "jacksonville-fl",
       "macon-ga"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charleston city, 1600000US4513330)",
       "bls": "BLS LAUS LAUCN450190000000003 (Charleston County, May 2026)",
@@ -7993,7 +7993,7 @@
       "charlotte-nc",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Savannah city, 1600000US1369000)",
       "bls": "BLS LAUS LAUCN130510000000003 (Chatham County, May 2026)",
@@ -8041,7 +8041,7 @@
       "peoria-il",
       "madison-wi"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Naperville city, 1600000US1751622)",
       "bls": "BLS LAUS LAUCN170430000000003 (DuPage County, May 2026)",
@@ -8089,7 +8089,7 @@
       "salem-or",
       "spokane-wa"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bellevue city, 1600000US5305210)",
       "bls": "BLS LAUS LAUCN530330000000003 (King County, May 2026)",
@@ -8137,7 +8137,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cary town, 1600000US3710740)",
       "bls": "BLS LAUS LAUCN371830000000003 (Wake County, May 2026)",
@@ -8185,7 +8185,7 @@
       "philadelphia-pa",
       "norfolk-va"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Alexandria city, 1600000US5101000)",
       "bls": "BLS LAUS LAUCN515100000000003 (Alexandria city, May 2026)",
@@ -8233,7 +8233,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sunnyvale city, 1600000US0677000)",
       "bls": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)",
@@ -8281,7 +8281,7 @@
       "albuquerque-nm",
       "amarillo-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lakewood city, 1600000US0843000)",
       "bls": "BLS LAUS LAUCN080590000000003 (Jefferson County, May 2026)",
@@ -8329,7 +8329,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hollywood city, 1600000US1232000)",
       "bls": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)",
@@ -8377,7 +8377,7 @@
       "elizabeth-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Paterson city, 1600000US3457000)",
       "bls": "BLS LAUS LAUCN340310000000003 (Passaic County, May 2026)",
@@ -8425,7 +8425,7 @@
       "chattanooga-tn",
       "memphis-tn"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Clarksville city, 1600000US4715160)",
       "bls": "BLS LAUS LAUCN471250000000003 (Montgomery County, May 2026)",
@@ -8473,7 +8473,7 @@
       "garden-grove-ca",
       "pasadena-ca"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Torrance city, 1600000US0680000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -8521,7 +8521,7 @@
       "milwaukee-wi",
       "peoria-il"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rockford city, 1600000US1765000)",
       "bls": "BLS LAUS LAUCN172010000000003 (Winnebago County, May 2026)",
@@ -8569,7 +8569,7 @@
       "tallahassee-fl",
       "chattanooga-tn"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Macon-Bibb County, 1600000US1349008)",
       "bls": "BLS LAUS LAUCN130210000000003 (Bibb County, May 2026)",
@@ -8617,7 +8617,7 @@
       "omaha-ne",
       "wichita-ks"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2036000)",
       "bls": "BLS LAUS LAUCN202090000000003 (Wyandotte County, May 2026)",
@@ -8665,7 +8665,7 @@
       "newark-nj",
       "elizabeth-nj"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bridgeport city, 1600000US0908000)",
       "bls": "Bureau of Labor Statistics (curated seed)",
@@ -8713,7 +8713,7 @@
       "wichita-ks",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Amarillo city, 1600000US4803000)",
       "bls": "BLS LAUS LAUCN483750000000003 (Potter County, May 2026)",
