@@ -1,11 +1,13 @@
 import citiesData from '@/data/catalog/cities.json'
 import statesData from '@/data/catalog/states.json'
 import indexData from '@/data/catalog/index.json'
-import type { CatalogIndex, CityRecord, StateRecord } from '@/lib/types'
+import nationalData from '@/data/catalog/national.json'
+import type { CatalogIndex, CityRecord, NationalBaselines, StateRecord } from '@/lib/types'
 
 export { cityPath, statePath, siteUrl } from '@/lib/paths'
 
 export const catalogIndex = indexData as CatalogIndex
+export const nationalBaselines = nationalData as NationalBaselines
 export const allCities = citiesData as CityRecord[]
 export const allStates = statesData as StateRecord[]
 
