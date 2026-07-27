@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-27",
+  "medianHouseholdIncome": 78538,
+  "medianHomeValue": 303400,
+  "medianRent": 1348,
+  "costOfLivingIndex": 100,
+  "unemploymentRate": 4.2,
+  "unemploymentPeriod": "June 2026",
+  "crimeViolent": 602.7,
+  "crimeProperty": 3084.9,
+  "avgHighSummer": 87,
+  "avgLowWinter": 36,
+  "annualRainfall": 32.5,
+  "sunnyDays": 273,
+  "commuteMinutes": 26,
+  "walkScore": 45,
+  "notes": {
+    "acs": "U.S. Census Bureau ACS 5-year national medians",
+    "bls": "BLS national unemployment rate (June 2026)",
+    "crime": "Average of MapsToIt cities with available FBI rates (not a Census universe)",
+    "climate": "Average of NOAA normals across MapsToIt cities",
+    "commute": "Average commute / Walk Score across MapsToIt cities"
+  }
+}

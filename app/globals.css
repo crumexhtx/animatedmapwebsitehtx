@@ -556,6 +556,21 @@ a:hover { color: var(--map-deep); }
   margin: 0 0 1.5rem;
 }
 
+.stats-heading {
+  margin: 0 0 0.85rem;
+}
+
+.stats-heading h2 {
+  margin: 0 0 0.35rem;
+}
+
+.stats-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  max-width: 42rem;
+}
+
 .stat-cell {
   padding: 0.85rem 0.9rem;
   border-top: 2px solid var(--accent);
@@ -582,6 +597,65 @@ a:hover { color: var(--map-deep); }
   color: var(--muted);
   font-family: var(--font-body);
   font-size: 0.75rem;
+}
+
+.stat-compare {
+  margin-top: 0.35rem !important;
+  line-height: 1.35;
+}
+
+.stat-compare-national {
+  display: block;
+  opacity: 0.85;
+}
+
+.stat-compare.tone-higher {
+  color: var(--warn);
+}
+
+.stat-compare.tone-lower {
+  color: var(--accent);
+}
+
+.stat-compare.tone-near,
+.stat-compare.tone-neutral {
+  color: var(--muted);
+}
+
+.city-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.city-title-row h1 {
+  margin: 0;
+}
+
+.city-url-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--map-deep);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.city-url-button:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.city-url-icon {
+  flex: 0 0 auto;
 }
 
 .prose {
