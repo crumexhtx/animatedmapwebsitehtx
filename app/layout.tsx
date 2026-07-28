@@ -5,7 +5,7 @@ import { SiteHeader } from '@/components/SiteHeader'
 import { siteUrl } from '@/lib/catalog'
 import './globals.css'
 
-const GA_MEASUREMENT_ID = 'G-MK6DR8EQ96'
+const GA_MEASUREMENT_ID = 'G-MXMYV30T6F'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
