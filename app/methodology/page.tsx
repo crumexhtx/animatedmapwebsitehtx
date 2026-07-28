@@ -50,12 +50,22 @@ export default function MethodologyPage() {
           Census enrichment step above. A city only gets a trend chart once at least two years of estimates resolve; a
           missing or partial history is omitted rather than interpolated or estimated.
         </li>
+        <li>
+          <strong>Unsplash</strong> — two photos per city (`scripts/enrich-photos.ts`), used under the Unsplash License
+          and credited to the photographer on the page. A city with no usable search results simply shows no gallery.
+        </li>
       </ul>
 
       <h2>What we still curate</h2>
       <p>
         Commute minutes, Walk Score (where shown), featured flags, neighborhood shortlists, and nearby-city links remain
         curated companion fields. They are not overwritten by the enrichment scripts.
+      </p>
+      <p>
+        New cities launch with a curated-seed baseline — population, income, housing, climate, and crime figures that
+        are reasonable estimates, not yet a live agency pull — until the enrichment scripts above are run for them.
+        Pages built from curated-seed data say so explicitly wherever a real per-agency figure would otherwise be
+        implied, most visibly on the safety metric, rather than presenting an estimate as sourced fact.
       </p>
 
       <h2>Publishing rules</h2>

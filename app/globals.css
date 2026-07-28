@@ -665,6 +665,49 @@ a:hover { color: var(--map-deep); }
   font-size: 0.78rem;
 }
 
+.city-gallery {
+  margin: 0 0 1.5rem;
+}
+
+.city-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.city-gallery-item {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.city-gallery-photo {
+  position: relative;
+  aspect-ratio: 4 / 3;
+}
+
+.city-gallery-photo img {
+  object-fit: cover;
+}
+
+.city-gallery-item figcaption {
+  padding: 0.4rem 0.6rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.city-gallery-item figcaption a {
+  color: var(--muted);
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  .city-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .city-title-row {
   display: flex;
   align-items: center;

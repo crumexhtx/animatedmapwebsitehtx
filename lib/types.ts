@@ -33,6 +33,13 @@ export type PopulationHistory = {
   source: string
 }
 
+export type CityImage = {
+  url: string
+  alt: string
+  credit: string
+  creditUrl: string
+}
+
 export type CityRecord = {
   slug: string
   name: string
@@ -56,6 +63,7 @@ export type CityRecord = {
   coordinates: [number, number]
   featured?: boolean
   populationHistory?: PopulationHistory
+  images?: CityImage[]
 }
 
 export type StateRecord = {
