@@ -42,7 +42,7 @@
       "paterson-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New York city, 1600000US3651000)",
       "bls": "BLS LAUS LAUCN360610000000003 (New York County, May 2026)",
@@ -97,7 +97,7 @@
       "anaheim-ca",
       "garden-grove-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Los Angeles city, 1600000US0644000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -152,7 +152,7 @@
       "madison-wi",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chicago city, 1600000US1714000)",
       "bls": "BLS LAUS LAUCN170310000000003 (Cook County, May 2026)",
@@ -207,7 +207,7 @@
       "shreveport-la",
       "dallas-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Houston city, 1600000US4835000)",
       "bls": "BLS LAUS LAUCN482010000000003 (Harris County, May 2026)",
@@ -262,7 +262,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Phoenix city, 1600000US0455000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -310,14 +310,14 @@
       "South Philly"
     ],
     "nearbyCities": [
+      "wilmington-de",
       "elizabeth-nj",
       "newark-nj",
       "jersey-city-nj",
       "new-york-ny",
-      "paterson-nj",
-      "baltimore-md"
+      "paterson-nj"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Philadelphia city, 1600000US4260000)",
       "bls": "BLS LAUS LAUCN421010000000003 (Philadelphia County, May 2026)",
@@ -372,7 +372,7 @@
       "houston-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Antonio city, 1600000US4865000)",
       "bls": "BLS LAUS LAUCN480290000000003 (Bexar County, May 2026)",
@@ -426,7 +426,7 @@
       "santa-ana-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Diego city, 1600000US0666000)",
       "bls": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)",
@@ -481,7 +481,7 @@
       "arlington-tx",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Dallas city, 1600000US4819000)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -536,7 +536,7 @@
       "fort-worth-tx",
       "arlington-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Austin city, 1600000US4805000)",
       "bls": "BLS LAUS LAUCN484530000000003 (Travis County, May 2026)",
@@ -578,14 +578,14 @@
     "unemploymentRate": 4.7,
     "description": "About 961,739 people live in Jacksonville, FL. Households here report a median income near $66,981; our housing-derived cost index is about 95 (close to the national housing-cost baseline). Entry home prices around $266,100 still look attainable compared with coastal metros.\n\nSubtropical summers, hurricane planning, and no state income tax loom large. Pack for 91°F summer peaks; winter mornings often settle near 49°F. Commutes average near 26 minutes one-way, with walkability near 26/100. BLS LAUS puts recent unemployment around 4.7% for the surrounding county. Violent-offense rates near 647.4 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.\n\nJacksonville sits in that mid-to-large city band where urban and quieter residential pockets often share one municipal boundary. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Jacksonville with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "gainesville-fl",
       "orlando-fl",
       "savannah-ga",
       "tallahassee-fl",
       "tampa-fl",
-      "st-petersburg-fl",
-      "charleston-sc"
+      "st-petersburg-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jacksonville city, 1600000US1235000)",
       "bls": "BLS LAUS LAUCN120310000000003 (Duval County, May 2026)",
@@ -638,7 +638,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Jose city, 1600000US0668000)",
       "bls": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)",
@@ -687,7 +687,7 @@
       "frisco-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Worth city, 1600000US4827000)",
       "bls": "BLS LAUS LAUCN484390000000003 (Tarrant County, May 2026)",
@@ -732,10 +732,10 @@
       "akron-oh",
       "toledo-oh",
       "cleveland-oh",
-      "fort-wayne-in",
-      "lexington-ky"
+      "charleston-wv",
+      "fort-wayne-in"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Columbus city, 1600000US3918000)",
       "bls": "BLS LAUS LAUCN390490000000003 (Franklin County, May 2026)",
@@ -779,12 +779,12 @@
     "nearbyCities": [
       "winston-salem-nc",
       "greensboro-nc",
+      "columbia-sc",
+      "asheville-nc",
       "fayetteville-nc",
-      "durham-nc",
-      "cary-nc",
-      "raleigh-nc"
+      "durham-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charlotte city, 1600000US3712000)",
       "bls": "BLS LAUS LAUCN371190000000003 (Mecklenburg County, May 2026)",
@@ -833,7 +833,7 @@
       "lexington-ky",
       "chicago-il"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Indianapolis city (balance), 1600000US1836003)",
       "bls": "BLS LAUS LAUCN180970000000003 (Marion County, May 2026)",
@@ -887,7 +887,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Francisco city, 1600000US0667000)",
       "bls": "BLS LAUS LAUCN060750000000003 (San Francisco County, May 2026)",
@@ -942,7 +942,7 @@
       "salem-or",
       "spokane-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Seattle city, 1600000US5363000)",
       "bls": "BLS LAUS LAUCN530330000000003 (King County, May 2026)",
@@ -992,12 +992,12 @@
     "nearbyCities": [
       "lakewood-co",
       "aurora-co",
+      "boulder-co",
       "fort-collins-co",
       "colorado-springs-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Denver city, 1600000US0820000)",
       "bls": "BLS LAUS LAUCN080310000000003 (Denver County, May 2026)",
@@ -1048,11 +1048,11 @@
       "alexandria-va",
       "baltimore-md",
       "richmond-va",
+      "wilmington-de",
       "philadelphia-pa",
-      "newport-news-va",
-      "norfolk-va"
+      "newport-news-va"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Washington city, 1600000US1150000)",
       "bls": "BLS LAUS LAUCN110010000000003 (District of Columbia, June 2026)",
@@ -1102,12 +1102,12 @@
     "nearbyCities": [
       "worcester-ma",
       "providence-ri",
-      "bridgeport-ct",
-      "yonkers-ny",
-      "paterson-nj",
-      "new-york-ny"
+      "manchester-nh",
+      "hartford-ct",
+      "portland-me",
+      "new-haven-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boston city, 1600000US2507000)",
       "bls": "BLS LAUS LAUCN250250000000003 (Suffolk County, May 2026)",
@@ -1151,12 +1151,12 @@
     "nearbyCities": [
       "albuquerque-nm",
       "tucson-az",
+      "santa-fe-nm",
       "lubbock-tx",
       "gilbert-az",
-      "chandler-az",
-      "mesa-az"
+      "chandler-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (El Paso city, 1600000US4824000)",
       "bls": "BLS LAUS LAUCN481410000000003 (El Paso County, May 2026)",
@@ -1204,7 +1204,7 @@
       "louisville-ky",
       "knoxville-tn"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Nashville-Davidson metropolitan government (balance), 1600000US4752006)",
       "bls": "BLS LAUS LAUCN470370000000003 (Davidson County, May 2026)",
@@ -1246,14 +1246,14 @@
     "unemploymentRate": 6.4,
     "description": "Relocators eyeing Detroit, Michigan will find roughly 636,644 residents within city limits. Households here report a median income near $39,575; our housing-derived cost index is about 51 (among the more affordable large markets in this catalog on housing costs). Entry home prices around $76,800 still look attainable compared with coastal metros.\n\nLake-effect snow and automotive supply chains still color the local economy. Pack for 81°F summer peaks; winter mornings often settle near 22°F. Commutes average near 26 minutes one-way, with walkability near 55/100. Unemployment near 6.4% is elevated versus many peer cities, so industry mix matters more in a move decision. FBI CDE violent-offense rates run comparatively high (~1965.3 per 100k annualized), so block-by-block due diligence is especially important.\n\nDetroit sits in that mid-to-large city band where urban and quieter residential pockets often share one municipal boundary. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Detroit with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "ann-arbor-mi",
       "toledo-oh",
       "cleveland-oh",
       "akron-oh",
       "fort-wayne-in",
-      "grand-rapids-mi",
-      "columbus-oh"
+      "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Detroit city, 1600000US2622000)",
       "bls": "BLS LAUS LAUCN261630000000003 (Wayne County, May 2026)",
@@ -1301,7 +1301,7 @@
       "plano-tx",
       "garland-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oklahoma City city, 1600000US4055000)",
       "bls": "BLS LAUS LAUCN401090000000003 (Oklahoma County, May 2026)",
@@ -1349,7 +1349,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Portland city, 1600000US4159000)",
       "bls": "BLS LAUS LAUCN410510000000003 (Multnomah County, May 2026)",
@@ -1398,7 +1398,7 @@
       "moreno-valley-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Las Vegas city, 1600000US3240000)",
       "bls": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)",
@@ -1447,7 +1447,7 @@
       "huntsville-al",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Memphis city, 1600000US4748000)",
       "bls": "BLS LAUS LAUCN471570000000003 (Shelby County, May 2026)",
@@ -1495,7 +1495,7 @@
       "clarksville-tn",
       "nashville-tn"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Louisville/Jefferson County metro government (balance), Kentucky, 1600000US2148006)",
       "bls": "BLS LAUS LAUCN211110000000003 (Jefferson County, May 2026)",
@@ -1538,12 +1538,12 @@
     "nearbyCities": [
       "washington-dc",
       "alexandria-va",
+      "wilmington-de",
       "philadelphia-pa",
       "richmond-va",
-      "newport-news-va",
-      "elizabeth-nj"
+      "newport-news-va"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Baltimore city, 1600000US2404000)",
       "bls": "BLS LAUS LAUCN245100000000003 (Baltimore city, May 2026)",
@@ -1591,7 +1591,7 @@
       "aurora-il",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Milwaukee city, 1600000US5553000)",
       "bls": "BLS LAUS LAUCN550790000000003 (Milwaukee County, May 2026)",
@@ -1632,14 +1632,14 @@
     "unemploymentRate": 4.3,
     "description": "Relocators eyeing Albuquerque, New Mexico will find roughly 562,488 residents within city limits. Households here report a median income near $65,604; our housing-derived cost index is about 84 (among the more affordable large markets in this catalog on housing costs). Budget for median rents around $1,085 a month before you lock a neighborhood.\n\nHigh-desert light, monsoon storms, and Hispanic cultural roots are unmistakable. Roughly 309 sunny days a year give outdoor routines unusual calendar reliability. Commutes average near 23 minutes one-way, with walkability near 43/100. BLS LAUS puts recent unemployment around 4.3% for the surrounding county. FBI Crime Data Explorer did not return usable agency rates here — verify recent local PD reports block by block.\n\nAlbuquerque sits in that mid-to-large city band where urban and quieter residential pockets often share one municipal boundary. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Albuquerque with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "santa-fe-nm",
       "el-paso-tx",
       "amarillo-tx",
       "colorado-springs-co",
       "lubbock-tx",
-      "gilbert-az",
-      "mesa-az"
+      "gilbert-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Albuquerque city, 1600000US3502000)",
       "bls": "BLS LAUS LAUCN350010000000003 (Bernalillo County, May 2026)",
@@ -1687,7 +1687,7 @@
       "scottsdale-az",
       "phoenix-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tucson city, 1600000US0477000)",
       "bls": "BLS LAUS LAUCN040190000000003 (Pima County, May 2026)",
@@ -1735,7 +1735,7 @@
       "santa-clara-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fresno city, 1600000US0627000)",
       "bls": "BLS LAUS LAUCN060190000000003 (Fresno County, May 2026)",
@@ -1783,7 +1783,7 @@
       "hayward-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sacramento city, 1600000US0664000)",
       "bls": "BLS LAUS LAUCN060670000000003 (Sacramento County, May 2026)",
@@ -1831,7 +1831,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Mesa city, 1600000US0446000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -1874,12 +1874,12 @@
     "nearbyCities": [
       "kansas-city-ks",
       "overland-park-ks",
+      "topeka-ks",
       "springfield-mo",
       "lincoln-ne",
-      "omaha-ne",
-      "wichita-ks"
+      "omaha-ne"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2938000)",
       "bls": "BLS LAUS LAUCN290950000000003 (Jackson County, May 2026)",
@@ -1926,14 +1926,14 @@
       "Virginia-Highland"
     ],
     "nearbyCities": [
+      "athens-ga",
       "macon-ga",
       "chattanooga-tn",
       "augusta-ga",
       "birmingham-al",
-      "huntsville-al",
-      "montgomery-al"
+      "huntsville-al"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Atlanta city, 1600000US1304000)",
       "bls": "BLS LAUS LAUCN131210000000003 (Fulton County, May 2026)",
@@ -1978,11 +1978,11 @@
       "lakewood-co",
       "aurora-co",
       "denver-co",
+      "boulder-co",
       "fort-collins-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Colorado Springs city, 1600000US0816000)",
       "bls": "BLS LAUS LAUCN080410000000003 (El Paso County, May 2026)",
@@ -2030,7 +2030,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Raleigh city, 1600000US3755000)",
       "bls": "BLS LAUS LAUCN371830000000003 (Wake County, May 2026)",
@@ -2074,12 +2074,12 @@
     "nearbyCities": [
       "lincoln-ne",
       "des-moines-ia",
+      "topeka-ks",
       "sioux-falls-sd",
       "kansas-city-ks",
-      "kansas-city-mo",
-      "overland-park-ks"
+      "kansas-city-mo"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Omaha city, 1600000US3137000)",
       "bls": "BLS LAUS LAUCN310550000000003 (Douglas County, May 2026)",
@@ -2127,7 +2127,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Miami city, 1600000US1245000)",
       "bls": "BLS LAUS LAUCN120860000000003 (Miami-Dade County, June 2026)",
@@ -2176,7 +2176,7 @@
       "santa-ana-ca",
       "los-angeles-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Long Beach city, 1600000US0643000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -2224,7 +2224,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Virginia Beach city, 1600000US5182000)",
       "bls": "BLS LAUS LAUCN518100000000003 (Virginia Beach city, May 2026)",
@@ -2272,7 +2272,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oakland city, 1600000US0653000)",
       "bls": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)",
@@ -2316,11 +2316,11 @@
       "saint-paul-mn",
       "bloomington-mn",
       "sioux-falls-sd",
+      "fargo-nd",
       "madison-wi",
-      "des-moines-ia",
-      "rockford-il"
+      "des-moines-ia"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Minneapolis city, 1600000US2743000)",
       "bls": "BLS LAUS LAUCN270530000000003 (Hennepin County, May 2026)",
@@ -2365,11 +2365,11 @@
       "oklahoma-city-ok",
       "wichita-ks",
       "springfield-mo",
+      "topeka-ks",
       "mckinney-tx",
-      "overland-park-ks",
-      "frisco-tx"
+      "overland-park-ks"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tulsa city, 1600000US4075000)",
       "bls": "BLS LAUS LAUCN401430000000003 (Tulsa County, May 2026)",
@@ -2413,11 +2413,11 @@
       "st-petersburg-fl",
       "orlando-fl",
       "cape-coral-fl",
+      "gainesville-fl",
       "port-st-lucie-fl",
-      "jacksonville-fl",
-      "pembroke-pines-fl"
+      "jacksonville-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tampa city, 1600000US1271000)",
       "bls": "BLS LAUS LAUCN120570000000003 (Hillsborough County, May 2026)",
@@ -2466,7 +2466,7 @@
       "garland-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Arlington city, 1600000US4804000)",
       "bls": "BLS LAUS LAUCN484390000000003 (Tarrant County, May 2026)",
@@ -2514,7 +2514,7 @@
       "shreveport-la",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New Orleans city, 1600000US2255000)",
       "bls": "BLS LAUS LAUCN220710000000003 (Orleans Parish, May 2026)",
@@ -2557,13 +2557,13 @@
     "description": "Wide-open plains weather — wind, heat, and tornado season — is a planning factor. Roughly 278 sunny days a year give outdoor routines unusual calendar reliability. Average one-way commute time is about 19 minutes, and Walk Score estimates land around 35/100. Labor-market readings near 4.0% unemployment are neither boom nor bust by national standards. FBI CDE violent-offense rates run comparatively high (~1141 per 100k annualized), so block-by-block due diligence is especially important.\n\nRelocators eyeing Wichita, Kansas will find roughly 396,488 residents within city limits. With median income around $63,072 and a cost index of 65, the market reads among the more affordable large markets in this catalog on housing costs. Entry home prices around $179,500 still look attainable compared with coastal metros.\n\nWichita is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Wichita with nearby alternatives before you relocate.",
     "nearbyCities": [
       "tulsa-ok",
+      "topeka-ks",
       "oklahoma-city-ok",
       "overland-park-ks",
       "kansas-city-ks",
-      "kansas-city-mo",
-      "lincoln-ne"
+      "kansas-city-mo"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Wichita city, 1600000US2079000)",
       "bls": "BLS LAUS LAUCN201730000000003 (Sedgwick County, May 2026)",
@@ -2608,10 +2608,10 @@
       "detroit-mi",
       "toledo-oh",
       "pittsburgh-pa",
-      "columbus-oh",
-      "buffalo-ny"
+      "ann-arbor-mi",
+      "columbus-oh"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cleveland city, 1600000US3916000)",
       "bls": "BLS LAUS LAUCN390350000000003 (Cuyahoga County, May 2026)",
@@ -2659,7 +2659,7 @@
       "pasadena-ca",
       "los-angeles-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bakersfield city, 1600000US0603526)",
       "bls": "BLS LAUS LAUCN060290000000003 (Kern County, May 2026)",
@@ -2702,12 +2702,12 @@
     "nearbyCities": [
       "denver-co",
       "lakewood-co",
+      "boulder-co",
       "fort-collins-co",
       "colorado-springs-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US0804000)",
       "bls": "BLS LAUS LAUCN080050000000003 (Arapahoe County, May 2026)",
@@ -2755,7 +2755,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Anaheim city, 1600000US0602000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -2803,7 +2803,7 @@
       "hayward-ca",
       "santa-clara-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Urban Honolulu CDP, 1600000US1571550)",
       "bls": "BLS LAUS LAUCN150030000000003 (Honolulu County, May 2026)",
@@ -2852,7 +2852,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Ana city, 1600000US0669000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -2900,7 +2900,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Riverside city, 1600000US0662000)",
       "bls": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)",
@@ -2948,7 +2948,7 @@
       "round-rock-tx",
       "arlington-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Corpus Christi city, 1600000US4817000)",
       "bls": "BLS LAUS LAUCN483550000000003 (Nueces County, May 2026)",
@@ -2994,9 +2994,9 @@
       "knoxville-tn",
       "indianapolis-in",
       "columbus-oh",
-      "evansville-in"
+      "charleston-wv"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lexington-Fayette urban county, 1600000US2146027)",
       "bls": "BLS LAUS LAUCN210670000000003 (Fayette County, May 2026)",
@@ -3044,7 +3044,7 @@
       "fontana-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Henderson city, 1600000US3231900)",
       "bls": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)",
@@ -3092,7 +3092,7 @@
       "san-jose-ca",
       "oakland-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Stockton city, 1600000US0675000)",
       "bls": "BLS LAUS LAUCN060770000000003 (San Joaquin County, May 2026)",
@@ -3136,11 +3136,11 @@
       "minneapolis-mn",
       "bloomington-mn",
       "sioux-falls-sd",
+      "fargo-nd",
       "madison-wi",
-      "des-moines-ia",
-      "rockford-il"
+      "des-moines-ia"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Paul city, 1600000US2758000)",
       "bls": "BLS LAUS LAUCN271230000000003 (Ramsey County, May 2026)",
@@ -3186,9 +3186,9 @@
       "indianapolis-in",
       "columbus-oh",
       "fort-wayne-in",
-      "evansville-in"
+      "charleston-wv"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cincinnati city, 1600000US3915000)",
       "bls": "BLS LAUS LAUCN390610000000003 (Hamilton County, May 2026)",
@@ -3236,7 +3236,7 @@
       "indianapolis-in",
       "kansas-city-mo"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Louis city, 1600000US2965000)",
       "bls": "BLS LAUS LAUCN295100000000003 (St. Louis city, May 2026)",
@@ -3280,11 +3280,11 @@
       "akron-oh",
       "cleveland-oh",
       "columbus-oh",
+      "charleston-wv",
       "buffalo-ny",
-      "washington-dc",
-      "alexandria-va"
+      "washington-dc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pittsburgh city, 1600000US4261000)",
       "bls": "BLS LAUS LAUCN420030000000003 (Allegheny County, May 2026)",
@@ -3333,7 +3333,7 @@
       "charlotte-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Greensboro city, 1600000US3728000)",
       "bls": "BLS LAUS LAUCN370810000000003 (Guilford County, May 2026)",
@@ -3375,13 +3375,13 @@
     "description": "Plains weather extremes and a steady agribusiness economy set expectations. Winter lows around 17°F mean heating costs and snow logistics belong on the checklist. Average one-way commute time is about 18 minutes, and Walk Score estimates land around 40/100. A recent county unemployment reading near 2.6% suggests a relatively tight local labor market. Violent-offense rates around 383 per 100k are moderate for a large U.S. city, with meaningful variation by neighborhood.\n\nLincoln (pop. 291,932) sits in Nebraska. With median income around $69,991 and a cost index of 80, the market reads among the more affordable large markets in this catalog on housing costs. Ownership is a high bar — typical values near $248,200 push many newcomers toward renting first.\n\nLincoln is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Lincoln with nearby alternatives before you relocate.",
     "nearbyCities": [
       "omaha-ne",
+      "topeka-ks",
       "kansas-city-ks",
       "kansas-city-mo",
       "overland-park-ks",
-      "des-moines-ia",
-      "sioux-falls-sd"
+      "des-moines-ia"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lincoln city, 1600000US3128000)",
       "bls": "BLS LAUS LAUCN311090000000003 (Lancaster County, May 2026)",
@@ -3429,7 +3429,7 @@
       "irving-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Plano city, 1600000US4858016)",
       "bls": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)",
@@ -3477,7 +3477,7 @@
       "portland-or",
       "salem-or"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Anchorage municipality, 1600000US0203000)",
       "bls": "BLS LAUS LAUCN020200000000003 (Anchorage Municipality, May 2026)",
@@ -3520,12 +3520,12 @@
     "nearbyCities": [
       "tampa-fl",
       "st-petersburg-fl",
+      "gainesville-fl",
       "port-st-lucie-fl",
       "jacksonville-fl",
-      "cape-coral-fl",
-      "fort-lauderdale-fl"
+      "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Orlando city, 1600000US1253000)",
       "bls": "BLS LAUS LAUCN120950000000003 (Orange County, May 2026)",
@@ -3574,7 +3574,7 @@
       "corona-ca",
       "long-beach-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Irvine city, 1600000US0636770)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -3622,7 +3622,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Newark city, 1600000US3451000)",
       "bls": "BLS LAUS LAUCN340130000000003 (Essex County, May 2026)",
@@ -3670,7 +3670,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Durham city, 1600000US3719000)",
       "bls": "BLS LAUS LAUCN370630000000003 (Durham County, May 2026)",
@@ -3718,7 +3718,7 @@
       "santa-ana-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chula Vista city, 1600000US0613392)",
       "bls": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)",
@@ -3759,14 +3759,14 @@
     "unemploymentRate": 3.9,
     "description": "Great Lakes industry towns and Midwestern seasons still set the tone. Expect summer highs near 83°F and winter lows around 23°F. Average one-way commute time is about 20 minutes, and Walk Score estimates land around 45/100. Labor-market readings near 3.9% unemployment are neither boom nor bust by national standards. FBI CDE violent-offense rates run comparatively high (~952.1 per 100k annualized), so block-by-block due diligence is especially important.\n\nToledo, Ohio counts about 268,461 residents inside the city limits. With median income around $47,532 and a cost index of 50, the market reads among the more affordable large markets in this catalog on housing costs. Entry home prices around $107,000 still look attainable compared with coastal metros.\n\nToledo is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Toledo with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "ann-arbor-mi",
       "detroit-mi",
       "fort-wayne-in",
       "cleveland-oh",
       "akron-oh",
-      "columbus-oh",
-      "grand-rapids-mi"
+      "columbus-oh"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Toledo city, 1600000US3977000)",
       "bls": "BLS LAUS LAUCN390950000000003 (Lucas County, May 2026)",
@@ -3809,12 +3809,12 @@
     "nearbyCities": [
       "toledo-oh",
       "indianapolis-in",
+      "ann-arbor-mi",
       "grand-rapids-mi",
       "columbus-oh",
-      "detroit-mi",
-      "chicago-il"
+      "detroit-mi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Wayne city, 1600000US1825000)",
       "bls": "BLS LAUS LAUCN180030000000003 (Allen County, May 2026)",
@@ -3858,11 +3858,11 @@
       "tampa-fl",
       "cape-coral-fl",
       "orlando-fl",
+      "gainesville-fl",
       "port-st-lucie-fl",
-      "jacksonville-fl",
-      "pembroke-pines-fl"
+      "jacksonville-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Petersburg city, 1600000US1263000)",
       "bls": "BLS LAUS LAUCN121030000000003 (Pinellas County, May 2026)",
@@ -3910,7 +3910,7 @@
       "houston-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Laredo city, 1600000US4841464)",
       "bls": "BLS LAUS LAUCN484790000000003 (Webb County, May 2026)",
@@ -3958,7 +3958,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jersey City city, 1600000US3436000)",
       "bls": "BLS LAUS LAUCN340170000000003 (Hudson County, May 2026)",
@@ -4006,7 +4006,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chandler city, 1600000US0412000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4054,7 +4054,7 @@
       "chicago-il",
       "peoria-il"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Madison city, 1600000US5548000)",
       "bls": "BLS LAUS LAUCN550250000000003 (Dane County, May 2026)",
@@ -4097,12 +4097,12 @@
     "nearbyCities": [
       "amarillo-tx",
       "fort-worth-tx",
+      "santa-fe-nm",
       "oklahoma-city-ok",
       "arlington-tx",
-      "grand-prairie-tx",
-      "irving-tx"
+      "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lubbock city, 1600000US4845000)",
       "bls": "BLS LAUS LAUCN483030000000003 (Lubbock County, May 2026)",
@@ -4150,7 +4150,7 @@
       "chandler-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Scottsdale city, 1600000US0465000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4198,7 +4198,7 @@
       "hayward-ca",
       "oakland-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Reno city, 1600000US3260600)",
       "bls": "BLS LAUS LAUCN320310000000003 (Washoe County, May 2026)",
@@ -4240,13 +4240,13 @@
     "description": "Buffalo, New York counts about 276,397 residents inside the city limits. Households here report a median income near $48,050; our housing-derived cost index is about 62 (among the more affordable large markets in this catalog on housing costs). Entry home prices around $152,300 still look attainable compared with coastal metros.\n\nSnow-belt Upstate and transit-heavy downstate markets feel like different worlds. Pack for 78°F summer peaks; winter mornings often settle near 21°F. Commutes average near 21 minutes one-way, with walkability near 68/100. BLS LAUS puts recent unemployment around 4.1% for the surrounding county. FBI CDE violent-offense rates run comparatively high (~990.7 per 100k annualized), so block-by-block due diligence is especially important.\n\nBuffalo is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Buffalo with nearby alternatives before you relocate.",
     "nearbyCities": [
       "rochester-ny",
+      "syracuse-ny",
       "cleveland-oh",
       "pittsburgh-pa",
       "akron-oh",
-      "detroit-mi",
-      "toledo-oh"
+      "detroit-mi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Buffalo city, 1600000US3611000)",
       "bls": "BLS LAUS LAUCN360290000000003 (Erie County, May 2026)",
@@ -4294,7 +4294,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Gilbert town, 1600000US0427400)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4342,7 +4342,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0427820)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -4390,7 +4390,7 @@
       "moreno-valley-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (North Las Vegas city, 1600000US3251800)",
       "bls": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)",
@@ -4438,7 +4438,7 @@
       "raleigh-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Winston-Salem city, 1600000US3775000)",
       "bls": "BLS LAUS LAUCN370670000000003 (Forsyth County, May 2026)",
@@ -4486,7 +4486,7 @@
       "alexandria-va",
       "raleigh-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chesapeake city, 1600000US5116000)",
       "bls": "BLS LAUS LAUCN515500000000003 (Chesapeake city, May 2026)",
@@ -4534,7 +4534,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Norfolk city, 1600000US5157000)",
       "bls": "BLS LAUS LAUCN517100000000003 (Norfolk city, May 2026)",
@@ -4582,7 +4582,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fremont city, 1600000US0626000)",
       "bls": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)",
@@ -4630,7 +4630,7 @@
       "mckinney-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Garland city, 1600000US4829000)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -4678,7 +4678,7 @@
       "plano-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Irving city, 1600000US4837000)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -4726,7 +4726,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hialeah city, 1600000US1230000)",
       "bls": "BLS LAUS LAUCN120860000000003 (Miami-Dade County, June 2026)",
@@ -4774,7 +4774,7 @@
       "virginia-beach-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Richmond city, 1600000US5167000)",
       "bls": "BLS LAUS LAUCN517600000000003 (Richmond city, May 2026)",
@@ -4822,7 +4822,7 @@
       "portland-or",
       "vancouver-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boise City city, 1600000US1608830)",
       "bls": "BLS LAUS LAUCN160010000000003 (Ada County, May 2026)",
@@ -4871,7 +4871,7 @@
       "boise-id",
       "portland-or"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Spokane city, 1600000US5367000)",
       "bls": "BLS LAUS LAUCN530630000000003 (Spokane County, May 2026)",
@@ -4919,7 +4919,7 @@
       "houston-tx",
       "little-rock-ar"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Baton Rouge city, 1600000US2205000)",
       "bls": "BLS LAUS LAUCN220330000000003 (East Baton Rouge Parish, May 2026)",
@@ -4967,7 +4967,7 @@
       "salem-or",
       "eugene-or"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tacoma city, 1600000US5370000)",
       "bls": "BLS LAUS LAUCN530530000000003 (Pierce County, May 2026)",
@@ -5015,7 +5015,7 @@
       "ontario-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Bernardino city, 1600000US0665000)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -5063,7 +5063,7 @@
       "hayward-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Modesto city, 1600000US0648354)",
       "bls": "BLS LAUS LAUCN060990000000003 (Stanislaus County, May 2026)",
@@ -5111,7 +5111,7 @@
       "moreno-valley-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fontana city, 1600000US0624680)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -5157,9 +5157,9 @@
       "kansas-city-ks",
       "kansas-city-mo",
       "overland-park-ks",
-      "sioux-falls-sd"
+      "topeka-ks"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Des Moines city, 1600000US1921000)",
       "bls": "BLS LAUS LAUCN191530000000003 (Polk County, May 2026)",
@@ -5207,7 +5207,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Moreno Valley city, 1600000US0649270)",
       "bls": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)",
@@ -5255,7 +5255,7 @@
       "oxnard-ca",
       "torrance-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Clarita city, 1600000US0669088)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -5303,7 +5303,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fayetteville city, 1600000US3722920)",
       "bls": "BLS LAUS LAUCN370510000000003 (Cumberland County, May 2026)",
@@ -5351,7 +5351,7 @@
       "nashville-tn",
       "macon-ga"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Birmingham city, 1600000US0107000)",
       "bls": "BLS LAUS LAUCN010730000000003 (Jefferson County, May 2026)",
@@ -5399,7 +5399,7 @@
       "pasadena-ca",
       "long-beach-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oxnard city, 1600000US0654652)",
       "bls": "BLS LAUS LAUCN061110000000003 (Ventura County, May 2026)",
@@ -5441,13 +5441,13 @@
     "description": "Rochester, New York counts about 209,720 residents inside the city limits. Households here report a median income near $46,628; our housing-derived cost index is about 58 (among the more affordable large markets in this catalog on housing costs). Entry home prices around $120,600 still look attainable compared with coastal metros.\n\nSnow-belt Upstate and transit-heavy downstate markets feel like different worlds. Pack for 80°F summer peaks; winter mornings often settle near 21°F. Commutes average near 20 minutes one-way, with walkability near 55/100. BLS LAUS puts recent unemployment around 4.1% for the surrounding county. Violent-offense rates near 748.4 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.\n\nRochester is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Rochester with nearby alternatives before you relocate.",
     "nearbyCities": [
       "buffalo-ny",
+      "syracuse-ny",
+      "albany-ny",
       "pittsburgh-pa",
       "paterson-nj",
-      "cleveland-oh",
-      "newark-nj",
-      "yonkers-ny"
+      "burlington-vt"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rochester city, 1600000US3663000)",
       "bls": "BLS LAUS LAUCN360550000000003 (Monroe County, May 2026)",
@@ -5495,7 +5495,7 @@
       "miami-fl",
       "orlando-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Port St. Lucie city, 1600000US1258715)",
       "bls": "BLS LAUS LAUCN121110000000003 (St. Lucie County, May 2026)",
@@ -5536,14 +5536,14 @@
     "unemploymentRate": 4.4,
     "description": "Grand Rapids (pop. 197,768) sits in Michigan. Households here report a median income near $65,526; our housing-derived cost index is about 81 (among the more affordable large markets in this catalog on housing costs). Ownership is a high bar — typical values near $225,500 push many newcomers toward renting first.\n\nLake-effect snow and automotive supply chains still color the local economy. Pack for 81°F summer peaks; winter mornings often settle near 21°F. Commutes average near 21 minutes one-way, with walkability near 51/100. BLS LAUS puts recent unemployment around 4.4% for the surrounding county. Violent-offense rates near 637.3 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.\n\nGrand Rapids is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Grand Rapids with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "ann-arbor-mi",
       "milwaukee-wi",
       "chicago-il",
       "fort-wayne-in",
       "detroit-mi",
-      "toledo-oh",
-      "naperville-il"
+      "toledo-oh"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Grand Rapids city, 1600000US2634000)",
       "bls": "BLS LAUS LAUCN260810000000003 (Kent County, May 2026)",
@@ -5591,7 +5591,7 @@
       "atlanta-ga",
       "montgomery-al"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Huntsville city, 1600000US0137000)",
       "bls": "BLS LAUS LAUCN010890000000003 (Madison County, May 2026)",
@@ -5633,13 +5633,13 @@
     "description": "Relocators eyeing Salt Lake City, Utah will find roughly 203,888 residents within city limits. Households here report a median income near $74,925; our housing-derived cost index is about 132 (above the national housing-cost baseline). Budget for median rents around $1,343 a month before you lock a neighborhood.\n\nWasatch Front powder days and rapid suburban expansion are the draw. Roughly 274 sunny days a year give outdoor routines unusual calendar reliability. Commutes average near 22 minutes one-way, with walkability near 59/100. BLS LAUS puts recent unemployment around 3.4% for the surrounding county. Violent-offense rates near 712.4 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.\n\nSalt Lake City is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Salt Lake City with nearby alternatives before you relocate.",
     "nearbyCities": [
       "boise-id",
+      "boulder-co",
       "fort-collins-co",
       "north-las-vegas-nv",
       "las-vegas-nv",
-      "lakewood-co",
-      "henderson-nv"
+      "lakewood-co"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Salt Lake City city, 1600000US4967000)",
       "bls": "BLS LAUS LAUCN490350000000003 (Salt Lake County, May 2026)",
@@ -5681,14 +5681,14 @@
     "unemploymentRate": 5,
     "description": "Relocators eyeing Tallahassee, Florida will find roughly 199,696 residents within city limits. Median household income is roughly $55,931, while the ACS housing-cost index sits near 91 — below the national housing-cost baseline (100 ≈ U.S. average). Budget for median rents around $1,238 a month before you lock a neighborhood.\n\nTallahassee is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Tallahassee with nearby alternatives before you relocate.\n\nSubtropical summers, hurricane planning, and no state income tax loom large. With about 58.8 inches of rain a year, wet-season drainage and mold checks are worth asking about. Plan on roughly 20 minutes each way for a typical commute; Walk Score is about 32. Unemployment recently ran near 5.0%, broadly in line with many large U.S. counties. Violent-offense rates near 696.6 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.",
     "nearbyCities": [
+      "gainesville-fl",
       "jacksonville-fl",
       "macon-ga",
       "montgomery-al",
       "tampa-fl",
-      "st-petersburg-fl",
-      "orlando-fl"
+      "st-petersburg-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tallahassee city, 1600000US1270600)",
       "bls": "BLS LAUS LAUCN120730000000003 (Leon County, May 2026)",
@@ -5731,12 +5731,12 @@
     "nearbyCities": [
       "providence-ri",
       "boston-ma",
-      "bridgeport-ct",
-      "yonkers-ny",
-      "paterson-nj",
-      "new-york-ny"
+      "manchester-nh",
+      "hartford-ct",
+      "new-haven-ct",
+      "albany-ny"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Worcester city, 1600000US2582000)",
       "bls": "BLS LAUS LAUCN250270000000003 (Worcester County, May 2026)",
@@ -5784,7 +5784,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Newport News city, 1600000US5156000)",
       "bls": "BLS LAUS LAUCN517000000000003 (Newport News city, May 2026)",
@@ -5827,12 +5827,12 @@
     "nearbyCities": [
       "kansas-city-ks",
       "kansas-city-mo",
+      "topeka-ks",
       "springfield-mo",
       "lincoln-ne",
-      "wichita-ks",
-      "omaha-ne"
+      "wichita-ks"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Overland Park city, 1600000US2053775)",
       "bls": "BLS LAUS LAUCN200910000000003 (Johnson County, May 2026)",
@@ -5880,7 +5880,7 @@
       "fremont-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Rosa city, 1600000US0670098)",
       "bls": "BLS LAUS LAUCN060970000000003 (Sonoma County, May 2026)",
@@ -5923,12 +5923,12 @@
     "nearbyCities": [
       "worcester-ma",
       "boston-ma",
-      "bridgeport-ct",
-      "yonkers-ny",
-      "new-york-ny",
-      "paterson-nj"
+      "hartford-ct",
+      "manchester-nh",
+      "new-haven-ct",
+      "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Providence city, 1600000US4459000)",
       "bls": "BLS LAUS LAUCN440070000000003 (Providence County, May 2026)",
@@ -5976,7 +5976,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Garden Grove city, 1600000US0629000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -6021,10 +6021,10 @@
       "knoxville-tn",
       "atlanta-ga",
       "nashville-tn",
-      "birmingham-al",
-      "clarksville-tn"
+      "athens-ga",
+      "birmingham-al"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chattanooga city, 1600000US4714000)",
       "bls": "BLS LAUS LAUCN470650000000003 (Hamilton County, May 2026)",
@@ -6072,7 +6072,7 @@
       "huntington-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oceanside city, 1600000US0653322)",
       "bls": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)",
@@ -6120,7 +6120,7 @@
       "little-rock-ar",
       "shreveport-la"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jackson city, 1600000US2836000)",
       "bls": "BLS LAUS LAUCN280490000000003 (Hinds County, May 2026)",
@@ -6168,7 +6168,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Lauderdale city, 1600000US1224000)",
       "bls": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)",
@@ -6216,7 +6216,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Clara city, 1600000US0669084)",
       "bls": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)",
@@ -6260,11 +6260,11 @@
       "minneapolis-mn",
       "saint-paul-mn",
       "sioux-falls-sd",
+      "fargo-nd",
       "des-moines-ia",
-      "madison-wi",
-      "rockford-il"
+      "madison-wi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bloomington city, 1600000US2706616)",
       "bls": "BLS LAUS LAUCN270530000000003 (Hennepin County, May 2026)",
@@ -6312,7 +6312,7 @@
       "saint-paul-mn",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sioux Falls city, 1600000US4659020)",
       "bls": "BLS LAUS LAUCN460990000000003 (Minnehaha County, May 2026)",
@@ -6360,7 +6360,7 @@
       "tulsa-ok",
       "mckinney-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Little Rock city, 1600000US0541000)",
       "bls": "BLS LAUS LAUCN051190000000003 (Pulaski County, May 2026)",
@@ -6401,14 +6401,14 @@
     "unemploymentRate": 4.2,
     "description": "Piedmont heat and a sprawling logistics/job belt shape commute realities. Expect summer highs near 92°F and winter lows around 42°F. Average one-way commute time is about 21 minutes, and Walk Score estimates land around 28/100. Labor-market readings near 4.2% unemployment are neither boom nor bust by national standards. Crime rates are marked unavailable for this municipality in our FBI CDE pull; do not rely on a citywide index.\n\nAugusta (pop. 201,504) sits in Georgia. With median income around $53,134 and a cost index of 67, the market reads among the more affordable large markets in this catalog on housing costs. Entry home prices around $162,900 still look attainable compared with coastal metros.\n\nAugusta is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Augusta with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "columbia-sc",
+      "athens-ga",
       "macon-ga",
       "savannah-ga",
       "charleston-sc",
-      "atlanta-ga",
-      "charlotte-nc",
-      "knoxville-tn"
+      "atlanta-ga"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Augusta-Richmond County consolidated government (balance), 1600000US1304204)",
       "bls": "BLS LAUS LAUCN132450000000003 (Richmond County, May 2026)",
@@ -6456,7 +6456,7 @@
       "birmingham-al",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Mobile city, 1600000US0150000)",
       "bls": "BLS LAUS LAUCN010970000000003 (Mobile County, May 2026)",
@@ -6497,14 +6497,14 @@
     "unemploymentRate": 2.5,
     "description": "Music/tourism hubs and auto manufacturing corridors sit under humid summers. With about 51.9 inches of rain a year, wet-season drainage and mold checks are worth asking about. Average one-way commute time is about 21 minutes, and Walk Score estimates land around 33/100. A recent county unemployment reading near 2.5% suggests a relatively tight local labor market. Violent-offense rates near 667.3 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.\n\nKnoxville (pop. 193,721) sits in Tennessee. With median income around $50,994 and a cost index of 77, the market reads among the more affordable large markets in this catalog on housing costs. Entry home prices around $214,000 still look attainable compared with coastal metros.\n\nKnoxville is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Knoxville with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "asheville-nc",
       "chattanooga-tn",
+      "athens-ga",
       "lexington-ky",
       "atlanta-ga",
-      "nashville-tn",
-      "huntsville-al",
-      "charlotte-nc"
+      "nashville-tn"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Knoxville city, 1600000US4740000)",
       "bls": "BLS LAUS LAUCN470930000000003 (Knox County, May 2026)",
@@ -6552,7 +6552,7 @@
       "hialeah-fl",
       "fort-lauderdale-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cape Coral city, 1600000US1210275)",
       "bls": "BLS LAUS LAUCN120710000000003 (Lee County, May 2026)",
@@ -6600,7 +6600,7 @@
       "dallas-tx",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Shreveport city, 1600000US2270000)",
       "bls": "BLS LAUS LAUCN220170000000003 (Caddo Parish, May 2026)",
@@ -6648,7 +6648,7 @@
       "dallas-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Frisco city, 1600000US4827684)",
       "bls": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)",
@@ -6696,7 +6696,7 @@
       "irving-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (McKinney city, 1600000US4845744)",
       "bls": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)",
@@ -6744,7 +6744,7 @@
       "elizabeth-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Yonkers city, 1600000US3684000)",
       "bls": "BLS LAUS LAUCN361190000000003 (Westchester County, May 2026)",
@@ -6792,7 +6792,7 @@
       "peoria-il",
       "madison-wi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US1703012)",
       "bls": "BLS LAUS LAUCN170890000000003 (Kane County, May 2026)",
@@ -6840,7 +6840,7 @@
       "huntsville-al",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Montgomery city, 1600000US0151000)",
       "bls": "BLS LAUS LAUCN011010000000003 (Montgomery County, May 2026)",
@@ -6886,9 +6886,9 @@
       "columbus-oh",
       "toledo-oh",
       "detroit-mi",
-      "buffalo-ny"
+      "ann-arbor-mi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Akron city, 1600000US3901000)",
       "bls": "BLS LAUS LAUCN391530000000003 (Summit County, May 2026)",
@@ -6936,7 +6936,7 @@
       "long-beach-ca",
       "torrance-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Huntington Beach city, 1600000US0636000)",
       "bls": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)",
@@ -6984,7 +6984,7 @@
       "long-beach-ca",
       "anaheim-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0630000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -7032,7 +7032,7 @@
       "garland-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Grand Prairie city, 1600000US4830464)",
       "bls": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)",
@@ -7080,7 +7080,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Vancouver city, 1600000US5374060)",
       "bls": "BLS LAUS LAUCN530110000000003 (Clark County, May 2026)",
@@ -7128,7 +7128,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US0454050)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -7176,7 +7176,7 @@
       "san-bernardino-ca",
       "moreno-valley-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rancho Cucamonga city, 1600000US0659451)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -7224,7 +7224,7 @@
       "san-bernardino-ca",
       "anaheim-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Ontario city, 1600000US0653896)",
       "bls": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)",
@@ -7272,7 +7272,7 @@
       "gilbert-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tempe city, 1600000US0473000)",
       "bls": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)",
@@ -7318,9 +7318,9 @@
       "kansas-city-ks",
       "tulsa-ok",
       "little-rock-ar",
-      "st-louis-mo"
+      "topeka-ks"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Springfield city, 1600000US2970000)",
       "bls": "BLS LAUS LAUCN290770000000003 (Greene County, May 2026)",
@@ -7368,7 +7368,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lancaster city, 1600000US0640130)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -7416,7 +7416,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Eugene city, 1600000US4123850)",
       "bls": "BLS LAUS LAUCN410390000000003 (Lane County, May 2026)",
@@ -7464,7 +7464,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pembroke Pines city, 1600000US1255775)",
       "bls": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)",
@@ -7512,7 +7512,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Salem city, 1600000US4164900)",
       "bls": "BLS LAUS LAUCN410470000000003 (Marion County, May 2026)",
@@ -7560,7 +7560,7 @@
       "long-beach-ca",
       "santa-clarita-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pasadena city, 1600000US0656000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -7608,7 +7608,7 @@
       "st-louis-mo",
       "madison-wi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US1759000)",
       "bls": "BLS LAUS LAUCN171430000000003 (Peoria County, May 2026)",
@@ -7656,7 +7656,7 @@
       "santa-ana-ca",
       "moreno-valley-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Corona city, 1600000US0616350)",
       "bls": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)",
@@ -7704,7 +7704,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Elizabeth city, 1600000US3421000)",
       "bls": "BLS LAUS LAUCN340390000000003 (Union County, May 2026)",
@@ -7752,7 +7752,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hayward city, 1600000US0633000)",
       "bls": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)",
@@ -7793,14 +7793,14 @@
     "unemploymentRate": 3.4,
     "description": "Fort Collins (pop. 169,705) sits in Colorado. Households here report a median income near $83,598; our housing-derived cost index is about 152 (well above the national housing-cost baseline). Ownership is a high bar — typical values near $548,400 push many newcomers toward renting first.\n\nHigh plains sun and Front Range mountain access pull outdoor-oriented movers. Winter lows around 14°F mean heating costs and snow logistics belong on the checklist. Commutes average near 20 minutes one-way, with walkability near 37/100. BLS LAUS puts recent unemployment around 3.4% for the surrounding county. Violent-offense rates around 217.1 per 100k are moderate for a large U.S. city, with meaningful variation by neighborhood.\n\nFort Collins is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Fort Collins with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "boulder-co",
+      "cheyenne-wy",
       "denver-co",
       "aurora-co",
       "lakewood-co",
-      "colorado-springs-co",
-      "salt-lake-city-ut",
-      "albuquerque-nm"
+      "colorado-springs-co"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Collins city, 1600000US0827425)",
       "bls": "BLS LAUS LAUCN080690000000003 (Larimer County, May 2026)",
@@ -7848,7 +7848,7 @@
       "st-louis-mo",
       "lexington-ky"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Evansville city, 1600000US1822000)",
       "bls": "BLS LAUS LAUCN181630000000003 (Vanderburgh County, May 2026)",
@@ -7896,7 +7896,7 @@
       "arlington-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Round Rock city, 1600000US4863500)",
       "bls": "BLS LAUS LAUCN484910000000003 (Williamson County, May 2026)",
@@ -7938,13 +7938,13 @@
     "description": "Lowcountry humidity and inland Piedmont growth corridors both pull movers. Expect summer highs near 86°F and winter lows around 46°F. Average one-way commute time is about 24 minutes, and Walk Score estimates land around 40/100. A recent county unemployment reading near 3.0% suggests a relatively tight local labor market. Violent-offense rates around 373.2 per 100k are moderate for a large U.S. city, with meaningful variation by neighborhood.\n\nRelocators eyeing Charleston, South Carolina will find roughly 152,014 residents within city limits. With median income around $90,038 and a cost index of 138, the market reads above the national housing-cost baseline. Budget for median rents around $1,632 a month before you lock a neighborhood.\n\nCharleston is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Charleston with nearby alternatives before you relocate.",
     "nearbyCities": [
       "savannah-ga",
+      "columbia-sc",
       "augusta-ga",
       "fayetteville-nc",
       "charlotte-nc",
-      "jacksonville-fl",
-      "macon-ga"
+      "jacksonville-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charleston city, 1600000US4513330)",
       "bls": "BLS LAUS LAUCN450190000000003 (Charleston County, May 2026)",
@@ -7989,11 +7989,11 @@
       "charleston-sc",
       "augusta-ga",
       "jacksonville-fl",
+      "columbia-sc",
       "macon-ga",
-      "charlotte-nc",
-      "tallahassee-fl"
+      "gainesville-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Savannah city, 1600000US1369000)",
       "bls": "BLS LAUS LAUCN130510000000003 (Chatham County, May 2026)",
@@ -8041,7 +8041,7 @@
       "peoria-il",
       "madison-wi"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Naperville city, 1600000US1751622)",
       "bls": "BLS LAUS LAUCN170430000000003 (DuPage County, May 2026)",
@@ -8089,7 +8089,7 @@
       "salem-or",
       "spokane-wa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bellevue city, 1600000US5305210)",
       "bls": "BLS LAUS LAUCN530330000000003 (King County, May 2026)",
@@ -8137,7 +8137,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cary town, 1600000US3710740)",
       "bls": "BLS LAUS LAUCN371830000000003 (Wake County, May 2026)",
@@ -8181,11 +8181,11 @@
       "washington-dc",
       "baltimore-md",
       "richmond-va",
+      "wilmington-de",
       "newport-news-va",
-      "philadelphia-pa",
-      "norfolk-va"
+      "philadelphia-pa"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Alexandria city, 1600000US5101000)",
       "bls": "BLS LAUS LAUCN515100000000003 (Alexandria city, May 2026)",
@@ -8233,7 +8233,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sunnyvale city, 1600000US0677000)",
       "bls": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)",
@@ -8276,12 +8276,12 @@
     "nearbyCities": [
       "denver-co",
       "aurora-co",
+      "boulder-co",
       "fort-collins-co",
       "colorado-springs-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lakewood city, 1600000US0843000)",
       "bls": "BLS LAUS LAUCN080590000000003 (Jefferson County, May 2026)",
@@ -8329,7 +8329,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hollywood city, 1600000US1232000)",
       "bls": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)",
@@ -8377,7 +8377,7 @@
       "elizabeth-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Paterson city, 1600000US3457000)",
       "bls": "BLS LAUS LAUCN340310000000003 (Passaic County, May 2026)",
@@ -8425,7 +8425,7 @@
       "chattanooga-tn",
       "memphis-tn"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Clarksville city, 1600000US4715160)",
       "bls": "BLS LAUS LAUCN471250000000003 (Montgomery County, May 2026)",
@@ -8473,7 +8473,7 @@
       "garden-grove-ca",
       "pasadena-ca"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Torrance city, 1600000US0680000)",
       "bls": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)",
@@ -8521,7 +8521,7 @@
       "milwaukee-wi",
       "peoria-il"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rockford city, 1600000US1765000)",
       "bls": "BLS LAUS LAUCN172010000000003 (Winnebago County, May 2026)",
@@ -8563,13 +8563,13 @@
     "description": "Macon (pop. 156,543) sits in Georgia. Median household income is roughly $50,747, while the ACS housing-cost index sits near 65 — among the more affordable large markets in this catalog on housing costs (100 ≈ U.S. average). Entry home prices around $165,800 still look attainable compared with coastal metros.\n\nMacon is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Macon with nearby alternatives before you relocate.\n\nPiedmont heat and a sprawling logistics/job belt shape commute realities. The normals show about 46.9 inches of rain and 257 sunny days across a typical year. Plan on roughly 21 minutes each way for a typical commute; Walk Score is about 28. Unemployment recently ran near 4.2%, broadly in line with many large U.S. counties. Official FBI agency crime rates were not published for this place in the latest pull, so treat safety as a neighborhood-level research task.",
     "nearbyCities": [
       "atlanta-ga",
+      "athens-ga",
       "augusta-ga",
       "savannah-ga",
       "montgomery-al",
-      "tallahassee-fl",
-      "chattanooga-tn"
+      "columbia-sc"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Macon-Bibb County, 1600000US1349008)",
       "bls": "BLS LAUS LAUCN130210000000003 (Bibb County, May 2026)",
@@ -8612,12 +8612,12 @@
     "nearbyCities": [
       "kansas-city-mo",
       "overland-park-ks",
+      "topeka-ks",
       "springfield-mo",
       "lincoln-ne",
-      "omaha-ne",
-      "wichita-ks"
+      "omaha-ne"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2036000)",
       "bls": "BLS LAUS LAUCN202090000000003 (Wyandotte County, May 2026)",
@@ -8658,14 +8658,14 @@
     "unemploymentRate": 5,
     "description": "Coastal New England seasons and Northeast corridor job links frame the market. Expect summer highs near 81°F and winter lows around 27°F. Average one-way commute time is about 28 minutes, and Walk Score estimates land around 65/100. Labor-market readings near 5.0% unemployment are neither boom nor bust by national standards. Violent-offense rates near 581.7 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.\n\nAbout 148,012 people live in Bridgeport, CT. With median income around $56,584 and a cost index of 94, the market reads below the national housing-cost baseline. Entry home prices around $252,400 still look attainable compared with coastal metros.\n\nBridgeport is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Bridgeport with nearby alternatives before you relocate.",
     "nearbyCities": [
+      "new-haven-ct",
       "yonkers-ny",
+      "hartford-ct",
       "new-york-ny",
       "paterson-nj",
-      "jersey-city-nj",
-      "newark-nj",
-      "elizabeth-nj"
+      "jersey-city-nj"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bridgeport city, 1600000US0908000)",
       "bls": "Bureau of Labor Statistics (curated seed)",
@@ -8707,13 +8707,13 @@
     "description": "Relocators eyeing Amarillo, Texas will find roughly 200,945 residents within city limits. Median household income is roughly $62,469, while the ACS housing-cost index sits near 70 — among the more affordable large markets in this catalog on housing costs (100 ≈ U.S. average). Entry home prices around $186,800 still look attainable compared with coastal metros.\n\nAmarillo is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Amarillo with nearby alternatives before you relocate.\n\nHot summers, sprawling freeways, and no state income tax dominate comparisons. Roughly 296 sunny days a year give outdoor routines unusual calendar reliability. Plan on roughly 17 minutes each way for a typical commute; Walk Score is about 35. Unemployment recently ran near 4.2%, broadly in line with many large U.S. counties. Violent-offense rates near 719.8 per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.",
     "nearbyCities": [
       "lubbock-tx",
+      "santa-fe-nm",
       "oklahoma-city-ok",
       "albuquerque-nm",
       "colorado-springs-co",
-      "wichita-ks",
-      "fort-worth-tx"
+      "wichita-ks"
     ],
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Amarillo city, 1600000US4803000)",
       "bls": "BLS LAUS LAUCN483750000000003 (Potter County, May 2026)",
@@ -8723,6 +8723,966 @@
     "coordinates": [
       -101.8313,
       35.222
+    ]
+  },
+  {
+    "slug": "columbia-sc",
+    "name": "Columbia",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "stateCode": "SC",
+    "population": 137300,
+    "medianHouseholdIncome": 48200,
+    "costOfLivingIndex": 90,
+    "medianHomePrice": 220000,
+    "medianRent": 1100,
+    "crimeIndex": {
+      "violent": 62,
+      "property": 68,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 92,
+      "avgLowWinter": 34,
+      "annualRainfall": 48,
+      "sunnyDays": 220
+    },
+    "commute": {
+      "avgMinutes": 22,
+      "walkScore": 30
+    },
+    "unemploymentRate": 3.5,
+    "description": "Columbia, South Carolina counts about 137,300 residents inside the city limits. Households here report a median income near $48,200; our housing-derived cost index is about 90 (below the national housing-cost baseline). Entry home prices around $220,000 still look attainable compared with coastal metros.\n\nLowcountry humidity and inland Piedmont growth corridors both pull movers. Pack for 92°F summer peaks; winter mornings often settle near 34°F. Commutes average near 22 minutes one-way, with walkability near 30/100. BLS LAUS puts recent unemployment around 3.5% for the surrounding county. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nColumbia is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Columbia with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "augusta-ga",
+      "charlotte-nc",
+      "charleston-sc",
+      "savannah-ga",
+      "athens-ga",
+      "asheville-nc"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -81.0348,
+      34.0007
+    ]
+  },
+  {
+    "slug": "hartford-ct",
+    "name": "Hartford",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "stateCode": "CT",
+    "population": 121054,
+    "medianHouseholdIncome": 41000,
+    "costOfLivingIndex": 112,
+    "medianHomePrice": 230000,
+    "medianRent": 1300,
+    "crimeIndex": {
+      "violent": 68,
+      "property": 55,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 83,
+      "avgLowWinter": 19,
+      "annualRainfall": 46,
+      "sunnyDays": 193
+    },
+    "commute": {
+      "avgMinutes": 24,
+      "walkScore": 64
+    },
+    "unemploymentRate": 5,
+    "description": "About 121,054 people live in Hartford, CT. Median household income is roughly $41,000, while the ACS housing-cost index sits near 112 — close to the national housing-cost baseline (100 ≈ U.S. average). Budget for median rents around $1,300 a month before you lock a neighborhood.\n\nHartford is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Hartford with nearby alternatives before you relocate.\n\nCoastal New England seasons and Northeast corridor job links frame the market. Winter lows around 19°F mean heating costs and snow logistics belong on the checklist. Plan on roughly 24 minutes each way for a typical commute; Walk Score is about 64. Unemployment recently ran near 5.0%, broadly in line with many large U.S. counties. Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.",
+    "nearbyCities": [
+      "new-haven-ct",
+      "bridgeport-ct",
+      "worcester-ma",
+      "providence-ri",
+      "albany-ny",
+      "yonkers-ny"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -72.6734,
+      41.7658
+    ]
+  },
+  {
+    "slug": "new-haven-ct",
+    "name": "New Haven",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "stateCode": "CT",
+    "population": 135081,
+    "medianHouseholdIncome": 46000,
+    "costOfLivingIndex": 108,
+    "medianHomePrice": 260000,
+    "medianRent": 1450,
+    "crimeIndex": {
+      "violent": 62,
+      "property": 52,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 22,
+      "annualRainfall": 48,
+      "sunnyDays": 196
+    },
+    "commute": {
+      "avgMinutes": 22,
+      "walkScore": 68
+    },
+    "unemploymentRate": 4.6,
+    "description": "New Haven (pop. 135,081) sits in Connecticut. Median household income is roughly $46,000, while the ACS housing-cost index sits near 108 — close to the national housing-cost baseline (100 ≈ U.S. average). Budget for median rents around $1,450 a month before you lock a neighborhood.\n\nNew Haven is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare New Haven with nearby alternatives before you relocate.\n\nCoastal New England seasons and Northeast corridor job links frame the market. The normals show about 48 inches of rain and 196 sunny days across a typical year. Plan on roughly 22 minutes each way for a typical commute; Walk Score is about 68. Unemployment recently ran near 4.6%, broadly in line with many large U.S. counties. Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.",
+    "nearbyCities": [
+      "bridgeport-ct",
+      "hartford-ct",
+      "yonkers-ny",
+      "new-york-ny",
+      "paterson-nj",
+      "jersey-city-nj"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -72.9279,
+      41.3083
+    ]
+  },
+  {
+    "slug": "albany-ny",
+    "name": "Albany",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "stateCode": "NY",
+    "population": 99224,
+    "medianHouseholdIncome": 47000,
+    "costOfLivingIndex": 102,
+    "medianHomePrice": 230000,
+    "medianRent": 1250,
+    "crimeIndex": {
+      "violent": 58,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 16,
+      "annualRainfall": 39,
+      "sunnyDays": 188
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 66
+    },
+    "unemploymentRate": 4,
+    "description": "Snow-belt Upstate and transit-heavy downstate markets feel like different worlds. Winter lows around 16°F mean heating costs and snow logistics belong on the checklist. Average one-way commute time is about 20 minutes, and Walk Score estimates land around 66/100. Labor-market readings near 4.0% unemployment are neither boom nor bust by national standards. Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.\n\nAlbany, New York counts about 99,224 residents inside the city limits. With median income around $47,000 and a cost index of 102, the market reads close to the national housing-cost baseline. A typical home near $230,000 and rents around $1,250 frame most shortlists.\n\nAlbany is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Albany with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "hartford-ct",
+      "new-haven-ct",
+      "worcester-ma",
+      "bridgeport-ct",
+      "manchester-nh",
+      "yonkers-ny"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -73.7562,
+      42.6526
+    ]
+  },
+  {
+    "slug": "syracuse-ny",
+    "name": "Syracuse",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "stateCode": "NY",
+    "population": 146396,
+    "medianHouseholdIncome": 40000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 150000,
+    "medianRent": 1050,
+    "crimeIndex": {
+      "violent": 68,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 81,
+      "avgLowWinter": 16,
+      "annualRainfall": 40,
+      "sunnyDays": 155
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 58
+    },
+    "unemploymentRate": 4.3,
+    "description": "Snow-belt Upstate and transit-heavy downstate markets feel like different worlds. Winter lows around 16°F mean heating costs and snow logistics belong on the checklist. Average one-way commute time is about 19 minutes, and Walk Score estimates land around 58/100. Labor-market readings near 4.3% unemployment are neither boom nor bust by national standards. Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.\n\nSyracuse, New York counts about 146,396 residents inside the city limits. With median income around $40,000 and a cost index of 92, the market reads below the national housing-cost baseline. Entry home prices around $150,000 still look attainable compared with coastal metros.\n\nSyracuse is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Syracuse with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "rochester-ny",
+      "albany-ny",
+      "buffalo-ny",
+      "burlington-vt",
+      "paterson-nj",
+      "yonkers-ny"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -76.1474,
+      43.0481
+    ]
+  },
+  {
+    "slug": "topeka-ks",
+    "name": "Topeka",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateCode": "KS",
+    "population": 126587,
+    "medianHouseholdIncome": 52000,
+    "costOfLivingIndex": 85,
+    "medianHomePrice": 155000,
+    "medianRent": 900,
+    "crimeIndex": {
+      "violent": 62,
+      "property": 68,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 89,
+      "avgLowWinter": 19,
+      "annualRainfall": 35,
+      "sunnyDays": 222
+    },
+    "commute": {
+      "avgMinutes": 17,
+      "walkScore": 30
+    },
+    "unemploymentRate": 3.3,
+    "description": "Wide-open plains weather — wind, heat, and tornado season — is a planning factor. Winter lows around 19°F mean heating costs and snow logistics belong on the checklist. Average one-way commute time is about 17 minutes, and Walk Score estimates land around 30/100. Labor-market readings near 3.3% unemployment are neither boom nor bust by national standards. Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.\n\nTopeka, Kansas counts about 126,587 residents inside the city limits. With median income around $52,000 and a cost index of 85, the market reads below the national housing-cost baseline. Entry home prices around $155,000 still look attainable compared with coastal metros.\n\nTopeka is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Topeka with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "overland-park-ks",
+      "kansas-city-ks",
+      "kansas-city-mo",
+      "wichita-ks",
+      "lincoln-ne",
+      "omaha-ne"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -95.6752,
+      39.0473
+    ]
+  },
+  {
+    "slug": "cheyenne-wy",
+    "name": "Cheyenne",
+    "state": "Wyoming",
+    "stateSlug": "wyoming",
+    "stateCode": "WY",
+    "population": 65132,
+    "medianHouseholdIncome": 60000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 310000,
+    "medianRent": 1150,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 42,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 85,
+      "avgLowWinter": 16,
+      "annualRainfall": 16,
+      "sunnyDays": 230
+    },
+    "commute": {
+      "avgMinutes": 17,
+      "walkScore": 28
+    },
+    "unemploymentRate": 3.2,
+    "description": "Relocators eyeing Cheyenne, Wyoming will find roughly 65,132 residents within city limits. Median household income is roughly $60,000, while the ACS housing-cost index sits near 92 — below the national housing-cost baseline (100 ≈ U.S. average). Budget for median rents around $1,150 a month before you lock a neighborhood.\n\nCheyenne is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Cheyenne with nearby alternatives before you relocate.\n\nHigh, dry basins and energy employment cycles set the local tempo. Winter lows around 16°F mean heating costs and snow logistics belong on the checklist. Plan on roughly 17 minutes each way for a typical commute; Walk Score is about 28. Unemployment recently ran near 3.2%, broadly in line with many large U.S. counties. Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.",
+    "nearbyCities": [
+      "fort-collins-co",
+      "boulder-co",
+      "denver-co",
+      "aurora-co",
+      "lakewood-co",
+      "colorado-springs-co"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -104.8202,
+      41.14
+    ]
+  },
+  {
+    "slug": "billings-mt",
+    "name": "Billings",
+    "state": "Montana",
+    "stateSlug": "montana",
+    "stateCode": "MT",
+    "population": 119960,
+    "medianHouseholdIncome": 59000,
+    "costOfLivingIndex": 95,
+    "medianHomePrice": 340000,
+    "medianRent": 1100,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 89,
+      "avgLowWinter": 16,
+      "annualRainfall": 15,
+      "sunnyDays": 205
+    },
+    "commute": {
+      "avgMinutes": 17,
+      "walkScore": 27
+    },
+    "unemploymentRate": 2.9,
+    "description": "About 119,960 people live in Billings, MT. Households here report a median income near $59,000; our housing-derived cost index is about 95 (close to the national housing-cost baseline). Entry home prices around $340,000 still look attainable compared with coastal metros.\n\nBig-sky winters and long distances between services matter for relocators. Winter lows around 16°F mean heating costs and snow logistics belong on the checklist. Commutes average near 17 minutes one-way, with walkability near 27/100. A recent county unemployment reading near 2.9% suggests a relatively tight local labor market. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nBillings is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Billings with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "cheyenne-wy",
+      "salt-lake-city-ut",
+      "fort-collins-co",
+      "boise-id",
+      "boulder-co",
+      "spokane-wa"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -108.5007,
+      45.7833
+    ]
+  },
+  {
+    "slug": "fargo-nd",
+    "name": "Fargo",
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "stateCode": "ND",
+    "population": 127281,
+    "medianHouseholdIncome": 60000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 290000,
+    "medianRent": 1050,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 2,
+      "annualRainfall": 22,
+      "sunnyDays": 200
+    },
+    "commute": {
+      "avgMinutes": 16,
+      "walkScore": 34
+    },
+    "unemploymentRate": 2.4,
+    "description": "About 127,281 people live in Fargo, ND. Households here report a median income near $60,000; our housing-derived cost index is about 92 (below the national housing-cost baseline). Entry home prices around $290,000 still look attainable compared with coastal metros.\n\nLong winters and energy-cycle employment swings are hard to ignore. Winter lows around 2°F mean heating costs and snow logistics belong on the checklist. Commutes average near 16 minutes one-way, with walkability near 34/100. A recent county unemployment reading near 2.4% suggests a relatively tight local labor market. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nFargo is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Fargo with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "minneapolis-mn",
+      "bloomington-mn",
+      "saint-paul-mn",
+      "sioux-falls-sd",
+      "omaha-ne",
+      "des-moines-ia"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -96.7898,
+      46.8772
+    ]
+  },
+  {
+    "slug": "charleston-wv",
+    "name": "Charleston",
+    "state": "West Virginia",
+    "stateSlug": "west-virginia",
+    "stateCode": "WV",
+    "population": 46536,
+    "medianHouseholdIncome": 47000,
+    "costOfLivingIndex": 90,
+    "medianHomePrice": 150000,
+    "medianRent": 900,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 52,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 85,
+      "avgLowWinter": 24,
+      "annualRainfall": 44,
+      "sunnyDays": 185
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 35
+    },
+    "unemploymentRate": 4,
+    "description": "Charleston (pop. 46,536) sits in West Virginia. Households here report a median income near $47,000; our housing-derived cost index is about 90 (below the national housing-cost baseline). Entry home prices around $150,000 still look attainable compared with coastal metros.\n\nAppalachian terrain and lower housing costs define many relocation pitches. Pack for 85°F summer peaks; winter mornings often settle near 24°F. Commutes average near 20 minutes one-way, with walkability near 35/100. BLS LAUS puts recent unemployment around 4.0% for the surrounding county. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nCharleston is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Charleston with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "columbus-oh",
+      "lexington-ky",
+      "cincinnati-oh",
+      "pittsburgh-pa",
+      "winston-salem-nc",
+      "greensboro-nc"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -81.6326,
+      38.3498
+    ]
+  },
+  {
+    "slug": "burlington-vt",
+    "name": "Burlington",
+    "state": "Vermont",
+    "stateSlug": "vermont",
+    "stateCode": "VT",
+    "population": 44743,
+    "medianHouseholdIncome": 58000,
+    "costOfLivingIndex": 118,
+    "medianHomePrice": 420000,
+    "medianRent": 1700,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 80,
+      "avgLowWinter": 11,
+      "annualRainfall": 38,
+      "sunnyDays": 160
+    },
+    "commute": {
+      "avgMinutes": 18,
+      "walkScore": 68
+    },
+    "unemploymentRate": 2.5,
+    "description": "Burlington (pop. 44,743) sits in Vermont. Households here report a median income near $58,000; our housing-derived cost index is about 118 (above the national housing-cost baseline). Budget for median rents around $1,700 a month before you lock a neighborhood.\n\nGreen Mountain winters and small-city scale attract a specific relocator. Winter lows around 11°F mean heating costs and snow logistics belong on the checklist. Commutes average near 18 minutes one-way, with walkability near 68/100. A recent county unemployment reading near 2.5% suggests a relatively tight local labor market. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nBurlington is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Burlington with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "albany-ny",
+      "manchester-nh",
+      "portland-me",
+      "worcester-ma",
+      "syracuse-ny",
+      "boston-ma"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -73.2121,
+      44.4759
+    ]
+  },
+  {
+    "slug": "manchester-nh",
+    "name": "Manchester",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "stateCode": "NH",
+    "population": 115644,
+    "medianHouseholdIncome": 62000,
+    "costOfLivingIndex": 108,
+    "medianHomePrice": 380000,
+    "medianRent": 1550,
+    "crimeIndex": {
+      "violent": 38,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 16,
+      "annualRainfall": 42,
+      "sunnyDays": 175
+    },
+    "commute": {
+      "avgMinutes": 23,
+      "walkScore": 50
+    },
+    "unemploymentRate": 2.6,
+    "description": "Manchester, New Hampshire counts about 115,644 residents inside the city limits. Households here report a median income near $62,000; our housing-derived cost index is about 108 (close to the national housing-cost baseline). A typical home near $380,000 and rents around $1,550 frame most shortlists.\n\nShort summers and tax structure quirks pull many New England movers. Winter lows around 16°F mean heating costs and snow logistics belong on the checklist. Commutes average near 23 minutes one-way, with walkability near 50/100. A recent county unemployment reading near 2.6% suggests a relatively tight local labor market. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nManchester is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Manchester with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "boston-ma",
+      "worcester-ma",
+      "portland-me",
+      "providence-ri",
+      "hartford-ct",
+      "albany-ny"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -71.4548,
+      42.9956
+    ]
+  },
+  {
+    "slug": "portland-me",
+    "name": "Portland",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "stateCode": "ME",
+    "population": 68300,
+    "medianHouseholdIncome": 62000,
+    "costOfLivingIndex": 120,
+    "medianHomePrice": 480000,
+    "medianRent": 1800,
+    "crimeIndex": {
+      "violent": 22,
+      "property": 42,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 78,
+      "avgLowWinter": 17,
+      "annualRainfall": 47,
+      "sunnyDays": 171
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 68
+    },
+    "unemploymentRate": 3,
+    "description": "Portland (pop. 68,300) sits in Maine. Median household income is roughly $62,000, while the ACS housing-cost index sits near 120 — above the national housing-cost baseline (100 ≈ U.S. average). Ownership is a high bar — typical values near $480,000 push many newcomers toward renting first.\n\nPortland is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Portland with nearby alternatives before you relocate.\n\nCold Atlantic winters and a tourism-heavy coast shape seasonal employment. Winter lows around 17°F mean heating costs and snow logistics belong on the checklist. Plan on roughly 20 minutes each way for a typical commute; Walk Score is about 68. A recent county unemployment reading near 3.0% suggests a relatively tight local labor market. Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.",
+    "nearbyCities": [
+      "manchester-nh",
+      "boston-ma",
+      "worcester-ma",
+      "providence-ri",
+      "burlington-vt",
+      "hartford-ct"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -70.2568,
+      43.6591
+    ]
+  },
+  {
+    "slug": "wilmington-de",
+    "name": "Wilmington",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "stateCode": "DE",
+    "population": 70898,
+    "medianHouseholdIncome": 46000,
+    "costOfLivingIndex": 108,
+    "medianHomePrice": 220000,
+    "medianRent": 1300,
+    "crimeIndex": {
+      "violent": 68,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 86,
+      "avgLowWinter": 25,
+      "annualRainfall": 44,
+      "sunnyDays": 200
+    },
+    "commute": {
+      "avgMinutes": 24,
+      "walkScore": 62
+    },
+    "unemploymentRate": 4.5,
+    "description": "Relocators eyeing Wilmington, Delaware will find roughly 70,898 residents within city limits. Households here report a median income near $46,000; our housing-derived cost index is about 108 (close to the national housing-cost baseline). Entry home prices around $220,000 still look attainable compared with coastal metros.\n\nA compact Mid-Atlantic footprint keeps beach, city, and suburbs unusually close. Pack for 86°F summer peaks; winter mornings often settle near 25°F. Commutes average near 24 minutes one-way, with walkability near 62/100. BLS LAUS puts recent unemployment around 4.5% for the surrounding county. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nWilmington is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Wilmington with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "philadelphia-pa",
+      "baltimore-md",
+      "elizabeth-nj",
+      "washington-dc",
+      "newark-nj",
+      "alexandria-va"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -75.5398,
+      39.7391
+    ]
+  },
+  {
+    "slug": "boulder-co",
+    "name": "Boulder",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "stateCode": "CO",
+    "population": 108250,
+    "medianHouseholdIncome": 79000,
+    "costOfLivingIndex": 150,
+    "medianHomePrice": 950000,
+    "medianRent": 2000,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 87,
+      "avgLowWinter": 18,
+      "annualRainfall": 20,
+      "sunnyDays": 245
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 55
+    },
+    "unemploymentRate": 2.8,
+    "description": "High plains sun and Front Range mountain access pull outdoor-oriented movers. Winter lows around 18°F mean heating costs and snow logistics belong on the checklist. Average one-way commute time is about 19 minutes, and Walk Score estimates land around 55/100. A recent county unemployment reading near 2.8% suggests a relatively tight local labor market. Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.\n\nAbout 108,250 people live in Boulder, CO. With median income around $79,000 and a cost index of 150, the market reads well above the national housing-cost baseline. Ownership is a high bar — typical values near $950,000 push many newcomers toward renting first.\n\nBoulder is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Boulder with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "lakewood-co",
+      "denver-co",
+      "aurora-co",
+      "fort-collins-co",
+      "cheyenne-wy",
+      "colorado-springs-co"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -105.2705,
+      40.015
+    ]
+  },
+  {
+    "slug": "ann-arbor-mi",
+    "name": "Ann Arbor",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "stateCode": "MI",
+    "population": 123043,
+    "medianHouseholdIncome": 71000,
+    "costOfLivingIndex": 118,
+    "medianHomePrice": 460000,
+    "medianRent": 1650,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 83,
+      "avgLowWinter": 17,
+      "annualRainfall": 36,
+      "sunnyDays": 170
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 52
+    },
+    "unemploymentRate": 2.9,
+    "description": "Ann Arbor (pop. 123,043) sits in Michigan. Median household income is roughly $71,000, while the ACS housing-cost index sits near 118 — above the national housing-cost baseline (100 ≈ U.S. average). Ownership is a high bar — typical values near $460,000 push many newcomers toward renting first.\n\nAnn Arbor is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Ann Arbor with nearby alternatives before you relocate.\n\nLake-effect snow and automotive supply chains still color the local economy. Winter lows around 17°F mean heating costs and snow logistics belong on the checklist. Plan on roughly 19 minutes each way for a typical commute; Walk Score is about 52. A recent county unemployment reading near 2.9% suggests a relatively tight local labor market. Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.",
+    "nearbyCities": [
+      "detroit-mi",
+      "toledo-oh",
+      "grand-rapids-mi",
+      "fort-wayne-in",
+      "cleveland-oh",
+      "akron-oh"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -83.743,
+      42.2808
+    ]
+  },
+  {
+    "slug": "athens-ga",
+    "name": "Athens",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "stateCode": "GA",
+    "population": 127300,
+    "medianHouseholdIncome": 41000,
+    "costOfLivingIndex": 90,
+    "medianHomePrice": 260000,
+    "medianRent": 1150,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 58,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 90,
+      "avgLowWinter": 34,
+      "annualRainfall": 46,
+      "sunnyDays": 216
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 32
+    },
+    "unemploymentRate": 3.2,
+    "description": "Piedmont heat and a sprawling logistics/job belt shape commute realities. Expect summer highs near 90°F and winter lows around 34°F. Average one-way commute time is about 20 minutes, and Walk Score estimates land around 32/100. Labor-market readings near 3.2% unemployment are neither boom nor bust by national standards. Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.\n\nRelocators eyeing Athens, Georgia will find roughly 127,300 residents within city limits. With median income around $41,000 and a cost index of 90, the market reads below the national housing-cost baseline. Budget for median rents around $1,150 a month before you lock a neighborhood.\n\nAthens is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Athens with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "atlanta-ga",
+      "macon-ga",
+      "augusta-ga",
+      "asheville-nc",
+      "columbia-sc",
+      "chattanooga-tn"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -83.3576,
+      33.9519
+    ]
+  },
+  {
+    "slug": "asheville-nc",
+    "name": "Asheville",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "stateCode": "NC",
+    "population": 94589,
+    "medianHouseholdIncome": 52000,
+    "costOfLivingIndex": 112,
+    "medianHomePrice": 430000,
+    "medianRent": 1500,
+    "crimeIndex": {
+      "violent": 42,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 84,
+      "avgLowWinter": 28,
+      "annualRainfall": 46,
+      "sunnyDays": 200
+    },
+    "commute": {
+      "avgMinutes": 21,
+      "walkScore": 35
+    },
+    "unemploymentRate": 3.3,
+    "description": "Asheville, North Carolina counts about 94,589 residents inside the city limits. Median household income is roughly $52,000, while the ACS housing-cost index sits near 112 — close to the national housing-cost baseline (100 ≈ U.S. average). A typical home near $430,000 and rents around $1,500 frame most shortlists.\n\nAsheville is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Asheville with nearby alternatives before you relocate.\n\nPiedmont research corridors and coastal storm exposure both matter. The normals show about 46 inches of rain and 200 sunny days across a typical year. Plan on roughly 21 minutes each way for a typical commute; Walk Score is about 35. Unemployment recently ran near 3.3%, broadly in line with many large U.S. counties. Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.",
+    "nearbyCities": [
+      "knoxville-tn",
+      "charlotte-nc",
+      "athens-ga",
+      "winston-salem-nc",
+      "columbia-sc",
+      "augusta-ga"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -82.5515,
+      35.5951
+    ]
+  },
+  {
+    "slug": "santa-fe-nm",
+    "name": "Santa Fe",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "stateCode": "NM",
+    "population": 87505,
+    "medianHouseholdIncome": 62000,
+    "costOfLivingIndex": 118,
+    "medianHomePrice": 570000,
+    "medianRent": 1600,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 85,
+      "avgLowWinter": 19,
+      "annualRainfall": 14,
+      "sunnyDays": 283
+    },
+    "commute": {
+      "avgMinutes": 18,
+      "walkScore": 33
+    },
+    "unemploymentRate": 3.4,
+    "description": "High-desert light, monsoon storms, and Hispanic cultural roots are unmistakable. Winter lows around 19°F mean heating costs and snow logistics belong on the checklist. Average one-way commute time is about 18 minutes, and Walk Score estimates land around 33/100. Labor-market readings near 3.4% unemployment are neither boom nor bust by national standards. Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.\n\nSanta Fe (pop. 87,505) sits in New Mexico. With median income around $62,000 and a cost index of 118, the market reads above the national housing-cost baseline. Ownership is a high bar — typical values near $570,000 push many newcomers toward renting first.\n\nSanta Fe is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Santa Fe with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "albuquerque-nm",
+      "colorado-springs-co",
+      "amarillo-tx",
+      "el-paso-tx",
+      "lubbock-tx",
+      "lakewood-co"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -105.9378,
+      35.687
+    ]
+  },
+  {
+    "slug": "gainesville-fl",
+    "name": "Gainesville",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "stateCode": "FL",
+    "population": 143700,
+    "medianHouseholdIncome": 39000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 290000,
+    "medianRent": 1350,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 68,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 91,
+      "avgLowWinter": 46,
+      "annualRainfall": 50,
+      "sunnyDays": 232
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 34
+    },
+    "unemploymentRate": 2.8,
+    "description": "Relocators eyeing Gainesville, Florida will find roughly 143,700 residents within city limits. Households here report a median income near $39,000; our housing-derived cost index is about 92 (below the national housing-cost baseline). Budget for median rents around $1,350 a month before you lock a neighborhood.\n\nSubtropical summers, hurricane planning, and no state income tax loom large. With about 50 inches of rain a year, wet-season drainage and mold checks are worth asking about. Commutes average near 19 minutes one-way, with walkability near 34/100. A recent county unemployment reading near 2.8% suggests a relatively tight local labor market. This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.\n\nGainesville is compact enough that a single wrong neighborhood choice is easy to feel day to day — visit at commute hour before signing. Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare Gainesville with nearby alternatives before you relocate.",
+    "nearbyCities": [
+      "jacksonville-fl",
+      "orlando-fl",
+      "tampa-fl",
+      "tallahassee-fl",
+      "st-petersburg-fl",
+      "savannah-ga"
+    ],
+    "lastUpdated": "2026-07-28",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -82.3248,
+      29.6516
     ]
   }
 ]

@@ -11,6 +11,7 @@ import type { CensusEnrichment } from './enrich-census'
 import type { ClimateEnrichment } from './enrich-climate'
 import type { CrimeEnrichment } from './enrich-crime'
 import type { PopulationHistoryEnrichment } from './enrich-population-history'
+import type { PhotosEnrichment } from './enrich-photos'
 import { buildUniqueDescription } from './lib/descriptions'
 import { ENRICH_DIR, SEED_PATH } from './lib/io'
 
@@ -75,12 +76,14 @@ function mergeCity(
   crime: CrimeEnrichment | null,
   climate: ClimateEnrichment | null,
   populationHistory: PopulationHistoryEnrichment | null,
+  photos: PhotosEnrichment | null,
 ): CityRecord {
   const censusRow = census?.cities[seed.slug]
   const blsRow = bls?.cities[seed.slug]
   const crimeRow = crime?.cities[seed.slug]
   const climateRow = climate?.cities[seed.slug]
   const populationHistoryRow = populationHistory?.cities[seed.slug]
+  const photosRow = photos?.cities[seed.slug]
 
   const merged: CityRecord = {
     ...seed,
@@ -111,6 +114,14 @@ function mergeCity(
           source: populationHistoryRow.source,
         }
       : seed.populationHistory,
+    images: photosRow
+      ? photosRow.images.map((image) => ({
+          url: image.url,
+          alt: image.alt,
+          credit: image.credit,
+          creditUrl: image.creditUrl,
+        }))
+      : seed.images,
     sources: {
       census: censusRow?.source ?? seed.sources.census,
       bls: blsRow?.source ?? seed.sources.bls,
@@ -133,8 +144,11 @@ function main() {
   const populationHistory = readJson<PopulationHistoryEnrichment>(
     join(ENRICH_DIR, 'population-history.json'),
   )
+  const photos = readJson<PhotosEnrichment>(join(ENRICH_DIR, 'photos.json'))
 
-  const cities = seed.map((city) => mergeCity(city, census, bls, crime, climate, populationHistory))
+  const cities = seed.map((city) =>
+    mergeCity(city, census, bls, crime, climate, populationHistory, photos),
+  )
   mkdirSync(OUT_DIR, { recursive: true })
   writeFileSync(join(OUT_DIR, 'cities.json'), JSON.stringify(cities, null, 2))
 
@@ -158,7 +172,8 @@ function main() {
       `, bls=${bls ? Object.keys(bls.cities).length : 0}` +
       `, crime=${crime ? Object.keys(crime.cities).length : 0}` +
       `, climate=${climate ? Object.keys(climate.cities).length : 0}` +
-      `, populationHistory=${populationHistory ? Object.keys(populationHistory.cities).length : 0}) → ${OUT_DIR}`,
+      `, populationHistory=${populationHistory ? Object.keys(populationHistory.cities).length : 0}` +
+      `, photos=${photos ? Object.keys(photos.cities).length : 0}) → ${OUT_DIR}`,
   )
 }
 
@@ -171,7 +186,12 @@ function buildNationalBaselines(
   cities: CityRecord[],
   census: CensusEnrichment | null,
 ): NationalBaselines {
-  const crimeCities = cities.filter((city) => city.crimeIndex.source !== 'data unavailable')
+  // Curated-seed crime figures are a small 0-100 placeholder scale, not a real FBI
+  // per-100k rate (see safetyAngle() in lib/descriptions.ts) — mixing them into this
+  // average would silently skew it, so they're excluded the same as "data unavailable".
+  const crimeCities = cities.filter(
+    (city) => city.crimeIndex.source !== 'data unavailable' && !city.crimeIndex.source.includes('curated'),
+  )
   const walkScores = cities
     .map((city) => city.commute.walkScore)
     .filter((value): value is number => typeof value === 'number')

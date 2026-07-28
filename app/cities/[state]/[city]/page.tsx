@@ -5,6 +5,7 @@ import { AdSlot } from '@/components/AdSlot'
 import { AffiliateZone } from '@/components/AffiliateZone'
 import { CityMapLazy } from '@/components/CityMapLazy'
 import { CityStats } from '@/components/CityStats'
+import { CityGallery } from '@/components/CityGallery'
 import { CityUrlButton } from '@/components/CityUrlButton'
 import { NearbyCities } from '@/components/NearbyCities'
 import { PopulationTrend } from '@/components/PopulationTrend'
@@ -77,6 +78,8 @@ export default async function CityPage({ params }: Props) {
 
       <div className="city-layout">
         <div>
+          <CityGallery images={city.images} cityName={city.name} />
+
           <div className="city-map-panel">
             <CityMapLazy cities={allCities} focus={city} />
           </div>

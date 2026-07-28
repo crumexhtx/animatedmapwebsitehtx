@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27",
+  "generatedAt": "2026-07-28",
   "medianHouseholdIncome": 78538,
   "medianHomeValue": 303400,
   "medianRent": 1348,
@@ -9,10 +9,10 @@
   "crimeViolent": 602.7,
   "crimeProperty": 3084.9,
   "avgHighSummer": 87,
-  "avgLowWinter": 36,
-  "annualRainfall": 32.5,
-  "sunnyDays": 273,
-  "commuteMinutes": 26,
+  "avgLowWinter": 34,
+  "annualRainfall": 32.9,
+  "sunnyDays": 266,
+  "commuteMinutes": 25,
   "walkScore": 45,
   "notes": {
     "acs": "U.S. Census Bureau ACS 5-year national medians",
