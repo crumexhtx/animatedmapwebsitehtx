@@ -17,7 +17,7 @@ import {
   siteUrl,
   statePath,
 } from '@/lib/catalog'
-import { cityJsonLd, cityMetadata } from '@/lib/seo'
+import { cityJsonLd, cityMetadata, safeJsonLd } from '@/lib/seo'
 
 type Props = {
   params: Promise<{ state: string; city: string }>
@@ -49,7 +49,7 @@ export default async function CityPage({ params }: Props) {
     <article>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="page-hero">

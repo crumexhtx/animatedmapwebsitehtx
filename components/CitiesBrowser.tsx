@@ -95,7 +95,7 @@ export function CitiesBrowser({
                 {city.name}, {city.stateCode}
               </strong>
               <span>
-                {formatNumber(city.population)} · income {formatCurrency(city.medianHouseholdIncome)} · COL{' '}
+                {formatNumber(city.population)} · income {formatCurrency(city.medianHouseholdIncome)} · Housing index{' '}
                 {city.costOfLivingIndex}
               </span>
             </Link>

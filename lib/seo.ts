@@ -47,6 +47,12 @@ export function stateMetadata(state: StateRecord): Metadata {
   }
 }
 
+/** Serializes structured data for a <script type="application/ld+json"> tag, escaping `<`
+ * so a value containing "</script>" can't break out of the tag. */
+export function safeJsonLd(data: unknown) {
+  return JSON.stringify(data).replace(/</g, '\\u003c')
+}
+
 export function cityJsonLd(city: CityRecord) {
   return {
     '@context': 'https://schema.org',

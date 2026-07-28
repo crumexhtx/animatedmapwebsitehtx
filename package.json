@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run validate-catalog && next build",
+    "build": "npm run validate-catalog && npm run detect-duplicate-content && next build",
     "start": "next start",
     "lint": "eslint .",
     "generate-catalog": "tsx scripts/generate-seed-catalog.ts",
