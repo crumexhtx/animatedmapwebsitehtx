@@ -10,6 +10,7 @@ import type { BlsEnrichment } from './enrich-bls'
 import type { CensusEnrichment } from './enrich-census'
 import type { ClimateEnrichment } from './enrich-climate'
 import type { CrimeEnrichment } from './enrich-crime'
+import type { PopulationHistoryEnrichment } from './enrich-population-history'
 import { buildUniqueDescription } from './lib/descriptions'
 import { ENRICH_DIR, SEED_PATH } from './lib/io'
 
@@ -73,11 +74,13 @@ function mergeCity(
   bls: BlsEnrichment | null,
   crime: CrimeEnrichment | null,
   climate: ClimateEnrichment | null,
+  populationHistory: PopulationHistoryEnrichment | null,
 ): CityRecord {
   const censusRow = census?.cities[seed.slug]
   const blsRow = bls?.cities[seed.slug]
   const crimeRow = crime?.cities[seed.slug]
   const climateRow = climate?.cities[seed.slug]
+  const populationHistoryRow = populationHistory?.cities[seed.slug]
 
   const merged: CityRecord = {
     ...seed,
@@ -102,6 +105,12 @@ function mergeCity(
           sunnyDays: climateRow.sunnyDays,
         }
       : seed.climate,
+    populationHistory: populationHistoryRow
+      ? {
+          points: populationHistoryRow.points,
+          source: populationHistoryRow.source,
+        }
+      : seed.populationHistory,
     sources: {
       census: censusRow?.source ?? seed.sources.census,
       bls: blsRow?.source ?? seed.sources.bls,
@@ -121,8 +130,11 @@ function main() {
   const bls = readJson<BlsEnrichment>(join(ENRICH_DIR, 'bls.json'))
   const crime = readJson<CrimeEnrichment>(join(ENRICH_DIR, 'crime.json'))
   const climate = readJson<ClimateEnrichment>(join(ENRICH_DIR, 'climate.json'))
+  const populationHistory = readJson<PopulationHistoryEnrichment>(
+    join(ENRICH_DIR, 'population-history.json'),
+  )
 
-  const cities = seed.map((city) => mergeCity(city, census, bls, crime, climate))
+  const cities = seed.map((city) => mergeCity(city, census, bls, crime, climate, populationHistory))
   mkdirSync(OUT_DIR, { recursive: true })
   writeFileSync(join(OUT_DIR, 'cities.json'), JSON.stringify(cities, null, 2))
 
@@ -145,7 +157,8 @@ function main() {
       ` (census=${census ? Object.keys(census.cities).length : 0}` +
       `, bls=${bls ? Object.keys(bls.cities).length : 0}` +
       `, crime=${crime ? Object.keys(crime.cities).length : 0}` +
-      `, climate=${climate ? Object.keys(climate.cities).length : 0}) → ${OUT_DIR}`,
+      `, climate=${climate ? Object.keys(climate.cities).length : 0}` +
+      `, populationHistory=${populationHistory ? Object.keys(populationHistory.cities).length : 0}) → ${OUT_DIR}`,
   )
 }
 

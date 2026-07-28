@@ -7,6 +7,7 @@ import { CityMapLazy } from '@/components/CityMapLazy'
 import { CityStats } from '@/components/CityStats'
 import { CityUrlButton } from '@/components/CityUrlButton'
 import { NearbyCities } from '@/components/NearbyCities'
+import { PopulationTrend } from '@/components/PopulationTrend'
 import { SourceList } from '@/components/SourceList'
 import {
   allCities,
@@ -81,6 +82,8 @@ export default async function CityPage({ params }: Props) {
           </div>
 
           <CityStats city={city} national={nationalBaselines} />
+
+          <PopulationTrend history={city.populationHistory} cityName={city.name} />
 
           <div className="prose">
             {city.description.split('\n\n').map((paragraph) => (

@@ -11,6 +11,7 @@
     "build-catalog": "tsx scripts/build-catalog.ts",
     "validate-catalog": "tsx scripts/validate-catalog.ts",
     "enrich:census": "tsx scripts/enrich-census.ts",
+    "enrich:population-history": "tsx scripts/enrich-population-history.ts",
     "enrich:bls": "tsx scripts/enrich-bls.ts",
     "enrich:crime": "tsx scripts/enrich-crime.ts",
     "enrich:climate": "tsx scripts/enrich-climate.ts",
