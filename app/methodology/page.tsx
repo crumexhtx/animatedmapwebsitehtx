@@ -44,6 +44,12 @@ export default function MethodologyPage() {
           <strong>NOAA Climate Normals (1991–2020)</strong> — summer high, winter low, annual rainfall, and a sunny-day
           proxy from the nearest normals station (`scripts/enrich-climate.ts`).
         </li>
+        <li>
+          <strong>Census Bureau Population Estimates Program</strong> — annual population by year for the population
+          trend chart on city pages (`scripts/enrich-population-history.ts`). Reuses the place already resolved by the
+          Census enrichment step above. A city only gets a trend chart once at least two years of estimates resolve; a
+          missing or partial history is omitted rather than interpolated or estimated.
+        </li>
       </ul>
 
       <h2>What we still curate</h2>

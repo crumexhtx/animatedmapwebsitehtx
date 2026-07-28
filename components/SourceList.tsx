@@ -6,6 +6,7 @@ export function SourceList({ city }: { city: CityRecord }) {
     city.sources.bls && ['BLS', city.sources.bls],
     city.sources.fbi && ['Crime', city.sources.fbi],
     city.sources.noaa && ['Climate', city.sources.noaa],
+    city.populationHistory && ['Population trend', city.populationHistory.source],
   ].filter(Boolean) as [string, string][]
 
   return (

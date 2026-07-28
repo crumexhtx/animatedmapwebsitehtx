@@ -23,6 +23,16 @@ export type CitySources = {
   noaa?: string
 }
 
+export type PopulationHistoryPoint = {
+  year: number
+  population: number
+}
+
+export type PopulationHistory = {
+  points: PopulationHistoryPoint[]
+  source: string
+}
+
 export type CityRecord = {
   slug: string
   name: string
@@ -45,6 +55,7 @@ export type CityRecord = {
   sources: CitySources
   coordinates: [number, number]
   featured?: boolean
+  populationHistory?: PopulationHistory
 }
 
 export type StateRecord = {
