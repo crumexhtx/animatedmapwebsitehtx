@@ -181,95 +181,70 @@ a:hover { color: var(--map-deep); }
   gap: 1rem;
 }
 
-/* Homepage hero — one composition, map as full-bleed plane */
-.home-hero {
-  position: relative;
-  min-height: min(92vh, 820px);
-  margin: 0 calc(50% - 50vw);
-  width: 100vw;
-  overflow: hidden;
-  background: linear-gradient(180deg, #16362e 0%, #1f4a3f 45%, #2a5d4f 100%);
-  color: #f4faf7;
+/* Homepage — intro copy and map are separate so the map stays fully interactive */
+.home-intro {
+  padding: 3.25rem 0 1.5rem;
+  max-width: 38rem;
 }
 
-.home-hero-map {
-  position: absolute;
-  inset: 0;
-  background: #d7e0d9;
+.home-intro h1 {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--ink);
 }
 
-.home-hero-map .city-map,
-.home-hero-map .city-map-canvas,
-.home-hero-map .city-map-fallback {
-  width: 100%;
-  height: 100%;
-  min-height: min(92vh, 820px);
-}
-
-.home-hero-scrim {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(12, 32, 28, 0.82) 0%, rgba(12, 32, 28, 0.45) 42%, rgba(12, 32, 28, 0.15) 100%),
-    linear-gradient(0deg, rgba(12, 32, 28, 0.55), transparent 40%);
-  pointer-events: none;
-}
-
-.home-hero-copy {
-  position: relative;
-  z-index: 1;
-  width: min(1120px, calc(100% - 2rem));
-  margin: 0 auto;
-  padding: 5.5rem 0 3rem;
-  max-width: 34rem;
-  pointer-events: none;
-}
-
-.home-hero-copy a,
-.home-hero-copy .cta-row {
-  pointer-events: auto;
-}
-
-.home-hero-map-hint {
-  position: absolute;
-  z-index: 1;
-  right: 1rem;
-  bottom: 1rem;
-  margin: 0;
-  padding: 0.45rem 0.7rem;
-  border-radius: 999px;
-  background: rgba(12, 32, 28, 0.72);
-  color: rgba(244, 250, 247, 0.92);
-  font-size: 0.78rem;
-  letter-spacing: 0.02em;
-  pointer-events: none;
+.home-intro > p {
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+  font-size: 1.08rem;
 }
 
 .home-brand {
   display: inline-flex;
   align-items: center;
   gap: 0.65rem;
-  margin-bottom: 1.4rem;
+  margin: 0 0 1.1rem;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
   font-weight: 700;
   letter-spacing: -0.03em;
+  color: var(--ink);
 }
 
-.home-brand span { color: #8fd6c4; }
-
-.home-hero h1 {
-  margin: 0 0 0.85rem;
-  font-family: var(--font-display);
-  font-size: clamp(1.55rem, 3.2vw, 2.25rem);
-  font-weight: 500;
-  line-height: 1.2;
+.home-brand span {
+  color: var(--accent);
 }
 
-.home-hero p {
-  margin: 0 0 1.5rem;
-  color: rgba(244, 250, 247, 0.86);
-  font-size: 1.05rem;
+.home-map {
+  margin: 0.5rem 0 0;
+}
+
+.home-map-frame {
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
+  height: min(72vh, 640px);
+  min-height: 360px;
+  overflow: hidden;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #d7e0d9;
+}
+
+.home-map-frame .city-map,
+.home-map-frame .city-map-canvas,
+.home-map-frame .city-map-fallback {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+}
+
+.home-map-hint {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .cta-row {
@@ -286,16 +261,26 @@ a:hover { color: var(--map-deep); }
   padding: 0.75rem 1.15rem;
   border-radius: 999px;
   border: 1px solid transparent;
-  background: #8fd6c4;
-  color: #0d2b24;
+  background: var(--accent);
+  color: #f4faf7;
   font-weight: 600;
   text-decoration: none;
 }
 
+.button:hover {
+  background: var(--map-deep);
+  color: #f4faf7;
+}
+
 .button-secondary {
   background: transparent;
-  border-color: rgba(255,255,255,0.45);
-  color: #f4faf7;
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.button-secondary:hover {
+  background: var(--accent-soft);
+  color: var(--map-deep);
 }
 
 .section {
@@ -1112,65 +1097,35 @@ a:hover { color: var(--map-deep); }
     width: min(1120px, calc(100% - 1.25rem));
   }
 
-  /* Stack hero: brand/copy first, interactive full-bleed map second */
-  .home-hero {
-    display: flex;
-    flex-direction: column;
-    min-height: auto;
-    overflow: visible;
+  .home-intro {
+    padding: 2rem 0 1.1rem;
   }
-
-  .home-hero-copy {
-    position: relative;
-    order: 1;
-    z-index: 2;
-    width: min(1120px, calc(100% - 1.25rem));
-    max-width: none;
-    margin: 0 auto;
-    padding: 2rem 0 1.35rem;
-    pointer-events: auto;
-  }
-
-  .home-hero-scrim {
-    display: none;
-  }
-
-  .home-hero-map {
-    position: relative;
-    order: 2;
-    inset: auto;
-    height: min(58vh, 420px);
-    min-height: 280px;
-  }
-
-  .home-hero-map .city-map,
-  .home-hero-map .city-map-canvas,
-  .home-hero-map .city-map-fallback {
-    min-height: 280px;
-    height: 100%;
-  }
-
-.home-hero-map-hint {
-  position: relative;
-  order: 3;
-  right: auto;
-  bottom: auto;
-  width: min(1120px, calc(100% - 1.25rem));
-  margin: 0.65rem auto 0.25rem;
-  text-align: center;
-  background: rgba(12, 32, 28, 0.55);
-}
-
-.city-map-hero .map-legend {
-  left: 0.5rem;
-  right: 0.5rem;
-  bottom: 0.5rem;
-  max-width: none;
-}
 
   .home-brand {
     margin-bottom: 0.85rem;
     font-size: clamp(2.1rem, 10vw, 2.8rem);
+  }
+
+  .home-map-frame {
+    height: min(58vh, 420px);
+    min-height: 280px;
+  }
+
+  .home-map-frame .city-map,
+  .home-map-frame .city-map-canvas,
+  .home-map-frame .city-map-fallback {
+    min-height: 280px;
+  }
+
+  .home-map-hint {
+    text-align: center;
+  }
+
+  .city-map-hero .map-legend {
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    max-width: none;
   }
 
   .cta-row {
@@ -1225,25 +1180,25 @@ a:hover { color: var(--map-deep); }
   }
 }
 
-.home-hero .map-legend {
+.city-map-hero .map-legend {
   background: rgba(12, 32, 28, 0.82);
   color: #f4faf7;
 }
 
-.home-hero .map-legend-dot {
+.city-map-hero .map-legend-dot {
   background: #8fd6c4;
 }
 
-.home-hero .city-marker {
+.city-map-hero .city-marker {
   background: #0f6b5c;
   border-color: #f4faf7;
 }
 
-.home-hero .city-marker.is-focused {
+.city-map-hero .city-marker.is-focused {
   background: #f0a202;
 }
 
-.home-hero .maplibregl-cooperative-gesture-screen {
+.city-map-hero .maplibregl-cooperative-gesture-screen {
   background: rgba(12, 32, 28, 0.72);
   color: #f4faf7;
 }

@@ -8,29 +8,30 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="home-hero" aria-label="MapsToIt city explorer">
-        <div className="home-hero-map">
+      <section className="home-intro" aria-label="MapsToIt introduction">
+        <p className="home-brand">
+          Maps<span>ToIt</span>
+        </p>
+        <h1>Research a U.S. city before you move.</h1>
+        <p>
+          Cost of living, safety, income, climate, and commute — mapped so you can browse places, then dig into full city
+          profiles.
+        </p>
+        <div className="cta-row">
+          <Link className="button" href="/cities">
+            Browse cities
+          </Link>
+          <Link className="button button-secondary" href="/methodology">
+            How we source data
+          </Link>
+        </div>
+      </section>
+
+      <section className="home-map" aria-label="Interactive U.S. city map">
+        <div className="home-map-frame">
           <CityMapLazy cities={allCities} variant="hero" />
         </div>
-        <div className="home-hero-scrim" aria-hidden />
-        <div className="home-hero-copy">
-          <p className="home-brand">
-            Maps<span>ToIt</span>
-          </p>
-          <h1>Research a U.S. city before you move.</h1>
-          <p>
-            Cost of living, safety, income, climate, and commute — mapped so you can browse places, then dig into full city profiles.
-          </p>
-          <div className="cta-row">
-            <Link className="button" href="/cities">
-              Browse cities
-            </Link>
-            <Link className="button button-secondary" href="/methodology">
-              How we source data
-            </Link>
-          </div>
-        </div>
-        <p className="home-hero-map-hint">Teal dots are cities · Tap one to open its profile</p>
+        <p className="home-map-hint">Teal dots are cities · Tap one to open its profile</p>
       </section>
 
       <section className="section">
