@@ -9,6 +9,12 @@ export function statePath(state: StateRecord | string) {
   return `/states/${slug}`
 }
 
+export function comparePath(slugs: string[]) {
+  const cities = slugs.filter(Boolean).slice(0, 3)
+  if (!cities.length) return '/compare'
+  return `/compare?cities=${cities.join(',')}`
+}
+
 export function siteUrl() {
   return process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mapstoit.com'
 }

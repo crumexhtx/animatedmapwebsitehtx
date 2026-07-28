@@ -1,5 +1,6 @@
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { formatCurrency, formatNumber, formatPercent } from '@/lib/format'
+import Link from 'next/link'
 
 type CompareTone = 'higher' | 'lower' | 'near' | 'neutral'
 
@@ -86,10 +87,15 @@ export function CityStats({
   const crimeIsCuratedSeed = city.crimeIndex.source.includes('curated')
   const crimeNeedsCaveat = crimeUnavailable || crimeIsCuratedSeed
   const items: StatItem[] = [
-    { label: 'Population', value: formatNumber(city.population) },
+    {
+      label: 'Population',
+      value: formatNumber(city.population),
+      note: 'City limits · not metro/MSA',
+    },
     {
       label: 'Median household income',
       value: formatCurrency(city.medianHouseholdIncome),
+      note: 'Incorporated place (ACS)',
       compare: compareCurrency(city.medianHouseholdIncome, national.medianHouseholdIncome),
     },
     {
@@ -101,16 +107,19 @@ export function CityStats({
     {
       label: 'Median home value',
       value: formatCurrency(city.medianHomePrice),
+      note: 'City limits (ACS)',
       compare: compareCurrency(city.medianHomePrice, national.medianHomeValue),
     },
     {
       label: 'Median rent',
       value: formatCurrency(city.medianRent),
+      note: 'City limits (ACS)',
       compare: compareCurrency(city.medianRent, national.medianRent),
     },
     {
       label: 'Unemployment',
       value: formatPercent(city.unemploymentRate),
+      note: 'County LAUS · not city-only',
       compare: comparePoints(city.unemploymentRate, national.unemploymentRate, ' pts'),
     },
     {
@@ -130,7 +139,11 @@ export function CityStats({
     {
       label: 'Violent crime rate',
       value: crimeUnavailable ? 'Unavailable' : String(city.crimeIndex.violent),
-      note: crimeUnavailable ? 'FBI CDE gap' : crimeIsCuratedSeed ? 'launch estimate, not FBI-verified yet' : 'annualized per 100k',
+      note: crimeUnavailable
+        ? 'FBI CDE gap'
+        : crimeIsCuratedSeed
+          ? 'launch estimate, not FBI-verified yet'
+          : 'annualized per 100k · citywide',
       compare: crimeNeedsCaveat
         ? undefined
         : compareNumber(city.crimeIndex.violent, national.crimeViolent, (v) => String(v)),
@@ -138,7 +151,11 @@ export function CityStats({
     {
       label: 'Property crime rate',
       value: crimeUnavailable ? 'Unavailable' : String(city.crimeIndex.property),
-      note: crimeUnavailable ? 'FBI CDE gap' : crimeIsCuratedSeed ? 'launch estimate, not FBI-verified yet' : 'annualized per 100k',
+      note: crimeUnavailable
+        ? 'FBI CDE gap'
+        : crimeIsCuratedSeed
+          ? 'launch estimate, not FBI-verified yet'
+          : 'annualized per 100k · citywide',
       compare: crimeNeedsCaveat
         ? undefined
         : compareNumber(city.crimeIndex.property, national.crimeProperty, (v) => String(v)),
@@ -171,7 +188,8 @@ export function CityStats({
         <h2>Key figures</h2>
         <p>
           Each metric shows how {city.name} compares with the U.S. baseline (ACS/BLS nationals where available;
-          catalog-city averages for crime, climate, and commute).
+          catalog-city averages for crime, climate, and commute). Income, housing, population, and crime are for the
+          incorporated city (city limits), not the broader metro/MSA — unemployment is county-level (BLS LAUS).
         </p>
       </div>
       <dl className="stat-grid">
@@ -191,6 +209,18 @@ export function CityStats({
           </div>
         ))}
       </dl>
+
+      <aside className="crime-disclaimer" role="note">
+        <p className="coverage-kicker">Safety context</p>
+        <p>
+          Citywide violent and property crime rates (often from FBI tables or agency aggregates) can misrepresent an
+          entire municipality — risk is usually hyper-local. Inspect neighborhood and block-level patterns, local
+          police department reports, and neighborhood mapping tools before relying on a single citywide number.
+          Details on sources and vintage are in{' '}
+          <Link href="/methodology">methodology</Link>
+          {city.sources.fbi ? ` (this profile: ${city.sources.fbi})` : ''}.
+        </p>
+      </aside>
     </section>
   )
 }

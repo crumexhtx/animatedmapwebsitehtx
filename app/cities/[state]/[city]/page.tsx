@@ -13,6 +13,7 @@ import { SourceList } from '@/components/SourceList'
 import {
   allCities,
   cityPath,
+  comparePath,
   getCity,
   getNearbyCities,
   nationalBaselines,
@@ -45,6 +46,8 @@ export default async function CityPage({ params }: Props) {
   if (!city || city.stateSlug !== state) notFound()
 
   const nearby = getNearbyCities(city)
+  const comparePeer =
+    nearby[0]?.slug ?? allCities.find((item) => item.slug !== city.slug)?.slug
   const jsonLd = cityJsonLd(city)
 
   return (
@@ -88,6 +91,15 @@ export default async function CityPage({ params }: Props) {
 
           <PopulationTrend history={city.populationHistory} cityName={city.name} />
 
+          <p className="compare-cta">
+            <Link
+              className="button"
+              href={comparePeer ? comparePath([city.slug, comparePeer]) : '/compare'}
+            >
+              Compare {city.name} with another city
+            </Link>
+          </p>
+
           <div className="prose">
             {city.description.split('\n\n').map((paragraph) => (
               <p key={paragraph.slice(0, 24)}>{paragraph}</p>
@@ -107,7 +119,7 @@ export default async function CityPage({ params }: Props) {
 
           <AdSlot slotId="city-in-content" size="in-content" />
 
-          <NearbyCities cities={nearby} />
+          <NearbyCities cities={nearby} fromSlug={city.slug} />
           <SourceList city={city} />
 
           <AffiliateZone category="moving" cityName={city.name} />

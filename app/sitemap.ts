@@ -3,7 +3,7 @@ import { allCities, allStates, cityPath, siteUrl, statePath } from '@/lib/catalo
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl()
-  const staticRoutes = ['', '/cities', '/about', '/contact', '/methodology'].map((path) => ({
+  const staticRoutes = ['', '/cities', '/compare', '/about', '/contact', '/methodology'].map((path) => ({
     url: `${base}${path || '/'}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,

@@ -38,11 +38,22 @@ export async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> 
       ...(init?.headers ?? {}),
     },
   })
+  const body = await response.text()
   if (!response.ok) {
-    const body = await response.text()
     throw new Error(`${response.status} ${url} :: ${body.slice(0, 200)}`)
   }
-  return response.json() as Promise<T>
+  const trimmed = body.trimStart()
+  if (trimmed.startsWith('<') || /missing key/i.test(trimmed.slice(0, 500))) {
+    throw new Error(
+      `Expected JSON from ${url} but got HTML` +
+        ( /missing key/i.test(trimmed) ? ' (Census API key required — set CENSUS_API_KEY)' : ''),
+    )
+  }
+  try {
+    return JSON.parse(body) as T
+  } catch {
+    throw new Error(`Invalid JSON from ${url}: ${body.slice(0, 120)}`)
+  }
 }
 
 export async function fetchText(url: string): Promise<string> {

@@ -23,10 +23,9 @@ MapsToIt presents cost of living, income, housing, safety, climate, and commute 
 | `/cities` | Full city index (filterable by state) |
 | `/cities/[state]/[city]` | City profile (core SEO unit) |
 | `/states/[state]` | State overview |
+| `/compare` | Side-by-side city comparison |
 | `/methodology` | Data sources & publishing rules |
 | `/about`, `/contact` | Trust pages |
-
-Compare pages (`/compare/...`) are deferred until after the core city catalog is live.
 
 ## Catalog workflow
 

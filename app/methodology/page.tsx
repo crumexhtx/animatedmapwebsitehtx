@@ -71,7 +71,22 @@ export default function MethodologyPage() {
       <h2>Publishing rules</h2>
       <p>
         Thin pages are out of scope. If a city cannot be fully populated, it is omitted until the next batch. See the{' '}
-        <Link href="/cities">city index</Link> for what is live today.
+        <Link href="/cities">city index</Link> for what is live today. State overview pages average only mapped catalog
+        cities — they are not full-state statistical universes.
+      </p>
+
+      <h2>City limits vs metro</h2>
+      <p>
+        Population, income, home value, rent, and crime figures on city pages describe the incorporated place (city
+        limits / municipal agency), not the broader Metropolitan Statistical Area, unless a metric note says otherwise.
+        Unemployment uses BLS LAUS county rates joined via lat/lon → county FIPS.
+      </p>
+
+      <h2>Crime is hyper-local</h2>
+      <p>
+        A single citywide violent or property rate can misrepresent neighborhoods within the same municipality. Treat
+        FBI CDE / CIUS city aggregates as a starting point, then inspect local police reports and neighborhood-level
+        tools before drawing relocation conclusions.
       </p>
     </article>
   )

@@ -1,7 +1,15 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { allStates, cityPath, getCitiesByState, getState } from '@/lib/catalog'
+import { CatalogCoverageNote } from '@/components/CatalogCoverageNote'
+import {
+  allStates,
+  cityPath,
+  comparePath,
+  getCitiesByState,
+  getNotableUnmapped,
+  getState,
+} from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
 import { stateMetadata } from '@/lib/seo'
 
@@ -26,6 +34,7 @@ export default async function StatePage({ params }: Props) {
   if (!state) notFound()
 
   const cities = getCitiesByState(state.slug)
+  const unmapped = getNotableUnmapped(state.slug)
 
   return (
     <article className="section">
@@ -39,26 +48,32 @@ export default async function StatePage({ params }: Props) {
         <p className="lead">{state.description}</p>
       </div>
 
+      <CatalogCoverageNote stateName={state.name} cities={cities} unmapped={unmapped} />
+
       <dl className="stat-grid">
         <div className="stat-cell">
           <dt>Cities in catalog</dt>
           <dd>{state.cityCount}</dd>
         </div>
         <div className="stat-cell">
-          <dt>Combined population</dt>
+          <dt>Catalog combined pop.</dt>
           <dd>{formatNumber(state.population)}</dd>
         </div>
         <div className="stat-cell">
-          <dt>Avg median income</dt>
+          <dt>Catalog avg income</dt>
           <dd>{formatCurrency(state.medianHouseholdIncome)}</dd>
         </div>
         <div className="stat-cell">
-          <dt>Avg housing index</dt>
+          <dt>Catalog avg housing index</dt>
           <dd>{state.costOfLivingIndex}</dd>
         </div>
       </dl>
 
-      <h2>Cities in {state.name}</h2>
+      <h2>Mapped cities in {state.name}</h2>
+      <p className="section-note">
+        Full profiles only — compare any two with the{' '}
+        <Link href={comparePath(cities.slice(0, 2).map((city) => city.slug))}>compare tool</Link>.
+      </p>
       <ul className="city-list">
         {cities.map((city) => (
           <li key={city.slug}>

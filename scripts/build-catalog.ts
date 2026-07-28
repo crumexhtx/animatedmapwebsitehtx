@@ -60,9 +60,11 @@ function buildStates(cities: CityRecord[]): StateRecord[] {
         description:
           `${name} currently includes ${sorted.length} MapsToIt city profiles covering roughly ` +
           `${population.toLocaleString('en-US')} residents across the published set. Average median household income ` +
-          `across those cities is about $${medianHouseholdIncome.toLocaleString('en-US')}, with a blended cost-of-living ` +
-          `index near ${costOfLivingIndex} (100 = U.S. average). Larger places in this release include ${top.join(', ')}. ` +
-          `Use the city list below to compare housing costs, commute times, climate, and safety before relocating.`,
+          `and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality ` +
+          `in ${name}. Across the catalog set, average median household income is about ` +
+          `$${medianHouseholdIncome.toLocaleString('en-US')}, with a blended cost-of-living index near ` +
+          `${costOfLivingIndex} (100 = U.S. average). Larger places in this release include ${top.join(', ')}. ` +
+          `Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.`,
         citySlugs: sorted.map((city) => city.slug),
       } satisfies StateRecord
     })

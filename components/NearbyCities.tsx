@@ -1,9 +1,15 @@
 import Link from 'next/link'
 import type { CityRecord } from '@/lib/types'
-import { cityPath, statePath } from '@/lib/catalog'
+import { cityPath, comparePath, statePath } from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
-export function NearbyCities({ cities }: { cities: CityRecord[] }) {
+export function NearbyCities({
+  cities,
+  fromSlug,
+}: {
+  cities: CityRecord[]
+  fromSlug?: string
+}) {
   if (!cities.length) return null
 
   return (
@@ -19,9 +25,16 @@ export function NearbyCities({ cities }: { cities: CityRecord[] }) {
                 {formatNumber(city.population)} people · homes ~{formatCurrency(city.medianHomePrice)}
               </span>
             </Link>
-            <Link className="nearby-state" href={statePath(city.stateSlug)}>
-              {city.state}
-            </Link>
+            <div className="nearby-actions">
+              <Link className="nearby-state" href={statePath(city.stateSlug)}>
+                {city.state}
+              </Link>
+              {fromSlug ? (
+                <Link className="nearby-compare" href={comparePath([fromSlug, city.slug])}>
+                  Compare
+                </Link>
+              ) : null}
+            </div>
           </li>
         ))}
       </ul>

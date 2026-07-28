@@ -1,0 +1,51 @@
+{
+  "ohio": [
+    { "name": "Dayton" },
+    { "name": "Youngstown" },
+    { "name": "Canton" },
+    { "name": "Parma" },
+    { "name": "Lorain" }
+  ],
+  "pennsylvania": [
+    { "name": "Allentown" },
+    { "name": "Erie" },
+    { "name": "Reading" },
+    { "name": "Scranton" }
+  ],
+  "michigan": [
+    { "name": "Flint" },
+    { "name": "Dearborn" },
+    { "name": "Livonia" },
+    { "name": "Warren" }
+  ],
+  "indiana": [
+    { "name": "South Bend" },
+    { "name": "Carmel" },
+    { "name": "Bloomington" },
+    { "name": "Hammond" }
+  ],
+  "texas": [
+    { "name": "Waco" },
+    { "name": "Beaumont" },
+    { "name": "Brownsville" },
+    { "name": "Midland" }
+  ],
+  "florida": [
+    { "name": "Gainesville" },
+    { "name": "Clearwater" },
+    { "name": "Palm Bay" },
+    { "name": "Miramar" }
+  ],
+  "california": [
+    { "name": "Berkeley" },
+    { "name": "Pomona" },
+    { "name": "Salinas" },
+    { "name": "Palmdale" }
+  ],
+  "new-york": [
+    { "name": "Utica" },
+    { "name": "New Rochelle" },
+    { "name": "Mount Vernon" },
+    { "name": "Schenectady" }
+  ]
+}

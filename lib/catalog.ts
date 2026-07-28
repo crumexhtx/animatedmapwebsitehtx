@@ -2,9 +2,10 @@ import citiesData from '@/data/catalog/cities.json'
 import statesData from '@/data/catalog/states.json'
 import indexData from '@/data/catalog/index.json'
 import nationalData from '@/data/catalog/national.json'
+import notableUnmappedData from '@/data/catalog/notable-unmapped.json'
 import type { CatalogIndex, CityRecord, NationalBaselines, StateRecord } from '@/lib/types'
 
-export { cityPath, statePath, siteUrl } from '@/lib/paths'
+export { cityPath, comparePath, statePath, siteUrl } from '@/lib/paths'
 
 export const catalogIndex = indexData as CatalogIndex
 export const nationalBaselines = nationalData as NationalBaselines
@@ -13,6 +14,7 @@ export const allStates = statesData as StateRecord[]
 
 const cityBySlug = new Map(allCities.map((city) => [city.slug, city]))
 const stateBySlug = new Map(allStates.map((state) => [state.slug, state]))
+const notableUnmappedByState = notableUnmappedData as Record<string, { name: string }[]>
 
 export function getCity(slug: string) {
   return cityBySlug.get(slug)
@@ -40,4 +42,16 @@ export function getNearbyCities(city: CityRecord) {
   return city.nearbyCities
     .map((slug) => cityBySlug.get(slug))
     .filter((item): item is CityRecord => Boolean(item))
+}
+
+/** Curated name-only directory of commonly researched places not yet in the catalog. */
+export function getNotableUnmapped(stateSlug: string) {
+  const mappedNames = new Set(
+    allCities
+      .filter((city) => city.stateSlug === stateSlug)
+      .map((city) => city.name.toLowerCase()),
+  )
+  return (notableUnmappedByState[stateSlug] ?? []).filter(
+    (city) => !mappedNames.has(city.name.toLowerCase()),
+  )
 }

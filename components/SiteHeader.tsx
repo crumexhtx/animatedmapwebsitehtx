@@ -7,6 +7,7 @@ import { catalogIndex } from '@/lib/catalog'
 
 const links = [
   { href: '/cities', label: 'Cities' },
+  { href: '/compare', label: 'Compare' },
   { href: '/methodology', label: 'Methodology' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
