@@ -53,7 +53,7 @@ export default async function StatePage({ params }: Props) {
           <dd>{formatCurrency(state.medianHouseholdIncome)}</dd>
         </div>
         <div className="stat-cell">
-          <dt>Avg COL index</dt>
+          <dt>Avg housing index</dt>
           <dd>{state.costOfLivingIndex}</dd>
         </div>
       </dl>
@@ -65,7 +65,7 @@ export default async function StatePage({ params }: Props) {
             <Link href={cityPath(city)}>
               <strong>{city.name}</strong>
               <span>
-                {formatNumber(city.population)} people · homes ~{formatCurrency(city.medianHomePrice)} · COL{' '}
+                {formatNumber(city.population)} people · homes ~{formatCurrency(city.medianHomePrice)} · Housing index{' '}
                 {city.costOfLivingIndex}
               </span>
             </Link>

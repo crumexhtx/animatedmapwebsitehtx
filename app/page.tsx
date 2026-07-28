@@ -44,7 +44,7 @@ export default function HomePage() {
                   {city.name}, {city.stateCode}
                 </strong>
                 <span>
-                  {formatNumber(city.population)} people · COL {city.costOfLivingIndex} · homes ~
+                  {formatNumber(city.population)} people · Housing index {city.costOfLivingIndex} · homes ~
                   {formatCurrency(city.medianHomePrice)}
                 </span>
               </Link>
