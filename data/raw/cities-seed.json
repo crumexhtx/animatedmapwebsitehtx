@@ -310,12 +310,12 @@
       "South Philly"
     ],
     "nearbyCities": [
+      "wilmington-de",
       "elizabeth-nj",
       "newark-nj",
       "jersey-city-nj",
       "new-york-ny",
-      "paterson-nj",
-      "baltimore-md"
+      "paterson-nj"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -578,12 +578,12 @@
     "unemploymentRate": 3.6,
     "description": "Jacksonville, Florida is a 949,611-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $58,106, while the local cost-of-living index sits near 95 — near the national average (100 equals the U.S. average). Typical home values hover around $295,000, and median rents are near $1,400 per month.\n\nWith roughly 52.4 inches of rain a year, wet-season planning is worth factoring into a move. Average one-way commute times are about 26 minutes, and the unemployment rate is roughly 3.6%. Walk Score estimates put daily errands around 26/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Jacksonville against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "gainesville-fl",
       "orlando-fl",
       "savannah-ga",
       "tallahassee-fl",
       "tampa-fl",
-      "st-petersburg-fl",
-      "charleston-sc"
+      "st-petersburg-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -732,8 +732,8 @@
       "akron-oh",
       "toledo-oh",
       "cleveland-oh",
-      "fort-wayne-in",
-      "lexington-ky"
+      "charleston-wv",
+      "fort-wayne-in"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -779,10 +779,10 @@
     "nearbyCities": [
       "winston-salem-nc",
       "greensboro-nc",
+      "columbia-sc",
+      "asheville-nc",
       "fayetteville-nc",
-      "durham-nc",
-      "cary-nc",
-      "raleigh-nc"
+      "durham-nc"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -992,10 +992,10 @@
     "nearbyCities": [
       "lakewood-co",
       "aurora-co",
+      "boulder-co",
       "fort-collins-co",
       "colorado-springs-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1048,9 +1048,9 @@
       "alexandria-va",
       "baltimore-md",
       "richmond-va",
+      "wilmington-de",
       "philadelphia-pa",
-      "newport-news-va",
-      "norfolk-va"
+      "newport-news-va"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1102,10 +1102,10 @@
     "nearbyCities": [
       "worcester-ma",
       "providence-ri",
-      "bridgeport-ct",
-      "yonkers-ny",
-      "paterson-nj",
-      "new-york-ny"
+      "manchester-nh",
+      "hartford-ct",
+      "portland-me",
+      "new-haven-ct"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1151,10 +1151,10 @@
     "nearbyCities": [
       "albuquerque-nm",
       "tucson-az",
+      "santa-fe-nm",
       "lubbock-tx",
       "gilbert-az",
-      "chandler-az",
-      "mesa-az"
+      "chandler-az"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1246,12 +1246,12 @@
     "unemploymentRate": 6.2,
     "description": "Detroit, Michigan is a 639,111-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $34,464, while the local cost-of-living index sits near 85 — below the national average (100 equals the U.S. average). Typical home values hover around $75,000, and median rents are near $950 per month.\n\nWinters can dip to about 19°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 26 minutes, and the unemployment rate is roughly 6.2%. Walk Score estimates put daily errands around 55/100, which shapes how car-dependent a household needs to be. Crime indexes run higher than many peer cities, so neighborhood-level research is especially important before signing a lease. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Detroit against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "ann-arbor-mi",
       "toledo-oh",
       "cleveland-oh",
       "akron-oh",
       "fort-wayne-in",
-      "grand-rapids-mi",
-      "columbus-oh"
+      "grand-rapids-mi"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1538,10 +1538,10 @@
     "nearbyCities": [
       "washington-dc",
       "alexandria-va",
+      "wilmington-de",
       "philadelphia-pa",
       "richmond-va",
-      "newport-news-va",
-      "elizabeth-nj"
+      "newport-news-va"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1632,12 +1632,12 @@
     "unemploymentRate": 4,
     "description": "Albuquerque, New Mexico is a 564,559-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $53,516, while the local cost-of-living index sits near 94 — below the national average (100 equals the U.S. average). Typical home values hover around $295,000, and median rents are near $1,200 per month.\n\nAround 280 sunny days a year give the city a strong outdoor lifestyle pull. Average one-way commute times are about 23 minutes, and the unemployment rate is roughly 4%. Walk Score estimates put daily errands around 43/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Albuquerque against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "santa-fe-nm",
       "el-paso-tx",
       "amarillo-tx",
       "colorado-springs-co",
       "lubbock-tx",
-      "gilbert-az",
-      "mesa-az"
+      "gilbert-az"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1874,10 +1874,10 @@
     "nearbyCities": [
       "kansas-city-ks",
       "overland-park-ks",
+      "topeka-ks",
       "springfield-mo",
       "lincoln-ne",
-      "omaha-ne",
-      "wichita-ks"
+      "omaha-ne"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1926,12 +1926,12 @@
       "Virginia-Highland"
     ],
     "nearbyCities": [
+      "athens-ga",
       "macon-ga",
       "chattanooga-tn",
       "augusta-ga",
       "birmingham-al",
-      "huntsville-al",
-      "montgomery-al"
+      "huntsville-al"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -1978,9 +1978,9 @@
       "lakewood-co",
       "aurora-co",
       "denver-co",
+      "boulder-co",
       "fort-collins-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2074,10 +2074,10 @@
     "nearbyCities": [
       "lincoln-ne",
       "des-moines-ia",
+      "topeka-ks",
       "sioux-falls-sd",
       "kansas-city-ks",
-      "kansas-city-mo",
-      "overland-park-ks"
+      "kansas-city-mo"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2316,9 +2316,9 @@
       "saint-paul-mn",
       "bloomington-mn",
       "sioux-falls-sd",
+      "fargo-nd",
       "madison-wi",
-      "des-moines-ia",
-      "rockford-il"
+      "des-moines-ia"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2365,9 +2365,9 @@
       "oklahoma-city-ok",
       "wichita-ks",
       "springfield-mo",
+      "topeka-ks",
       "mckinney-tx",
-      "overland-park-ks",
-      "frisco-tx"
+      "overland-park-ks"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2413,9 +2413,9 @@
       "st-petersburg-fl",
       "orlando-fl",
       "cape-coral-fl",
+      "gainesville-fl",
       "port-st-lucie-fl",
-      "jacksonville-fl",
-      "pembroke-pines-fl"
+      "jacksonville-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2557,11 +2557,11 @@
     "description": "Wichita, Kansas is a 397,532-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $53,065, while the local cost-of-living index sits near 84 — among the more affordable large U.S. metros (100 equals the U.S. average). Typical home values hover around $175,000, and median rents are near $950 per month.\n\nTypical summers reach about 93°F and winter lows average near 23°F. Average one-way commute times are about 19 minutes, and the unemployment rate is roughly 3.6%. Walk Score estimates put daily errands around 35/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Wichita against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "tulsa-ok",
+      "topeka-ks",
       "oklahoma-city-ok",
       "overland-park-ks",
       "kansas-city-ks",
-      "kansas-city-mo",
-      "lincoln-ne"
+      "kansas-city-mo"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2608,8 +2608,8 @@
       "detroit-mi",
       "toledo-oh",
       "pittsburgh-pa",
-      "columbus-oh",
-      "buffalo-ny"
+      "ann-arbor-mi",
+      "columbus-oh"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2702,10 +2702,10 @@
     "nearbyCities": [
       "denver-co",
       "lakewood-co",
+      "boulder-co",
       "fort-collins-co",
       "colorado-springs-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -2994,7 +2994,7 @@
       "knoxville-tn",
       "indianapolis-in",
       "columbus-oh",
-      "evansville-in"
+      "charleston-wv"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3136,9 +3136,9 @@
       "minneapolis-mn",
       "bloomington-mn",
       "sioux-falls-sd",
+      "fargo-nd",
       "madison-wi",
-      "des-moines-ia",
-      "rockford-il"
+      "des-moines-ia"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3186,7 +3186,7 @@
       "indianapolis-in",
       "columbus-oh",
       "fort-wayne-in",
-      "evansville-in"
+      "charleston-wv"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3280,9 +3280,9 @@
       "akron-oh",
       "cleveland-oh",
       "columbus-oh",
+      "charleston-wv",
       "buffalo-ny",
-      "washington-dc",
-      "alexandria-va"
+      "washington-dc"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3375,11 +3375,11 @@
     "description": "Lincoln, Nebraska is a 291,082-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $60,423, while the local cost-of-living index sits near 88 — below the national average (100 equals the U.S. average). Typical home values hover around $250,000, and median rents are near $1,050 per month.\n\nWinters can dip to about 15°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 18 minutes, and the unemployment rate is roughly 2.5%. Walk Score estimates put daily errands around 40/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Lincoln against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "omaha-ne",
+      "topeka-ks",
       "kansas-city-ks",
       "kansas-city-mo",
       "overland-park-ks",
-      "des-moines-ia",
-      "sioux-falls-sd"
+      "des-moines-ia"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3520,10 +3520,10 @@
     "nearbyCities": [
       "tampa-fl",
       "st-petersburg-fl",
+      "gainesville-fl",
       "port-st-lucie-fl",
       "jacksonville-fl",
-      "cape-coral-fl",
-      "fort-lauderdale-fl"
+      "cape-coral-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3759,12 +3759,12 @@
     "unemploymentRate": 4.6,
     "description": "Toledo, Ohio is a 270,871-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $39,678, while the local cost-of-living index sits near 84 — among the more affordable large U.S. metros (100 equals the U.S. average). Typical home values hover around $120,000, and median rents are near $900 per month.\n\nWinters can dip to about 20°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 4.6%. Walk Score estimates put daily errands around 45/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Toledo against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "ann-arbor-mi",
       "detroit-mi",
       "fort-wayne-in",
       "cleveland-oh",
       "akron-oh",
-      "columbus-oh",
-      "grand-rapids-mi"
+      "columbus-oh"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3809,10 +3809,10 @@
     "nearbyCities": [
       "toledo-oh",
       "indianapolis-in",
+      "ann-arbor-mi",
       "grand-rapids-mi",
       "columbus-oh",
-      "detroit-mi",
-      "chicago-il"
+      "detroit-mi"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -3858,9 +3858,9 @@
       "tampa-fl",
       "cape-coral-fl",
       "orlando-fl",
+      "gainesville-fl",
       "port-st-lucie-fl",
-      "jacksonville-fl",
-      "pembroke-pines-fl"
+      "jacksonville-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -4097,10 +4097,10 @@
     "nearbyCities": [
       "amarillo-tx",
       "fort-worth-tx",
+      "santa-fe-nm",
       "oklahoma-city-ok",
       "arlington-tx",
-      "grand-prairie-tx",
-      "irving-tx"
+      "grand-prairie-tx"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -4240,11 +4240,11 @@
     "description": "Buffalo, New York is a 278,349-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $40,534, while the local cost-of-living index sits near 90 — below the national average (100 equals the U.S. average). Typical home values hover around $175,000, and median rents are near $1,000 per month.\n\nWinters can dip to about 18°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 21 minutes, and the unemployment rate is roughly 4.5%. Walk Score estimates put daily errands around 68/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Buffalo against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "rochester-ny",
+      "syracuse-ny",
       "cleveland-oh",
       "pittsburgh-pa",
       "akron-oh",
-      "detroit-mi",
-      "toledo-oh"
+      "detroit-mi"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5157,7 +5157,7 @@
       "kansas-city-ks",
       "kansas-city-mo",
       "overland-park-ks",
-      "sioux-falls-sd"
+      "topeka-ks"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5441,11 +5441,11 @@
     "description": "Rochester, New York is a 211,328-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $38,551, while the local cost-of-living index sits near 90 — below the national average (100 equals the U.S. average). Typical home values hover around $150,000, and median rents are near $1,000 per month.\n\nWinters can dip to about 18°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 4.3%. Walk Score estimates put daily errands around 55/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Rochester against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "buffalo-ny",
+      "syracuse-ny",
+      "albany-ny",
       "pittsburgh-pa",
       "paterson-nj",
-      "cleveland-oh",
-      "newark-nj",
-      "yonkers-ny"
+      "burlington-vt"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5536,12 +5536,12 @@
     "unemploymentRate": 3.5,
     "description": "Grand Rapids, Michigan is a 198,917-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $51,222, while the local cost-of-living index sits near 90 — below the national average (100 equals the U.S. average). Typical home values hover around $250,000, and median rents are near $1,200 per month.\n\nWinters can dip to about 18°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 21 minutes, and the unemployment rate is roughly 3.5%. Walk Score estimates put daily errands around 51/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Grand Rapids against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "ann-arbor-mi",
       "milwaukee-wi",
       "chicago-il",
       "fort-wayne-in",
       "detroit-mi",
-      "toledo-oh",
-      "naperville-il"
+      "toledo-oh"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5633,11 +5633,11 @@
     "description": "Salt Lake City, Utah is a 199,723-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $63,124, while the local cost-of-living index sits near 108 — near the national average (100 equals the U.S. average). Typical home values hover around $520,000, and median rents are near $1,500 per month.\n\nTypical summers reach about 91°F and winter lows average near 23°F. Average one-way commute times are about 22 minutes, and the unemployment rate is roughly 2.9%. Walk Score estimates put daily errands around 59/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Salt Lake City against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "boise-id",
+      "boulder-co",
       "fort-collins-co",
       "north-las-vegas-nv",
       "las-vegas-nv",
-      "lakewood-co",
-      "henderson-nv"
+      "lakewood-co"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5681,12 +5681,12 @@
     "unemploymentRate": 3.6,
     "description": "Tallahassee, Florida is a 196,169-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $45,974, while the local cost-of-living index sits near 94 — below the national average (100 equals the U.S. average). Typical home values hover around $260,000, and median rents are near $1,200 per month.\n\nWith roughly 58 inches of rain a year, wet-season planning is worth factoring into a move. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 3.6%. Walk Score estimates put daily errands around 32/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Tallahassee against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "gainesville-fl",
       "jacksonville-fl",
       "macon-ga",
       "montgomery-al",
       "tampa-fl",
-      "st-petersburg-fl",
-      "orlando-fl"
+      "st-petersburg-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5731,10 +5731,10 @@
     "nearbyCities": [
       "providence-ri",
       "boston-ma",
-      "bridgeport-ct",
-      "yonkers-ny",
-      "paterson-nj",
-      "new-york-ny"
+      "manchester-nh",
+      "hartford-ct",
+      "new-haven-ct",
+      "albany-ny"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5827,10 +5827,10 @@
     "nearbyCities": [
       "kansas-city-ks",
       "kansas-city-mo",
+      "topeka-ks",
       "springfield-mo",
       "lincoln-ne",
-      "wichita-ks",
-      "omaha-ne"
+      "wichita-ks"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -5923,10 +5923,10 @@
     "nearbyCities": [
       "worcester-ma",
       "boston-ma",
-      "bridgeport-ct",
-      "yonkers-ny",
-      "new-york-ny",
-      "paterson-nj"
+      "hartford-ct",
+      "manchester-nh",
+      "new-haven-ct",
+      "bridgeport-ct"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -6021,8 +6021,8 @@
       "knoxville-tn",
       "atlanta-ga",
       "nashville-tn",
-      "birmingham-al",
-      "clarksville-tn"
+      "athens-ga",
+      "birmingham-al"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -6260,9 +6260,9 @@
       "minneapolis-mn",
       "saint-paul-mn",
       "sioux-falls-sd",
+      "fargo-nd",
       "des-moines-ia",
-      "madison-wi",
-      "rockford-il"
+      "madison-wi"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -6401,12 +6401,12 @@
     "unemploymentRate": 4,
     "description": "Augusta, Georgia is a 202,081-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $44,649, while the local cost-of-living index sits near 86 — below the national average (100 equals the U.S. average). Typical home values hover around $170,000, and median rents are near $1,000 per month.\n\nTypical summers reach about 92°F and winter lows average near 36°F. Average one-way commute times are about 21 minutes, and the unemployment rate is roughly 4%. Walk Score estimates put daily errands around 28/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Augusta against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "columbia-sc",
+      "athens-ga",
       "macon-ga",
       "savannah-ga",
       "charleston-sc",
-      "atlanta-ga",
-      "charlotte-nc",
-      "knoxville-tn"
+      "atlanta-ga"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -6497,12 +6497,12 @@
     "unemploymentRate": 3.3,
     "description": "Knoxville, Tennessee is a 190,740-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $44,342, while the local cost-of-living index sits near 88 — below the national average (100 equals the U.S. average). Typical home values hover around $260,000, and median rents are near $1,200 per month.\n\nTypical summers reach about 88°F and winter lows average near 30°F. Average one-way commute times are about 21 minutes, and the unemployment rate is roughly 3.3%. Walk Score estimates put daily errands around 33/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Knoxville against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "asheville-nc",
       "chattanooga-tn",
+      "athens-ga",
       "lexington-ky",
       "atlanta-ga",
-      "nashville-tn",
-      "huntsville-al",
-      "charlotte-nc"
+      "nashville-tn"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -6886,7 +6886,7 @@
       "columbus-oh",
       "toledo-oh",
       "detroit-mi",
-      "buffalo-ny"
+      "ann-arbor-mi"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -7318,7 +7318,7 @@
       "kansas-city-ks",
       "tulsa-ok",
       "little-rock-ar",
-      "st-louis-mo"
+      "topeka-ks"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -7793,12 +7793,12 @@
     "unemploymentRate": 2.9,
     "description": "Fort Collins, Colorado is a 169,810-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $70,228, while the local cost-of-living index sits near 110 — near the national average (100 equals the U.S. average). Typical home values hover around $520,000, and median rents are near $1,600 per month.\n\nWinters can dip to about 18°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 2.9%. Walk Score estimates put daily errands around 37/100, which shapes how car-dependent a household needs to be. Crime indexes compare favorably with many peer metros, though local blocks still differ. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Fort Collins against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "boulder-co",
+      "cheyenne-wy",
       "denver-co",
       "aurora-co",
       "lakewood-co",
-      "colorado-springs-co",
-      "salt-lake-city-ut",
-      "albuquerque-nm"
+      "colorado-springs-co"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -7938,11 +7938,11 @@
     "description": "Charleston, South Carolina is a 150,227-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $68,768, while the local cost-of-living index sits near 108 — near the national average (100 equals the U.S. average). Typical home values hover around $480,000, and median rents are near $1,800 per month.\n\nWith roughly 51 inches of rain a year, wet-season planning is worth factoring into a move. Average one-way commute times are about 24 minutes, and the unemployment rate is roughly 3%. Walk Score estimates put daily errands around 40/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Charleston against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "savannah-ga",
+      "columbia-sc",
       "augusta-ga",
       "fayetteville-nc",
       "charlotte-nc",
-      "jacksonville-fl",
-      "macon-ga"
+      "jacksonville-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -7989,9 +7989,9 @@
       "charleston-sc",
       "augusta-ga",
       "jacksonville-fl",
+      "columbia-sc",
       "macon-ga",
-      "charlotte-nc",
-      "tallahassee-fl"
+      "gainesville-fl"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8181,9 +8181,9 @@
       "washington-dc",
       "baltimore-md",
       "richmond-va",
+      "wilmington-de",
       "newport-news-va",
-      "philadelphia-pa",
-      "norfolk-va"
+      "philadelphia-pa"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8276,10 +8276,10 @@
     "nearbyCities": [
       "denver-co",
       "aurora-co",
+      "boulder-co",
       "fort-collins-co",
       "colorado-springs-co",
-      "albuquerque-nm",
-      "amarillo-tx"
+      "cheyenne-wy"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8563,11 +8563,11 @@
     "description": "Macon, Georgia is a 157,346-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $38,559, while the local cost-of-living index sits near 84 — among the more affordable large U.S. metros (100 equals the U.S. average). Typical home values hover around $140,000, and median rents are near $950 per month.\n\nTypical summers reach about 92°F and winter lows average near 36°F. Average one-way commute times are about 21 minutes, and the unemployment rate is roughly 4.2%. Walk Score estimates put daily errands around 28/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Macon against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "atlanta-ga",
+      "athens-ga",
       "augusta-ga",
       "savannah-ga",
       "montgomery-al",
-      "tallahassee-fl",
-      "chattanooga-tn"
+      "columbia-sc"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8612,10 +8612,10 @@
     "nearbyCities": [
       "kansas-city-mo",
       "overland-park-ks",
+      "topeka-ks",
       "springfield-mo",
       "lincoln-ne",
-      "omaha-ne",
-      "wichita-ks"
+      "omaha-ne"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8658,12 +8658,12 @@
     "unemploymentRate": 5,
     "description": "Bridgeport, Connecticut is a 148,654-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $49,049, while the local cost-of-living index sits near 118 — above the national average (100 equals the U.S. average). Typical home values hover around $320,000, and median rents are near $1,400 per month.\n\nTypical summers reach about 83°F and winter lows average near 24°F. Average one-way commute times are about 28 minutes, and the unemployment rate is roughly 5%. Walk Score estimates put daily errands around 65/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Bridgeport against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
+      "new-haven-ct",
       "yonkers-ny",
+      "hartford-ct",
       "new-york-ny",
       "paterson-nj",
-      "jersey-city-nj",
-      "newark-nj",
-      "elizabeth-nj"
+      "jersey-city-nj"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8707,11 +8707,11 @@
     "description": "Amarillo, Texas is a 200,393-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $54,958, while the local cost-of-living index sits near 86 — below the national average (100 equals the U.S. average). Typical home values hover around $195,000, and median rents are near $1,050 per month.\n\nTypical summers reach about 93°F and winter lows average near 26°F. Average one-way commute times are about 17 minutes, and the unemployment rate is roughly 3.2%. Walk Score estimates put daily errands around 35/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Amarillo against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
     "nearbyCities": [
       "lubbock-tx",
+      "santa-fe-nm",
       "oklahoma-city-ok",
       "albuquerque-nm",
       "colorado-springs-co",
-      "wichita-ks",
-      "fort-worth-tx"
+      "wichita-ks"
     ],
     "lastUpdated": "2026-07-01",
     "sources": {
@@ -8723,6 +8723,966 @@
     "coordinates": [
       -101.8313,
       35.222
+    ]
+  },
+  {
+    "slug": "columbia-sc",
+    "name": "Columbia",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "stateCode": "SC",
+    "population": 137300,
+    "medianHouseholdIncome": 48200,
+    "costOfLivingIndex": 90,
+    "medianHomePrice": 220000,
+    "medianRent": 1100,
+    "crimeIndex": {
+      "violent": 62,
+      "property": 68,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 92,
+      "avgLowWinter": 34,
+      "annualRainfall": 48,
+      "sunnyDays": 220
+    },
+    "commute": {
+      "avgMinutes": 22,
+      "walkScore": 30
+    },
+    "unemploymentRate": 3.5,
+    "description": "Columbia, South Carolina is a 137,300-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $48,200, while the local cost-of-living index sits near 90 — below the national average (100 equals the U.S. average). Typical home values hover around $220,000, and median rents are near $1,100 per month.\n\nTypical summers reach about 92°F and winter lows average near 34°F. Average one-way commute times are about 22 minutes, and the unemployment rate is roughly 3.5%. Walk Score estimates put daily errands around 30/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Columbia against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "augusta-ga",
+      "charlotte-nc",
+      "charleston-sc",
+      "savannah-ga",
+      "athens-ga",
+      "asheville-nc"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -81.0348,
+      34.0007
+    ]
+  },
+  {
+    "slug": "hartford-ct",
+    "name": "Hartford",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "stateCode": "CT",
+    "population": 121054,
+    "medianHouseholdIncome": 41000,
+    "costOfLivingIndex": 112,
+    "medianHomePrice": 230000,
+    "medianRent": 1300,
+    "crimeIndex": {
+      "violent": 68,
+      "property": 55,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 83,
+      "avgLowWinter": 19,
+      "annualRainfall": 46,
+      "sunnyDays": 193
+    },
+    "commute": {
+      "avgMinutes": 24,
+      "walkScore": 64
+    },
+    "unemploymentRate": 5,
+    "description": "Hartford, Connecticut is a 121,054-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $41,000, while the local cost-of-living index sits near 112 — near the national average (100 equals the U.S. average). Typical home values hover around $230,000, and median rents are near $1,300 per month.\n\nWinters can dip to about 19°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 24 minutes, and the unemployment rate is roughly 5%. Walk Score estimates put daily errands around 64/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Hartford against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "new-haven-ct",
+      "bridgeport-ct",
+      "worcester-ma",
+      "providence-ri",
+      "albany-ny",
+      "yonkers-ny"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -72.6734,
+      41.7658
+    ]
+  },
+  {
+    "slug": "new-haven-ct",
+    "name": "New Haven",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "stateCode": "CT",
+    "population": 135081,
+    "medianHouseholdIncome": 46000,
+    "costOfLivingIndex": 108,
+    "medianHomePrice": 260000,
+    "medianRent": 1450,
+    "crimeIndex": {
+      "violent": 62,
+      "property": 52,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 22,
+      "annualRainfall": 48,
+      "sunnyDays": 196
+    },
+    "commute": {
+      "avgMinutes": 22,
+      "walkScore": 68
+    },
+    "unemploymentRate": 4.6,
+    "description": "New Haven, Connecticut is a 135,081-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $46,000, while the local cost-of-living index sits near 108 — near the national average (100 equals the U.S. average). Typical home values hover around $260,000, and median rents are near $1,450 per month.\n\nTypical summers reach about 82°F and winter lows average near 22°F. Average one-way commute times are about 22 minutes, and the unemployment rate is roughly 4.6%. Walk Score estimates put daily errands around 68/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare New Haven against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "bridgeport-ct",
+      "hartford-ct",
+      "yonkers-ny",
+      "new-york-ny",
+      "paterson-nj",
+      "jersey-city-nj"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -72.9279,
+      41.3083
+    ]
+  },
+  {
+    "slug": "albany-ny",
+    "name": "Albany",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "stateCode": "NY",
+    "population": 99224,
+    "medianHouseholdIncome": 47000,
+    "costOfLivingIndex": 102,
+    "medianHomePrice": 230000,
+    "medianRent": 1250,
+    "crimeIndex": {
+      "violent": 58,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 16,
+      "annualRainfall": 39,
+      "sunnyDays": 188
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 66
+    },
+    "unemploymentRate": 4,
+    "description": "Albany, New York is a 99,224-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $47,000, while the local cost-of-living index sits near 102 — near the national average (100 equals the U.S. average). Typical home values hover around $230,000, and median rents are near $1,250 per month.\n\nWinters can dip to about 16°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 4%. Walk Score estimates put daily errands around 66/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Albany against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "hartford-ct",
+      "new-haven-ct",
+      "worcester-ma",
+      "bridgeport-ct",
+      "manchester-nh",
+      "yonkers-ny"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -73.7562,
+      42.6526
+    ]
+  },
+  {
+    "slug": "syracuse-ny",
+    "name": "Syracuse",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "stateCode": "NY",
+    "population": 146396,
+    "medianHouseholdIncome": 40000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 150000,
+    "medianRent": 1050,
+    "crimeIndex": {
+      "violent": 68,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 81,
+      "avgLowWinter": 16,
+      "annualRainfall": 40,
+      "sunnyDays": 155
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 58
+    },
+    "unemploymentRate": 4.3,
+    "description": "Syracuse, New York is a 146,396-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $40,000, while the local cost-of-living index sits near 92 — below the national average (100 equals the U.S. average). Typical home values hover around $150,000, and median rents are near $1,050 per month.\n\nWinters can dip to about 16°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 19 minutes, and the unemployment rate is roughly 4.3%. Walk Score estimates put daily errands around 58/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Syracuse against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "rochester-ny",
+      "albany-ny",
+      "buffalo-ny",
+      "burlington-vt",
+      "paterson-nj",
+      "yonkers-ny"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -76.1474,
+      43.0481
+    ]
+  },
+  {
+    "slug": "topeka-ks",
+    "name": "Topeka",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateCode": "KS",
+    "population": 126587,
+    "medianHouseholdIncome": 52000,
+    "costOfLivingIndex": 85,
+    "medianHomePrice": 155000,
+    "medianRent": 900,
+    "crimeIndex": {
+      "violent": 62,
+      "property": 68,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 89,
+      "avgLowWinter": 19,
+      "annualRainfall": 35,
+      "sunnyDays": 222
+    },
+    "commute": {
+      "avgMinutes": 17,
+      "walkScore": 30
+    },
+    "unemploymentRate": 3.3,
+    "description": "Topeka, Kansas is a 126,587-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $52,000, while the local cost-of-living index sits near 85 — below the national average (100 equals the U.S. average). Typical home values hover around $155,000, and median rents are near $900 per month.\n\nWinters can dip to about 19°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 17 minutes, and the unemployment rate is roughly 3.3%. Walk Score estimates put daily errands around 30/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Topeka against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "overland-park-ks",
+      "kansas-city-ks",
+      "kansas-city-mo",
+      "wichita-ks",
+      "lincoln-ne",
+      "omaha-ne"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -95.6752,
+      39.0473
+    ]
+  },
+  {
+    "slug": "cheyenne-wy",
+    "name": "Cheyenne",
+    "state": "Wyoming",
+    "stateSlug": "wyoming",
+    "stateCode": "WY",
+    "population": 65132,
+    "medianHouseholdIncome": 60000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 310000,
+    "medianRent": 1150,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 42,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 85,
+      "avgLowWinter": 16,
+      "annualRainfall": 16,
+      "sunnyDays": 230
+    },
+    "commute": {
+      "avgMinutes": 17,
+      "walkScore": 28
+    },
+    "unemploymentRate": 3.2,
+    "description": "Cheyenne, Wyoming is a 65,132-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $60,000, while the local cost-of-living index sits near 92 — below the national average (100 equals the U.S. average). Typical home values hover around $310,000, and median rents are near $1,150 per month.\n\nWinters can dip to about 16°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 17 minutes, and the unemployment rate is roughly 3.2%. Walk Score estimates put daily errands around 28/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Cheyenne against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "fort-collins-co",
+      "boulder-co",
+      "denver-co",
+      "aurora-co",
+      "lakewood-co",
+      "colorado-springs-co"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -104.8202,
+      41.14
+    ]
+  },
+  {
+    "slug": "billings-mt",
+    "name": "Billings",
+    "state": "Montana",
+    "stateSlug": "montana",
+    "stateCode": "MT",
+    "population": 119960,
+    "medianHouseholdIncome": 59000,
+    "costOfLivingIndex": 95,
+    "medianHomePrice": 340000,
+    "medianRent": 1100,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 89,
+      "avgLowWinter": 16,
+      "annualRainfall": 15,
+      "sunnyDays": 205
+    },
+    "commute": {
+      "avgMinutes": 17,
+      "walkScore": 27
+    },
+    "unemploymentRate": 2.9,
+    "description": "Billings, Montana is a 119,960-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $59,000, while the local cost-of-living index sits near 95 — near the national average (100 equals the U.S. average). Typical home values hover around $340,000, and median rents are near $1,100 per month.\n\nWinters can dip to about 16°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 17 minutes, and the unemployment rate is roughly 2.9%. Walk Score estimates put daily errands around 27/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Billings against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "cheyenne-wy",
+      "salt-lake-city-ut",
+      "fort-collins-co",
+      "boise-id",
+      "boulder-co",
+      "spokane-wa"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -108.5007,
+      45.7833
+    ]
+  },
+  {
+    "slug": "fargo-nd",
+    "name": "Fargo",
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "stateCode": "ND",
+    "population": 127281,
+    "medianHouseholdIncome": 60000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 290000,
+    "medianRent": 1050,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 2,
+      "annualRainfall": 22,
+      "sunnyDays": 200
+    },
+    "commute": {
+      "avgMinutes": 16,
+      "walkScore": 34
+    },
+    "unemploymentRate": 2.4,
+    "description": "Fargo, North Dakota is a 127,281-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $60,000, while the local cost-of-living index sits near 92 — below the national average (100 equals the U.S. average). Typical home values hover around $290,000, and median rents are near $1,050 per month.\n\nWinters can dip to about 2°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 16 minutes, and the unemployment rate is roughly 2.4%. Walk Score estimates put daily errands around 34/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Fargo against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "minneapolis-mn",
+      "bloomington-mn",
+      "saint-paul-mn",
+      "sioux-falls-sd",
+      "omaha-ne",
+      "des-moines-ia"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -96.7898,
+      46.8772
+    ]
+  },
+  {
+    "slug": "charleston-wv",
+    "name": "Charleston",
+    "state": "West Virginia",
+    "stateSlug": "west-virginia",
+    "stateCode": "WV",
+    "population": 46536,
+    "medianHouseholdIncome": 47000,
+    "costOfLivingIndex": 90,
+    "medianHomePrice": 150000,
+    "medianRent": 900,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 52,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 85,
+      "avgLowWinter": 24,
+      "annualRainfall": 44,
+      "sunnyDays": 185
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 35
+    },
+    "unemploymentRate": 4,
+    "description": "Charleston, West Virginia is a 46,536-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $47,000, while the local cost-of-living index sits near 90 — below the national average (100 equals the U.S. average). Typical home values hover around $150,000, and median rents are near $900 per month.\n\nTypical summers reach about 85°F and winter lows average near 24°F. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 4%. Walk Score estimates put daily errands around 35/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Charleston against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "columbus-oh",
+      "lexington-ky",
+      "cincinnati-oh",
+      "pittsburgh-pa",
+      "winston-salem-nc",
+      "greensboro-nc"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -81.6326,
+      38.3498
+    ]
+  },
+  {
+    "slug": "burlington-vt",
+    "name": "Burlington",
+    "state": "Vermont",
+    "stateSlug": "vermont",
+    "stateCode": "VT",
+    "population": 44743,
+    "medianHouseholdIncome": 58000,
+    "costOfLivingIndex": 118,
+    "medianHomePrice": 420000,
+    "medianRent": 1700,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 80,
+      "avgLowWinter": 11,
+      "annualRainfall": 38,
+      "sunnyDays": 160
+    },
+    "commute": {
+      "avgMinutes": 18,
+      "walkScore": 68
+    },
+    "unemploymentRate": 2.5,
+    "description": "Burlington, Vermont is a 44,743-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $58,000, while the local cost-of-living index sits near 118 — above the national average (100 equals the U.S. average). Typical home values hover around $420,000, and median rents are near $1,700 per month.\n\nWinters can dip to about 11°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 18 minutes, and the unemployment rate is roughly 2.5%. Walk Score estimates put daily errands around 68/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Burlington against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "albany-ny",
+      "manchester-nh",
+      "portland-me",
+      "worcester-ma",
+      "syracuse-ny",
+      "boston-ma"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -73.2121,
+      44.4759
+    ]
+  },
+  {
+    "slug": "manchester-nh",
+    "name": "Manchester",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "stateCode": "NH",
+    "population": 115644,
+    "medianHouseholdIncome": 62000,
+    "costOfLivingIndex": 108,
+    "medianHomePrice": 380000,
+    "medianRent": 1550,
+    "crimeIndex": {
+      "violent": 38,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 82,
+      "avgLowWinter": 16,
+      "annualRainfall": 42,
+      "sunnyDays": 175
+    },
+    "commute": {
+      "avgMinutes": 23,
+      "walkScore": 50
+    },
+    "unemploymentRate": 2.6,
+    "description": "Manchester, New Hampshire is a 115,644-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $62,000, while the local cost-of-living index sits near 108 — near the national average (100 equals the U.S. average). Typical home values hover around $380,000, and median rents are near $1,550 per month.\n\nWinters can dip to about 16°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 23 minutes, and the unemployment rate is roughly 2.6%. Walk Score estimates put daily errands around 50/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Manchester against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "boston-ma",
+      "worcester-ma",
+      "portland-me",
+      "providence-ri",
+      "hartford-ct",
+      "albany-ny"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -71.4548,
+      42.9956
+    ]
+  },
+  {
+    "slug": "portland-me",
+    "name": "Portland",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "stateCode": "ME",
+    "population": 68300,
+    "medianHouseholdIncome": 62000,
+    "costOfLivingIndex": 120,
+    "medianHomePrice": 480000,
+    "medianRent": 1800,
+    "crimeIndex": {
+      "violent": 22,
+      "property": 42,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 78,
+      "avgLowWinter": 17,
+      "annualRainfall": 47,
+      "sunnyDays": 171
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 68
+    },
+    "unemploymentRate": 3,
+    "description": "Portland, Maine is a 68,300-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $62,000, while the local cost-of-living index sits near 120 — above the national average (100 equals the U.S. average). Typical home values hover around $480,000, and median rents are near $1,800 per month.\n\nWinters can dip to about 17°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 3%. Walk Score estimates put daily errands around 68/100, which shapes how car-dependent a household needs to be. Crime indexes compare favorably with many peer metros, though local blocks still differ. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Portland against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "manchester-nh",
+      "boston-ma",
+      "worcester-ma",
+      "providence-ri",
+      "burlington-vt",
+      "hartford-ct"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -70.2568,
+      43.6591
+    ]
+  },
+  {
+    "slug": "wilmington-de",
+    "name": "Wilmington",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "stateCode": "DE",
+    "population": 70898,
+    "medianHouseholdIncome": 46000,
+    "costOfLivingIndex": 108,
+    "medianHomePrice": 220000,
+    "medianRent": 1300,
+    "crimeIndex": {
+      "violent": 68,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 86,
+      "avgLowWinter": 25,
+      "annualRainfall": 44,
+      "sunnyDays": 200
+    },
+    "commute": {
+      "avgMinutes": 24,
+      "walkScore": 62
+    },
+    "unemploymentRate": 4.5,
+    "description": "Wilmington, Delaware is a 70,898-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $46,000, while the local cost-of-living index sits near 108 — near the national average (100 equals the U.S. average). Typical home values hover around $220,000, and median rents are near $1,300 per month.\n\nTypical summers reach about 86°F and winter lows average near 25°F. Average one-way commute times are about 24 minutes, and the unemployment rate is roughly 4.5%. Walk Score estimates put daily errands around 62/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Wilmington against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "philadelphia-pa",
+      "baltimore-md",
+      "elizabeth-nj",
+      "washington-dc",
+      "newark-nj",
+      "alexandria-va"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -75.5398,
+      39.7391
+    ]
+  },
+  {
+    "slug": "boulder-co",
+    "name": "Boulder",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "stateCode": "CO",
+    "population": 108250,
+    "medianHouseholdIncome": 79000,
+    "costOfLivingIndex": 150,
+    "medianHomePrice": 950000,
+    "medianRent": 2000,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 87,
+      "avgLowWinter": 18,
+      "annualRainfall": 20,
+      "sunnyDays": 245
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 55
+    },
+    "unemploymentRate": 2.8,
+    "description": "Boulder, Colorado is a 108,250-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $79,000, while the local cost-of-living index sits near 150 — well above the national average (100 equals the U.S. average). Typical home values hover around $950,000, and median rents are near $2,000 per month.\n\nWinters can dip to about 18°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 19 minutes, and the unemployment rate is roughly 2.8%. Walk Score estimates put daily errands around 55/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Boulder against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "lakewood-co",
+      "denver-co",
+      "aurora-co",
+      "fort-collins-co",
+      "cheyenne-wy",
+      "colorado-springs-co"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -105.2705,
+      40.015
+    ]
+  },
+  {
+    "slug": "ann-arbor-mi",
+    "name": "Ann Arbor",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "stateCode": "MI",
+    "population": 123043,
+    "medianHouseholdIncome": 71000,
+    "costOfLivingIndex": 118,
+    "medianHomePrice": 460000,
+    "medianRent": 1650,
+    "crimeIndex": {
+      "violent": 28,
+      "property": 48,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 83,
+      "avgLowWinter": 17,
+      "annualRainfall": 36,
+      "sunnyDays": 170
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 52
+    },
+    "unemploymentRate": 2.9,
+    "description": "Ann Arbor, Michigan is a 123,043-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $71,000, while the local cost-of-living index sits near 118 — above the national average (100 equals the U.S. average). Typical home values hover around $460,000, and median rents are near $1,650 per month.\n\nWinters can dip to about 17°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 19 minutes, and the unemployment rate is roughly 2.9%. Walk Score estimates put daily errands around 52/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Ann Arbor against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "detroit-mi",
+      "toledo-oh",
+      "grand-rapids-mi",
+      "fort-wayne-in",
+      "cleveland-oh",
+      "akron-oh"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -83.743,
+      42.2808
+    ]
+  },
+  {
+    "slug": "athens-ga",
+    "name": "Athens",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "stateCode": "GA",
+    "population": 127300,
+    "medianHouseholdIncome": 41000,
+    "costOfLivingIndex": 90,
+    "medianHomePrice": 260000,
+    "medianRent": 1150,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 58,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 90,
+      "avgLowWinter": 34,
+      "annualRainfall": 46,
+      "sunnyDays": 216
+    },
+    "commute": {
+      "avgMinutes": 20,
+      "walkScore": 32
+    },
+    "unemploymentRate": 3.2,
+    "description": "Athens, Georgia is a 127,300-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $41,000, while the local cost-of-living index sits near 90 — below the national average (100 equals the U.S. average). Typical home values hover around $260,000, and median rents are near $1,150 per month.\n\nTypical summers reach about 90°F and winter lows average near 34°F. Average one-way commute times are about 20 minutes, and the unemployment rate is roughly 3.2%. Walk Score estimates put daily errands around 32/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Athens against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "atlanta-ga",
+      "macon-ga",
+      "augusta-ga",
+      "asheville-nc",
+      "columbia-sc",
+      "chattanooga-tn"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -83.3576,
+      33.9519
+    ]
+  },
+  {
+    "slug": "asheville-nc",
+    "name": "Asheville",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "stateCode": "NC",
+    "population": 94589,
+    "medianHouseholdIncome": 52000,
+    "costOfLivingIndex": 112,
+    "medianHomePrice": 430000,
+    "medianRent": 1500,
+    "crimeIndex": {
+      "violent": 42,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 84,
+      "avgLowWinter": 28,
+      "annualRainfall": 46,
+      "sunnyDays": 200
+    },
+    "commute": {
+      "avgMinutes": 21,
+      "walkScore": 35
+    },
+    "unemploymentRate": 3.3,
+    "description": "Asheville, North Carolina is a 94,589-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $52,000, while the local cost-of-living index sits near 112 — near the national average (100 equals the U.S. average). Typical home values hover around $430,000, and median rents are near $1,500 per month.\n\nTypical summers reach about 84°F and winter lows average near 28°F. Average one-way commute times are about 21 minutes, and the unemployment rate is roughly 3.3%. Walk Score estimates put daily errands around 35/100, which shapes how car-dependent a household needs to be. Safety metrics are broadly in line with other mid-size metros, with meaningful variation by neighborhood. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Asheville against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "knoxville-tn",
+      "charlotte-nc",
+      "athens-ga",
+      "winston-salem-nc",
+      "columbia-sc",
+      "augusta-ga"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -82.5515,
+      35.5951
+    ]
+  },
+  {
+    "slug": "santa-fe-nm",
+    "name": "Santa Fe",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "stateCode": "NM",
+    "population": 87505,
+    "medianHouseholdIncome": 62000,
+    "costOfLivingIndex": 118,
+    "medianHomePrice": 570000,
+    "medianRent": 1600,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 62,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 85,
+      "avgLowWinter": 19,
+      "annualRainfall": 14,
+      "sunnyDays": 283
+    },
+    "commute": {
+      "avgMinutes": 18,
+      "walkScore": 33
+    },
+    "unemploymentRate": 3.4,
+    "description": "Santa Fe, New Mexico is a 87,505-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $62,000, while the local cost-of-living index sits near 118 — above the national average (100 equals the U.S. average). Typical home values hover around $570,000, and median rents are near $1,600 per month.\n\nWinters can dip to about 19°F, so heating and snow readiness matter for relocators. Average one-way commute times are about 18 minutes, and the unemployment rate is roughly 3.4%. Walk Score estimates put daily errands around 33/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Santa Fe against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "albuquerque-nm",
+      "colorado-springs-co",
+      "amarillo-tx",
+      "el-paso-tx",
+      "lubbock-tx",
+      "lakewood-co"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -105.9378,
+      35.687
+    ]
+  },
+  {
+    "slug": "gainesville-fl",
+    "name": "Gainesville",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "stateCode": "FL",
+    "population": 143700,
+    "medianHouseholdIncome": 39000,
+    "costOfLivingIndex": 92,
+    "medianHomePrice": 290000,
+    "medianRent": 1350,
+    "crimeIndex": {
+      "violent": 48,
+      "property": 68,
+      "source": "FBI UCR / Crime Data Explorer (curated index for launch)"
+    },
+    "climate": {
+      "avgHighSummer": 91,
+      "avgLowWinter": 46,
+      "annualRainfall": 50,
+      "sunnyDays": 232
+    },
+    "commute": {
+      "avgMinutes": 19,
+      "walkScore": 34
+    },
+    "unemploymentRate": 2.8,
+    "description": "Gainesville, Florida is a 143,700-person city that frequently appears on relocation shortlists for work, housing costs, and climate fit. Median household income is about $39,000, while the local cost-of-living index sits near 92 — below the national average (100 equals the U.S. average). Typical home values hover around $290,000, and median rents are near $1,350 per month.\n\nWith roughly 50 inches of rain a year, wet-season planning is worth factoring into a move. Average one-way commute times are about 19 minutes, and the unemployment rate is roughly 2.8%. Walk Score estimates put daily errands around 34/100, which shapes how car-dependent a household needs to be. Overall crime rates sit in a mid-to-elevated range relative to other large U.S. cities. MapsToIt compiles Census, BLS, crime, and climate normals so you can compare Gainesville against other U.S. cities before you move — then dig into the full metric set and nearby alternatives on this page.",
+    "nearbyCities": [
+      "jacksonville-fl",
+      "orlando-fl",
+      "tampa-fl",
+      "tallahassee-fl",
+      "st-petersburg-fl",
+      "savannah-ga"
+    ],
+    "lastUpdated": "2026-07-01",
+    "sources": {
+      "census": "U.S. Census Bureau / American Community Survey (curated seed)",
+      "bls": "Bureau of Labor Statistics (curated seed)",
+      "fbi": "FBI Crime Data Explorer (curated seed)",
+      "noaa": "NOAA Climate Normals (curated seed)"
+    },
+    "coordinates": [
+      -82.3248,
+      29.6516
     ]
   }
 ]

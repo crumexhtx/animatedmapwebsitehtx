@@ -122,6 +122,17 @@ function safetyAngle(city: CityRecord) {
       7,
     )
   }
+  if (city.crimeIndex.source.includes('curated')) {
+    return pick(
+      [
+        `Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.`,
+        `This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.`,
+        `Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.`,
+      ],
+      city.slug,
+      31,
+    )
+  }
   const violent = city.crimeIndex.violent
   if (violent >= 800) {
     return `FBI CDE violent-offense rates run comparatively high (~${violent} per 100k annualized), so block-by-block due diligence is especially important.`

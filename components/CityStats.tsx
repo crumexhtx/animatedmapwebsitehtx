@@ -80,6 +80,11 @@ export function CityStats({
   national: NationalBaselines
 }) {
   const crimeUnavailable = city.crimeIndex.source === 'data unavailable'
+  // Curated-seed crime figures are a small 0-100 launch placeholder, not a real FBI
+  // per-100k rate — comparing it against the national per-100k average would be
+  // misleading, so treat it like the "unavailable" case for the compare column.
+  const crimeIsCuratedSeed = city.crimeIndex.source.includes('curated')
+  const crimeNeedsCaveat = crimeUnavailable || crimeIsCuratedSeed
   const items: StatItem[] = [
     { label: 'Population', value: formatNumber(city.population) },
     {
@@ -125,16 +130,16 @@ export function CityStats({
     {
       label: 'Violent crime rate',
       value: crimeUnavailable ? 'Unavailable' : String(city.crimeIndex.violent),
-      note: crimeUnavailable ? 'FBI CDE gap' : 'annualized per 100k',
-      compare: crimeUnavailable
+      note: crimeUnavailable ? 'FBI CDE gap' : crimeIsCuratedSeed ? 'launch estimate, not FBI-verified yet' : 'annualized per 100k',
+      compare: crimeNeedsCaveat
         ? undefined
         : compareNumber(city.crimeIndex.violent, national.crimeViolent, (v) => String(v)),
     },
     {
       label: 'Property crime rate',
       value: crimeUnavailable ? 'Unavailable' : String(city.crimeIndex.property),
-      note: crimeUnavailable ? 'FBI CDE gap' : 'annualized per 100k',
-      compare: crimeUnavailable
+      note: crimeUnavailable ? 'FBI CDE gap' : crimeIsCuratedSeed ? 'launch estimate, not FBI-verified yet' : 'annualized per 100k',
+      compare: crimeNeedsCaveat
         ? undefined
         : compareNumber(city.crimeIndex.property, national.crimeProperty, (v) => String(v)),
     },

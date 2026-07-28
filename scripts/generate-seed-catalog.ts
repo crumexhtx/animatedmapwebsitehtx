@@ -1,5 +1,5 @@
 /**
- * Generates the curated launch catalog (~180 major U.S. cities).
+ * Generates the curated launch catalog (~200 major U.S. cities).
  * Numeric fields are approximate, cited as ACS/BLS/FBI/NOAA-style public figures
  * for v1. Re-run enrich-* scripts later to refresh from live APIs.
  *
@@ -242,6 +242,27 @@ const SEEDS: Seed[] = [
   { name: 'Kansas City', stateCode: 'KS', state: 'Kansas', population: 156607, income: 45326, col: 86, home: 150000, rent: 950, violent: 68, property: 72, high: 89, low: 23, rain: 39.0, sun: 215, commute: 20, walk: 40, unemp: 3.8, lat: 39.1141, lon: -94.6275 },
   { name: 'Bridgeport', stateCode: 'CT', state: 'Connecticut', population: 148654, income: 49049, col: 118, home: 320000, rent: 1400, violent: 55, property: 52, high: 83, low: 24, rain: 46.0, sun: 205, commute: 28, walk: 65, unemp: 5.0, lat: 41.1865, lon: -73.1952 },
   { name: 'Amarillo', stateCode: 'TX', state: 'Texas', population: 200393, income: 54958, col: 86, home: 195000, rent: 1050, violent: 55, property: 68, high: 93, low: 26, rain: 20.0, sun: 260, commute: 17, walk: 35, unemp: 3.2, lat: 35.222, lon: -101.8313 },
+  // --- Batch 2: 20 additional cities, incl. first coverage for SC, WY, MT, ND, WV, VT, NH, ME, DE ---
+  { name: 'Columbia', stateCode: 'SC', state: 'South Carolina', population: 137300, income: 48200, col: 90, home: 220000, rent: 1100, violent: 62, property: 68, high: 92, low: 34, rain: 48.0, sun: 220, commute: 22, walk: 30, unemp: 3.5, lat: 34.0007, lon: -81.0348 },
+  { name: 'Hartford', stateCode: 'CT', state: 'Connecticut', population: 121054, income: 41000, col: 112, home: 230000, rent: 1300, violent: 68, property: 55, high: 83, low: 19, rain: 46.0, sun: 193, commute: 24, walk: 64, unemp: 5.0, lat: 41.7658, lon: -72.6734 },
+  { name: 'New Haven', stateCode: 'CT', state: 'Connecticut', population: 135081, income: 46000, col: 108, home: 260000, rent: 1450, violent: 62, property: 52, high: 82, low: 22, rain: 48.0, sun: 196, commute: 22, walk: 68, unemp: 4.6, lat: 41.3083, lon: -72.9279 },
+  { name: 'Albany', stateCode: 'NY', state: 'New York', population: 99224, income: 47000, col: 102, home: 230000, rent: 1250, violent: 58, property: 48, high: 82, low: 16, rain: 39.0, sun: 188, commute: 20, walk: 66, unemp: 4.0, lat: 42.6526, lon: -73.7562 },
+  { name: 'Syracuse', stateCode: 'NY', state: 'New York', population: 146396, income: 40000, col: 92, home: 150000, rent: 1050, violent: 68, property: 62, high: 81, low: 16, rain: 40.0, sun: 155, commute: 19, walk: 58, unemp: 4.3, lat: 43.0481, lon: -76.1474 },
+  { name: 'Topeka', stateCode: 'KS', state: 'Kansas', population: 126587, income: 52000, col: 85, home: 155000, rent: 900, violent: 62, property: 68, high: 89, low: 19, rain: 35.0, sun: 222, commute: 17, walk: 30, unemp: 3.3, lat: 39.0473, lon: -95.6752 },
+  { name: 'Cheyenne', stateCode: 'WY', state: 'Wyoming', population: 65132, income: 60000, col: 92, home: 310000, rent: 1150, violent: 28, property: 42, high: 85, low: 16, rain: 16.0, sun: 230, commute: 17, walk: 28, unemp: 3.2, lat: 41.14, lon: -104.8202 },
+  { name: 'Billings', stateCode: 'MT', state: 'Montana', population: 119960, income: 59000, col: 95, home: 340000, rent: 1100, violent: 48, property: 62, high: 89, low: 16, rain: 15.0, sun: 205, commute: 17, walk: 27, unemp: 2.9, lat: 45.7833, lon: -108.5007 },
+  { name: 'Fargo', stateCode: 'ND', state: 'North Dakota', population: 127281, income: 60000, col: 92, home: 290000, rent: 1050, violent: 28, property: 48, high: 82, low: 2, rain: 22.0, sun: 200, commute: 16, walk: 34, unemp: 2.4, lat: 46.8772, lon: -96.7898 },
+  { name: 'Charleston', stateCode: 'WV', state: 'West Virginia', population: 46536, income: 47000, col: 90, home: 150000, rent: 900, violent: 48, property: 52, high: 85, low: 24, rain: 44.0, sun: 185, commute: 20, walk: 35, unemp: 4.0, lat: 38.3498, lon: -81.6326 },
+  { name: 'Burlington', stateCode: 'VT', state: 'Vermont', population: 44743, income: 58000, col: 118, home: 420000, rent: 1700, violent: 28, property: 48, high: 80, low: 11, rain: 38.0, sun: 160, commute: 18, walk: 68, unemp: 2.5, lat: 44.4759, lon: -73.2121 },
+  { name: 'Manchester', stateCode: 'NH', state: 'New Hampshire', population: 115644, income: 62000, col: 108, home: 380000, rent: 1550, violent: 38, property: 48, high: 82, low: 16, rain: 42.0, sun: 175, commute: 23, walk: 50, unemp: 2.6, lat: 42.9956, lon: -71.4548 },
+  { name: 'Portland', stateCode: 'ME', state: 'Maine', population: 68300, income: 62000, col: 120, home: 480000, rent: 1800, violent: 22, property: 42, high: 78, low: 17, rain: 47.0, sun: 171, commute: 20, walk: 68, unemp: 3.0, lat: 43.6591, lon: -70.2568 },
+  { name: 'Wilmington', stateCode: 'DE', state: 'Delaware', population: 70898, income: 46000, col: 108, home: 220000, rent: 1300, violent: 68, property: 48, high: 86, low: 25, rain: 44.0, sun: 200, commute: 24, walk: 62, unemp: 4.5, lat: 39.7391, lon: -75.5398 },
+  { name: 'Boulder', stateCode: 'CO', state: 'Colorado', population: 108250, income: 79000, col: 150, home: 950000, rent: 2000, violent: 28, property: 62, high: 87, low: 18, rain: 20.0, sun: 245, commute: 19, walk: 55, unemp: 2.8, lat: 40.015, lon: -105.2705 },
+  { name: 'Ann Arbor', stateCode: 'MI', state: 'Michigan', population: 123043, income: 71000, col: 118, home: 460000, rent: 1650, violent: 28, property: 48, high: 83, low: 17, rain: 36.0, sun: 170, commute: 19, walk: 52, unemp: 2.9, lat: 42.2808, lon: -83.743 },
+  { name: 'Athens', stateCode: 'GA', state: 'Georgia', population: 127300, income: 41000, col: 90, home: 260000, rent: 1150, violent: 48, property: 58, high: 90, low: 34, rain: 46.0, sun: 216, commute: 20, walk: 32, unemp: 3.2, lat: 33.9519, lon: -83.3576 },
+  { name: 'Asheville', stateCode: 'NC', state: 'North Carolina', population: 94589, income: 52000, col: 112, home: 430000, rent: 1500, violent: 42, property: 62, high: 84, low: 28, rain: 46.0, sun: 200, commute: 21, walk: 35, unemp: 3.3, lat: 35.5951, lon: -82.5515 },
+  { name: 'Santa Fe', stateCode: 'NM', state: 'New Mexico', population: 87505, income: 62000, col: 118, home: 570000, rent: 1600, violent: 48, property: 62, high: 85, low: 19, rain: 14.0, sun: 283, commute: 18, walk: 33, unemp: 3.4, lat: 35.687, lon: -105.9378 },
+  { name: 'Gainesville', stateCode: 'FL', state: 'Florida', population: 143700, income: 39000, col: 92, home: 290000, rent: 1350, violent: 48, property: 68, high: 91, low: 46, rain: 50.0, sun: 232, commute: 19, walk: 34, unemp: 2.8, lat: 29.6516, lon: -82.3248 },
 ]
 
 const CLEAN_SEEDS = SEEDS
