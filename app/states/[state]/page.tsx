@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { CatalogCoverageNote } from '@/components/CatalogCoverageNote'
+import { ContentSnapshot } from '@/components/ContentSnapshot'
 import {
   allStates,
   cityPath,
@@ -11,6 +12,7 @@ import {
   getState,
 } from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
+import { buildStateDirectAnswer, buildStateSnapshotMetrics } from '@/lib/snapshot'
 import { stateMetadata } from '@/lib/seo'
 
 type Props = {
@@ -35,6 +37,7 @@ export default async function StatePage({ params }: Props) {
 
   const cities = getCitiesByState(state.slug)
   const unmapped = getNotableUnmapped(state.slug)
+  const asOf = cities.reduce((latest, city) => (city.lastUpdated > latest ? city.lastUpdated : latest), '1970-01-01')
 
   return (
     <article className="section">
@@ -48,45 +51,36 @@ export default async function StatePage({ params }: Props) {
         <p className="lead">{state.description}</p>
       </div>
 
+      <ContentSnapshot
+        title={`What does MapsToIt cover in ${state.name}?`}
+        directAnswer={buildStateDirectAnswer(state)}
+        asOf={asOf}
+        metrics={buildStateSnapshotMetrics(state)}
+      />
+
       <CatalogCoverageNote stateName={state.name} cities={cities} unmapped={unmapped} />
 
-      <dl className="stat-grid">
-        <div className="stat-cell">
-          <dt>Cities in catalog</dt>
-          <dd>{state.cityCount}</dd>
-        </div>
-        <div className="stat-cell">
-          <dt>Catalog combined pop.</dt>
-          <dd>{formatNumber(state.population)}</dd>
-        </div>
-        <div className="stat-cell">
-          <dt>Catalog avg income</dt>
-          <dd>{formatCurrency(state.medianHouseholdIncome)}</dd>
-        </div>
-        <div className="stat-cell">
-          <dt>Catalog avg housing index</dt>
-          <dd>{state.costOfLivingIndex}</dd>
-        </div>
-      </dl>
-
-      <h2>Mapped cities in {state.name}</h2>
-      <p className="section-note">
-        Full profiles only — compare any two with the{' '}
-        <Link href={comparePath(cities.slice(0, 2).map((city) => city.slug))}>compare tool</Link>.
-      </p>
-      <ul className="city-list">
-        {cities.map((city) => (
-          <li key={city.slug}>
-            <Link href={cityPath(city)}>
-              <strong>{city.name}</strong>
-              <span>
-                {formatNumber(city.population)} people · homes ~{formatCurrency(city.medianHomePrice)} · Housing index{' '}
-                {city.costOfLivingIndex}
-              </span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <section className="answer-section">
+        <h2>Which {state.name} cities have full MapsToIt profiles?</h2>
+        <p className="answer-lead">
+          {state.cityCount} cities are fully mapped below — each page includes proprietary housing, income, commute,
+          climate, and safety figures versus U.S. baselines. Compare any two with the{' '}
+          <Link href={comparePath(cities.slice(0, 2).map((city) => city.slug))}>compare tool</Link>.
+        </p>
+        <ul className="city-list">
+          {cities.map((city) => (
+            <li key={city.slug}>
+              <Link href={cityPath(city)}>
+                <strong>{city.name}</strong>
+                <span>
+                  {formatNumber(city.population)} people · homes ~{formatCurrency(city.medianHomePrice)} · Housing index{' '}
+                  {city.costOfLivingIndex}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </article>
   )
 }
