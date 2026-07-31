@@ -23,7 +23,10 @@ MapsToIt presents cost of living, income, housing, safety, climate, and commute 
 | `/cities` | Full city index (filterable by state) |
 | `/cities/[state]/[city]` | City profile (core SEO unit) |
 | `/states/[state]` | State overview |
-| `/compare` | Side-by-side city comparison |
+| `/cities/rankings` | Cheapest / most expensive COL bar charts |
+| `/cities/cost-vs-safety` | Cost vs violent crime scatter plot |
+| `/cities/state-costs` | State housing-cost choropleth map |
+| `/compare` | Side-by-side city comparison + radar |
 | `/methodology` | Data sources & publishing rules |
 | `/about`, `/contact` | Trust pages |
 

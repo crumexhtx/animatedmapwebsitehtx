@@ -7,10 +7,10 @@ export function absoluteUrl(path: string) {
 }
 
 export function cityMetadata(city: CityRecord): Metadata {
-  const title = `${city.name}, ${city.stateCode} Cost of Living, Safety & Climate | MapsToIt`
+  const title = `📍 Compare ${city.name}, ${city.stateCode} Cost of Living, Housing & Safety`
   const description =
-    `Research ${city.name}, ${city.state}: cost of living index ${city.costOfLivingIndex}, ` +
-    `median home price ${city.medianHomePrice.toLocaleString('en-US')}, commute, climate, and crime context.`
+    `Discover ${city.name}, ${city.state} cost of living (index ${city.costOfLivingIndex}), ` +
+    `median home value, rent, income, commute, climate, and crime context — built for relocators comparing cities.`
   const url = absoluteUrl(cityPath(city))
 
   return {
@@ -28,9 +28,9 @@ export function cityMetadata(city: CityRecord): Metadata {
 }
 
 export function stateMetadata(state: StateRecord): Metadata {
-  const title = `${state.name} Cities — Cost of Living & Relocation Data | MapsToIt`
+  const title = `🗺️ Explore ${state.name} Cities — Housing Costs & Relocation Data`
   const description =
-    `Explore ${state.cityCount} ${state.name} cities on MapsToIt — income, housing costs, commute, climate, and safety.`
+    `Browse ${state.cityCount} mapped ${state.name} cities — compare cost of living, income, housing prices, commute, climate, and safety before you move.`
   const url = absoluteUrl(statePath(state))
 
   return {

@@ -10,12 +10,15 @@ const GA_MEASUREMENT_ID = 'G-MXMYV30T6F'
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: {
-    default: 'MapsToIt — U.S. City Data Explorer',
+    default: '🗺️ Explore U.S. Cities — Cost of Living, Housing & Safety Data',
     template: '%s | MapsToIt',
   },
   description:
-    'Research U.S. cities before you move — cost of living, income, housing, safety, climate, and commute data with an interactive map.',
+    'Compare cost of living, housing prices, income, safety, climate, and commute across U.S. cities before you move — browse an interactive map, then dig into full relocation profiles.',
   openGraph: {
+    title: '🗺️ Explore U.S. Cities — Cost of Living, Housing & Safety Data',
+    description:
+      'Compare cost of living, housing prices, income, safety, climate, and commute across U.S. cities before you move.',
     siteName: 'MapsToIt',
     type: 'website',
   },

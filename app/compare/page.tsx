@@ -7,9 +7,9 @@ import { parseCompareSlugs } from '@/lib/compare'
 import { formatCurrency } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Compare cities',
+  title: '⚖️ Compare Cities Side by Side — Income, Housing & Safety',
   description:
-    'Compare MapsToIt city profiles side by side — curated high-intent pairs plus an interactive tool for income, housing, crime, climate, and commute versus U.S. baselines.',
+    'Compare U.S. cities side by side — curated high-intent pairs plus an interactive tool for income, housing costs, crime, climate, and commute versus national baselines.',
   alternates: { canonical: '/compare' },
 }
 

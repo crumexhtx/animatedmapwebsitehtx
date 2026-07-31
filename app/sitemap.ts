@@ -4,11 +4,21 @@ import { COMPARISON_PAIRS, comparisonPath } from '@/lib/comparison-pairs'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl()
-  const staticRoutes = ['', '/cities', '/compare', '/about', '/contact', '/methodology'].map((path) => ({
+  const staticRoutes = [
+    '',
+    '/cities',
+    '/cities/rankings',
+    '/cities/cost-vs-safety',
+    '/cities/state-costs',
+    '/compare',
+    '/about',
+    '/contact',
+    '/methodology',
+  ].map((path) => ({
     url: `${base}${path || '/'}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: path === '' ? 1 : 0.7,
+    priority: path === '' ? 1 : path.startsWith('/cities/') ? 0.85 : 0.7,
   }))
 
   const comparisonRoutes = COMPARISON_PAIRS.map((pair) => ({

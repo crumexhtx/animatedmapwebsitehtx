@@ -2,8 +2,10 @@
 
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
+import { CompareRadarChart } from '@/components/CompareRadarChart'
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { buildCompareRows } from '@/lib/compare'
+import { buildRadarSeries } from '@/lib/charts'
 import { cityPath, comparePath } from '@/lib/paths'
 
 type Option = Pick<CityRecord, 'slug' | 'name' | 'state' | 'stateCode'>
@@ -47,6 +49,8 @@ export function CompareCities({
     .filter((city): city is CityRecord => Boolean(city))
 
   const rows = selectedCities.length >= 2 ? buildCompareRows(selectedCities, national) : []
+  const radarSeries =
+    selectedCities.length >= 2 ? buildRadarSeries(selectedCities, cities, national) : []
 
   return (
     <div className="compare-tool">
@@ -132,6 +136,16 @@ export function CompareCities({
               </tbody>
             </table>
           </div>
+
+          <section className="chart-section" aria-labelledby="compare-radar-heading">
+            <h2 id="compare-radar-heading">Profile shape</h2>
+            <p>
+              Normalized 0–100 scores across housing affordability, safety, income, and mild summer
+              climate (higher = relatively more favorable within the MapsToIt catalog). Raw values
+              remain in the table above.
+            </p>
+            <CompareRadarChart series={radarSeries} />
+          </section>
 
           <p className="compare-share">
             Shareable link:{' '}
