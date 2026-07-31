@@ -61,10 +61,11 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
       },
       center: [-98.5, 39.5],
       zoom: 3.2,
-      attributionControl: true,
+      attributionControl: false,
       cooperativeGestures: true,
     })
     mapRef.current = map
+    map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right')
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
 
     fetch(GEO_URL)
