@@ -17,13 +17,18 @@ export default function CitiesIndexPage() {
         <h1>U.S. cities</h1>
         <p className="lead">
           {allCities.length} complete city profiles. Filter by state or open any page for the full dataset.
-          Or explore visualizations:{' '}
-          <Link href="/cities/rankings">cheapest / most expensive</Link>
-          {' · '}
-          <Link href="/cities/cost-vs-safety">cost vs safety</Link>
-          {' · '}
-          <Link href="/cities/state-costs">state cost map</Link>.
         </p>
+        <div className="cta-row" style={{ marginBottom: '1.5rem' }}>
+          <Link className="button" href="/cities/rankings">
+            Rankings
+          </Link>
+          <Link className="button button-secondary" href="/cities/cost-vs-safety">
+            Cost vs safety
+          </Link>
+          <Link className="button button-secondary" href="/cities/state-costs">
+            State costs
+          </Link>
+        </div>
       </div>
 
       <CitiesBrowser cities={allCities} states={allStates} />

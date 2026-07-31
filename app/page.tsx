@@ -21,8 +21,14 @@ export default function HomePage() {
           <Link className="button" href="/cities">
             Browse cities
           </Link>
-          <Link className="button button-secondary" href="/methodology">
-            How we source data
+          <Link className="button button-secondary" href="/cities/rankings">
+            Rankings
+          </Link>
+          <Link className="button button-secondary" href="/cities/cost-vs-safety">
+            Cost vs safety
+          </Link>
+          <Link className="button button-secondary" href="/cities/state-costs">
+            State costs
           </Link>
         </div>
       </section>

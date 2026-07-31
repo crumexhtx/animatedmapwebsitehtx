@@ -13,18 +13,68 @@ export type StateColAverage = {
   avgCostOfLivingIndex: number
 }
 
-/** Public domain US states GeoJSON (name property matches catalog state names). */
-const GEO_URL =
-  'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json'
+/** Local copy preferred; CDN fallback if missing. */
+const GEO_URLS = [
+  '/geo/us-states.json',
+  'https://cdn.jsdelivr.net/gh/PublicaMundi/MappingAPI@master/data/geojson/us-states.json',
+]
+
+const BASE_STYLE: maplibregl.StyleSpecification = {
+  version: 8,
+  name: 'MapsToIt state costs',
+  sources: {
+    'raster-tiles': {
+      type: 'raster',
+      tiles: [
+        'https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://d.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+      ],
+      tileSize: 256,
+      attribution:
+        '© <a href="https://carto.com/">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxzoom: 20,
+    },
+  },
+  layers: [
+    {
+      id: 'background',
+      type: 'background',
+      paint: { 'background-color': '#c5d6c8' },
+    },
+    {
+      id: 'raster-basemap',
+      type: 'raster',
+      source: 'raster-tiles',
+      minzoom: 0,
+      maxzoom: 22,
+    },
+  ],
+}
 
 function colorForIndex(value: number | undefined, min: number, max: number) {
-  if (value == null) return '#d7e0d9'
-  if (max === min) return '#0f6b5c'
+  if (value == null) return 'rgba(215, 224, 217, 0.55)'
+  if (max === min) return 'rgba(15, 107, 92, 0.85)'
   const t = Math.max(0, Math.min(1, (value - min) / (max - min)))
   const r = Math.round(216 + (15 - 216) * t)
   const g = Math.round(239 + (107 - 239) * t)
   const b = Math.round(232 + (92 - 232) * t)
-  return `rgb(${r}, ${g}, ${b})`
+  return `rgba(${r}, ${g}, ${b}, 0.88)`
+}
+
+async function loadStatesGeoJson() {
+  for (const url of GEO_URLS) {
+    try {
+      const response = await fetch(url)
+      if (!response.ok) continue
+      const data = await response.json()
+      if (data?.type === 'FeatureCollection' && Array.isArray(data.features)) return data
+    } catch {
+      // try next source
+    }
+  }
+  throw new Error('Could not load US states GeoJSON')
 }
 
 export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
@@ -32,6 +82,7 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
   const mapRef = useRef<maplibregl.Map | null>(null)
   const router = useRouter()
   const [ready, setReady] = useState(false)
+  const [error, setError] = useState<string | null>(null)
   const [hover, setHover] = useState<StateColAverage | null>(null)
 
   const byName = useMemo(
@@ -39,8 +90,8 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
     [states],
   )
   const values = states.map((state) => state.avgCostOfLivingIndex)
-  const min = Math.min(...values)
-  const max = Math.max(...values)
+  const min = values.length ? Math.min(...values) : 0
+  const max = values.length ? Math.max(...values) : 100
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -48,78 +99,81 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: {
-        version: 8,
-        sources: {},
-        layers: [
-          {
-            id: 'background',
-            type: 'background',
-            paint: { 'background-color': '#f3f6f2' },
-          },
-        ],
-      },
-      center: [-98.5, 39.5],
-      zoom: 3.2,
+      style: BASE_STYLE,
+      center: [-97.5, 38.5],
+      zoom: 3.4,
+      minZoom: 2,
+      maxZoom: 8,
       attributionControl: false,
       cooperativeGestures: true,
+      dragRotate: false,
+      pitchWithRotate: false,
+      touchPitch: false,
     })
     mapRef.current = map
     map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right')
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
 
-    fetch(GEO_URL)
-      .then((response) => response.json())
-      .then((geojson: {
-        type: string
-        features: Array<{
-          type: string
-          geometry: unknown
-          properties?: Record<string, unknown> | null
-        }>
-      }) => {
+    const forceResize = () => {
+      if (cancelled || !mapRef.current) return
+      map.resize()
+    }
+
+    const onLoad = async () => {
+      try {
+        const geojson = await loadStatesGeoJson()
         if (cancelled || !mapRef.current) return
 
         const colored = {
           type: 'FeatureCollection' as const,
-          features: geojson.features.map((feature) => {
-            const name = String(feature.properties?.name ?? '')
-            const match = byName.get(name.toLowerCase())
-            return {
-              ...feature,
-              properties: {
-                ...feature.properties,
-                stateName: match?.name ?? name,
-                stateCode: match?.code ?? '',
-                stateSlug: match?.slug ?? '',
-                avgCol: match?.avgCostOfLivingIndex ?? null,
-                cityCount: match?.cityCount ?? 0,
-                fill: colorForIndex(match?.avgCostOfLivingIndex, min, max),
-              },
-            }
-          }),
+          features: geojson.features.map(
+            (feature: {
+              type: string
+              geometry: unknown
+              properties?: Record<string, unknown> | null
+            }) => {
+              const name = String(feature.properties?.name ?? '')
+              const match = byName.get(name.toLowerCase())
+              return {
+                ...feature,
+                properties: {
+                  ...feature.properties,
+                  stateName: match?.name ?? name,
+                  stateCode: match?.code ?? '',
+                  stateSlug: match?.slug ?? '',
+                  avgCol: match?.avgCostOfLivingIndex ?? null,
+                  cityCount: match?.cityCount ?? 0,
+                  fill: colorForIndex(match?.avgCostOfLivingIndex, min, max),
+                },
+              }
+            },
+          ),
         }
 
-        map.addSource('states', { type: 'geojson', data: colored as never })
-        map.addLayer({
-          id: 'states-fill',
-          type: 'fill',
-          source: 'states',
-          paint: {
-            'fill-color': ['get', 'fill'],
-            'fill-opacity': 0.92,
-          },
-        })
-        map.addLayer({
-          id: 'states-outline',
-          type: 'line',
-          source: 'states',
-          paint: {
-            'line-color': '#14201c',
-            'line-width': 0.6,
-            'line-opacity': 0.35,
-          },
-        })
+        if (map.getSource('states')) {
+          ;(map.getSource('states') as maplibregl.GeoJSONSource).setData(colored as never)
+        } else {
+          map.addSource('states', { type: 'geojson', data: colored as never })
+          map.addLayer({
+            id: 'states-fill',
+            type: 'fill',
+            source: 'states',
+            paint: {
+              'fill-color': ['get', 'fill'],
+              'fill-opacity': 1,
+            },
+          })
+          map.addLayer({
+            id: 'states-outline',
+            type: 'line',
+            source: 'states',
+            paint: {
+              'line-color': '#14201c',
+              'line-width': 0.7,
+              'line-opacity': 0.4,
+            },
+          })
+        }
 
         map.on('mousemove', 'states-fill', (event) => {
           map.getCanvas().style.cursor = 'pointer'
@@ -145,14 +199,32 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
           if (slug) router.push(`/states/${slug}`)
         })
 
-        setReady(true)
+        if (!cancelled) {
+          setReady(true)
+          setError(null)
+          forceResize()
+          requestAnimationFrame(forceResize)
+          window.setTimeout(forceResize, 120)
+        }
+      } catch (err) {
+        console.error('choropleth load failed', err)
+        if (!cancelled) setError('State map data could not be loaded. The ranked list below still works.')
+      }
+    }
+
+    if (map.loaded()) {
+      void onLoad()
+    } else {
+      map.on('load', () => {
+        void onLoad()
       })
-      .catch((error) => {
-        console.error('choropleth load failed', error)
-      })
+    }
+
+    window.addEventListener('resize', forceResize)
 
     return () => {
       cancelled = true
+      window.removeEventListener('resize', forceResize)
       map.remove()
       mapRef.current = null
     }
@@ -161,7 +233,8 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
   return (
     <div className="choropleth">
       <div className="choropleth-map" ref={containerRef} />
-      {!ready ? <div className="city-map-loader choropleth-loader">Loading state map…</div> : null}
+      {!ready && !error ? <div className="city-map-loader choropleth-loader">Loading state map…</div> : null}
+      {error ? <p className="chart-active">{error}</p> : null}
       <div className="choropleth-legend" aria-hidden>
         <span>Lower COL avg</span>
         <span className="choropleth-ramp" />
