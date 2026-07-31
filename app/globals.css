@@ -409,6 +409,86 @@ a:hover { color: var(--map-deep); }
   letter-spacing: -0.02em;
 }
 
+.content-snapshot {
+  margin: 0 0 1.75rem;
+  padding: 1.15rem 1.2rem 1.25rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(216, 239, 232, 0.55), rgba(255, 255, 255, 0.85));
+}
+
+.content-snapshot-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--map-deep);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.content-snapshot-title {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.4vw, 1.55rem);
+  letter-spacing: -0.015em;
+}
+
+.content-snapshot-answer {
+  margin: 0 0 0.75rem;
+  max-width: 48rem;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.content-snapshot-meta {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.content-snapshot-grid {
+  margin-bottom: 0;
+}
+
+.answer-sections {
+  display: grid;
+  gap: 1.35rem;
+  margin: 0 0 1.75rem;
+}
+
+.answer-section {
+  margin: 0 0 1.5rem;
+}
+
+.answer-section h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.2vw, 1.45rem);
+  letter-spacing: -0.015em;
+}
+
+.answer-lead {
+  margin: 0 0 0.65rem;
+  max-width: 44rem;
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+.answer-bullets {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+}
+
+.answer-bullets li {
+  margin: 0.2rem 0;
+}
+
+.comparison-pair-list .nearby-actions {
+  margin-top: 0.35rem;
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;

@@ -17,7 +17,12 @@ export function SiteFooter() {
       </div>
       <p className="footer-note">
         Figures compile Census ACS, BLS LAUS, FBI CDE, and NOAA normals for research — see methodology for citations and
-        coverage gaps.
+        coverage gaps. Curated comparisons:{' '}
+        <Link href="/compare/austin-tx-vs-denver-co">Austin vs Denver</Link>
+        {', '}
+        <Link href="/compare/new-york-ny-vs-chicago-il">NYC vs Chicago</Link>
+        {', '}
+        <Link href="/compare">more pairs</Link>.
       </p>
     </footer>
   )

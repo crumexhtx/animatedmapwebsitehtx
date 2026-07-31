@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { allCities, allStates, cityPath, siteUrl, statePath } from '@/lib/catalog'
+import { COMPARISON_PAIRS, comparisonPath } from '@/lib/comparison-pairs'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl()
@@ -8,6 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: path === '' ? 1 : 0.7,
+  }))
+
+  const comparisonRoutes = COMPARISON_PAIRS.map((pair) => ({
+    url: `${base}${comparisonPath(pair.slug)}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
   }))
 
   const cityRoutes = allCities.map((city) => ({
@@ -24,5 +32,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...staticRoutes, ...stateRoutes, ...cityRoutes]
+  return [...staticRoutes, ...comparisonRoutes, ...stateRoutes, ...cityRoutes]
 }
