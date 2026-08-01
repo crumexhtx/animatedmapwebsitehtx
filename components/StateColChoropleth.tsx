@@ -102,21 +102,30 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
 
   const paths = useMemo(() => {
     if (!geojson || !pathGenerator) return []
-    return (geojson.features as StateFeature[]).flatMap((feature, index) => {
-      const name = String(feature.properties?.name ?? '')
-      const match = byName.get(name.toLowerCase())
-      const d = pathGenerator(feature)
-      if (!d) return []
-      return [
-        {
-          key: `${name || 'state'}-${index}`,
-          d,
-          name: match?.name ?? name,
-          match,
-          fill: colorForIndex(match?.avgCostOfLivingIndex, min, max),
-        },
-      ]
-    })
+    const maxArea = VIEW_WIDTH * VIEW_HEIGHT * 0.35
+    return (geojson.features as StateFeature[])
+      .flatMap((feature, index) => {
+        const name = String(feature.properties?.name ?? '')
+        const match = byName.get(name.toLowerCase())
+        const d = pathGenerator(feature)
+        if (!d) return []
+        // Guard against degenerate GeoJSON rings that project to full-map fills.
+        const area = pathGenerator.area(feature)
+        if (!Number.isFinite(area) || Math.abs(area) > maxArea) return []
+        const [[x0, y0], [x1, y1]] = pathGenerator.bounds(feature)
+        if (x1 - x0 > VIEW_WIDTH * 0.95 && y1 - y0 > VIEW_HEIGHT * 0.95) return []
+        return [
+          {
+            key: `${name || 'state'}-${index}`,
+            d,
+            name: match?.name ?? name,
+            match,
+            fill: colorForIndex(match?.avgCostOfLivingIndex, min, max),
+            area: Math.abs(area),
+          },
+        ]
+      })
+      .sort((a, b) => b.area - a.area)
   }, [byName, geojson, max, min, pathGenerator])
 
   return (
@@ -130,9 +139,7 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
             className="choropleth-svg"
           >
             <rect width={VIEW_WIDTH} height={VIEW_HEIGHT} fill="#f4f7f2" />
-            {[...paths]
-              .sort((a, b) => b.d.length - a.d.length)
-              .map((path) => (
+            {paths.map((path) => (
               <path
                 key={path.key}
                 d={path.d}
