@@ -1386,6 +1386,34 @@ a:hover { color: var(--map-deep); }
   background: #f3f6f2;
 }
 
+.choropleth-map-svg {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+}
+
+.choropleth-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.choropleth-state {
+  cursor: default;
+  transition: fill 120ms ease, stroke-opacity 120ms ease, stroke-width 120ms ease;
+}
+
+.choropleth-state.is-mapped {
+  cursor: pointer;
+}
+
+.choropleth-state.is-mapped:hover,
+.choropleth-state.is-mapped:focus-visible {
+  stroke-opacity: 0.85;
+  stroke-width: 1.6;
+  outline: none;
+}
+
 .choropleth-loader {
   position: absolute;
   inset: 0;
