@@ -22,14 +22,26 @@ const GEO_URLS = [
 const VIEW_WIDTH = 960
 const VIEW_HEIGHT = 560
 
+/** Light sand → deep teal so mid-range states stay readable on the map. */
 function colorForIndex(value: number | undefined, min: number, max: number) {
-  if (value == null) return 'rgba(215, 224, 217, 0.55)'
-  if (max === min) return 'rgba(15, 107, 92, 0.85)'
+  if (value == null) return '#d7ded8'
+  if (max === min) return '#0b5c4f'
   const t = Math.max(0, Math.min(1, (value - min) / (max - min)))
-  const r = Math.round(216 + (15 - 216) * t)
-  const g = Math.round(239 + (107 - 239) * t)
-  const b = Math.round(232 + (92 - 232) * t)
-  return `rgba(${r}, ${g}, ${b}, 0.92)`
+  // Piecewise ramp: pale sand → soft mint → rich teal
+  const stops = [
+    { t: 0, r: 244, g: 236, b: 214 },
+    { t: 0.45, r: 158, g: 201, b: 186 },
+    { t: 1, r: 11, g: 92, b: 79 },
+  ]
+  let i = 0
+  while (i < stops.length - 2 && t > stops[i + 1].t) i += 1
+  const a = stops[i]
+  const b = stops[i + 1]
+  const u = (t - a.t) / (b.t - a.t || 1)
+  const r = Math.round(a.r + (b.r - a.r) * u)
+  const g = Math.round(a.g + (b.g - a.g) * u)
+  const bl = Math.round(a.b + (b.b - a.b) * u)
+  return `rgb(${r}, ${g}, ${bl})`
 }
 
 async function loadStatesGeoJson(): Promise<FeatureCollection> {
@@ -117,15 +129,17 @@ export function StateColChoropleth({ states }: { states: StateColAverage[] }) {
             preserveAspectRatio="xMidYMid meet"
             className="choropleth-svg"
           >
-            <rect width={VIEW_WIDTH} height={VIEW_HEIGHT} fill="#e8f0ea" />
-            {paths.map((path) => (
+            <rect width={VIEW_WIDTH} height={VIEW_HEIGHT} fill="#f4f7f2" />
+            {[...paths]
+              .sort((a, b) => b.d.length - a.d.length)
+              .map((path) => (
               <path
                 key={path.key}
                 d={path.d}
                 fill={path.fill}
-                stroke="#14201c"
-                strokeOpacity={0.35}
-                strokeWidth={0.8}
+                stroke="#1a2a24"
+                strokeOpacity={0.55}
+                strokeWidth={1.1}
                 vectorEffect="non-scaling-stroke"
                 className={path.match ? 'choropleth-state is-mapped' : 'choropleth-state'}
                 tabIndex={path.match ? 0 : undefined}
