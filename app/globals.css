@@ -687,12 +687,144 @@ a:hover { color: var(--map-deep); }
   color: var(--muted);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .population-trend-chart {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.72);
-  padding: 0.5rem 0.75rem 0;
+  padding: 0.5rem 0.75rem 0.75rem;
+}
+
+.population-trend-readout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  align-items: baseline;
+  margin: 0.25rem 0 0.35rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.population-trend-readout strong {
+  color: var(--ink);
+  font-size: 1.35rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.year-play-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.year-play-button {
+  min-width: 5.5rem;
+}
+
+.year-play-slider {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex: 1;
+  min-width: 12rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.year-play-slider input[type='range'] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.population-race-year {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 600;
+  line-height: 1;
+  color: var(--ink);
+  margin: 0 0 0.75rem;
+}
+
+.population-race-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.population-race-row {
+  display: grid;
+  grid-template-columns: minmax(7rem, 11rem) 1fr auto;
+  gap: 0.65rem;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+}
+
+.population-race-row:hover .population-race-bar,
+.population-race-row:focus-visible .population-race-bar {
+  filter: brightness(0.92);
+}
+
+.population-race-label {
+  font-size: 0.92rem;
+  line-height: 1.25;
+}
+
+.population-race-label span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.population-race-track {
+  height: 1.35rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.population-race-bar {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 0.55s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .population-race-bar {
+    transition: none;
+  }
+}
+
+.population-race-value {
+  min-width: 4.5rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .population-trend-chart svg {

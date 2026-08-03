@@ -155,6 +155,37 @@ export function stateColAverages(cities: CityRecord[]) {
   }))
 }
 
+export type PopulationRaceCity = {
+  slug: string
+  name: string
+  stateCode: string
+  stateSlug: string
+  byYear: Record<number, number>
+}
+
+/** Cities with multi-year PEP history for the national population race. */
+export function populationRaceCities(cities: CityRecord[]): PopulationRaceCity[] {
+  return cities
+    .filter((city) => (city.populationHistory?.points.length ?? 0) >= 2)
+    .map((city) => ({
+      slug: city.slug,
+      name: city.name,
+      stateCode: city.stateCode,
+      stateSlug: city.stateSlug,
+      byYear: Object.fromEntries(
+        city.populationHistory!.points.map((point) => [point.year, point.population]),
+      ),
+    }))
+}
+
+export function populationRaceYears(cities: PopulationRaceCity[]): number[] {
+  const years = new Set<number>()
+  for (const city of cities) {
+    for (const year of Object.keys(city.byYear)) years.add(Number(year))
+  }
+  return [...years].sort((a, b) => a - b)
+}
+
 function toRankingCity(city: CityRecord): RankingCity {
   return {
     slug: city.slug,

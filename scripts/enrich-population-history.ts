@@ -1,36 +1,26 @@
 /**
- * Pull annual city population estimates from the Census Bureau's Population
- * Estimates Program (PEP) API (api.census.gov). A free CENSUS_API_KEY is required
- * — without it the API returns an HTML "Missing Key" page (HTTP 200) instead of JSON.
- * Request a key at https://api.census.gov/data/key_signup.html
+ * Pull annual city population estimates from Census Bureau PEP city/town CSVs
+ * on www2.census.gov (no API key required).
  *
- * Reuses the place GEOID already resolved in data/raw/enrichments/census.json
- * (enrich-census.ts) instead of re-geocoding every city.
+ * Reuses place GEOIDs from data/raw/enrichments/census.json.
  *
- * Census API coverage for place-level PEP totals:
- *   - Vintage 2019 (`/data/2019/pep/population`) exposes a DATE_CODE time series
- *     covering July 1 estimates for 2010–2019 for places — one call per state.
- *   - Per-year paths like `/data/2011/pep/population` do not exist (404 / HTML).
- *   - Post-2019 place totals are not on the Census API ("current estimates are
- *     unable to be supported by the API at this time"), so we optionally append
- *     the ACS 5-year population from the census enrichment as a recent anchor.
+ * Sources:
+ *   - 2010–2019: sub-est2019_all.csv (SUMLEV 162 incorporated places)
+ *   - 2020–2024: sub-est2024.csv
  *
  * Output: data/raw/enrichments/population-history.json
  */
 
-import { fetchJson, readEnrichment, sleep, writeEnrichment } from './lib/io'
+import { readEnrichment, writeEnrichment } from './lib/io'
 import type { CensusEnrichment } from './enrich-census'
 
-const API_KEY = process.env.CENSUS_API_KEY
-const HISTORY_YEARS = 15
-/** Last place-level PEP totals vintage available on the Census API. */
-const LEGACY_VINTAGE = 2019
-const ACS_ANCHOR_YEAR = 2023
+const LEGACY_CSV =
+  'https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/cities/totals/sub-est2019_all.csv'
+const CURRENT_CSV =
+  'https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/cities/totals/sub-est2024.csv'
 
-const LATEST_YEAR = Math.max(LEGACY_VINTAGE, ACS_ANCHOR_YEAR)
-const EARLIEST_YEAR = LATEST_YEAR - (HISTORY_YEARS - 1)
-
-type PlaceRow = { geoid: string; slug: string; stateFips: string; placeFips: string }
+const LEGACY_YEARS = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] as const
+const CURRENT_YEARS = [2020, 2021, 2022, 2023, 2024] as const
 
 export type PopulationHistoryEnrichment = {
   generatedAt: string
@@ -46,165 +36,127 @@ export type PopulationHistoryEnrichment = {
 }
 
 function parseGeoid(geoid: string): { stateFips: string; placeFips: string } | null {
-  // Table GEO_IDs look like 1600000US{2-digit state fips}{5-digit place fips}
   const match = /^1600000US(\d{2})(\d{5})$/.exec(geoid)
   if (!match) return null
   return { stateFips: match[1], placeFips: match[2] }
 }
 
-function withKey(url: string) {
-  return `${url}${url.includes('?') ? '&' : '?'}key=${API_KEY}`
+function parseCsvLine(line: string): string[] {
+  const cells: string[] = []
+  let current = ''
+  let inQuotes = false
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i]
+    if (ch === '"') {
+      inQuotes = !inQuotes
+      continue
+    }
+    if (ch === ',' && !inQuotes) {
+      cells.push(current)
+      current = ''
+      continue
+    }
+    current += ch
+  }
+  cells.push(current)
+  return cells
 }
 
-/**
- * Vintage 2019 DATE_CODE → calendar year for July 1 resident population estimates.
- * Codes 1–2 are April 1, 2010 census / estimates base (skipped); 3–12 are 7/1/2010–2019.
- */
-function yearFromDateCode(dateCode: number, dateDesc?: string): number | null {
-  if (dateDesc) {
-    // e.g. "7/1/2015 population estimate"
-    const july = /7\/1\/(\d{4})/i.exec(dateDesc)
-    if (july) return Number(july[1])
-    return null
-  }
-  if (dateCode >= 3 && dateCode <= 12) return 2007 + dateCode
-  return null
+async function loadCsv(url: string) {
+  console.log(`population-history: downloading ${url.split('/').slice(-2).join('/')}`)
+  const response = await fetch(url)
+  if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`)
+  const text = await response.text()
+  const lines = text.split(/\r?\n/).filter((line) => line.length > 0)
+  const header = parseCsvLine(lines[0])
+  const col = new Map(header.map((name, index) => [name, index]))
+  return { lines: lines.slice(1), col }
 }
 
-/**
- * One call per state — returns July 1 place estimates for 2010–2019 via DATE_CODE.
- */
-async function fetchLegacyDecade(stateFips: string) {
-  const url = withKey(
-    `https://api.census.gov/data/${LEGACY_VINTAGE}/pep/population` +
-      `?get=NAME,POP,DATE_CODE,DATE_DESC&for=place:*&in=state:${stateFips}`,
-  )
-  const rows = await fetchJson<string[][]>(url)
-  const [header, ...body] = rows
-  const colIndex = new Map(header.map((name, index) => [name, index]))
-  const placeIndex = colIndex.get('place')
-  const popIndex = colIndex.get('POP')
-  const dateCodeIndex = colIndex.get('DATE_CODE')
-  const dateDescIndex = colIndex.get('DATE_DESC')
-  if (placeIndex == null || popIndex == null || dateCodeIndex == null) {
-    throw new Error('missing place/POP/DATE_CODE column')
-  }
-
-  const byPlace = new Map<string, Array<{ year: number; population: number }>>()
-  for (const row of body) {
-    const dateCode = Number(row[dateCodeIndex])
-    const dateDesc = dateDescIndex != null ? row[dateDescIndex] : undefined
-    const year = yearFromDateCode(dateCode, dateDesc)
-    if (year == null || year < EARLIEST_YEAR) continue
-    const value = Number(row[popIndex])
-    if (!Number.isFinite(value) || value <= 0) continue
-
-    const placeFips = row[placeIndex]
-    const existing = byPlace.get(placeFips) ?? []
-    // Prefer the first July 1 point for a year; skip duplicates.
-    if (existing.some((point) => point.year === year)) continue
-    existing.push({ year, population: value })
-    byPlace.set(placeFips, existing)
-  }
-  return byPlace
+function fipsKey(state: string, place: string) {
+  return `${state.padStart(2, '0')}${place.padStart(5, '0')}`
 }
 
 async function main() {
-  if (!API_KEY) {
-    console.error(
-      'population-history: CENSUS_API_KEY is required.\n' +
-        '  1. Request a free key: https://api.census.gov/data/key_signup.html\n' +
-        '  2. Then run (PowerShell):\n' +
-        '     $env:CENSUS_API_KEY="your-key-here"\n' +
-        '     npm run enrich:population-history',
-    )
-    process.exit(1)
-  }
-
   const census = readEnrichment<CensusEnrichment>('census')
   if (!census) {
     console.error('population-history: run enrich-census first (needs cached place GEOIDs)')
     process.exit(1)
   }
 
-  const places: PlaceRow[] = []
+  const slugByFips = new Map<string, string>()
   for (const [slug, row] of Object.entries(census.cities)) {
     const parsed = parseGeoid(row.geoid)
     if (!parsed) {
       console.warn(`population-history: could not parse geoid for ${slug} (${row.geoid})`)
       continue
     }
-    places.push({ geoid: row.geoid, slug, ...parsed })
-  }
-
-  const byState = new Map<string, PlaceRow[]>()
-  for (const place of places) {
-    const list = byState.get(place.stateFips) ?? []
-    list.push(place)
-    byState.set(place.stateFips, list)
+    slugByFips.set(fipsKey(parsed.stateFips, parsed.placeFips), slug)
   }
 
   const pointsBySlug = new Map<string, Array<{ year: number; population: number }>>()
 
-  console.log(
-    `population-history: fetching PEP ${LEGACY_VINTAGE} time series (2010–2019) for ${places.length} cities across ${byState.size} states`,
-  )
-
-  let stateIndex = 0
-  for (const [stateFips, list] of byState) {
-    stateIndex += 1
-    process.stdout.write(`\r[legacy decade ${stateIndex}/${byState.size}] state ${stateFips}          `)
-    try {
-      const byPlace = await fetchLegacyDecade(stateFips)
-      for (const place of list) {
-        const points = byPlace.get(place.placeFips)
-        if (!points?.length) continue
-        const existing = pointsBySlug.get(place.slug) ?? []
-        pointsBySlug.set(place.slug, [...existing, ...points])
-      }
-    } catch (error) {
-      console.warn(`\npopulation-history: ${LEGACY_VINTAGE} time-series fetch failed for state ${stateFips}:`, error)
+  const legacy = await loadCsv(LEGACY_CSV)
+  for (const line of legacy.lines) {
+    const cells = parseCsvLine(line)
+    const sumlev = cells[legacy.col.get('SUMLEV')!]
+    if (sumlev !== '162') continue
+    const state = cells[legacy.col.get('STATE')!]
+    const place = cells[legacy.col.get('PLACE')!]
+    const slug = slugByFips.get(fipsKey(state, place))
+    if (!slug) continue
+    const points = pointsBySlug.get(slug) ?? []
+    for (const year of LEGACY_YEARS) {
+      const raw = cells[legacy.col.get(`POPESTIMATE${year}`)!]
+      const population = Number(raw)
+      if (!Number.isFinite(population) || population <= 0) continue
+      if (points.some((point) => point.year === year)) continue
+      points.push({ year, population })
     }
-    await sleep(200)
+    pointsBySlug.set(slug, points)
   }
-  console.log('')
 
-  // ACS anchor — Census API no longer publishes post-2019 place PEP totals.
-  let acsAnchors = 0
-  for (const place of places) {
-    const acs = census.cities[place.slug]
-    if (!acs?.population) continue
-    const existing = pointsBySlug.get(place.slug) ?? []
-    if (existing.some((point) => point.year === ACS_ANCHOR_YEAR)) continue
-    existing.push({ year: ACS_ANCHOR_YEAR, population: Math.round(acs.population) })
-    pointsBySlug.set(place.slug, existing)
-    acsAnchors += 1
+  const current = await loadCsv(CURRENT_CSV)
+  for (const line of current.lines) {
+    const cells = parseCsvLine(line)
+    const sumlev = cells[current.col.get('SUMLEV')!]
+    if (sumlev !== '162') continue
+    const state = cells[current.col.get('STATE')!]
+    const place = cells[current.col.get('PLACE')!]
+    const slug = slugByFips.get(fipsKey(state, place))
+    if (!slug) continue
+    const points = pointsBySlug.get(slug) ?? []
+    for (const year of CURRENT_YEARS) {
+      const raw = cells[current.col.get(`POPESTIMATE${year}`)!]
+      const population = Number(raw)
+      if (!Number.isFinite(population) || population <= 0) continue
+      if (points.some((point) => point.year === year)) continue
+      points.push({ year, population })
+    }
+    pointsBySlug.set(slug, points)
   }
-  console.log(`population-history: appended ACS ${ACS_ANCHOR_YEAR} population for ${acsAnchors} cities`)
 
   const cities: PopulationHistoryEnrichment['cities'] = {}
   let ok = 0
   for (const [slug, points] of pointsBySlug) {
-    if (points.length < 2) continue // a single point isn't a trend
+    if (points.length < 2) continue
     const sorted = [...points].sort((a, b) => a.year - b.year)
-    const hasAcs = sorted.some((point) => point.year === ACS_ANCHOR_YEAR)
     cities[slug] = {
       points: sorted,
-      source: hasAcs
-        ? `U.S. Census Bureau PEP (2010–2019) + ACS ${ACS_ANCHOR_YEAR} 5-year`
-        : `U.S. Census Bureau Population Estimates Program, ${sorted[0].year}-${sorted[sorted.length - 1].year}`,
+      source: `U.S. Census Bureau PEP city/town estimates (${sorted[0].year}–${sorted[sorted.length - 1].year})`,
     }
     ok += 1
   }
 
+  const allYears = Object.values(cities).flatMap((row) => row.points.map((point) => point.year))
   const payload: PopulationHistoryEnrichment = {
     generatedAt: new Date().toISOString(),
-    earliestYear: EARLIEST_YEAR,
-    latestYear: LATEST_YEAR,
+    earliestYear: allYears.length ? Math.min(...allYears) : 2010,
+    latestYear: allYears.length ? Math.max(...allYears) : 2024,
     cities,
   }
   const out = writeEnrichment('population-history', payload)
-  console.log(`Wrote ${ok}/${places.length} population-history enrichments → ${out}`)
+  console.log(`Wrote ${ok}/${slugByFips.size} population-history enrichments → ${out}`)
   if (ok === 0) process.exitCode = 1
 }
 

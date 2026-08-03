@@ -30,6 +30,9 @@ export default function HomePage() {
           <Link className="button button-secondary" href="/cities/state-costs">
             State costs
           </Link>
+          <Link className="button button-secondary" href="/cities/population-over-time">
+            Population over time
+          </Link>
         </div>
       </section>
 

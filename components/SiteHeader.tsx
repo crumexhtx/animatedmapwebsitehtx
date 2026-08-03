@@ -10,6 +10,7 @@ const links = [
   { href: '/cities/rankings', label: 'Rankings' },
   { href: '/cities/cost-vs-safety', label: 'Cost vs safety' },
   { href: '/cities/state-costs', label: 'State costs' },
+  { href: '/cities/population-over-time', label: 'Population over time' },
   { href: '/compare', label: 'Compare' },
   { href: '/methodology', label: 'Methodology' },
   { href: '/about', label: 'About' },

@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/cities/rankings',
     '/cities/cost-vs-safety',
     '/cities/state-costs',
+    '/cities/population-over-time',
     '/compare',
     '/about',
     '/contact',

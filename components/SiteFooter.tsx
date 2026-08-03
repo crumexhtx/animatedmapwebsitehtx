@@ -13,6 +13,7 @@ export function SiteFooter() {
         <Link href="/cities/rankings">Rankings</Link>
         <Link href="/cities/cost-vs-safety">Cost vs safety</Link>
         <Link href="/cities/state-costs">State costs</Link>
+        <Link href="/cities/population-over-time">Population over time</Link>
         <Link href="/compare">Compare cities</Link>
         <Link href="/methodology">Data sources</Link>
         <Link href="/about">About</Link>
