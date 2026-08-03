@@ -1,4 +1,5 @@
 import type { CityRecord } from '@/lib/types'
+import { publicSourceLabel } from '@/lib/sources'
 
 export function SourceList({ city }: { city: CityRecord }) {
   const entries = [
@@ -15,7 +16,7 @@ export function SourceList({ city }: { city: CityRecord }) {
       <ul>
         {entries.map(([label, value]) => (
           <li key={label}>
-            <strong>{label}:</strong> {value}
+            <strong>{label}:</strong> {publicSourceLabel(value)}
           </li>
         ))}
       </ul>

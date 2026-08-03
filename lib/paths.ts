@@ -15,6 +15,18 @@ export function comparePath(slugs: string[]) {
   return `/compare?cities=${cities.join(',')}`
 }
 
+/** Canonical apex host (no www). Prefer NEXT_PUBLIC_SITE_URL when set, but
+ * always strip a leading `www.` so metadata/canonicals stay consistent. */
 export function siteUrl() {
-  return process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mapstoit.com'
+  const raw = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mapstoit.com'
+  try {
+    const url = new URL(raw)
+    url.hostname = url.hostname.replace(/^www\./i, '')
+    url.pathname = '/'
+    url.search = ''
+    url.hash = ''
+    return url.origin
+  } catch {
+    return 'https://mapstoit.com'
+  }
 }

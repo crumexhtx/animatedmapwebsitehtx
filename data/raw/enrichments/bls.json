@@ -7,7 +7,7 @@
       "countyName": "New York County",
       "unemploymentRate": 4.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN360610000000003 (New York County, May 2026)"
+      "source": "BLS LAUS (New York County, May 2026)"
     },
     "los-angeles-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -15,7 +15,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "chicago-il": {
       "seriesId": "LAUCN170310000000003",
@@ -23,7 +23,7 @@
       "countyName": "Cook County",
       "unemploymentRate": 5.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN170310000000003 (Cook County, May 2026)"
+      "source": "BLS LAUS (Cook County, May 2026)"
     },
     "houston-tx": {
       "seriesId": "LAUCN482010000000003",
@@ -31,7 +31,7 @@
       "countyName": "Harris County",
       "unemploymentRate": 4.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN482010000000003 (Harris County, May 2026)"
+      "source": "BLS LAUS (Harris County, May 2026)"
     },
     "phoenix-az": {
       "seriesId": "LAUCN040130000000003",
@@ -39,7 +39,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "philadelphia-pa": {
       "seriesId": "LAUCN421010000000003",
@@ -47,7 +47,7 @@
       "countyName": "Philadelphia County",
       "unemploymentRate": 5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN421010000000003 (Philadelphia County, May 2026)"
+      "source": "BLS LAUS (Philadelphia County, May 2026)"
     },
     "san-antonio-tx": {
       "seriesId": "LAUCN480290000000003",
@@ -55,7 +55,7 @@
       "countyName": "Bexar County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN480290000000003 (Bexar County, May 2026)"
+      "source": "BLS LAUS (Bexar County, May 2026)"
     },
     "san-diego-ca": {
       "seriesId": "LAUCN060730000000003",
@@ -63,7 +63,7 @@
       "countyName": "San Diego County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)"
+      "source": "BLS LAUS (San Diego County, May 2026)"
     },
     "dallas-tx": {
       "seriesId": "LAUCN481130000000003",
@@ -71,7 +71,7 @@
       "countyName": "Dallas County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)"
+      "source": "BLS LAUS (Dallas County, May 2026)"
     },
     "austin-tx": {
       "seriesId": "LAUCN484530000000003",
@@ -79,7 +79,7 @@
       "countyName": "Travis County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN484530000000003 (Travis County, May 2026)"
+      "source": "BLS LAUS (Travis County, May 2026)"
     },
     "jacksonville-fl": {
       "seriesId": "LAUCN120310000000003",
@@ -87,7 +87,7 @@
       "countyName": "Duval County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120310000000003 (Duval County, May 2026)"
+      "source": "BLS LAUS (Duval County, May 2026)"
     },
     "san-jose-ca": {
       "seriesId": "LAUCN060850000000003",
@@ -95,7 +95,7 @@
       "countyName": "Santa Clara County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)"
+      "source": "BLS LAUS (Santa Clara County, May 2026)"
     },
     "fort-worth-tx": {
       "seriesId": "LAUCN484390000000003",
@@ -103,7 +103,7 @@
       "countyName": "Tarrant County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN484390000000003 (Tarrant County, May 2026)"
+      "source": "BLS LAUS (Tarrant County, May 2026)"
     },
     "columbus-oh": {
       "seriesId": "LAUCN390490000000003",
@@ -111,7 +111,7 @@
       "countyName": "Franklin County",
       "unemploymentRate": 2.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN390490000000003 (Franklin County, May 2026)"
+      "source": "BLS LAUS (Franklin County, May 2026)"
     },
     "charlotte-nc": {
       "seriesId": "LAUCN371190000000003",
@@ -119,7 +119,7 @@
       "countyName": "Mecklenburg County",
       "unemploymentRate": 3.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN371190000000003 (Mecklenburg County, May 2026)"
+      "source": "BLS LAUS (Mecklenburg County, May 2026)"
     },
     "indianapolis-in": {
       "seriesId": "LAUCN180970000000003",
@@ -127,7 +127,7 @@
       "countyName": "Marion County",
       "unemploymentRate": 3.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN180970000000003 (Marion County, May 2026)"
+      "source": "BLS LAUS (Marion County, May 2026)"
     },
     "san-francisco-ca": {
       "seriesId": "LAUCN060750000000003",
@@ -135,7 +135,7 @@
       "countyName": "San Francisco County",
       "unemploymentRate": 3.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060750000000003 (San Francisco County, May 2026)"
+      "source": "BLS LAUS (San Francisco County, May 2026)"
     },
     "seattle-wa": {
       "seriesId": "LAUCN530330000000003",
@@ -143,7 +143,7 @@
       "countyName": "King County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN530330000000003 (King County, May 2026)"
+      "source": "BLS LAUS (King County, May 2026)"
     },
     "denver-co": {
       "seriesId": "LAUCN080310000000003",
@@ -151,7 +151,7 @@
       "countyName": "Denver County",
       "unemploymentRate": 3.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN080310000000003 (Denver County, May 2026)"
+      "source": "BLS LAUS (Denver County, May 2026)"
     },
     "washington-dc": {
       "seriesId": "LAUCN110010000000003",
@@ -159,7 +159,7 @@
       "countyName": "District of Columbia",
       "unemploymentRate": 6.1,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN110010000000003 (District of Columbia, June 2026)"
+      "source": "BLS LAUS (District of Columbia, June 2026)"
     },
     "boston-ma": {
       "seriesId": "LAUCN250250000000003",
@@ -167,7 +167,7 @@
       "countyName": "Suffolk County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN250250000000003 (Suffolk County, May 2026)"
+      "source": "BLS LAUS (Suffolk County, May 2026)"
     },
     "el-paso-tx": {
       "seriesId": "LAUCN481410000000003",
@@ -175,7 +175,7 @@
       "countyName": "El Paso County",
       "unemploymentRate": 4.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN481410000000003 (El Paso County, May 2026)"
+      "source": "BLS LAUS (El Paso County, May 2026)"
     },
     "nashville-tn": {
       "seriesId": "LAUCN470370000000003",
@@ -183,7 +183,7 @@
       "countyName": "Davidson County",
       "unemploymentRate": 2.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN470370000000003 (Davidson County, May 2026)"
+      "source": "BLS LAUS (Davidson County, May 2026)"
     },
     "detroit-mi": {
       "seriesId": "LAUCN261630000000003",
@@ -191,7 +191,7 @@
       "countyName": "Wayne County",
       "unemploymentRate": 6.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN261630000000003 (Wayne County, May 2026)"
+      "source": "BLS LAUS (Wayne County, May 2026)"
     },
     "oklahoma-city-ok": {
       "seriesId": "LAUCN401090000000003",
@@ -199,7 +199,7 @@
       "countyName": "Oklahoma County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN401090000000003 (Oklahoma County, May 2026)"
+      "source": "BLS LAUS (Oklahoma County, May 2026)"
     },
     "portland-or": {
       "seriesId": "LAUCN410510000000003",
@@ -207,7 +207,7 @@
       "countyName": "Multnomah County",
       "unemploymentRate": 4.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN410510000000003 (Multnomah County, May 2026)"
+      "source": "BLS LAUS (Multnomah County, May 2026)"
     },
     "las-vegas-nv": {
       "seriesId": "LAUCN320030000000003",
@@ -215,7 +215,7 @@
       "countyName": "Clark County",
       "unemploymentRate": 5.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)"
+      "source": "BLS LAUS (Clark County, May 2026)"
     },
     "memphis-tn": {
       "seriesId": "LAUCN471570000000003",
@@ -223,7 +223,7 @@
       "countyName": "Shelby County",
       "unemploymentRate": 4.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN471570000000003 (Shelby County, May 2026)"
+      "source": "BLS LAUS (Shelby County, May 2026)"
     },
     "louisville-ky": {
       "seriesId": "LAUCN211110000000003",
@@ -231,7 +231,7 @@
       "countyName": "Jefferson County",
       "unemploymentRate": 5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN211110000000003 (Jefferson County, May 2026)"
+      "source": "BLS LAUS (Jefferson County, May 2026)"
     },
     "baltimore-md": {
       "seriesId": "LAUCN245100000000003",
@@ -239,7 +239,7 @@
       "countyName": "Baltimore city",
       "unemploymentRate": 5.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN245100000000003 (Baltimore city, May 2026)"
+      "source": "BLS LAUS (Baltimore city, May 2026)"
     },
     "milwaukee-wi": {
       "seriesId": "LAUCN550790000000003",
@@ -247,7 +247,7 @@
       "countyName": "Milwaukee County",
       "unemploymentRate": 3.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN550790000000003 (Milwaukee County, May 2026)"
+      "source": "BLS LAUS (Milwaukee County, May 2026)"
     },
     "albuquerque-nm": {
       "seriesId": "LAUCN350010000000003",
@@ -255,7 +255,7 @@
       "countyName": "Bernalillo County",
       "unemploymentRate": 4.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN350010000000003 (Bernalillo County, May 2026)"
+      "source": "BLS LAUS (Bernalillo County, May 2026)"
     },
     "tucson-az": {
       "seriesId": "LAUCN040190000000003",
@@ -263,7 +263,7 @@
       "countyName": "Pima County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040190000000003 (Pima County, May 2026)"
+      "source": "BLS LAUS (Pima County, May 2026)"
     },
     "fresno-ca": {
       "seriesId": "LAUCN060190000000003",
@@ -271,7 +271,7 @@
       "countyName": "Fresno County",
       "unemploymentRate": 7.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060190000000003 (Fresno County, May 2026)"
+      "source": "BLS LAUS (Fresno County, May 2026)"
     },
     "sacramento-ca": {
       "seriesId": "LAUCN060670000000003",
@@ -279,7 +279,7 @@
       "countyName": "Sacramento County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060670000000003 (Sacramento County, May 2026)"
+      "source": "BLS LAUS (Sacramento County, May 2026)"
     },
     "mesa-az": {
       "seriesId": "LAUCN040130000000003",
@@ -287,7 +287,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "kansas-city-mo": {
       "seriesId": "LAUCN290950000000003",
@@ -295,7 +295,7 @@
       "countyName": "Jackson County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN290950000000003 (Jackson County, May 2026)"
+      "source": "BLS LAUS (Jackson County, May 2026)"
     },
     "atlanta-ga": {
       "seriesId": "LAUCN131210000000003",
@@ -303,7 +303,7 @@
       "countyName": "Fulton County",
       "unemploymentRate": 3.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN131210000000003 (Fulton County, May 2026)"
+      "source": "BLS LAUS (Fulton County, May 2026)"
     },
     "colorado-springs-co": {
       "seriesId": "LAUCN080410000000003",
@@ -311,7 +311,7 @@
       "countyName": "El Paso County",
       "unemploymentRate": 3.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN080410000000003 (El Paso County, May 2026)"
+      "source": "BLS LAUS (El Paso County, May 2026)"
     },
     "raleigh-nc": {
       "seriesId": "LAUCN371830000000003",
@@ -319,7 +319,7 @@
       "countyName": "Wake County",
       "unemploymentRate": 3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN371830000000003 (Wake County, May 2026)"
+      "source": "BLS LAUS (Wake County, May 2026)"
     },
     "omaha-ne": {
       "seriesId": "LAUCN310550000000003",
@@ -327,7 +327,7 @@
       "countyName": "Douglas County",
       "unemploymentRate": 2.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN310550000000003 (Douglas County, May 2026)"
+      "source": "BLS LAUS (Douglas County, May 2026)"
     },
     "miami-fl": {
       "seriesId": "LAUCN120860000000003",
@@ -335,7 +335,7 @@
       "countyName": "Miami-Dade County",
       "unemploymentRate": 3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN120860000000003 (Miami-Dade County, June 2026)"
+      "source": "BLS LAUS (Miami-Dade County, June 2026)"
     },
     "long-beach-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -343,7 +343,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "virginia-beach-va": {
       "seriesId": "LAUCN518100000000003",
@@ -351,7 +351,7 @@
       "countyName": "Virginia Beach city",
       "unemploymentRate": 3.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN518100000000003 (Virginia Beach city, May 2026)"
+      "source": "BLS LAUS (Virginia Beach city, May 2026)"
     },
     "oakland-ca": {
       "seriesId": "LAUCN060010000000003",
@@ -359,7 +359,7 @@
       "countyName": "Alameda County",
       "unemploymentRate": 3.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)"
+      "source": "BLS LAUS (Alameda County, May 2026)"
     },
     "minneapolis-mn": {
       "seriesId": "LAUCN270530000000003",
@@ -367,7 +367,7 @@
       "countyName": "Hennepin County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN270530000000003 (Hennepin County, May 2026)"
+      "source": "BLS LAUS (Hennepin County, May 2026)"
     },
     "tulsa-ok": {
       "seriesId": "LAUCN401430000000003",
@@ -375,7 +375,7 @@
       "countyName": "Tulsa County",
       "unemploymentRate": 4.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN401430000000003 (Tulsa County, May 2026)"
+      "source": "BLS LAUS (Tulsa County, May 2026)"
     },
     "tampa-fl": {
       "seriesId": "LAUCN120570000000003",
@@ -383,7 +383,7 @@
       "countyName": "Hillsborough County",
       "unemploymentRate": 4.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120570000000003 (Hillsborough County, May 2026)"
+      "source": "BLS LAUS (Hillsborough County, May 2026)"
     },
     "arlington-tx": {
       "seriesId": "LAUCN484390000000003",
@@ -391,7 +391,7 @@
       "countyName": "Tarrant County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN484390000000003 (Tarrant County, May 2026)"
+      "source": "BLS LAUS (Tarrant County, May 2026)"
     },
     "new-orleans-la": {
       "seriesId": "LAUCN220710000000003",
@@ -399,7 +399,7 @@
       "countyName": "Orleans Parish",
       "unemploymentRate": 4.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN220710000000003 (Orleans Parish, May 2026)"
+      "source": "BLS LAUS (Orleans Parish, May 2026)"
     },
     "wichita-ks": {
       "seriesId": "LAUCN201730000000003",
@@ -407,7 +407,7 @@
       "countyName": "Sedgwick County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN201730000000003 (Sedgwick County, May 2026)"
+      "source": "BLS LAUS (Sedgwick County, May 2026)"
     },
     "cleveland-oh": {
       "seriesId": "LAUCN390350000000003",
@@ -415,7 +415,7 @@
       "countyName": "Cuyahoga County",
       "unemploymentRate": 3.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN390350000000003 (Cuyahoga County, May 2026)"
+      "source": "BLS LAUS (Cuyahoga County, May 2026)"
     },
     "bakersfield-ca": {
       "seriesId": "LAUCN060290000000003",
@@ -423,7 +423,7 @@
       "countyName": "Kern County",
       "unemploymentRate": 8.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060290000000003 (Kern County, May 2026)"
+      "source": "BLS LAUS (Kern County, May 2026)"
     },
     "aurora-co": {
       "seriesId": "LAUCN080050000000003",
@@ -431,7 +431,7 @@
       "countyName": "Arapahoe County",
       "unemploymentRate": 3.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN080050000000003 (Arapahoe County, May 2026)"
+      "source": "BLS LAUS (Arapahoe County, May 2026)"
     },
     "anaheim-ca": {
       "seriesId": "LAUCN060590000000003",
@@ -439,7 +439,7 @@
       "countyName": "Orange County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)"
+      "source": "BLS LAUS (Orange County, May 2026)"
     },
     "honolulu-hi": {
       "seriesId": "LAUCN150030000000003",
@@ -447,7 +447,7 @@
       "countyName": "Honolulu County",
       "unemploymentRate": 2.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN150030000000003 (Honolulu County, May 2026)"
+      "source": "BLS LAUS (Honolulu County, May 2026)"
     },
     "santa-ana-ca": {
       "seriesId": "LAUCN060590000000003",
@@ -455,7 +455,7 @@
       "countyName": "Orange County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)"
+      "source": "BLS LAUS (Orange County, May 2026)"
     },
     "riverside-ca": {
       "seriesId": "LAUCN060650000000003",
@@ -463,7 +463,7 @@
       "countyName": "Riverside County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)"
+      "source": "BLS LAUS (Riverside County, May 2026)"
     },
     "corpus-christi-tx": {
       "seriesId": "LAUCN483550000000003",
@@ -471,7 +471,7 @@
       "countyName": "Nueces County",
       "unemploymentRate": 4.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN483550000000003 (Nueces County, May 2026)"
+      "source": "BLS LAUS (Nueces County, May 2026)"
     },
     "lexington-ky": {
       "seriesId": "LAUCN210670000000003",
@@ -479,7 +479,7 @@
       "countyName": "Fayette County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN210670000000003 (Fayette County, May 2026)"
+      "source": "BLS LAUS (Fayette County, May 2026)"
     },
     "henderson-nv": {
       "seriesId": "LAUCN320030000000003",
@@ -487,7 +487,7 @@
       "countyName": "Clark County",
       "unemploymentRate": 5.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)"
+      "source": "BLS LAUS (Clark County, May 2026)"
     },
     "stockton-ca": {
       "seriesId": "LAUCN060770000000003",
@@ -495,7 +495,7 @@
       "countyName": "San Joaquin County",
       "unemploymentRate": 5.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060770000000003 (San Joaquin County, May 2026)"
+      "source": "BLS LAUS (San Joaquin County, May 2026)"
     },
     "saint-paul-mn": {
       "seriesId": "LAUCN271230000000003",
@@ -503,7 +503,7 @@
       "countyName": "Ramsey County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN271230000000003 (Ramsey County, May 2026)"
+      "source": "BLS LAUS (Ramsey County, May 2026)"
     },
     "cincinnati-oh": {
       "seriesId": "LAUCN390610000000003",
@@ -511,7 +511,7 @@
       "countyName": "Hamilton County",
       "unemploymentRate": 2.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN390610000000003 (Hamilton County, May 2026)"
+      "source": "BLS LAUS (Hamilton County, May 2026)"
     },
     "st-louis-mo": {
       "seriesId": "LAUCN295100000000003",
@@ -519,7 +519,7 @@
       "countyName": "St. Louis city",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN295100000000003 (St. Louis city, May 2026)"
+      "source": "BLS LAUS (St. Louis city, May 2026)"
     },
     "pittsburgh-pa": {
       "seriesId": "LAUCN420030000000003",
@@ -527,7 +527,7 @@
       "countyName": "Allegheny County",
       "unemploymentRate": 3.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN420030000000003 (Allegheny County, May 2026)"
+      "source": "BLS LAUS (Allegheny County, May 2026)"
     },
     "greensboro-nc": {
       "seriesId": "LAUCN370810000000003",
@@ -535,7 +535,7 @@
       "countyName": "Guilford County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN370810000000003 (Guilford County, May 2026)"
+      "source": "BLS LAUS (Guilford County, May 2026)"
     },
     "lincoln-ne": {
       "seriesId": "LAUCN311090000000003",
@@ -543,7 +543,7 @@
       "countyName": "Lancaster County",
       "unemploymentRate": 2.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN311090000000003 (Lancaster County, May 2026)"
+      "source": "BLS LAUS (Lancaster County, May 2026)"
     },
     "plano-tx": {
       "seriesId": "LAUCN480850000000003",
@@ -551,7 +551,7 @@
       "countyName": "Collin County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)"
+      "source": "BLS LAUS (Collin County, May 2026)"
     },
     "anchorage-ak": {
       "seriesId": "LAUCN020200000000003",
@@ -559,7 +559,7 @@
       "countyName": "Anchorage Municipality",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN020200000000003 (Anchorage Municipality, May 2026)"
+      "source": "BLS LAUS (Anchorage Municipality, May 2026)"
     },
     "orlando-fl": {
       "seriesId": "LAUCN120950000000003",
@@ -567,7 +567,7 @@
       "countyName": "Orange County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120950000000003 (Orange County, May 2026)"
+      "source": "BLS LAUS (Orange County, May 2026)"
     },
     "irvine-ca": {
       "seriesId": "LAUCN060590000000003",
@@ -575,7 +575,7 @@
       "countyName": "Orange County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)"
+      "source": "BLS LAUS (Orange County, May 2026)"
     },
     "newark-nj": {
       "seriesId": "LAUCN340130000000003",
@@ -583,7 +583,7 @@
       "countyName": "Essex County",
       "unemploymentRate": 5.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN340130000000003 (Essex County, May 2026)"
+      "source": "BLS LAUS (Essex County, May 2026)"
     },
     "durham-nc": {
       "seriesId": "LAUCN370630000000003",
@@ -591,7 +591,7 @@
       "countyName": "Durham County",
       "unemploymentRate": 3.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN370630000000003 (Durham County, May 2026)"
+      "source": "BLS LAUS (Durham County, May 2026)"
     },
     "chula-vista-ca": {
       "seriesId": "LAUCN060730000000003",
@@ -599,7 +599,7 @@
       "countyName": "San Diego County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)"
+      "source": "BLS LAUS (San Diego County, May 2026)"
     },
     "toledo-oh": {
       "seriesId": "LAUCN390950000000003",
@@ -607,7 +607,7 @@
       "countyName": "Lucas County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN390950000000003 (Lucas County, May 2026)"
+      "source": "BLS LAUS (Lucas County, May 2026)"
     },
     "fort-wayne-in": {
       "seriesId": "LAUCN180030000000003",
@@ -615,7 +615,7 @@
       "countyName": "Allen County",
       "unemploymentRate": 3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN180030000000003 (Allen County, May 2026)"
+      "source": "BLS LAUS (Allen County, May 2026)"
     },
     "st-petersburg-fl": {
       "seriesId": "LAUCN121030000000003",
@@ -623,7 +623,7 @@
       "countyName": "Pinellas County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN121030000000003 (Pinellas County, May 2026)"
+      "source": "BLS LAUS (Pinellas County, May 2026)"
     },
     "laredo-tx": {
       "seriesId": "LAUCN484790000000003",
@@ -631,7 +631,7 @@
       "countyName": "Webb County",
       "unemploymentRate": 4.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN484790000000003 (Webb County, May 2026)"
+      "source": "BLS LAUS (Webb County, May 2026)"
     },
     "jersey-city-nj": {
       "seriesId": "LAUCN340170000000003",
@@ -639,7 +639,7 @@
       "countyName": "Hudson County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN340170000000003 (Hudson County, May 2026)"
+      "source": "BLS LAUS (Hudson County, May 2026)"
     },
     "chandler-az": {
       "seriesId": "LAUCN040130000000003",
@@ -647,7 +647,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "madison-wi": {
       "seriesId": "LAUCN550250000000003",
@@ -655,7 +655,7 @@
       "countyName": "Dane County",
       "unemploymentRate": 2.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN550250000000003 (Dane County, May 2026)"
+      "source": "BLS LAUS (Dane County, May 2026)"
     },
     "lubbock-tx": {
       "seriesId": "LAUCN483030000000003",
@@ -663,7 +663,7 @@
       "countyName": "Lubbock County",
       "unemploymentRate": 3.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN483030000000003 (Lubbock County, May 2026)"
+      "source": "BLS LAUS (Lubbock County, May 2026)"
     },
     "scottsdale-az": {
       "seriesId": "LAUCN040130000000003",
@@ -671,7 +671,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "reno-nv": {
       "seriesId": "LAUCN320310000000003",
@@ -679,7 +679,7 @@
       "countyName": "Washoe County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN320310000000003 (Washoe County, May 2026)"
+      "source": "BLS LAUS (Washoe County, May 2026)"
     },
     "buffalo-ny": {
       "seriesId": "LAUCN360290000000003",
@@ -687,7 +687,7 @@
       "countyName": "Erie County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN360290000000003 (Erie County, May 2026)"
+      "source": "BLS LAUS (Erie County, May 2026)"
     },
     "gilbert-az": {
       "seriesId": "LAUCN040130000000003",
@@ -695,7 +695,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "glendale-az": {
       "seriesId": "LAUCN040130000000003",
@@ -703,7 +703,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "north-las-vegas-nv": {
       "seriesId": "LAUCN320030000000003",
@@ -711,7 +711,7 @@
       "countyName": "Clark County",
       "unemploymentRate": 5.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN320030000000003 (Clark County, May 2026)"
+      "source": "BLS LAUS (Clark County, May 2026)"
     },
     "winston-salem-nc": {
       "seriesId": "LAUCN370670000000003",
@@ -719,7 +719,7 @@
       "countyName": "Forsyth County",
       "unemploymentRate": 3.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN370670000000003 (Forsyth County, May 2026)"
+      "source": "BLS LAUS (Forsyth County, May 2026)"
     },
     "chesapeake-va": {
       "seriesId": "LAUCN515500000000003",
@@ -727,7 +727,7 @@
       "countyName": "Chesapeake city",
       "unemploymentRate": 3.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN515500000000003 (Chesapeake city, May 2026)"
+      "source": "BLS LAUS (Chesapeake city, May 2026)"
     },
     "norfolk-va": {
       "seriesId": "LAUCN517100000000003",
@@ -735,7 +735,7 @@
       "countyName": "Norfolk city",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN517100000000003 (Norfolk city, May 2026)"
+      "source": "BLS LAUS (Norfolk city, May 2026)"
     },
     "fremont-ca": {
       "seriesId": "LAUCN060010000000003",
@@ -743,7 +743,7 @@
       "countyName": "Alameda County",
       "unemploymentRate": 3.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)"
+      "source": "BLS LAUS (Alameda County, May 2026)"
     },
     "garland-tx": {
       "seriesId": "LAUCN481130000000003",
@@ -751,7 +751,7 @@
       "countyName": "Dallas County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)"
+      "source": "BLS LAUS (Dallas County, May 2026)"
     },
     "irving-tx": {
       "seriesId": "LAUCN481130000000003",
@@ -759,7 +759,7 @@
       "countyName": "Dallas County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)"
+      "source": "BLS LAUS (Dallas County, May 2026)"
     },
     "hialeah-fl": {
       "seriesId": "LAUCN120860000000003",
@@ -767,7 +767,7 @@
       "countyName": "Miami-Dade County",
       "unemploymentRate": 3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN120860000000003 (Miami-Dade County, June 2026)"
+      "source": "BLS LAUS (Miami-Dade County, June 2026)"
     },
     "richmond-va": {
       "seriesId": "LAUCN517600000000003",
@@ -775,7 +775,7 @@
       "countyName": "Richmond city",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN517600000000003 (Richmond city, May 2026)"
+      "source": "BLS LAUS (Richmond city, May 2026)"
     },
     "boise-id": {
       "seriesId": "LAUCN160010000000003",
@@ -783,7 +783,7 @@
       "countyName": "Ada County",
       "unemploymentRate": 3.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN160010000000003 (Ada County, May 2026)"
+      "source": "BLS LAUS (Ada County, May 2026)"
     },
     "spokane-wa": {
       "seriesId": "LAUCN530630000000003",
@@ -791,7 +791,7 @@
       "countyName": "Spokane County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN530630000000003 (Spokane County, May 2026)"
+      "source": "BLS LAUS (Spokane County, May 2026)"
     },
     "baton-rouge-la": {
       "seriesId": "LAUCN220330000000003",
@@ -799,7 +799,7 @@
       "countyName": "East Baton Rouge Parish",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN220330000000003 (East Baton Rouge Parish, May 2026)"
+      "source": "BLS LAUS (East Baton Rouge Parish, May 2026)"
     },
     "tacoma-wa": {
       "seriesId": "LAUCN530530000000003",
@@ -807,7 +807,7 @@
       "countyName": "Pierce County",
       "unemploymentRate": 5.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN530530000000003 (Pierce County, May 2026)"
+      "source": "BLS LAUS (Pierce County, May 2026)"
     },
     "san-bernardino-ca": {
       "seriesId": "LAUCN060710000000003",
@@ -815,7 +815,7 @@
       "countyName": "San Bernardino County",
       "unemploymentRate": 4.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)"
+      "source": "BLS LAUS (San Bernardino County, May 2026)"
     },
     "modesto-ca": {
       "seriesId": "LAUCN060990000000003",
@@ -823,7 +823,7 @@
       "countyName": "Stanislaus County",
       "unemploymentRate": 6.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060990000000003 (Stanislaus County, May 2026)"
+      "source": "BLS LAUS (Stanislaus County, May 2026)"
     },
     "fontana-ca": {
       "seriesId": "LAUCN060710000000003",
@@ -831,7 +831,7 @@
       "countyName": "San Bernardino County",
       "unemploymentRate": 4.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)"
+      "source": "BLS LAUS (San Bernardino County, May 2026)"
     },
     "des-moines-ia": {
       "seriesId": "LAUCN191530000000003",
@@ -839,7 +839,7 @@
       "countyName": "Polk County",
       "unemploymentRate": 3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN191530000000003 (Polk County, May 2026)"
+      "source": "BLS LAUS (Polk County, May 2026)"
     },
     "moreno-valley-ca": {
       "seriesId": "LAUCN060650000000003",
@@ -847,7 +847,7 @@
       "countyName": "Riverside County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)"
+      "source": "BLS LAUS (Riverside County, May 2026)"
     },
     "santa-clarita-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -855,7 +855,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "fayetteville-nc": {
       "seriesId": "LAUCN370510000000003",
@@ -863,7 +863,7 @@
       "countyName": "Cumberland County",
       "unemploymentRate": 4.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN370510000000003 (Cumberland County, May 2026)"
+      "source": "BLS LAUS (Cumberland County, May 2026)"
     },
     "birmingham-al": {
       "seriesId": "LAUCN010730000000003",
@@ -871,7 +871,7 @@
       "countyName": "Jefferson County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN010730000000003 (Jefferson County, May 2026)"
+      "source": "BLS LAUS (Jefferson County, May 2026)"
     },
     "oxnard-ca": {
       "seriesId": "LAUCN061110000000003",
@@ -879,7 +879,7 @@
       "countyName": "Ventura County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN061110000000003 (Ventura County, May 2026)"
+      "source": "BLS LAUS (Ventura County, May 2026)"
     },
     "rochester-ny": {
       "seriesId": "LAUCN360550000000003",
@@ -887,7 +887,7 @@
       "countyName": "Monroe County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN360550000000003 (Monroe County, May 2026)"
+      "source": "BLS LAUS (Monroe County, May 2026)"
     },
     "port-st-lucie-fl": {
       "seriesId": "LAUCN121110000000003",
@@ -895,7 +895,7 @@
       "countyName": "St. Lucie County",
       "unemploymentRate": 5.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN121110000000003 (St. Lucie County, May 2026)"
+      "source": "BLS LAUS (St. Lucie County, May 2026)"
     },
     "grand-rapids-mi": {
       "seriesId": "LAUCN260810000000003",
@@ -903,7 +903,7 @@
       "countyName": "Kent County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN260810000000003 (Kent County, May 2026)"
+      "source": "BLS LAUS (Kent County, May 2026)"
     },
     "huntsville-al": {
       "seriesId": "LAUCN010890000000003",
@@ -911,7 +911,7 @@
       "countyName": "Madison County",
       "unemploymentRate": 2.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN010890000000003 (Madison County, May 2026)"
+      "source": "BLS LAUS (Madison County, May 2026)"
     },
     "salt-lake-city-ut": {
       "seriesId": "LAUCN490350000000003",
@@ -919,7 +919,7 @@
       "countyName": "Salt Lake County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN490350000000003 (Salt Lake County, May 2026)"
+      "source": "BLS LAUS (Salt Lake County, May 2026)"
     },
     "tallahassee-fl": {
       "seriesId": "LAUCN120730000000003",
@@ -927,7 +927,7 @@
       "countyName": "Leon County",
       "unemploymentRate": 5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120730000000003 (Leon County, May 2026)"
+      "source": "BLS LAUS (Leon County, May 2026)"
     },
     "worcester-ma": {
       "seriesId": "LAUCN250270000000003",
@@ -935,7 +935,7 @@
       "countyName": "Worcester County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN250270000000003 (Worcester County, May 2026)"
+      "source": "BLS LAUS (Worcester County, May 2026)"
     },
     "newport-news-va": {
       "seriesId": "LAUCN517000000000003",
@@ -943,7 +943,7 @@
       "countyName": "Newport News city",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN517000000000003 (Newport News city, May 2026)"
+      "source": "BLS LAUS (Newport News city, May 2026)"
     },
     "overland-park-ks": {
       "seriesId": "LAUCN200910000000003",
@@ -951,7 +951,7 @@
       "countyName": "Johnson County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN200910000000003 (Johnson County, May 2026)"
+      "source": "BLS LAUS (Johnson County, May 2026)"
     },
     "santa-rosa-ca": {
       "seriesId": "LAUCN060970000000003",
@@ -959,7 +959,7 @@
       "countyName": "Sonoma County",
       "unemploymentRate": 3.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060970000000003 (Sonoma County, May 2026)"
+      "source": "BLS LAUS (Sonoma County, May 2026)"
     },
     "providence-ri": {
       "seriesId": "LAUCN440070000000003",
@@ -967,7 +967,7 @@
       "countyName": "Providence County",
       "unemploymentRate": 3.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN440070000000003 (Providence County, May 2026)"
+      "source": "BLS LAUS (Providence County, May 2026)"
     },
     "garden-grove-ca": {
       "seriesId": "LAUCN060590000000003",
@@ -975,7 +975,7 @@
       "countyName": "Orange County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)"
+      "source": "BLS LAUS (Orange County, May 2026)"
     },
     "chattanooga-tn": {
       "seriesId": "LAUCN470650000000003",
@@ -983,7 +983,7 @@
       "countyName": "Hamilton County",
       "unemploymentRate": 2.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN470650000000003 (Hamilton County, May 2026)"
+      "source": "BLS LAUS (Hamilton County, May 2026)"
     },
     "oceanside-ca": {
       "seriesId": "LAUCN060730000000003",
@@ -991,7 +991,7 @@
       "countyName": "San Diego County",
       "unemploymentRate": 3.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060730000000003 (San Diego County, May 2026)"
+      "source": "BLS LAUS (San Diego County, May 2026)"
     },
     "jackson-ms": {
       "seriesId": "LAUCN280490000000003",
@@ -999,7 +999,7 @@
       "countyName": "Hinds County",
       "unemploymentRate": 3.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN280490000000003 (Hinds County, May 2026)"
+      "source": "BLS LAUS (Hinds County, May 2026)"
     },
     "fort-lauderdale-fl": {
       "seriesId": "LAUCN120110000000003",
@@ -1007,7 +1007,7 @@
       "countyName": "Broward County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)"
+      "source": "BLS LAUS (Broward County, May 2026)"
     },
     "santa-clara-ca": {
       "seriesId": "LAUCN060850000000003",
@@ -1015,7 +1015,7 @@
       "countyName": "Santa Clara County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)"
+      "source": "BLS LAUS (Santa Clara County, May 2026)"
     },
     "bloomington-mn": {
       "seriesId": "LAUCN270530000000003",
@@ -1023,7 +1023,7 @@
       "countyName": "Hennepin County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN270530000000003 (Hennepin County, May 2026)"
+      "source": "BLS LAUS (Hennepin County, May 2026)"
     },
     "sioux-falls-sd": {
       "seriesId": "LAUCN460990000000003",
@@ -1031,7 +1031,7 @@
       "countyName": "Minnehaha County",
       "unemploymentRate": 1.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN460990000000003 (Minnehaha County, May 2026)"
+      "source": "BLS LAUS (Minnehaha County, May 2026)"
     },
     "little-rock-ar": {
       "seriesId": "LAUCN051190000000003",
@@ -1039,7 +1039,7 @@
       "countyName": "Pulaski County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN051190000000003 (Pulaski County, May 2026)"
+      "source": "BLS LAUS (Pulaski County, May 2026)"
     },
     "augusta-ga": {
       "seriesId": "LAUCN132450000000003",
@@ -1047,7 +1047,7 @@
       "countyName": "Richmond County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN132450000000003 (Richmond County, May 2026)"
+      "source": "BLS LAUS (Richmond County, May 2026)"
     },
     "mobile-al": {
       "seriesId": "LAUCN010970000000003",
@@ -1055,7 +1055,7 @@
       "countyName": "Mobile County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN010970000000003 (Mobile County, May 2026)"
+      "source": "BLS LAUS (Mobile County, May 2026)"
     },
     "knoxville-tn": {
       "seriesId": "LAUCN470930000000003",
@@ -1063,7 +1063,7 @@
       "countyName": "Knox County",
       "unemploymentRate": 2.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN470930000000003 (Knox County, May 2026)"
+      "source": "BLS LAUS (Knox County, May 2026)"
     },
     "cape-coral-fl": {
       "seriesId": "LAUCN120710000000003",
@@ -1071,7 +1071,7 @@
       "countyName": "Lee County",
       "unemploymentRate": 4.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120710000000003 (Lee County, May 2026)"
+      "source": "BLS LAUS (Lee County, May 2026)"
     },
     "shreveport-la": {
       "seriesId": "LAUCN220170000000003",
@@ -1079,7 +1079,7 @@
       "countyName": "Caddo Parish",
       "unemploymentRate": 4.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN220170000000003 (Caddo Parish, May 2026)"
+      "source": "BLS LAUS (Caddo Parish, May 2026)"
     },
     "frisco-tx": {
       "seriesId": "LAUCN480850000000003",
@@ -1087,7 +1087,7 @@
       "countyName": "Collin County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)"
+      "source": "BLS LAUS (Collin County, May 2026)"
     },
     "mckinney-tx": {
       "seriesId": "LAUCN480850000000003",
@@ -1095,7 +1095,7 @@
       "countyName": "Collin County",
       "unemploymentRate": 4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN480850000000003 (Collin County, May 2026)"
+      "source": "BLS LAUS (Collin County, May 2026)"
     },
     "yonkers-ny": {
       "seriesId": "LAUCN361190000000003",
@@ -1103,7 +1103,7 @@
       "countyName": "Westchester County",
       "unemploymentRate": 3.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN361190000000003 (Westchester County, May 2026)"
+      "source": "BLS LAUS (Westchester County, May 2026)"
     },
     "aurora-il": {
       "seriesId": "LAUCN170890000000003",
@@ -1111,7 +1111,7 @@
       "countyName": "Kane County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN170890000000003 (Kane County, May 2026)"
+      "source": "BLS LAUS (Kane County, May 2026)"
     },
     "montgomery-al": {
       "seriesId": "LAUCN011010000000003",
@@ -1119,7 +1119,7 @@
       "countyName": "Montgomery County",
       "unemploymentRate": 3.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN011010000000003 (Montgomery County, May 2026)"
+      "source": "BLS LAUS (Montgomery County, May 2026)"
     },
     "akron-oh": {
       "seriesId": "LAUCN391530000000003",
@@ -1127,7 +1127,7 @@
       "countyName": "Summit County",
       "unemploymentRate": 3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN391530000000003 (Summit County, May 2026)"
+      "source": "BLS LAUS (Summit County, May 2026)"
     },
     "huntington-beach-ca": {
       "seriesId": "LAUCN060590000000003",
@@ -1135,7 +1135,7 @@
       "countyName": "Orange County",
       "unemploymentRate": 3.5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060590000000003 (Orange County, May 2026)"
+      "source": "BLS LAUS (Orange County, May 2026)"
     },
     "glendale-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -1143,7 +1143,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "grand-prairie-tx": {
       "seriesId": "LAUCN481130000000003",
@@ -1151,7 +1151,7 @@
       "countyName": "Dallas County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN481130000000003 (Dallas County, May 2026)"
+      "source": "BLS LAUS (Dallas County, May 2026)"
     },
     "vancouver-wa": {
       "seriesId": "LAUCN530110000000003",
@@ -1159,7 +1159,7 @@
       "countyName": "Clark County",
       "unemploymentRate": 4.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN530110000000003 (Clark County, May 2026)"
+      "source": "BLS LAUS (Clark County, May 2026)"
     },
     "peoria-az": {
       "seriesId": "LAUCN040130000000003",
@@ -1167,7 +1167,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "rancho-cucamonga-ca": {
       "seriesId": "LAUCN060710000000003",
@@ -1175,7 +1175,7 @@
       "countyName": "San Bernardino County",
       "unemploymentRate": 4.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)"
+      "source": "BLS LAUS (San Bernardino County, May 2026)"
     },
     "ontario-ca": {
       "seriesId": "LAUCN060710000000003",
@@ -1183,7 +1183,7 @@
       "countyName": "San Bernardino County",
       "unemploymentRate": 4.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060710000000003 (San Bernardino County, May 2026)"
+      "source": "BLS LAUS (San Bernardino County, May 2026)"
     },
     "tempe-az": {
       "seriesId": "LAUCN040130000000003",
@@ -1191,7 +1191,7 @@
       "countyName": "Maricopa County",
       "unemploymentRate": 4.1,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN040130000000003 (Maricopa County, May 2026)"
+      "source": "BLS LAUS (Maricopa County, May 2026)"
     },
     "springfield-mo": {
       "seriesId": "LAUCN290770000000003",
@@ -1199,7 +1199,7 @@
       "countyName": "Greene County",
       "unemploymentRate": 3.3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN290770000000003 (Greene County, May 2026)"
+      "source": "BLS LAUS (Greene County, May 2026)"
     },
     "lancaster-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -1207,7 +1207,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "eugene-or": {
       "seriesId": "LAUCN410390000000003",
@@ -1215,7 +1215,7 @@
       "countyName": "Lane County",
       "unemploymentRate": 4.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN410390000000003 (Lane County, May 2026)"
+      "source": "BLS LAUS (Lane County, May 2026)"
     },
     "pembroke-pines-fl": {
       "seriesId": "LAUCN120110000000003",
@@ -1223,7 +1223,7 @@
       "countyName": "Broward County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)"
+      "source": "BLS LAUS (Broward County, May 2026)"
     },
     "salem-or": {
       "seriesId": "LAUCN410470000000003",
@@ -1231,7 +1231,7 @@
       "countyName": "Marion County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN410470000000003 (Marion County, May 2026)"
+      "source": "BLS LAUS (Marion County, May 2026)"
     },
     "pasadena-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -1239,7 +1239,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "peoria-il": {
       "seriesId": "LAUCN171430000000003",
@@ -1247,7 +1247,7 @@
       "countyName": "Peoria County",
       "unemploymentRate": 4.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN171430000000003 (Peoria County, May 2026)"
+      "source": "BLS LAUS (Peoria County, May 2026)"
     },
     "corona-ca": {
       "seriesId": "LAUCN060650000000003",
@@ -1255,7 +1255,7 @@
       "countyName": "Riverside County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060650000000003 (Riverside County, May 2026)"
+      "source": "BLS LAUS (Riverside County, May 2026)"
     },
     "elizabeth-nj": {
       "seriesId": "LAUCN340390000000003",
@@ -1263,7 +1263,7 @@
       "countyName": "Union County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN340390000000003 (Union County, May 2026)"
+      "source": "BLS LAUS (Union County, May 2026)"
     },
     "hayward-ca": {
       "seriesId": "LAUCN060010000000003",
@@ -1271,7 +1271,7 @@
       "countyName": "Alameda County",
       "unemploymentRate": 3.8,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060010000000003 (Alameda County, May 2026)"
+      "source": "BLS LAUS (Alameda County, May 2026)"
     },
     "fort-collins-co": {
       "seriesId": "LAUCN080690000000003",
@@ -1279,7 +1279,7 @@
       "countyName": "Larimer County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN080690000000003 (Larimer County, May 2026)"
+      "source": "BLS LAUS (Larimer County, May 2026)"
     },
     "evansville-in": {
       "seriesId": "LAUCN181630000000003",
@@ -1287,7 +1287,7 @@
       "countyName": "Vanderburgh County",
       "unemploymentRate": 3.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN181630000000003 (Vanderburgh County, May 2026)"
+      "source": "BLS LAUS (Vanderburgh County, May 2026)"
     },
     "round-rock-tx": {
       "seriesId": "LAUCN484910000000003",
@@ -1295,7 +1295,7 @@
       "countyName": "Williamson County",
       "unemploymentRate": 3.6,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN484910000000003 (Williamson County, May 2026)"
+      "source": "BLS LAUS (Williamson County, May 2026)"
     },
     "charleston-sc": {
       "seriesId": "LAUCN450190000000003",
@@ -1303,7 +1303,7 @@
       "countyName": "Charleston County",
       "unemploymentRate": 3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN450190000000003 (Charleston County, May 2026)"
+      "source": "BLS LAUS (Charleston County, May 2026)"
     },
     "savannah-ga": {
       "seriesId": "LAUCN130510000000003",
@@ -1311,7 +1311,7 @@
       "countyName": "Chatham County",
       "unemploymentRate": 2.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN130510000000003 (Chatham County, May 2026)"
+      "source": "BLS LAUS (Chatham County, May 2026)"
     },
     "naperville-il": {
       "seriesId": "LAUCN170430000000003",
@@ -1319,7 +1319,7 @@
       "countyName": "DuPage County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN170430000000003 (DuPage County, May 2026)"
+      "source": "BLS LAUS (DuPage County, May 2026)"
     },
     "bellevue-wa": {
       "seriesId": "LAUCN530330000000003",
@@ -1327,7 +1327,7 @@
       "countyName": "King County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN530330000000003 (King County, May 2026)"
+      "source": "BLS LAUS (King County, May 2026)"
     },
     "cary-nc": {
       "seriesId": "LAUCN371830000000003",
@@ -1335,7 +1335,7 @@
       "countyName": "Wake County",
       "unemploymentRate": 3,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN371830000000003 (Wake County, May 2026)"
+      "source": "BLS LAUS (Wake County, May 2026)"
     },
     "alexandria-va": {
       "seriesId": "LAUCN515100000000003",
@@ -1343,7 +1343,7 @@
       "countyName": "Alexandria city",
       "unemploymentRate": 2.9,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN515100000000003 (Alexandria city, May 2026)"
+      "source": "BLS LAUS (Alexandria city, May 2026)"
     },
     "sunnyvale-ca": {
       "seriesId": "LAUCN060850000000003",
@@ -1351,7 +1351,7 @@
       "countyName": "Santa Clara County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN060850000000003 (Santa Clara County, May 2026)"
+      "source": "BLS LAUS (Santa Clara County, May 2026)"
     },
     "lakewood-co": {
       "seriesId": "LAUCN080590000000003",
@@ -1359,7 +1359,7 @@
       "countyName": "Jefferson County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN080590000000003 (Jefferson County, May 2026)"
+      "source": "BLS LAUS (Jefferson County, May 2026)"
     },
     "hollywood-fl": {
       "seriesId": "LAUCN120110000000003",
@@ -1367,7 +1367,7 @@
       "countyName": "Broward County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN120110000000003 (Broward County, May 2026)"
+      "source": "BLS LAUS (Broward County, May 2026)"
     },
     "paterson-nj": {
       "seriesId": "LAUCN340310000000003",
@@ -1375,7 +1375,7 @@
       "countyName": "Passaic County",
       "unemploymentRate": 4.7,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN340310000000003 (Passaic County, May 2026)"
+      "source": "BLS LAUS (Passaic County, May 2026)"
     },
     "clarksville-tn": {
       "seriesId": "LAUCN471250000000003",
@@ -1383,7 +1383,7 @@
       "countyName": "Montgomery County",
       "unemploymentRate": 3.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN471250000000003 (Montgomery County, May 2026)"
+      "source": "BLS LAUS (Montgomery County, May 2026)"
     },
     "torrance-ca": {
       "seriesId": "LAUCN060370000000003",
@@ -1391,7 +1391,7 @@
       "countyName": "Los Angeles County",
       "unemploymentRate": 5.3,
       "period": "June 2026",
-      "source": "BLS LAUS LAUCN060370000000003 (Los Angeles County, June 2026)"
+      "source": "BLS LAUS (Los Angeles County, June 2026)"
     },
     "rockford-il": {
       "seriesId": "LAUCN172010000000003",
@@ -1399,7 +1399,7 @@
       "countyName": "Winnebago County",
       "unemploymentRate": 5,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN172010000000003 (Winnebago County, May 2026)"
+      "source": "BLS LAUS (Winnebago County, May 2026)"
     },
     "macon-ga": {
       "seriesId": "LAUCN130210000000003",
@@ -1407,7 +1407,7 @@
       "countyName": "Bibb County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN130210000000003 (Bibb County, May 2026)"
+      "source": "BLS LAUS (Bibb County, May 2026)"
     },
     "kansas-city-ks": {
       "seriesId": "LAUCN202090000000003",
@@ -1415,7 +1415,7 @@
       "countyName": "Wyandotte County",
       "unemploymentRate": 4.4,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN202090000000003 (Wyandotte County, May 2026)"
+      "source": "BLS LAUS (Wyandotte County, May 2026)"
     },
     "amarillo-tx": {
       "seriesId": "LAUCN483750000000003",
@@ -1423,7 +1423,7 @@
       "countyName": "Potter County",
       "unemploymentRate": 4.2,
       "period": "May 2026",
-      "source": "BLS LAUS LAUCN483750000000003 (Potter County, May 2026)"
+      "source": "BLS LAUS (Potter County, May 2026)"
     }
   }
 }

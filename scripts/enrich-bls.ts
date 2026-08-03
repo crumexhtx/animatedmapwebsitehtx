@@ -133,7 +133,10 @@ async function main() {
           countyName: row.countyName,
           unemploymentRate: latest.unemploymentRate,
           period: latest.period,
-          source: `BLS LAUS ${row.seriesId} (${row.countyName}, ${latest.period})`,
+          // Keep seriesId on the enrichment object for pipeline use only —
+          // never interpolate the LAUCN… code into the public source string
+          // (Google indexes those as orphan “queries” on city pages).
+          source: `BLS LAUS · ${row.countyName}, ${latest.period}`,
         }
         ok += 1
       }

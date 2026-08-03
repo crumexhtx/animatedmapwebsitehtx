@@ -1,5 +1,13 @@
 {
   "framework": "nextjs",
   "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.mapstoit.com" }],
+      "destination": "https://mapstoit.com/:path*",
+      "permanent": true
+    }
+  ]
 }
