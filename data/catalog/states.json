@@ -115,10 +115,10 @@
     "name": "Colorado",
     "code": "CO",
     "cityCount": 6,
-    "population": 2021298,
-    "medianHouseholdIncome": 84598,
-    "costOfLivingIndex": 147,
-    "description": "Colorado currently includes 6 MapsToIt city profiles covering roughly 2,021,298 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Colorado. Across the catalog set, average median household income is about $84,598, with a blended cost-of-living index near 147 (100 = U.S. average). Larger places in this release include Denver, Colorado Springs, Aurora. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 2019322,
+    "medianHouseholdIncome": 85658,
+    "costOfLivingIndex": 161,
+    "description": "Colorado currently includes 6 MapsToIt city profiles covering roughly 2,019,322 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Colorado. Across the catalog set, average median household income is about $85,658, with a blended cost-of-living index near 161 (100 = U.S. average). Larger places in this release include Denver, Colorado Springs, Aurora. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "denver-co",
       "colorado-springs-co",
@@ -133,10 +133,10 @@
     "name": "Connecticut",
     "code": "CT",
     "cityCount": 3,
-    "population": 404147,
-    "medianHouseholdIncome": 47861,
-    "costOfLivingIndex": 105,
-    "description": "Connecticut currently includes 3 MapsToIt city profiles covering roughly 404,147 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Connecticut. Across the catalog set, average median household income is about $47,861, with a blended cost-of-living index near 105 (100 = U.S. average). Larger places in this release include Bridgeport, New Haven, Hartford. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 400875,
+    "medianHouseholdIncome": 51885,
+    "costOfLivingIndex": 90,
+    "description": "Connecticut currently includes 3 MapsToIt city profiles covering roughly 400,875 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Connecticut. Across the catalog set, average median household income is about $51,885, with a blended cost-of-living index near 90 (100 = U.S. average). Larger places in this release include Bridgeport, New Haven, Hartford. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "bridgeport-ct",
       "new-haven-ct",
@@ -148,10 +148,10 @@
     "name": "Delaware",
     "code": "DE",
     "cityCount": 1,
-    "population": 70898,
-    "medianHouseholdIncome": 46000,
-    "costOfLivingIndex": 108,
-    "description": "Delaware currently includes 1 MapsToIt city profiles covering roughly 70,898 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Delaware. Across the catalog set, average median household income is about $46,000, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include Wilmington. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 71124,
+    "medianHouseholdIncome": 55269,
+    "costOfLivingIndex": 81,
+    "description": "Delaware currently includes 1 MapsToIt city profiles covering roughly 71,124 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Delaware. Across the catalog set, average median household income is about $55,269, with a blended cost-of-living index near 81 (100 = U.S. average). Larger places in this release include Wilmington. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "wilmington-de"
     ]
@@ -174,10 +174,10 @@
     "name": "Florida",
     "code": "FL",
     "cityCount": 13,
-    "population": 3872830,
-    "medianHouseholdIncome": 66864,
+    "population": 3872741,
+    "medianHouseholdIncome": 67373,
     "costOfLivingIndex": 117,
-    "description": "Florida currently includes 13 MapsToIt city profiles covering roughly 3,872,830 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Florida. Across the catalog set, average median household income is about $66,864, with a blended cost-of-living index near 117 (100 = U.S. average). Larger places in this release include Jacksonville, Miami, Tampa. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "description": "Florida currently includes 13 MapsToIt city profiles covering roughly 3,872,741 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Florida. Across the catalog set, average median household income is about $67,373, with a blended cost-of-living index near 117 (100 = U.S. average). Larger places in this release include Jacksonville, Miami, Tampa. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "jacksonville-fl",
       "miami-fl",
@@ -199,10 +199,10 @@
     "name": "Georgia",
     "code": "GA",
     "cityCount": 5,
-    "population": 1132180,
-    "medianHouseholdIncome": 56720,
+    "population": 1131867,
+    "medianHouseholdIncome": 58851,
     "costOfLivingIndex": 87,
-    "description": "Georgia currently includes 5 MapsToIt city profiles covering roughly 1,132,180 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Georgia. Across the catalog set, average median household income is about $56,720, with a blended cost-of-living index near 87 (100 = U.S. average). Larger places in this release include Atlanta, Augusta, Macon. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "description": "Georgia currently includes 5 MapsToIt city profiles covering roughly 1,131,867 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Georgia. Across the catalog set, average median household income is about $58,851, with a blended cost-of-living index near 87 (100 = U.S. average). Larger places in this release include Atlanta, Augusta, Macon. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "atlanta-ga",
       "augusta-ga",
@@ -258,15 +258,16 @@
     "slug": "indiana",
     "name": "Indiana",
     "code": "IN",
-    "cityCount": 3,
-    "population": 1264719,
-    "medianHouseholdIncome": 58513,
-    "costOfLivingIndex": 65,
-    "description": "Indiana currently includes 3 MapsToIt city profiles covering roughly 1,264,719 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Indiana. Across the catalog set, average median household income is about $58,513, with a blended cost-of-living index near 65 (100 = U.S. average). Larger places in this release include Indianapolis, Fort Wayne, Evansville. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "cityCount": 4,
+    "population": 1367585,
+    "medianHouseholdIncome": 57013,
+    "costOfLivingIndex": 63,
+    "description": "Indiana currently includes 4 MapsToIt city profiles covering roughly 1,367,585 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Indiana. Across the catalog set, average median household income is about $57,013, with a blended cost-of-living index near 63 (100 = U.S. average). Larger places in this release include Indianapolis, Fort Wayne, Evansville. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "indianapolis-in",
       "fort-wayne-in",
-      "evansville-in"
+      "evansville-in",
+      "south-bend-in"
     ]
   },
   {
@@ -287,10 +288,10 @@
     "name": "Kansas",
     "code": "KS",
     "cityCount": 4,
-    "population": 875050,
-    "medianHouseholdIncome": 69523,
-    "costOfLivingIndex": 83,
-    "description": "Kansas currently includes 4 MapsToIt city profiles covering roughly 875,050 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Kansas. Across the catalog set, average median household income is about $69,523, with a blended cost-of-living index near 83 (100 = U.S. average). Larger places in this release include Wichita, Overland Park, Kansas City. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 874566,
+    "medianHouseholdIncome": 70499,
+    "costOfLivingIndex": 76,
+    "description": "Kansas currently includes 4 MapsToIt city profiles covering roughly 874,566 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Kansas. Across the catalog set, average median household income is about $70,499, with a blended cost-of-living index near 76 (100 = U.S. average). Larger places in this release include Wichita, Overland Park, Kansas City. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "wichita-ks",
       "overland-park-ks",
@@ -332,10 +333,10 @@
     "name": "Maine",
     "code": "ME",
     "cityCount": 1,
-    "population": 68300,
-    "medianHouseholdIncome": 62000,
-    "costOfLivingIndex": 120,
-    "description": "Maine currently includes 1 MapsToIt city profiles covering roughly 68,300 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Maine. Across the catalog set, average median household income is about $62,000, with a blended cost-of-living index near 120 (100 = U.S. average). Larger places in this release include Portland. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 68505,
+    "medianHouseholdIncome": 76174,
+    "costOfLivingIndex": 130,
+    "description": "Maine currently includes 1 MapsToIt city profiles covering roughly 68,505 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Maine. Across the catalog set, average median household income is about $76,174, with a blended cost-of-living index near 130 (100 = U.S. average). Larger places in this release include Portland. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "portland-me"
     ]
@@ -372,10 +373,10 @@
     "name": "Michigan",
     "code": "MI",
     "cityCount": 3,
-    "population": 957455,
-    "medianHouseholdIncome": 58700,
-    "costOfLivingIndex": 83,
-    "description": "Michigan currently includes 3 MapsToIt city profiles covering roughly 957,455 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Michigan. Across the catalog set, average median household income is about $58,700, with a blended cost-of-living index near 83 (100 = U.S. average). Larger places in this release include Detroit, Grand Rapids, Ann Arbor. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 955591,
+    "medianHouseholdIncome": 62063,
+    "costOfLivingIndex": 87,
+    "description": "Michigan currently includes 3 MapsToIt city profiles covering roughly 955,591 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Michigan. Across the catalog set, average median household income is about $62,063, with a blended cost-of-living index near 87 (100 = U.S. average). Larger places in this release include Detroit, Grand Rapids, Ann Arbor. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "detroit-mi",
       "grand-rapids-mi",
@@ -430,10 +431,10 @@
     "name": "Montana",
     "code": "MT",
     "cityCount": 1,
-    "population": 119960,
-    "medianHouseholdIncome": 59000,
-    "costOfLivingIndex": 95,
-    "description": "Montana currently includes 1 MapsToIt city profiles covering roughly 119,960 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Montana. Across the catalog set, average median household income is about $59,000, with a blended cost-of-living index near 95 (100 = U.S. average). Larger places in this release include Billings. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 118321,
+    "medianHouseholdIncome": 71855,
+    "costOfLivingIndex": 92,
+    "description": "Montana currently includes 1 MapsToIt city profiles covering roughly 118,321 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Montana. Across the catalog set, average median household income is about $71,855, with a blended cost-of-living index near 92 (100 = U.S. average). Larger places in this release include Billings. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "billings-mt"
     ]
@@ -473,10 +474,10 @@
     "name": "New Hampshire",
     "code": "NH",
     "cityCount": 1,
-    "population": 115644,
-    "medianHouseholdIncome": 62000,
-    "costOfLivingIndex": 108,
-    "description": "New Hampshire currently includes 1 MapsToIt city profiles covering roughly 115,644 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in New Hampshire. Across the catalog set, average median household income is about $62,000, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include Manchester. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 115415,
+    "medianHouseholdIncome": 77415,
+    "costOfLivingIndex": 110,
+    "description": "New Hampshire currently includes 1 MapsToIt city profiles covering roughly 115,415 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in New Hampshire. Across the catalog set, average median household income is about $77,415, with a blended cost-of-living index near 110 (100 = U.S. average). Larger places in this release include Manchester. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "manchester-nh"
     ]
@@ -502,10 +503,10 @@
     "name": "New Mexico",
     "code": "NM",
     "cityCount": 2,
-    "population": 649993,
-    "medianHouseholdIncome": 63802,
-    "costOfLivingIndex": 101,
-    "description": "New Mexico currently includes 2 MapsToIt city profiles covering roughly 649,993 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in New Mexico. Across the catalog set, average median household income is about $63,802, with a blended cost-of-living index near 101 (100 = U.S. average). Larger places in this release include Albuquerque, Santa Fe. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 650712,
+    "medianHouseholdIncome": 67857,
+    "costOfLivingIndex": 102,
+    "description": "New Mexico currently includes 2 MapsToIt city profiles covering roughly 650,712 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in New Mexico. Across the catalog set, average median household income is about $67,857, with a blended cost-of-living index near 102 (100 = U.S. average). Larger places in this release include Albuquerque, Santa Fe. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "albuquerque-nm",
       "santa-fe-nm"
@@ -516,10 +517,10 @@
     "name": "New York",
     "code": "NY",
     "cityCount": 6,
-    "population": 9457468,
-    "medianHouseholdIncome": 57201,
-    "costOfLivingIndex": 108,
-    "description": "New York currently includes 6 MapsToIt city profiles covering roughly 9,457,468 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in New York. Across the catalog set, average median household income is about $57,201, with a blended cost-of-living index near 108 (100 = U.S. average). Larger places in this release include New York, Buffalo, Rochester. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 9458140,
+    "medianHouseholdIncome": 60256,
+    "costOfLivingIndex": 99,
+    "description": "New York currently includes 6 MapsToIt city profiles covering roughly 9,458,140 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in New York. Across the catalog set, average median household income is about $60,256, with a blended cost-of-living index near 99 (100 = U.S. average). Larger places in this release include New York, Buffalo, Rochester. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "new-york-ny",
       "buffalo-ny",
@@ -534,10 +535,10 @@
     "name": "North Carolina",
     "code": "NC",
     "cityCount": 8,
-    "population": 2675929,
-    "medianHouseholdIncome": 74306,
-    "costOfLivingIndex": 103,
-    "description": "North Carolina currently includes 8 MapsToIt city profiles covering roughly 2,675,929 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in North Carolina. Across the catalog set, average median household income is about $74,306, with a blended cost-of-living index near 103 (100 = U.S. average). Larger places in this release include Charlotte, Raleigh, Greensboro. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 2675709,
+    "medianHouseholdIncome": 76209,
+    "costOfLivingIndex": 104,
+    "description": "North Carolina currently includes 8 MapsToIt city profiles covering roughly 2,675,709 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in North Carolina. Across the catalog set, average median household income is about $76,209, with a blended cost-of-living index near 104 (100 = U.S. average). Larger places in this release include Charlotte, Raleigh, Greensboro. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "charlotte-nc",
       "raleigh-nc",
@@ -554,10 +555,10 @@
     "name": "North Dakota",
     "code": "ND",
     "cityCount": 1,
-    "population": 127281,
-    "medianHouseholdIncome": 60000,
-    "costOfLivingIndex": 92,
-    "description": "North Dakota currently includes 1 MapsToIt city profiles covering roughly 127,281 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in North Dakota. Across the catalog set, average median household income is about $60,000, with a blended cost-of-living index near 92 (100 = U.S. average). Larger places in this release include Fargo. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 129064,
+    "medianHouseholdIncome": 66029,
+    "costOfLivingIndex": 78,
+    "description": "North Dakota currently includes 1 MapsToIt city profiles covering roughly 129,064 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in North Dakota. Across the catalog set, average median household income is about $66,029, with a blended cost-of-living index near 78 (100 = U.S. average). Larger places in this release include Fargo. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "fargo-nd"
     ]
@@ -566,17 +567,18 @@
     "slug": "ohio",
     "name": "Ohio",
     "code": "OH",
-    "cityCount": 5,
-    "population": 2041585,
-    "medianHouseholdIncome": 50459,
-    "costOfLivingIndex": 61,
-    "description": "Ohio currently includes 5 MapsToIt city profiles covering roughly 2,041,585 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Ohio. Across the catalog set, average median household income is about $50,459, with a blended cost-of-living index near 61 (100 = U.S. average). Larger places in this release include Columbus, Cleveland, Cincinnati. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "cityCount": 6,
+    "population": 2178326,
+    "medianHouseholdIncome": 49292,
+    "costOfLivingIndex": 59,
+    "description": "Ohio currently includes 6 MapsToIt city profiles covering roughly 2,178,326 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Ohio. Across the catalog set, average median household income is about $49,292, with a blended cost-of-living index near 59 (100 = U.S. average). Larger places in this release include Columbus, Cleveland, Cincinnati. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "columbus-oh",
       "cleveland-oh",
       "cincinnati-oh",
       "toledo-oh",
-      "akron-oh"
+      "akron-oh",
+      "dayton-oh"
     ]
   },
   {
@@ -612,14 +614,15 @@
     "slug": "pennsylvania",
     "name": "Pennsylvania",
     "code": "PA",
-    "cityCount": 2,
-    "population": 1886052,
-    "medianHouseholdIncome": 62418,
-    "costOfLivingIndex": 82,
-    "description": "Pennsylvania currently includes 2 MapsToIt city profiles covering roughly 1,886,052 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Pennsylvania. Across the catalog set, average median household income is about $62,418, with a blended cost-of-living index near 82 (100 = U.S. average). Larger places in this release include Philadelphia, Pittsburgh. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "cityCount": 3,
+    "population": 2011372,
+    "medianHouseholdIncome": 59413,
+    "costOfLivingIndex": 81,
+    "description": "Pennsylvania currently includes 3 MapsToIt city profiles covering roughly 2,011,372 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Pennsylvania. Across the catalog set, average median household income is about $59,413, with a blended cost-of-living index near 81 (100 = U.S. average). Larger places in this release include Philadelphia, Pittsburgh, Allentown. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "philadelphia-pa",
-      "pittsburgh-pa"
+      "pittsburgh-pa",
+      "allentown-pa"
     ]
   },
   {
@@ -639,14 +642,15 @@
     "slug": "south-carolina",
     "name": "South Carolina",
     "code": "SC",
-    "cityCount": 2,
-    "population": 289314,
-    "medianHouseholdIncome": 69119,
+    "cityCount": 3,
+    "population": 361788,
+    "medianHouseholdIncome": 71384,
     "costOfLivingIndex": 114,
-    "description": "South Carolina currently includes 2 MapsToIt city profiles covering roughly 289,314 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in South Carolina. Across the catalog set, average median household income is about $69,119, with a blended cost-of-living index near 114 (100 = U.S. average). Larger places in this release include Charleston, Columbia. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "description": "South Carolina currently includes 3 MapsToIt city profiles covering roughly 361,788 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in South Carolina. Across the catalog set, average median household income is about $71,384, with a blended cost-of-living index near 114 (100 = U.S. average). Larger places in this release include Charleston, Columbia, Greenville. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "charleston-sc",
-      "columbia-sc"
+      "columbia-sc",
+      "greenville-sc"
     ]
   },
   {
@@ -683,11 +687,11 @@
     "slug": "texas",
     "name": "Texas",
     "code": "TX",
-    "cityCount": 18,
-    "population": 10599447,
-    "medianHouseholdIncome": 80664,
-    "costOfLivingIndex": 103,
-    "description": "Texas currently includes 18 MapsToIt city profiles covering roughly 10,599,447 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Texas. Across the catalog set, average median household income is about $80,664, with a blended cost-of-living index near 103 (100 = U.S. average). Larger places in this release include Houston, San Antonio, Dallas. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "cityCount": 19,
+    "population": 10741372,
+    "medianHouseholdIncome": 79127,
+    "costOfLivingIndex": 101,
+    "description": "Texas currently includes 19 MapsToIt city profiles covering roughly 10,741,372 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Texas. Across the catalog set, average median household income is about $79,127, with a blended cost-of-living index near 101 (100 = U.S. average). Larger places in this release include Houston, San Antonio, Dallas. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "houston-tx",
       "san-antonio-tx",
@@ -706,6 +710,7 @@
       "mckinney-tx",
       "amarillo-tx",
       "grand-prairie-tx",
+      "waco-tx",
       "round-rock-tx"
     ]
   },
@@ -713,13 +718,14 @@
     "slug": "utah",
     "name": "Utah",
     "code": "UT",
-    "cityCount": 1,
-    "population": 203888,
-    "medianHouseholdIncome": 74925,
-    "costOfLivingIndex": 132,
-    "description": "Utah currently includes 1 MapsToIt city profiles covering roughly 203,888 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Utah. Across the catalog set, average median household income is about $74,925, with a blended cost-of-living index near 132 (100 = U.S. average). Larger places in this release include Salt Lake City. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "cityCount": 2,
+    "population": 318191,
+    "medianHouseholdIncome": 68863,
+    "costOfLivingIndex": 124,
+    "description": "Utah currently includes 2 MapsToIt city profiles covering roughly 318,191 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Utah. Across the catalog set, average median household income is about $68,863, with a blended cost-of-living index near 124 (100 = U.S. average). Larger places in this release include Salt Lake City, Provo. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
-      "salt-lake-city-ut"
+      "salt-lake-city-ut",
+      "provo-ut"
     ]
   },
   {
@@ -727,10 +733,10 @@
     "name": "Vermont",
     "code": "VT",
     "cityCount": 1,
-    "population": 44743,
-    "medianHouseholdIncome": 58000,
-    "costOfLivingIndex": 118,
-    "description": "Vermont currently includes 1 MapsToIt city profiles covering roughly 44,743 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Vermont. Across the catalog set, average median household income is about $58,000, with a blended cost-of-living index near 118 (100 = U.S. average). Larger places in this release include Burlington. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 44649,
+    "medianHouseholdIncome": 68854,
+    "costOfLivingIndex": 126,
+    "description": "Vermont currently includes 1 MapsToIt city profiles covering roughly 44,649 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Vermont. Across the catalog set, average median household income is about $68,854, with a blended cost-of-living index near 126 (100 = U.S. average). Larger places in this release include Burlington. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "burlington-vt"
     ]
@@ -775,10 +781,10 @@
     "name": "West Virginia",
     "code": "WV",
     "cityCount": 1,
-    "population": 46536,
-    "medianHouseholdIncome": 47000,
-    "costOfLivingIndex": 90,
-    "description": "West Virginia currently includes 1 MapsToIt city profiles covering roughly 46,536 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in West Virginia. Across the catalog set, average median household income is about $47,000, with a blended cost-of-living index near 90 (100 = U.S. average). Larger places in this release include Charleston. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 47918,
+    "medianHouseholdIncome": 64512,
+    "costOfLivingIndex": 64,
+    "description": "West Virginia currently includes 1 MapsToIt city profiles covering roughly 47,918 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in West Virginia. Across the catalog set, average median household income is about $64,512, with a blended cost-of-living index near 64 (100 = U.S. average). Larger places in this release include Charleston. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "charleston-wv"
     ]
@@ -802,10 +808,10 @@
     "name": "Wyoming",
     "code": "WY",
     "cityCount": 1,
-    "population": 65132,
-    "medianHouseholdIncome": 60000,
-    "costOfLivingIndex": 92,
-    "description": "Wyoming currently includes 1 MapsToIt city profiles covering roughly 65,132 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Wyoming. Across the catalog set, average median household income is about $60,000, with a blended cost-of-living index near 92 (100 = U.S. average). Larger places in this release include Cheyenne. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
+    "population": 64976,
+    "medianHouseholdIncome": 77176,
+    "costOfLivingIndex": 90,
+    "description": "Wyoming currently includes 1 MapsToIt city profiles covering roughly 64,976 residents across the published set. Average median household income and cost-of-living figures below are unweighted means of those mapped cities only — not every municipality in Wyoming. Across the catalog set, average median household income is about $77,176, with a blended cost-of-living index near 90 (100 = U.S. average). Larger places in this release include Cheyenne. Use the city list below or the compare tool to weigh housing, commute, climate, and safety before relocating.",
     "citySlugs": [
       "cheyenne-wy"
     ]

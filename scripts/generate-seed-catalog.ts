@@ -263,6 +263,13 @@ const SEEDS: Seed[] = [
   { name: 'Asheville', stateCode: 'NC', state: 'North Carolina', population: 94589, income: 52000, col: 112, home: 430000, rent: 1500, violent: 42, property: 62, high: 84, low: 28, rain: 46.0, sun: 200, commute: 21, walk: 35, unemp: 3.3, lat: 35.5951, lon: -82.5515 },
   { name: 'Santa Fe', stateCode: 'NM', state: 'New Mexico', population: 87505, income: 62000, col: 118, home: 570000, rent: 1600, violent: 48, property: 62, high: 85, low: 19, rain: 14.0, sun: 283, commute: 18, walk: 33, unemp: 3.4, lat: 35.687, lon: -105.9378 },
   { name: 'Gainesville', stateCode: 'FL', state: 'Florida', population: 143700, income: 39000, col: 92, home: 290000, rent: 1350, violent: 48, property: 68, high: 91, low: 46, rain: 50.0, sun: 232, commute: 19, walk: 34, unemp: 2.8, lat: 29.6516, lon: -82.3248 },
+  // --- Batch 3: high-intent relocator markets (thin-state seconds + notable unmapped) ---
+  { name: 'Dayton', stateCode: 'OH', state: 'Ohio', population: 137644, income: 39000, col: 84, home: 140000, rent: 900, violent: 72, property: 68, high: 85, low: 22, rain: 41.0, sun: 180, commute: 21, walk: 38, unemp: 4.5, lat: 39.7589, lon: -84.1916, neighborhoods: ['Downtown', 'Oregon District', 'South Park'] },
+  { name: 'Allentown', stateCode: 'PA', state: 'Pennsylvania', population: 125845, income: 48000, col: 95, home: 220000, rent: 1200, violent: 48, property: 52, high: 85, low: 22, rain: 45.0, sun: 200, commute: 24, walk: 45, unemp: 4.2, lat: 40.6084, lon: -75.4902 },
+  { name: 'South Bend', stateCode: 'IN', state: 'Indiana', population: 103453, income: 45000, col: 86, home: 165000, rent: 950, violent: 62, property: 58, high: 83, low: 18, rain: 40.0, sun: 180, commute: 20, walk: 40, unemp: 4.0, lat: 41.6764, lon: -86.252 },
+  { name: 'Waco', stateCode: 'TX', state: 'Texas', population: 143198, income: 45000, col: 86, home: 210000, rent: 1100, violent: 55, property: 68, high: 96, low: 37, rain: 35.0, sun: 230, commute: 18, walk: 32, unemp: 3.8, lat: 31.5493, lon: -97.1467 },
+  { name: 'Provo', stateCode: 'UT', state: 'Utah', population: 115162, income: 58000, col: 105, home: 450000, rent: 1400, violent: 18, property: 42, high: 92, low: 23, rain: 18.0, sun: 250, commute: 17, walk: 40, unemp: 2.6, lat: 40.2338, lon: -111.6585, neighborhoods: ['Downtown', 'Joaquin', 'South Campus'] },
+  { name: 'Greenville', stateCode: 'SC', state: 'South Carolina', population: 72095, income: 56000, col: 98, home: 340000, rent: 1300, violent: 42, property: 55, high: 90, low: 33, rain: 48.0, sun: 220, commute: 21, walk: 38, unemp: 3.2, lat: 34.8526, lon: -82.394, neighborhoods: ['Downtown', 'West End', 'North Main'] },
 ]
 
 const CLEAN_SEEDS = SEEDS

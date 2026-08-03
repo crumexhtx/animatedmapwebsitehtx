@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T18:04:38.647Z",
+  "generatedAt": "2026-08-03T14:48:35.390Z",
   "vintage": "ACS 2023 5-year",
   "national": {
     "medianHomeValue": 303400,
@@ -286,6 +286,16 @@
       "medianRent": 1123,
       "costOfLivingIndex": 68,
       "source": "U.S. Census Bureau ACS 2023 5-year (Memphis city, 1600000US4748000)"
+    },
+    "louisville-ky": {
+      "geoid": "1600000US2148006",
+      "placeName": "Louisville/Jefferson County metro government (balance), Kentucky",
+      "population": 627210,
+      "medianHouseholdIncome": 64731,
+      "medianHomePrice": 221500,
+      "medianRent": 1069,
+      "costOfLivingIndex": 76,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Louisville/Jefferson County metro government (balance), Kentucky, 1600000US2148006)"
     },
     "baltimore-md": {
       "geoid": "1600000US2404000",
@@ -1787,15 +1797,265 @@
       "costOfLivingIndex": 70,
       "source": "U.S. Census Bureau ACS 2023 5-year (Amarillo city, 1600000US4803000)"
     },
-    "louisville-ky": {
-      "geoid": "1600000US2148006",
-      "placeName": "Louisville/Jefferson County metro government (balance), Kentucky",
-      "population": 627210,
-      "medianHouseholdIncome": 64731,
-      "medianHomePrice": 221500,
-      "medianRent": 1069,
-      "costOfLivingIndex": 76,
-      "source": "U.S. Census Bureau ACS 2023 5-year (Louisville/Jefferson County metro government (balance), Kentucky, 1600000US2148006)"
+    "columbia-sc": {
+      "geoid": "1600000US4516000",
+      "placeName": "Columbia city",
+      "population": 138019,
+      "medianHouseholdIncome": 55653,
+      "medianHomePrice": 243500,
+      "medianRent": 1158,
+      "costOfLivingIndex": 83,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Columbia city, 1600000US4516000)"
+    },
+    "hartford-ct": {
+      "geoid": "1600000US0937000",
+      "placeName": "Hartford city",
+      "population": 119970,
+      "medianHouseholdIncome": 45300,
+      "medianHomePrice": 217200,
+      "medianRent": 1221,
+      "costOfLivingIndex": 81,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Hartford city, 1600000US0937000)"
+    },
+    "new-haven-ct": {
+      "geoid": "1600000US0952000",
+      "placeName": "New Haven city",
+      "population": 132893,
+      "medianHouseholdIncome": 53771,
+      "medianHomePrice": 249000,
+      "medianRent": 1442,
+      "costOfLivingIndex": 95,
+      "source": "U.S. Census Bureau ACS 2023 5-year (New Haven city, 1600000US0952000)"
+    },
+    "albany-ny": {
+      "geoid": "1600000US3601000",
+      "placeName": "Albany city",
+      "population": 100081,
+      "medianHouseholdIncome": 59485,
+      "medianHomePrice": 223000,
+      "medianRent": 1178,
+      "costOfLivingIndex": 80,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Albany city, 1600000US3601000)"
+    },
+    "syracuse-ny": {
+      "geoid": "1600000US3673000",
+      "placeName": "Syracuse city",
+      "population": 146211,
+      "medianHouseholdIncome": 45845,
+      "medianHomePrice": 125100,
+      "medianRent": 998,
+      "costOfLivingIndex": 58,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Syracuse city, 1600000US3673000)"
+    },
+    "topeka-ks": {
+      "geoid": "1600000US2071000",
+      "placeName": "Topeka city",
+      "population": 126103,
+      "medianHouseholdIncome": 55902,
+      "medianHomePrice": 130600,
+      "medianRent": 947,
+      "costOfLivingIndex": 57,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Topeka city, 1600000US2071000)"
+    },
+    "cheyenne-wy": {
+      "geoid": "1600000US5613900",
+      "placeName": "Cheyenne city",
+      "population": 64976,
+      "medianHouseholdIncome": 77176,
+      "medianHomePrice": 311200,
+      "medianRent": 1035,
+      "costOfLivingIndex": 90,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Cheyenne city, 1600000US5613900)"
+    },
+    "billings-mt": {
+      "geoid": "1600000US3006550",
+      "placeName": "Billings city",
+      "population": 118321,
+      "medianHouseholdIncome": 71855,
+      "medianHomePrice": 311800,
+      "medianRent": 1097,
+      "costOfLivingIndex": 92,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Billings city, 1600000US3006550)"
+    },
+    "fargo-nd": {
+      "geoid": "1600000US3825700",
+      "placeName": "Fargo city",
+      "population": 129064,
+      "medianHouseholdIncome": 66029,
+      "medianHomePrice": 269800,
+      "medianRent": 916,
+      "costOfLivingIndex": 78,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fargo city, 1600000US3825700)"
+    },
+    "charleston-wv": {
+      "geoid": "1600000US5414600",
+      "placeName": "Charleston city",
+      "population": 47918,
+      "medianHouseholdIncome": 64512,
+      "medianHomePrice": 187300,
+      "medianRent": 898,
+      "costOfLivingIndex": 64,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Charleston city, 1600000US5414600)"
+    },
+    "burlington-vt": {
+      "geoid": "1600000US5010675",
+      "placeName": "Burlington city",
+      "population": 44649,
+      "medianHouseholdIncome": 68854,
+      "medianHomePrice": 400200,
+      "medianRent": 1609,
+      "costOfLivingIndex": 126,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Burlington city, 1600000US5010675)"
+    },
+    "manchester-nh": {
+      "geoid": "1600000US3345140",
+      "placeName": "Manchester city",
+      "population": 115415,
+      "medianHouseholdIncome": 77415,
+      "medianHomePrice": 336300,
+      "medianRent": 1465,
+      "costOfLivingIndex": 110,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Manchester city, 1600000US3345140)"
+    },
+    "portland-me": {
+      "geoid": "1600000US2360545",
+      "placeName": "Portland city",
+      "population": 68505,
+      "medianHouseholdIncome": 76174,
+      "medianHomePrice": 452600,
+      "medianRent": 1487,
+      "costOfLivingIndex": 130,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Portland city, 1600000US2360545)"
+    },
+    "wilmington-de": {
+      "geoid": "1600000US1077580",
+      "placeName": "Wilmington city",
+      "population": 71124,
+      "medianHouseholdIncome": 55269,
+      "medianHomePrice": 224500,
+      "medianRent": 1187,
+      "costOfLivingIndex": 81,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Wilmington city, 1600000US1077580)"
+    },
+    "boulder-co": {
+      "geoid": "1600000US0807850",
+      "placeName": "Boulder city",
+      "population": 106274,
+      "medianHouseholdIncome": 85364,
+      "medianHomePrice": 982600,
+      "medianRent": 1924,
+      "costOfLivingIndex": 233,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Boulder city, 1600000US0807850)"
+    },
+    "ann-arbor-mi": {
+      "geoid": "1600000US2603000",
+      "placeName": "Ann Arbor city",
+      "population": 121179,
+      "medianHouseholdIncome": 81089,
+      "medianHomePrice": 435100,
+      "medianRent": 1552,
+      "costOfLivingIndex": 129,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Ann Arbor city, 1600000US2603000)"
+    },
+    "athens-ga": {
+      "geoid": "1600000US1303440",
+      "placeName": "Athens-Clarke County unified government (balance)",
+      "population": 126987,
+      "medianHouseholdIncome": 51655,
+      "medianHomePrice": 271800,
+      "medianRent": 1162,
+      "costOfLivingIndex": 88,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Athens-Clarke County unified government (balance), 1600000US1303440)"
+    },
+    "asheville-nc": {
+      "geoid": "1600000US3702140",
+      "placeName": "Asheville city",
+      "population": 94369,
+      "medianHouseholdIncome": 67221,
+      "medianHomePrice": 411000,
+      "medianRent": 1303,
+      "costOfLivingIndex": 116,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Asheville city, 1600000US3702140)"
+    },
+    "santa-fe-nm": {
+      "geoid": "1600000US3570500",
+      "placeName": "Santa Fe city",
+      "population": 88224,
+      "medianHouseholdIncome": 70110,
+      "medianHomePrice": 411500,
+      "medianRent": 1380,
+      "costOfLivingIndex": 119,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Santa Fe city, 1600000US3570500)"
+    },
+    "gainesville-fl": {
+      "geoid": "1600000US1225175",
+      "placeName": "Gainesville city",
+      "population": 143611,
+      "medianHouseholdIncome": 45611,
+      "medianHomePrice": 235000,
+      "medianRent": 1214,
+      "costOfLivingIndex": 84,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Gainesville city, 1600000US1225175)"
+    },
+    "dayton-oh": {
+      "geoid": "1600000US3921000",
+      "placeName": "Dayton city",
+      "population": 136741,
+      "medianHouseholdIncome": 43454,
+      "medianHomePrice": 93200,
+      "medianRent": 866,
+      "costOfLivingIndex": 47,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Dayton city, 1600000US3921000)"
+    },
+    "allentown-pa": {
+      "geoid": "1600000US4202000",
+      "placeName": "Allentown city",
+      "population": 125320,
+      "medianHouseholdIncome": 53403,
+      "medianHomePrice": 188900,
+      "medianRent": 1269,
+      "costOfLivingIndex": 78,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Allentown city, 1600000US4202000)"
+    },
+    "south-bend-in": {
+      "geoid": "1600000US1871000",
+      "placeName": "South Bend city",
+      "population": 102866,
+      "medianHouseholdIncome": 52512,
+      "medianHomePrice": 124500,
+      "medianRent": 1000,
+      "costOfLivingIndex": 58,
+      "source": "U.S. Census Bureau ACS 2023 5-year (South Bend city, 1600000US1871000)"
+    },
+    "waco-tx": {
+      "geoid": "1600000US4876000",
+      "placeName": "Waco city",
+      "population": 141925,
+      "medianHouseholdIncome": 51468,
+      "medianHomePrice": 199600,
+      "medianRent": 1098,
+      "costOfLivingIndex": 74,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Waco city, 1600000US4876000)"
+    },
+    "provo-ut": {
+      "geoid": "1600000US4962470",
+      "placeName": "Provo city",
+      "population": 114303,
+      "medianHouseholdIncome": 62800,
+      "medianHomePrice": 437100,
+      "medianRent": 1152,
+      "costOfLivingIndex": 115,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Provo city, 1600000US4962470)"
+    },
+    "greenville-sc": {
+      "geoid": "1600000US4530850",
+      "placeName": "Greenville city",
+      "population": 71755,
+      "medianHouseholdIncome": 68460,
+      "medianHomePrice": 453300,
+      "medianRent": 1248,
+      "costOfLivingIndex": 121,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Greenville city, 1600000US4530850)"
     }
   }
 }
