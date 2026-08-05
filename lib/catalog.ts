@@ -5,7 +5,7 @@ import nationalData from '@/data/catalog/national.json'
 import notableUnmappedData from '@/data/catalog/notable-unmapped.json'
 import type { CatalogIndex, CityRecord, NationalBaselines, StateRecord } from '@/lib/types'
 
-export { cityPath, comparePath, statePath, siteUrl } from '@/lib/paths'
+export { cityPath, comparePath, matchPath, statePath, siteUrl } from '@/lib/paths'
 
 export const catalogIndex = indexData as CatalogIndex
 export const nationalBaselines = nationalData as NationalBaselines

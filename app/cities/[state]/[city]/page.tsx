@@ -16,6 +16,7 @@ import {
   allCities,
   cityPath,
   comparePath,
+  matchPath,
   getCity,
   getNearbyCities,
   nationalBaselines,
@@ -156,14 +157,17 @@ export default async function CityPage({ params }: Props) {
 
           <AnswerSections sections={answerSections} />
 
-          <p className="compare-cta">
+          <div className="compare-cta-row">
             <Link
               className="button"
-              href={comparePeer ? comparePath([city.slug, comparePeer]) : '/compare'}
+              href={comparePeer ? comparePath([city.slug, comparePeer]) : comparePath([city.slug])}
             >
-              Compare {city.name} with another city
+              Compare {city.name} to another city
             </Link>
-          </p>
+            <Link className="button button-secondary" href={matchPath({ like: city.slug })}>
+              Find cities like {city.name}
+            </Link>
+          </div>
 
           {relatedComparisons.length ? (
             <section className="answer-section">
