@@ -86,11 +86,20 @@ export function CityStats({
   // misleading, so treat it like the "unavailable" case for the compare column.
   const crimeIsCuratedSeed = city.crimeIndex.source.includes('curated')
   const crimeNeedsCaveat = crimeUnavailable || crimeIsCuratedSeed
+  // Prefer the latest Census PEP point (also what the Population trend chart ends on) over the
+  // ACS 5-year figure — PEP is the Bureau's own preferred "current population" product, and using
+  // it here keeps this number and the trend chart from disagreeing on the same page. Falls back to
+  // the ACS-derived figure for the rare city with no PEP history yet.
+  const latestPep = city.populationHistory?.points.at(-1)
+  const displayPopulation = latestPep?.population ?? city.population
+  const populationNote = latestPep
+    ? `City limits · Census PEP ${latestPep.year} estimate`
+    : 'City limits · not metro/MSA'
   const items: StatItem[] = [
     {
       label: 'Population',
-      value: formatNumber(city.population),
-      note: 'City limits · not metro/MSA',
+      value: formatNumber(displayPopulation),
+      note: populationNote,
     },
     {
       label: 'Median household income',
