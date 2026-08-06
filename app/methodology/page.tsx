@@ -45,11 +45,14 @@ export default function MethodologyPage() {
           proxy from the nearest normals station (`scripts/enrich-climate.ts`).
         </li>
         <li>
-          <strong>Census Bureau Population Estimates Program</strong> — annual population by year for city trend charts
-          and the national population-over-time race (`scripts/enrich-population-history.ts`), loaded from the Bureau’s
-          public city/town PEP CSV releases (2010–2019 and 2020–2024 vintages). Reuses the place GEOID from the Census
-          enrichment step. A city only gets a trend once at least two years resolve; missing history is omitted rather
-          than interpolated.
+          <strong>Census Bureau Population Estimates Program (PEP)</strong> — annual population by year for city trend
+          charts and the national population-over-time race (`scripts/enrich-population-history.ts`), loaded from the
+          Bureau’s public city/town PEP CSV releases (2010–2019 and 2020–2024 vintages). Reuses the place GEOID from the
+          Census enrichment step. A city only gets a trend once at least two years resolve; missing history is omitted
+          rather than interpolated. The Population figure in a city’s Key Figures uses this same latest PEP estimate
+          (not the ACS 5-year figure) so it always matches the trend chart on the same page — PEP is the Bureau’s own
+          preferred product for a current point-in-time population, while the 5-year ACS remains the source for income,
+          home value, and rent, which PEP doesn’t cover.
         </li>
         <li>
           <strong>Unsplash</strong> — two photos per city (`scripts/enrich-photos.ts`), used under the Unsplash License
