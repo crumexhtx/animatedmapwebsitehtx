@@ -1,7 +1,12 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CityMapLazy } from '@/components/CityMapLazy'
 import { cityPath, getFeaturedCities, allCities } from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+}
 
 export default function HomePage() {
   const featured = getFeaturedCities().slice(0, 10)
