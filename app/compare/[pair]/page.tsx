@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const b = getCity(pair.b)
   if (!a || !b) return {}
 
-  const title = `${a.name} vs ${b.name}: Cost of Living, Housing & Commute | MapsToIt`
+  // Root layout's title template already appends " | MapsToIt" — don't bake it in here too.
+  const title = `${a.name} vs ${b.name}: Cost of Living, Housing & Commute`
   const description =
     `Side-by-side MapsToIt comparison of ${a.name}, ${a.stateCode} and ${b.name}, ${b.stateCode} — ` +
     `housing index, rent, income, unemployment, crime, and climate versus U.S. baselines.`
