@@ -87,9 +87,17 @@ function mergeCity(
   const populationHistoryRow = populationHistory?.cities[seed.slug]
   const photosRow = photos?.cities[seed.slug]
 
+  // Population prefers the latest Census PEP point (also what the Population trend chart
+  // ends on) over the ACS 5-year figure — PEP is the Bureau's own preferred product for a
+  // current point-in-time population. This is the single source every consumer of
+  // CityRecord.population reads (Key Figures, descriptions, compare tool, rankings, state
+  // aggregates, map marker sizing, etc.), so they can't drift out of sync with each other or
+  // with the trend chart the way Key Figures once did on its own.
+  const latestPepPoint = populationHistoryRow?.points.at(-1)
+
   const merged: CityRecord = {
     ...seed,
-    population: censusRow?.population ?? seed.population,
+    population: latestPepPoint?.population ?? censusRow?.population ?? seed.population,
     medianHouseholdIncome: censusRow?.medianHouseholdIncome ?? seed.medianHouseholdIncome,
     medianHomePrice: censusRow?.medianHomePrice ?? seed.medianHomePrice,
     medianRent: censusRow?.medianRent ?? seed.medianRent,
