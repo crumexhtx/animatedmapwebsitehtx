@@ -23,6 +23,7 @@ import {
   siteUrl,
   statePath,
 } from '@/lib/catalog'
+import { toMapCity } from '@/lib/map-data'
 import { comparisonsForCity, comparisonPath } from '@/lib/comparison-pairs'
 import {
   buildCityAnswerSections,
@@ -148,7 +149,7 @@ export default async function CityPage({ params }: Props) {
           <CityGallery images={city.images} cityName={city.name} />
 
           <div className="city-map-panel">
-            <CityMapLazy cities={allCities} focus={city} />
+            <CityMapLazy focus={toMapCity(city)} />
           </div>
 
           <CityStats city={city} national={nationalBaselines} />

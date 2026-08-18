@@ -1,12 +1,17 @@
 'use client'
 
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { CompareCities } from '@/components/CompareCities'
-import { MatchCities } from '@/components/MatchCities'
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import type { MatchFilters, MatchWeights } from '@/lib/match'
 import { comparePath, matchPath } from '@/lib/paths'
+
+const MatchCities = dynamic(
+  () => import('@/components/MatchCities').then((mod) => mod.MatchCities),
+  { ssr: false, loading: () => <p className="compare-empty">Loading matcher…</p> },
+)
 
 export type CompareMode = 'compare' | 'match'
 

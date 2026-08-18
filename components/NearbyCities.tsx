@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { CityRecord } from '@/lib/types'
-import { cityPath, comparePath, statePath } from '@/lib/catalog'
+import { cityPath, comparePath, statePath } from '@/lib/paths'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export function NearbyCities({

@@ -1,11 +1,25 @@
 import type { Metadata, Viewport } from 'next'
-import Script from 'next/script'
+import { Fraunces, Outfit } from 'next/font/google'
 import { SiteFooter } from '@/components/SiteFooter'
 import { SiteHeader } from '@/components/SiteHeader'
-import { siteUrl } from '@/lib/catalog'
+import { siteUrl } from '@/lib/paths'
 import './globals.css'
 
 const GA_MEASUREMENT_ID = 'G-MXMYV30T6F'
+
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  weight: ['500', '700'],
+  display: 'swap',
+  variable: '--font-fraunces',
+})
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['400', '600'],
+  display: 'swap',
+  variable: '--font-outfit',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -33,27 +47,38 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}');
-          `}
-        </Script>
-      </head>
+    <html lang="en" className={`${fraunces.variable} ${outfit.variable}`}>
       <body>
         <div className="shell">
           <SiteHeader />
           <main>{children}</main>
           <SiteFooter />
         </div>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function () {
+                var id = '${GA_MEASUREMENT_ID}';
+                var loaded = false;
+                function load() {
+                  if (loaded) return;
+                  loaded = true;
+                  window.dataLayer = window.dataLayer || [];
+                  window.gtag = function gtag(){ window.dataLayer.push(arguments); };
+                  window.gtag('js', new Date());
+                  window.gtag('config', id);
+                  var s = document.createElement('script');
+                  s.async = true;
+                  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+                  document.head.appendChild(s);
+                }
+                ['pointerdown', 'keydown', 'scroll'].forEach(function (event) {
+                  window.addEventListener(event, load, { once: true, passive: true });
+                });
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   )

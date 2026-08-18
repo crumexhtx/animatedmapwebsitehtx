@@ -1,13 +1,13 @@
 import citiesData from '@/data/catalog/cities.json'
 import statesData from '@/data/catalog/states.json'
-import indexData from '@/data/catalog/index.json'
 import nationalData from '@/data/catalog/national.json'
 import notableUnmappedData from '@/data/catalog/notable-unmapped.json'
-import type { CatalogIndex, CityRecord, NationalBaselines, StateRecord } from '@/lib/types'
+import type { CityRecord, NationalBaselines, StateRecord } from '@/lib/types'
+import { catalogIndex } from '@/lib/catalog-index'
 
 export { cityPath, comparePath, matchPath, statePath, siteUrl } from '@/lib/paths'
+export { catalogIndex }
 
-export const catalogIndex = indexData as CatalogIndex
 export const nationalBaselines = nationalData as NationalBaselines
 export const allCities = citiesData as CityRecord[]
 export const allStates = statesData as StateRecord[]

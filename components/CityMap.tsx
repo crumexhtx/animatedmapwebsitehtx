@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import * as maplibregl from 'maplibre-gl'
-import type { CityRecord } from '@/lib/types'
+import type { MapCity } from '@/lib/map-data'
 import { cityPath } from '@/lib/paths'
 import 'maplibre-gl/dist/maplibre-gl.css'
 
@@ -43,8 +43,8 @@ const BASE_STYLE: maplibregl.StyleSpecification = {
 }
 
 type CityMapProps = {
-  cities: CityRecord[]
-  focus?: CityRecord | null
+  cities: MapCity[]
+  focus?: MapCity | null
   className?: string
   variant?: 'default' | 'hero'
 }

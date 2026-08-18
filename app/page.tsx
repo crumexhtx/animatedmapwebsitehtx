@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CityMapLazy } from '@/components/CityMapLazy'
-import { cityPath, getFeaturedCities, allCities } from '@/lib/catalog'
+import { cityPath, getFeaturedCities } from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
@@ -23,19 +23,19 @@ export default function HomePage() {
           profiles.
         </p>
         <div className="cta-row">
-          <Link className="button" href="/cities">
+          <Link className="button" href="/cities" prefetch={false}>
             Browse cities
           </Link>
-          <Link className="button button-secondary" href="/cities/rankings">
+          <Link className="button button-secondary" href="/cities/rankings" prefetch={false}>
             Rankings
           </Link>
-          <Link className="button button-secondary" href="/cities/cost-vs-safety">
+          <Link className="button button-secondary" href="/cities/cost-vs-safety" prefetch={false}>
             Cost vs safety
           </Link>
-          <Link className="button button-secondary" href="/cities/state-costs">
+          <Link className="button button-secondary" href="/cities/state-costs" prefetch={false}>
             State costs
           </Link>
-          <Link className="button button-secondary" href="/cities/population-over-time">
+          <Link className="button button-secondary" href="/cities/population-over-time" prefetch={false}>
             Population over time
           </Link>
         </div>
@@ -43,7 +43,7 @@ export default function HomePage() {
 
       <section className="home-map" aria-label="Interactive U.S. city map">
         <div className="home-map-frame">
-          <CityMapLazy cities={allCities} variant="hero" />
+          <CityMapLazy variant="hero" />
         </div>
         <p className="home-map-hint">Teal dots are cities · Tap one to open its profile</p>
       </section>
@@ -54,7 +54,7 @@ export default function HomePage() {
         <ul className="city-list">
           {featured.map((city) => (
             <li key={city.slug}>
-              <Link href={cityPath(city)}>
+              <Link href={cityPath(city)} prefetch={false}>
                 <strong>
                   {city.name}, {city.stateCode}
                 </strong>

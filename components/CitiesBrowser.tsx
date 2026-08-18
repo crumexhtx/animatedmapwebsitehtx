@@ -6,12 +6,24 @@ import type { CityRecord, StateRecord } from '@/lib/types'
 import { cityPath } from '@/lib/paths'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
+export type CityListItem = Pick<
+  CityRecord,
+  | 'slug'
+  | 'name'
+  | 'state'
+  | 'stateSlug'
+  | 'stateCode'
+  | 'population'
+  | 'medianHouseholdIncome'
+  | 'costOfLivingIndex'
+>
+
 export function CitiesBrowser({
   cities,
   states,
 }: {
-  cities: CityRecord[]
-  states: StateRecord[]
+  cities: CityListItem[]
+  states: Pick<StateRecord, 'slug' | 'name' | 'code'>[]
 }) {
   const [stateFilter, setStateFilter] = useState<string | null>(null)
   const [query, setQuery] = useState('')

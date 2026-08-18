@@ -2,11 +2,16 @@
 
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
-import { CompareRadarChart } from '@/components/CompareRadarChart'
+import dynamic from 'next/dynamic'
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { buildCompareRows } from '@/lib/compare'
 import { buildRadarSeries } from '@/lib/charts'
 import { cityPath, comparePath } from '@/lib/paths'
+
+const CompareRadarChart = dynamic(
+  () => import('@/components/CompareRadarChart').then((mod) => mod.CompareRadarChart),
+  { ssr: false },
+)
 
 type Option = Pick<CityRecord, 'slug' | 'name' | 'state' | 'stateCode'>
 

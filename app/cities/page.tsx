@@ -34,7 +34,23 @@ export default function CitiesIndexPage() {
         </div>
       </div>
 
-      <CitiesBrowser cities={allCities} states={allStates} />
+      <CitiesBrowser
+        cities={allCities.map((city) => ({
+          slug: city.slug,
+          name: city.name,
+          state: city.state,
+          stateSlug: city.stateSlug,
+          stateCode: city.stateCode,
+          population: city.population,
+          medianHouseholdIncome: city.medianHouseholdIncome,
+          costOfLivingIndex: city.costOfLivingIndex,
+        }))}
+        states={allStates.map((state) => ({
+          slug: state.slug,
+          name: state.name,
+          code: state.code,
+        }))}
+      />
 
       <p className="lead" style={{ marginTop: '2rem' }}>
         Prefer state overviews?{' '}
