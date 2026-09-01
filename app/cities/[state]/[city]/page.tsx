@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { AdSlot } from '@/components/AdSlot'
 import { AffiliateZone } from '@/components/AffiliateZone'
 import { AnswerSections } from '@/components/AnswerSections'
+import { CityProfileHeader } from '@/components/CityProfileHeader'
 import { CityMapLazy } from '@/components/CityMapLazy'
 import { CityStats } from '@/components/CityStats'
 import { CityGallery } from '@/components/CityGallery'
@@ -123,15 +124,20 @@ export default async function CityPage({ params }: Props) {
           <span>/</span>
           <span>{city.name}</span>
         </nav>
-        <div className="city-title-row">
-          <h1>
-            {city.name}, {city.state}
-          </h1>
-          <CityUrlButton
-            url={`${siteUrl()}${cityPath(city)}`}
-            label={`${city.name}, ${city.state}`}
-          />
-        </div>
+        <CityProfileHeader
+          city={city}
+          title={
+            <h1>
+              {city.name}, {city.state}
+            </h1>
+          }
+          actions={
+            <CityUrlButton
+              url={`${siteUrl()}${cityPath(city)}`}
+              label={`${city.name}, ${city.state}`}
+            />
+          }
+        />
         <p className="lead">
           Cost of living, housing, income, commute, climate, and safety — compiled for relocators researching {city.name}.
         </p>
@@ -146,7 +152,7 @@ export default async function CityPage({ params }: Props) {
             metrics={snapshotMetrics}
           />
 
-          <CityGallery images={city.images} cityName={city.name} />
+          <CityGallery images={city.images} cityName={city.name} skipFirst />
 
           <div className="city-map-panel">
             <CityMapLazy focus={toMapCity(city)} />
