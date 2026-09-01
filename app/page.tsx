@@ -14,9 +14,7 @@ export default function HomePage() {
   return (
     <>
       <section className="home-intro" aria-label="MapsToIt introduction">
-        <p className="home-brand">
-          Maps<span>ToIt</span>
-        </p>
+        <p className="home-kicker">U.S. city relocation data</p>
         <h1>Research a U.S. city before you move.</h1>
         <p>
           Cost of living, safety, income, climate, and commute — mapped so you can browse places, then dig into full city

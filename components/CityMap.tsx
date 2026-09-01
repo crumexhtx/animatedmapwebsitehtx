@@ -4,43 +4,9 @@ import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import * as maplibregl from 'maplibre-gl'
 import type { MapCity } from '@/lib/map-data'
+import { buildRasterBasemapStyle } from '@/lib/map-basemap'
 import { cityPath } from '@/lib/paths'
 import 'maplibre-gl/dist/maplibre-gl.css'
-
-/** Voyager raster basemap — city markers are DOM overlays (reliable on mobile). */
-const BASE_STYLE: maplibregl.StyleSpecification = {
-  version: 8,
-  name: 'MapsToIt cities',
-  sources: {
-    'raster-tiles': {
-      type: 'raster',
-      tiles: [
-        'https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-        'https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-        'https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-        'https://d.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-      ],
-      tileSize: 256,
-      attribution:
-        '© <a href="https://carto.com/">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxzoom: 20,
-    },
-  },
-  layers: [
-    {
-      id: 'background',
-      type: 'background',
-      paint: { 'background-color': '#c5d6c8' },
-    },
-    {
-      id: 'raster-basemap',
-      type: 'raster',
-      source: 'raster-tiles',
-      minzoom: 0,
-      maxzoom: 22,
-    },
-  ],
-}
 
 type CityMapProps = {
   cities: MapCity[]
@@ -99,7 +65,7 @@ export function CityMap({
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: BASE_STYLE,
+      style: buildRasterBasemapStyle(),
       center: focusRef.current?.coordinates ?? [-97.5, 38.5],
       zoom: focusRef.current ? (narrow ? 7.1 : 8.5) : narrow ? 3.35 : 3.85,
       minZoom: 2,
