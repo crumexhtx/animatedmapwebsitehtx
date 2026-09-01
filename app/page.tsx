@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CityMapLazy } from '@/components/CityMapLazy'
+import { StateFlag } from '@/components/StateFlag'
 import { cityPath, getFeaturedCities } from '@/lib/catalog'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
@@ -52,13 +53,16 @@ export default function HomePage() {
         <ul className="city-list">
           {featured.map((city) => (
             <li key={city.slug}>
-              <Link href={cityPath(city)} prefetch={false}>
-                <strong>
-                  {city.name}, {city.stateCode}
-                </strong>
-                <span>
-                  {formatNumber(city.population)} people · Housing index {city.costOfLivingIndex} · homes ~
-                  {formatCurrency(city.medianHomePrice)}
+              <Link href={cityPath(city)} prefetch={false} className="city-list-link">
+                <StateFlag stateCode={city.stateCode} stateName={city.state} />
+                <span className="city-list-copy">
+                  <strong>
+                    {city.name}, {city.stateCode}
+                  </strong>
+                  <span>
+                    {formatNumber(city.population)} people · Housing index {city.costOfLivingIndex} · homes ~
+                    {formatCurrency(city.medianHomePrice)}
+                  </span>
                 </span>
               </Link>
             </li>

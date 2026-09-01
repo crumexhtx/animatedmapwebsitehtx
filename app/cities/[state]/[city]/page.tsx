@@ -4,10 +4,10 @@ import { notFound } from 'next/navigation'
 import { AdSlot } from '@/components/AdSlot'
 import { AffiliateZone } from '@/components/AffiliateZone'
 import { AnswerSections } from '@/components/AnswerSections'
-import { CityProfileHeader } from '@/components/CityProfileHeader'
 import { CityMapLazy } from '@/components/CityMapLazy'
 import { CityStats } from '@/components/CityStats'
 import { CityGallery } from '@/components/CityGallery'
+import { StateFlag } from '@/components/StateFlag'
 import { CityUrlButton } from '@/components/CityUrlButton'
 import { ContentSnapshot } from '@/components/ContentSnapshot'
 import { NearbyCities } from '@/components/NearbyCities'
@@ -124,20 +124,16 @@ export default async function CityPage({ params }: Props) {
           <span>/</span>
           <span>{city.name}</span>
         </nav>
-        <CityProfileHeader
-          city={city}
-          title={
-            <h1>
-              {city.name}, {city.state}
-            </h1>
-          }
-          actions={
-            <CityUrlButton
-              url={`${siteUrl()}${cityPath(city)}`}
-              label={`${city.name}, ${city.state}`}
-            />
-          }
-        />
+        <div className="city-title-row">
+          <StateFlag stateCode={city.stateCode} stateName={city.state} eager />
+          <h1>
+            {city.name}, {city.state}
+          </h1>
+          <CityUrlButton
+            url={`${siteUrl()}${cityPath(city)}`}
+            label={`${city.name}, ${city.state}`}
+          />
+        </div>
         <p className="lead">
           Cost of living, housing, income, commute, climate, and safety — compiled for relocators researching {city.name}.
         </p>
@@ -152,7 +148,7 @@ export default async function CityPage({ params }: Props) {
             metrics={snapshotMetrics}
           />
 
-          <CityGallery images={city.images} cityName={city.name} skipFirst />
+          <CityGallery images={city.images} cityName={city.name} />
 
           <div className="city-map-panel">
             <CityMapLazy focus={toMapCity(city)} />
