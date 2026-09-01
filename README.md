@@ -61,6 +61,6 @@ Set `NEXT_PUBLIC_SITE_URL` for canonical URLs / sitemap (defaults to `https://ma
 
 ### Map basemap
 
-City maps use CARTO Voyager raster tiles when `NEXT_CARTO_API_KEY` is set (free key at [carto.com/basemaps/apikey](https://carto.com/basemaps/apikey)). Without a key, maps automatically fall back to OpenStreetMap tiles so visitors never see CARTO’s “API KEY REQUIRED” watermark.
+City maps use CARTO Voyager raster tiles when `NEXT_PUBLIC_CARTO_API_KEY` is set (free key at [carto.com/basemaps/apikey](https://carto.com/basemaps/apikey)). This is a **browser** key (safe to expose; lock it down with HTTP referrer restrictions in CARTO). Without a key, maps fall back to OpenStreetMap tiles — only suitable as a short-term fallback, not sustained production traffic.
 
-Add the key in Vercel → Project → Settings → Environment Variables for Production (and Preview if you test maps there).
+In Vercel: **Project → Settings → Environment Variables** → add `NEXT_PUBLIC_CARTO_API_KEY` for Production (and Preview if you test maps there) → redeploy.

@@ -42,7 +42,7 @@
       "paterson-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New York city, 1600000US3651000)",
       "bls": "BLS LAUS · New York County, June 2026",
@@ -118,6 +118,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -162,7 +184,7 @@
       "anaheim-ca",
       "garden-grove-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Los Angeles city, 1600000US0644000)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -238,6 +260,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -282,7 +326,7 @@
       "milwaukee-wi",
       "madison-wi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chicago city, 1600000US1714000)",
       "bls": "BLS LAUS · Cook County, June 2026",
@@ -358,6 +402,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -402,7 +468,7 @@
       "san-antonio-tx",
       "shreveport-la"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Houston city, 1600000US4835000)",
       "bls": "BLS LAUS · Harris County, June 2026",
@@ -478,6 +544,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -522,7 +610,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Phoenix city, 1600000US0455000)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -598,6 +686,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -642,7 +752,7 @@
       "jersey-city-nj",
       "new-york-ny"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Philadelphia city, 1600000US4260000)",
       "bls": "BLS LAUS · Philadelphia County, June 2026",
@@ -718,6 +828,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -762,7 +894,7 @@
       "waco-tx",
       "houston-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Antonio city, 1600000US4865000)",
       "bls": "BLS LAUS · Bexar County, June 2026",
@@ -837,6 +969,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -881,7 +1035,7 @@
       "santa-ana-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Diego city, 1600000US0666000)",
       "bls": "BLS LAUS · San Diego County, June 2026",
@@ -957,6 +1111,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1001,7 +1177,7 @@
       "arlington-tx",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Dallas city, 1600000US4819000)",
       "bls": "BLS LAUS · Dallas County, June 2026",
@@ -1077,6 +1253,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1121,7 +1319,7 @@
       "corpus-christi-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Austin city, 1600000US4805000)",
       "bls": "BLS LAUS · Travis County, June 2026",
@@ -1197,6 +1395,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1235,7 +1455,7 @@
       "tampa-fl",
       "st-petersburg-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jacksonville city, 1600000US1235000)",
       "bls": "BLS LAUS · Duval County, June 2026",
@@ -1310,6 +1530,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1353,7 +1595,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Jose city, 1600000US0668000)",
       "bls": "BLS LAUS · Santa Clara County, June 2026",
@@ -1429,6 +1671,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1467,7 +1731,7 @@
       "frisco-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Worth city, 1600000US4827000)",
       "bls": "BLS LAUS · Tarrant County, June 2026",
@@ -1542,6 +1806,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1580,7 +1866,7 @@
       "cleveland-oh",
       "charleston-wv"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Columbus city, 1600000US3918000)",
       "bls": "BLS LAUS · Franklin County, June 2026",
@@ -1656,6 +1942,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1694,7 +2002,7 @@
       "asheville-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charlotte city, 1600000US3712000)",
       "bls": "BLS LAUS · Mecklenburg County, June 2026",
@@ -1770,6 +2078,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1808,7 +2138,7 @@
       "south-bend-in",
       "evansville-in"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Indianapolis city (balance), 1600000US1836003)",
       "bls": "BLS LAUS · Marion County, June 2026",
@@ -1883,6 +2213,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -1927,7 +2279,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Francisco city, 1600000US0667000)",
       "bls": "BLS LAUS · San Francisco County, June 2026",
@@ -2003,6 +2355,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2047,7 +2421,7 @@
       "salem-or",
       "spokane-wa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Seattle city, 1600000US5363000)",
       "bls": "BLS LAUS · King County, June 2026",
@@ -2123,6 +2497,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2167,7 +2563,7 @@
       "colorado-springs-co",
       "cheyenne-wy"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Denver city, 1600000US0820000)",
       "bls": "BLS LAUS · Denver County, June 2026",
@@ -2243,6 +2639,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2287,7 +2705,7 @@
       "philadelphia-pa",
       "newport-news-va"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Washington city, 1600000US1150000)",
       "bls": "BLS LAUS · District of Columbia, June 2026",
@@ -2363,6 +2781,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2407,7 +2847,7 @@
       "portland-me",
       "new-haven-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boston city, 1600000US2507000)",
       "bls": "BLS LAUS · Suffolk County, June 2026",
@@ -2483,6 +2923,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2521,7 +2983,7 @@
       "gilbert-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (El Paso city, 1600000US4824000)",
       "bls": "BLS LAUS · El Paso County, June 2026",
@@ -2596,6 +3058,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2634,7 +3118,7 @@
       "louisville-ky",
       "knoxville-tn"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Nashville-Davidson metropolitan government (balance), 1600000US4752006)",
       "bls": "BLS LAUS · Davidson County, June 2026",
@@ -2710,6 +3194,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2748,7 +3254,7 @@
       "fort-wayne-in",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Detroit city, 1600000US2622000)",
       "bls": "BLS LAUS · Wayne County, June 2026",
@@ -2823,6 +3329,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2861,7 +3389,7 @@
       "plano-tx",
       "garland-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oklahoma City city, 1600000US4055000)",
       "bls": "BLS LAUS · Oklahoma County, June 2026",
@@ -2936,6 +3464,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -2974,7 +3524,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Portland city, 1600000US4159000)",
       "bls": "BLS LAUS · Multnomah County, June 2026",
@@ -3050,6 +3600,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3088,7 +3660,7 @@
       "moreno-valley-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Las Vegas city, 1600000US3240000)",
       "bls": "BLS LAUS · Clark County, June 2026",
@@ -3164,6 +3736,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3202,7 +3796,7 @@
       "huntsville-al",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Memphis city, 1600000US4748000)",
       "bls": "BLS LAUS · Shelby County, June 2026",
@@ -3277,6 +3871,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3315,7 +3931,7 @@
       "dayton-oh",
       "clarksville-tn"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Louisville/Jefferson County metro government (balance), Kentucky, 1600000US2148006)",
       "bls": "BLS LAUS · Jefferson County, June 2026",
@@ -3390,6 +4006,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3428,7 +4066,7 @@
       "allentown-pa",
       "richmond-va"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Baltimore city, 1600000US2404000)",
       "bls": "BLS LAUS · Baltimore city, June 2026",
@@ -3503,6 +4141,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3541,7 +4201,7 @@
       "aurora-il",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Milwaukee city, 1600000US5553000)",
       "bls": "BLS LAUS · Milwaukee County, June 2026",
@@ -3616,6 +4276,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3654,7 +4336,7 @@
       "lubbock-tx",
       "gilbert-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Albuquerque city, 1600000US3502000)",
       "bls": "BLS LAUS · Bernalillo County, June 2026",
@@ -3729,6 +4411,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3767,7 +4471,7 @@
       "scottsdale-az",
       "phoenix-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tucson city, 1600000US0477000)",
       "bls": "BLS LAUS · Pima County, June 2026",
@@ -3842,6 +4546,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3880,7 +4606,7 @@
       "santa-clara-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fresno city, 1600000US0627000)",
       "bls": "BLS LAUS · Fresno County, June 2026",
@@ -3955,6 +4681,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -3993,7 +4741,7 @@
       "hayward-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sacramento city, 1600000US0664000)",
       "bls": "BLS LAUS · Sacramento County, June 2026",
@@ -4068,6 +4816,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4106,7 +4876,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Mesa city, 1600000US0446000)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -4181,6 +4951,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4219,7 +5011,7 @@
       "lincoln-ne",
       "omaha-ne"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2938000)",
       "bls": "BLS LAUS · Jackson County, June 2026",
@@ -4294,6 +5086,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4338,7 +5152,7 @@
       "augusta-ga",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Atlanta city, 1600000US1304000)",
       "bls": "BLS LAUS · Fulton County, June 2026",
@@ -4414,6 +5228,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4452,7 +5288,7 @@
       "fort-collins-co",
       "cheyenne-wy"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Colorado Springs city, 1600000US0816000)",
       "bls": "BLS LAUS · El Paso County, June 2026",
@@ -4527,6 +5363,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4565,7 +5423,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Raleigh city, 1600000US3755000)",
       "bls": "BLS LAUS · Wake County, June 2026",
@@ -4641,6 +5499,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4679,7 +5559,7 @@
       "kansas-city-ks",
       "kansas-city-mo"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Omaha city, 1600000US3137000)",
       "bls": "BLS LAUS · Douglas County, June 2026",
@@ -4754,6 +5634,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4792,7 +5694,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Miami city, 1600000US1245000)",
       "bls": "BLS LAUS · Miami-Dade County, June 2026",
@@ -4868,6 +5770,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -4906,7 +5830,7 @@
       "santa-ana-ca",
       "los-angeles-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Long Beach city, 1600000US0643000)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -4981,6 +5905,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5019,7 +5965,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Virginia Beach city, 1600000US5182000)",
       "bls": "BLS LAUS · Virginia Beach city, June 2026",
@@ -5094,6 +6040,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5132,7 +6100,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oakland city, 1600000US0653000)",
       "bls": "BLS LAUS · Alameda County, June 2026",
@@ -5207,6 +6175,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5245,7 +6235,7 @@
       "madison-wi",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Minneapolis city, 1600000US2743000)",
       "bls": "BLS LAUS · Hennepin County, June 2026",
@@ -5321,6 +6311,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5359,7 +6371,7 @@
       "mckinney-tx",
       "overland-park-ks"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tulsa city, 1600000US4075000)",
       "bls": "BLS LAUS · Tulsa County, June 2026",
@@ -5434,6 +6446,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5472,7 +6506,7 @@
       "port-st-lucie-fl",
       "jacksonville-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tampa city, 1600000US1271000)",
       "bls": "BLS LAUS · Hillsborough County, June 2026",
@@ -5548,6 +6582,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5586,7 +6642,7 @@
       "garland-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Arlington city, 1600000US4804000)",
       "bls": "BLS LAUS · Tarrant County, June 2026",
@@ -5661,6 +6717,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5699,7 +6777,7 @@
       "shreveport-la",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New Orleans city, 1600000US2255000)",
       "bls": "BLS LAUS · Orleans Parish, June 2026",
@@ -5775,6 +6853,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5813,7 +6913,7 @@
       "kansas-city-ks",
       "kansas-city-mo"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Wichita city, 1600000US2079000)",
       "bls": "BLS LAUS · Sedgwick County, June 2026",
@@ -5888,6 +6988,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -5926,7 +7048,7 @@
       "ann-arbor-mi",
       "columbus-oh"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cleveland city, 1600000US3916000)",
       "bls": "BLS LAUS · Cuyahoga County, June 2026",
@@ -6001,6 +7123,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6039,7 +7183,7 @@
       "pasadena-ca",
       "los-angeles-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bakersfield city, 1600000US0603526)",
       "bls": "BLS LAUS · Kern County, June 2026",
@@ -6114,6 +7258,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6152,7 +7318,7 @@
       "colorado-springs-co",
       "cheyenne-wy"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US0804000)",
       "bls": "BLS LAUS · Arapahoe County, June 2026",
@@ -6227,6 +7393,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6265,7 +7453,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Anaheim city, 1600000US0602000)",
       "bls": "BLS LAUS · Orange County, June 2026",
@@ -6340,6 +7528,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6378,7 +7588,7 @@
       "hayward-ca",
       "santa-clara-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Urban Honolulu CDP, 1600000US1571550)",
       "bls": "BLS LAUS · Honolulu County, June 2026",
@@ -6454,6 +7664,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6492,7 +7724,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Ana city, 1600000US0669000)",
       "bls": "BLS LAUS · Orange County, June 2026",
@@ -6567,6 +7799,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6605,7 +7859,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Riverside city, 1600000US0662000)",
       "bls": "BLS LAUS · Riverside County, June 2026",
@@ -6680,6 +7934,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6718,7 +7994,7 @@
       "round-rock-tx",
       "waco-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Corpus Christi city, 1600000US4817000)",
       "bls": "BLS LAUS · Nueces County, June 2026",
@@ -6793,6 +8069,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6831,7 +8129,7 @@
       "indianapolis-in",
       "columbus-oh"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lexington-Fayette urban county, 1600000US2146027)",
       "bls": "BLS LAUS · Fayette County, June 2026",
@@ -6906,6 +8204,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -6944,7 +8264,7 @@
       "fontana-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Henderson city, 1600000US3231900)",
       "bls": "BLS LAUS · Clark County, June 2026",
@@ -7019,6 +8339,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7057,7 +8399,7 @@
       "san-jose-ca",
       "oakland-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Stockton city, 1600000US0675000)",
       "bls": "BLS LAUS · San Joaquin County, June 2026",
@@ -7132,6 +8474,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7170,7 +8534,7 @@
       "madison-wi",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Paul city, 1600000US2758000)",
       "bls": "BLS LAUS · Ramsey County, June 2026",
@@ -7245,6 +8609,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7283,7 +8669,7 @@
       "columbus-oh",
       "fort-wayne-in"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cincinnati city, 1600000US3915000)",
       "bls": "BLS LAUS · Hamilton County, June 2026",
@@ -7358,6 +8744,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7396,7 +8804,7 @@
       "indianapolis-in",
       "kansas-city-mo"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Louis city, 1600000US2965000)",
       "bls": "BLS LAUS · St. Louis city, June 2026",
@@ -7471,6 +8879,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7509,7 +8939,7 @@
       "buffalo-ny",
       "washington-dc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pittsburgh city, 1600000US4261000)",
       "bls": "BLS LAUS · Allegheny County, June 2026",
@@ -7585,6 +9015,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7623,7 +9075,7 @@
       "charlotte-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Greensboro city, 1600000US3728000)",
       "bls": "BLS LAUS · Guilford County, June 2026",
@@ -7698,6 +9150,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7736,7 +9210,7 @@
       "overland-park-ks",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lincoln city, 1600000US3128000)",
       "bls": "BLS LAUS · Lancaster County, June 2026",
@@ -7811,6 +9285,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7849,7 +9345,7 @@
       "irving-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Plano city, 1600000US4858016)",
       "bls": "BLS LAUS · Collin County, June 2026",
@@ -7924,6 +9420,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -7962,7 +9480,7 @@
       "portland-or",
       "salem-or"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Anchorage municipality, 1600000US0203000)",
       "bls": "BLS LAUS · Anchorage Municipality, June 2026",
@@ -8037,6 +9555,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8075,7 +9615,7 @@
       "jacksonville-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Orlando city, 1600000US1253000)",
       "bls": "BLS LAUS · Orange County, June 2026",
@@ -8151,6 +9691,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8189,7 +9751,7 @@
       "corona-ca",
       "long-beach-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Irvine city, 1600000US0636770)",
       "bls": "BLS LAUS · Orange County, June 2026",
@@ -8264,6 +9826,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8302,7 +9886,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Newark city, 1600000US3451000)",
       "bls": "BLS LAUS · Essex County, June 2026",
@@ -8377,6 +9961,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8415,7 +10021,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Durham city, 1600000US3719000)",
       "bls": "BLS LAUS · Durham County, June 2026",
@@ -8490,6 +10096,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8528,7 +10156,7 @@
       "santa-ana-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chula Vista city, 1600000US0613392)",
       "bls": "BLS LAUS · San Diego County, June 2026",
@@ -8603,6 +10231,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8641,7 +10291,7 @@
       "akron-oh",
       "columbus-oh"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Toledo city, 1600000US3977000)",
       "bls": "BLS LAUS · Lucas County, June 2026",
@@ -8716,6 +10366,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8754,7 +10426,7 @@
       "ann-arbor-mi",
       "grand-rapids-mi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Wayne city, 1600000US1825000)",
       "bls": "BLS LAUS · Allen County, June 2026",
@@ -8829,6 +10501,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8867,7 +10561,7 @@
       "port-st-lucie-fl",
       "jacksonville-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (St. Petersburg city, 1600000US1263000)",
       "bls": "BLS LAUS · Pinellas County, June 2026",
@@ -8942,6 +10636,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -8980,7 +10696,7 @@
       "houston-tx",
       "waco-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Laredo city, 1600000US4841464)",
       "bls": "BLS LAUS · Webb County, June 2026",
@@ -9055,6 +10771,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9093,7 +10831,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jersey City city, 1600000US3436000)",
       "bls": "BLS LAUS · Hudson County, June 2026",
@@ -9168,6 +10906,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9206,7 +10966,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chandler city, 1600000US0412000)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -9281,6 +11041,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9319,7 +11101,7 @@
       "chicago-il",
       "peoria-il"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Madison city, 1600000US5548000)",
       "bls": "BLS LAUS · Dane County, June 2026",
@@ -9394,6 +11176,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9432,7 +11236,7 @@
       "arlington-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lubbock city, 1600000US4845000)",
       "bls": "BLS LAUS · Lubbock County, June 2026",
@@ -9507,6 +11311,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9545,7 +11371,7 @@
       "chandler-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Scottsdale city, 1600000US0465000)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -9620,6 +11446,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9658,7 +11506,7 @@
       "hayward-ca",
       "oakland-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Reno city, 1600000US3260600)",
       "bls": "BLS LAUS · Washoe County, June 2026",
@@ -9733,6 +11581,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9771,7 +11641,7 @@
       "akron-oh",
       "detroit-mi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Buffalo city, 1600000US3611000)",
       "bls": "BLS LAUS · Erie County, June 2026",
@@ -9846,6 +11716,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9884,7 +11776,7 @@
       "phoenix-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Gilbert town, 1600000US0427400)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -9959,6 +11851,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -9997,7 +11911,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0427820)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -10072,6 +11986,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10110,7 +12046,7 @@
       "moreno-valley-ca",
       "riverside-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (North Las Vegas city, 1600000US3251800)",
       "bls": "BLS LAUS · Clark County, June 2026",
@@ -10185,6 +12121,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10223,7 +12181,7 @@
       "raleigh-nc",
       "fayetteville-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Winston-Salem city, 1600000US3775000)",
       "bls": "BLS LAUS · Forsyth County, June 2026",
@@ -10298,6 +12256,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10336,7 +12316,7 @@
       "alexandria-va",
       "raleigh-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chesapeake city, 1600000US5116000)",
       "bls": "BLS LAUS · Chesapeake city, June 2026",
@@ -10411,6 +12391,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10449,7 +12451,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Norfolk city, 1600000US5157000)",
       "bls": "BLS LAUS · Norfolk city, June 2026",
@@ -10524,6 +12526,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10562,7 +12586,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fremont city, 1600000US0626000)",
       "bls": "BLS LAUS · Alameda County, June 2026",
@@ -10637,6 +12661,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10675,7 +12721,7 @@
       "mckinney-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Garland city, 1600000US4829000)",
       "bls": "BLS LAUS · Dallas County, June 2026",
@@ -10750,6 +12796,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10788,7 +12856,7 @@
       "plano-tx",
       "fort-worth-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Irving city, 1600000US4837000)",
       "bls": "BLS LAUS · Dallas County, June 2026",
@@ -10863,6 +12931,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -10901,7 +12991,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hialeah city, 1600000US1230000)",
       "bls": "BLS LAUS · Miami-Dade County, June 2026",
@@ -10976,6 +13066,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11014,7 +13126,7 @@
       "virginia-beach-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Richmond city, 1600000US5167000)",
       "bls": "BLS LAUS · Richmond city, June 2026",
@@ -11089,6 +13201,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11127,7 +13261,7 @@
       "eugene-or",
       "portland-or"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boise City city, 1600000US1608830)",
       "bls": "BLS LAUS · Ada County, June 2026",
@@ -11203,6 +13337,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11241,7 +13397,7 @@
       "boise-id",
       "portland-or"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Spokane city, 1600000US5367000)",
       "bls": "BLS LAUS · Spokane County, June 2026",
@@ -11316,6 +13472,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11354,7 +13532,7 @@
       "houston-tx",
       "little-rock-ar"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Baton Rouge city, 1600000US2205000)",
       "bls": "BLS LAUS · East Baton Rouge Parish, June 2026",
@@ -11429,6 +13607,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11467,7 +13667,7 @@
       "salem-or",
       "eugene-or"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tacoma city, 1600000US5370000)",
       "bls": "BLS LAUS · Pierce County, June 2026",
@@ -11542,6 +13742,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11580,7 +13802,7 @@
       "ontario-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (San Bernardino city, 1600000US0665000)",
       "bls": "BLS LAUS · San Bernardino County, June 2026",
@@ -11655,6 +13877,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11693,7 +13937,7 @@
       "hayward-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Modesto city, 1600000US0648354)",
       "bls": "BLS LAUS · Stanislaus County, June 2026",
@@ -11768,6 +14012,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11806,7 +14072,7 @@
       "moreno-valley-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fontana city, 1600000US0624680)",
       "bls": "BLS LAUS · San Bernardino County, June 2026",
@@ -11881,6 +14147,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -11919,7 +14207,7 @@
       "overland-park-ks",
       "topeka-ks"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Des Moines city, 1600000US1921000)",
       "bls": "BLS LAUS · Polk County, June 2026",
@@ -11994,6 +14282,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12032,7 +14342,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Moreno Valley city, 1600000US0649270)",
       "bls": "BLS LAUS · Riverside County, June 2026",
@@ -12107,6 +14417,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12145,7 +14477,7 @@
       "oxnard-ca",
       "torrance-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Clarita city, 1600000US0669088)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -12220,6 +14552,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12258,7 +14612,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fayetteville city, 1600000US3722920)",
       "bls": "BLS LAUS · Cumberland County, June 2026",
@@ -12333,6 +14687,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12371,7 +14747,7 @@
       "nashville-tn",
       "macon-ga"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Birmingham city, 1600000US0107000)",
       "bls": "BLS LAUS · Jefferson County, June 2026",
@@ -12446,6 +14822,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12484,7 +14882,7 @@
       "pasadena-ca",
       "long-beach-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oxnard city, 1600000US0654652)",
       "bls": "BLS LAUS · Ventura County, June 2026",
@@ -12559,6 +14957,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12597,7 +15017,7 @@
       "pittsburgh-pa",
       "paterson-nj"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rochester city, 1600000US3663000)",
       "bls": "BLS LAUS · Monroe County, June 2026",
@@ -12672,6 +15092,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12710,7 +15152,7 @@
       "miami-fl",
       "orlando-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Port St. Lucie city, 1600000US1258715)",
       "bls": "BLS LAUS · St. Lucie County, June 2026",
@@ -12785,6 +15227,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12823,7 +15287,7 @@
       "fort-wayne-in",
       "detroit-mi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Grand Rapids city, 1600000US2634000)",
       "bls": "BLS LAUS · Kent County, June 2026",
@@ -12898,6 +15362,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -12936,7 +15422,7 @@
       "atlanta-ga",
       "montgomery-al"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Huntsville city, 1600000US0137000)",
       "bls": "BLS LAUS · Madison County, June 2026",
@@ -13011,6 +15497,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13049,7 +15557,7 @@
       "north-las-vegas-nv",
       "las-vegas-nv"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Salt Lake City city, 1600000US4967000)",
       "bls": "BLS LAUS · Salt Lake County, June 2026",
@@ -13125,6 +15633,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13163,7 +15693,7 @@
       "tampa-fl",
       "st-petersburg-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tallahassee city, 1600000US1270600)",
       "bls": "BLS LAUS · Leon County, June 2026",
@@ -13238,6 +15768,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13276,7 +15828,7 @@
       "new-haven-ct",
       "albany-ny"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Worcester city, 1600000US2582000)",
       "bls": "BLS LAUS · Worcester County, June 2026",
@@ -13351,6 +15903,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13389,7 +15963,7 @@
       "alexandria-va",
       "washington-dc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Newport News city, 1600000US5156000)",
       "bls": "BLS LAUS · Newport News city, June 2026",
@@ -13464,6 +16038,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13502,7 +16098,7 @@
       "lincoln-ne",
       "wichita-ks"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Overland Park city, 1600000US2053775)",
       "bls": "BLS LAUS · Johnson County, June 2026",
@@ -13577,6 +16173,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13615,7 +16233,7 @@
       "fremont-ca",
       "sunnyvale-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Rosa city, 1600000US0670098)",
       "bls": "BLS LAUS · Sonoma County, June 2026",
@@ -13690,6 +16308,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13728,7 +16368,7 @@
       "new-haven-ct",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Providence city, 1600000US4459000)",
       "bls": "BLS LAUS · Providence County, June 2026",
@@ -13803,6 +16443,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13841,7 +16503,7 @@
       "long-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Garden Grove city, 1600000US0629000)",
       "bls": "BLS LAUS · Orange County, June 2026",
@@ -13916,6 +16578,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -13954,7 +16638,7 @@
       "athens-ga",
       "birmingham-al"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Chattanooga city, 1600000US4714000)",
       "bls": "BLS LAUS · Hamilton County, June 2026",
@@ -14029,6 +16713,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14067,7 +16773,7 @@
       "huntington-beach-ca",
       "corona-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Oceanside city, 1600000US0653322)",
       "bls": "BLS LAUS · San Diego County, June 2026",
@@ -14142,6 +16848,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14180,7 +16908,7 @@
       "little-rock-ar",
       "shreveport-la"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Jackson city, 1600000US2836000)",
       "bls": "BLS LAUS · Hinds County, June 2026",
@@ -14255,6 +16983,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14293,7 +17043,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Lauderdale city, 1600000US1224000)",
       "bls": "BLS LAUS · Broward County, June 2026",
@@ -14368,6 +17118,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14406,7 +17178,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Clara city, 1600000US0669084)",
       "bls": "BLS LAUS · Santa Clara County, June 2026",
@@ -14481,6 +17253,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14519,7 +17313,7 @@
       "des-moines-ia",
       "madison-wi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bloomington city, 1600000US2706616)",
       "bls": "BLS LAUS · Hennepin County, June 2026",
@@ -14594,6 +17388,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14632,7 +17448,7 @@
       "saint-paul-mn",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sioux Falls city, 1600000US4659020)",
       "bls": "BLS LAUS · Minnehaha County, June 2026",
@@ -14707,6 +17523,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14745,7 +17583,7 @@
       "tulsa-ok",
       "mckinney-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Little Rock city, 1600000US0541000)",
       "bls": "BLS LAUS · Pulaski County, June 2026",
@@ -14820,6 +17658,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14858,7 +17718,7 @@
       "savannah-ga",
       "charleston-sc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Augusta-Richmond County consolidated government (balance), 1600000US1304204)",
       "bls": "BLS LAUS · Richmond County, June 2026",
@@ -14933,6 +17793,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -14971,7 +17853,7 @@
       "birmingham-al",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Mobile city, 1600000US0150000)",
       "bls": "BLS LAUS · Mobile County, June 2026",
@@ -15046,6 +17928,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15084,7 +17988,7 @@
       "lexington-ky",
       "atlanta-ga"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Knoxville city, 1600000US4740000)",
       "bls": "BLS LAUS · Knox County, June 2026",
@@ -15159,6 +18063,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15197,7 +18123,7 @@
       "hialeah-fl",
       "fort-lauderdale-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cape Coral city, 1600000US1210275)",
       "bls": "BLS LAUS · Lee County, June 2026",
@@ -15272,6 +18198,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15310,7 +18258,7 @@
       "dallas-tx",
       "frisco-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Shreveport city, 1600000US2270000)",
       "bls": "BLS LAUS · Caddo Parish, June 2026",
@@ -15385,6 +18333,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15423,7 +18393,7 @@
       "dallas-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Frisco city, 1600000US4827684)",
       "bls": "BLS LAUS · Collin County, June 2026",
@@ -15498,6 +18468,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15536,7 +18528,7 @@
       "irving-tx",
       "grand-prairie-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (McKinney city, 1600000US4845744)",
       "bls": "BLS LAUS · Collin County, June 2026",
@@ -15611,6 +18603,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15649,7 +18663,7 @@
       "elizabeth-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Yonkers city, 1600000US3684000)",
       "bls": "BLS LAUS · Westchester County, June 2026",
@@ -15724,6 +18738,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15762,7 +18798,7 @@
       "peoria-il",
       "madison-wi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Aurora city, 1600000US1703012)",
       "bls": "BLS LAUS · Kane County, June 2026",
@@ -15837,6 +18873,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15875,7 +18933,7 @@
       "huntsville-al",
       "tallahassee-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Montgomery city, 1600000US0151000)",
       "bls": "BLS LAUS · Montgomery County, June 2026",
@@ -15950,6 +19008,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -15988,7 +19068,7 @@
       "detroit-mi",
       "ann-arbor-mi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Akron city, 1600000US3901000)",
       "bls": "BLS LAUS · Summit County, June 2026",
@@ -16063,6 +19143,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16101,7 +19203,7 @@
       "long-beach-ca",
       "torrance-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Huntington Beach city, 1600000US0636000)",
       "bls": "BLS LAUS · Orange County, June 2026",
@@ -16176,6 +19278,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16214,7 +19338,7 @@
       "long-beach-ca",
       "anaheim-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Glendale city, 1600000US0630000)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -16289,6 +19413,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16327,7 +19473,7 @@
       "garland-tx",
       "plano-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Grand Prairie city, 1600000US4830464)",
       "bls": "BLS LAUS · Dallas County, June 2026",
@@ -16402,6 +19548,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16440,7 +19608,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Vancouver city, 1600000US5374060)",
       "bls": "BLS LAUS · Clark County, June 2026",
@@ -16515,6 +19683,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16553,7 +19743,7 @@
       "mesa-az",
       "chandler-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US0454050)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -16628,6 +19818,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16666,7 +19878,7 @@
       "san-bernardino-ca",
       "moreno-valley-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rancho Cucamonga city, 1600000US0659451)",
       "bls": "BLS LAUS · San Bernardino County, June 2026",
@@ -16741,6 +19953,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16779,7 +20013,7 @@
       "san-bernardino-ca",
       "anaheim-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Ontario city, 1600000US0653896)",
       "bls": "BLS LAUS · San Bernardino County, June 2026",
@@ -16854,6 +20088,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -16892,7 +20148,7 @@
       "gilbert-az",
       "glendale-az"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Tempe city, 1600000US0473000)",
       "bls": "BLS LAUS · Maricopa County, June 2026",
@@ -16967,6 +20223,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17005,7 +20283,7 @@
       "little-rock-ar",
       "topeka-ks"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Springfield city, 1600000US2970000)",
       "bls": "BLS LAUS · Greene County, June 2026",
@@ -17080,6 +20358,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17118,7 +20418,7 @@
       "rancho-cucamonga-ca",
       "ontario-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lancaster city, 1600000US0640130)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -17193,6 +20493,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17231,7 +20553,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Eugene city, 1600000US4123850)",
       "bls": "BLS LAUS · Lane County, June 2026",
@@ -17306,6 +20628,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17344,7 +20688,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pembroke Pines city, 1600000US1255775)",
       "bls": "BLS LAUS · Broward County, June 2026",
@@ -17419,6 +20763,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17457,7 +20823,7 @@
       "seattle-wa",
       "bellevue-wa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Salem city, 1600000US4164900)",
       "bls": "BLS LAUS · Marion County, June 2026",
@@ -17532,6 +20898,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17570,7 +20958,7 @@
       "long-beach-ca",
       "santa-clarita-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Pasadena city, 1600000US0656000)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -17645,6 +21033,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17683,7 +21093,7 @@
       "st-louis-mo",
       "madison-wi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Peoria city, 1600000US1759000)",
       "bls": "BLS LAUS · Peoria County, June 2026",
@@ -17758,6 +21168,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17796,7 +21228,7 @@
       "santa-ana-ca",
       "moreno-valley-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Corona city, 1600000US0616350)",
       "bls": "BLS LAUS · Riverside County, June 2026",
@@ -17871,6 +21303,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -17909,7 +21363,7 @@
       "yonkers-ny",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Elizabeth city, 1600000US3421000)",
       "bls": "BLS LAUS · Union County, June 2026",
@@ -17984,6 +21438,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18022,7 +21498,7 @@
       "santa-clara-ca",
       "san-jose-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hayward city, 1600000US0633000)",
       "bls": "BLS LAUS · Alameda County, June 2026",
@@ -18097,6 +21573,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18135,7 +21633,7 @@
       "lakewood-co",
       "colorado-springs-co"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fort Collins city, 1600000US0827425)",
       "bls": "BLS LAUS · Larimer County, June 2026",
@@ -18210,6 +21708,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18248,7 +21768,7 @@
       "st-louis-mo",
       "lexington-ky"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Evansville city, 1600000US1822000)",
       "bls": "BLS LAUS · Vanderburgh County, June 2026",
@@ -18323,6 +21843,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18361,7 +21903,7 @@
       "fort-worth-tx",
       "arlington-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Round Rock city, 1600000US4863500)",
       "bls": "BLS LAUS · Williamson County, June 2026",
@@ -18436,6 +21978,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18474,7 +22038,7 @@
       "charlotte-nc",
       "jacksonville-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charleston city, 1600000US4513330)",
       "bls": "BLS LAUS · Charleston County, June 2026",
@@ -18550,6 +22114,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18588,7 +22174,7 @@
       "macon-ga",
       "gainesville-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Savannah city, 1600000US1369000)",
       "bls": "BLS LAUS · Chatham County, June 2026",
@@ -18663,6 +22249,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18701,7 +22309,7 @@
       "south-bend-in",
       "peoria-il"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Naperville city, 1600000US1751622)",
       "bls": "BLS LAUS · DuPage County, June 2026",
@@ -18776,6 +22384,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18814,7 +22444,7 @@
       "salem-or",
       "spokane-wa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bellevue city, 1600000US5305210)",
       "bls": "BLS LAUS · King County, June 2026",
@@ -18889,6 +22519,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -18927,7 +22579,7 @@
       "winston-salem-nc",
       "charlotte-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cary town, 1600000US3710740)",
       "bls": "BLS LAUS · Wake County, June 2026",
@@ -19002,6 +22654,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19040,7 +22714,7 @@
       "newport-news-va",
       "philadelphia-pa"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Alexandria city, 1600000US5101000)",
       "bls": "BLS LAUS · Alexandria city, June 2026",
@@ -19115,6 +22789,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19153,7 +22849,7 @@
       "oakland-ca",
       "san-francisco-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Sunnyvale city, 1600000US0677000)",
       "bls": "BLS LAUS · Santa Clara County, June 2026",
@@ -19228,6 +22924,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19266,7 +22984,7 @@
       "colorado-springs-co",
       "cheyenne-wy"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Lakewood city, 1600000US0843000)",
       "bls": "BLS LAUS · Jefferson County, June 2026",
@@ -19341,6 +23059,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19379,7 +23119,7 @@
       "port-st-lucie-fl",
       "cape-coral-fl"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hollywood city, 1600000US1232000)",
       "bls": "BLS LAUS · Broward County, June 2026",
@@ -19454,6 +23194,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19492,7 +23254,7 @@
       "elizabeth-nj",
       "bridgeport-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Paterson city, 1600000US3457000)",
       "bls": "BLS LAUS · Passaic County, June 2026",
@@ -19567,6 +23329,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19605,7 +23389,7 @@
       "chattanooga-tn",
       "memphis-tn"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Clarksville city, 1600000US4715160)",
       "bls": "BLS LAUS · Montgomery County, June 2026",
@@ -19680,6 +23464,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19718,7 +23524,7 @@
       "garden-grove-ca",
       "pasadena-ca"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Torrance city, 1600000US0680000)",
       "bls": "BLS LAUS · Los Angeles County, June 2026",
@@ -19793,6 +23599,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19831,7 +23659,7 @@
       "milwaukee-wi",
       "peoria-il"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Rockford city, 1600000US1765000)",
       "bls": "BLS LAUS · Winnebago County, June 2026",
@@ -19906,6 +23734,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -19944,7 +23794,7 @@
       "savannah-ga",
       "montgomery-al"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Macon-Bibb County, 1600000US1349008)",
       "bls": "BLS LAUS · Bibb County, June 2026",
@@ -20019,6 +23869,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20057,7 +23929,7 @@
       "lincoln-ne",
       "omaha-ne"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Kansas City city, 1600000US2036000)",
       "bls": "BLS LAUS · Wyandotte County, June 2026",
@@ -20132,6 +24004,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 CDE monthly rates"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20170,7 +24064,7 @@
       "paterson-nj",
       "jersey-city-nj"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Bridgeport city, 1600000US0908000)",
       "bls": "Bureau of Labor Statistics (curated seed)",
@@ -20245,6 +24139,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20283,7 +24195,7 @@
       "colorado-springs-co",
       "wichita-ks"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Amarillo city, 1600000US4803000)",
       "bls": "BLS LAUS · Potter County, June 2026",
@@ -20358,6 +24270,28 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "crime": {
+        "asOf": "2026-07-26",
+        "vintage": "2019 offenses (FBI Table 8 fallback)"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20396,7 +24330,7 @@
       "savannah-ga",
       "athens-ga"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Columbia city, 1600000US4516000)",
       "bls": "BLS LAUS · Richland County, June 2026",
@@ -20471,6 +24405,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20509,7 +24461,7 @@
       "albany-ny",
       "yonkers-ny"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Hartford city, 1600000US0937000)",
       "bls": "Bureau of Labor Statistics (curated seed)",
@@ -20584,6 +24536,20 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20622,7 +24588,7 @@
       "paterson-nj",
       "jersey-city-nj"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (New Haven city, 1600000US0952000)",
       "bls": "Bureau of Labor Statistics (curated seed)",
@@ -20697,6 +24663,20 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20735,7 +24715,7 @@
       "manchester-nh",
       "yonkers-ny"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Albany city, 1600000US3601000)",
       "bls": "BLS LAUS · Albany County, June 2026",
@@ -20810,6 +24790,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20848,7 +24846,7 @@
       "burlington-vt",
       "paterson-nj"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Syracuse city, 1600000US3673000)",
       "bls": "BLS LAUS · Onondaga County, June 2026",
@@ -20923,6 +24921,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -20961,7 +24977,7 @@
       "lincoln-ne",
       "omaha-ne"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Topeka city, 1600000US2071000)",
       "bls": "BLS LAUS · Shawnee County, June 2026",
@@ -21036,6 +25052,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21074,7 +25108,7 @@
       "lakewood-co",
       "colorado-springs-co"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Cheyenne city, 1600000US5613900)",
       "bls": "BLS LAUS · Laramie County, June 2026",
@@ -21149,6 +25183,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21187,7 +25239,7 @@
       "provo-ut",
       "boulder-co"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Billings city, 1600000US3006550)",
       "bls": "BLS LAUS · Yellowstone County, June 2026",
@@ -21262,6 +25314,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21300,7 +25370,7 @@
       "omaha-ne",
       "des-moines-ia"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Fargo city, 1600000US3825700)",
       "bls": "BLS LAUS · Cass County, June 2026",
@@ -21375,6 +25445,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21413,7 +25501,7 @@
       "pittsburgh-pa",
       "winston-salem-nc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Charleston city, 1600000US5414600)",
       "bls": "BLS LAUS · Kanawha County, June 2026",
@@ -21488,6 +25576,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21526,7 +25632,7 @@
       "syracuse-ny",
       "boston-ma"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Burlington city, 1600000US5010675)",
       "bls": "BLS LAUS · Chittenden County, June 2026",
@@ -21601,6 +25707,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21639,7 +25763,7 @@
       "hartford-ct",
       "albany-ny"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Manchester city, 1600000US3345140)",
       "bls": "BLS LAUS · Hillsborough County, June 2026",
@@ -21714,6 +25838,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21752,7 +25894,7 @@
       "burlington-vt",
       "hartford-ct"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Portland city, 1600000US2360545)",
       "bls": "BLS LAUS · Cumberland County, June 2026",
@@ -21827,6 +25969,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21865,7 +26025,7 @@
       "washington-dc",
       "newark-nj"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Wilmington city, 1600000US1077580)",
       "bls": "BLS LAUS · New Castle County, June 2026",
@@ -21940,6 +26100,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -21978,7 +26156,7 @@
       "cheyenne-wy",
       "colorado-springs-co"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Boulder city, 1600000US0807850)",
       "bls": "BLS LAUS · Boulder County, June 2026",
@@ -22053,6 +26231,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22091,7 +26287,7 @@
       "cleveland-oh",
       "south-bend-in"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Ann Arbor city, 1600000US2603000)",
       "bls": "BLS LAUS · Washtenaw County, June 2026",
@@ -22166,6 +26362,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22204,7 +26418,7 @@
       "asheville-nc",
       "columbia-sc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Athens-Clarke County unified government (balance), 1600000US1303440)",
       "bls": "BLS LAUS · Clarke County, June 2026",
@@ -22279,6 +26493,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22317,7 +26549,7 @@
       "winston-salem-nc",
       "columbia-sc"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Asheville city, 1600000US3702140)",
       "bls": "BLS LAUS · Buncombe County, June 2026",
@@ -22392,6 +26624,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22430,7 +26680,7 @@
       "lubbock-tx",
       "lakewood-co"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Santa Fe city, 1600000US3570500)",
       "bls": "BLS LAUS · Santa Fe County, June 2026",
@@ -22505,6 +26755,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22543,7 +26811,7 @@
       "st-petersburg-fl",
       "savannah-ga"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Gainesville city, 1600000US1225175)",
       "bls": "BLS LAUS · Alachua County, June 2026",
@@ -22618,6 +26886,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22661,7 +26947,7 @@
       "lexington-ky",
       "louisville-ky"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Dayton city, 1600000US3921000)",
       "bls": "BLS LAUS · Montgomery County, June 2026",
@@ -22736,6 +27022,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22774,7 +27078,7 @@
       "paterson-nj",
       "jersey-city-nj"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Allentown city, 1600000US4202000)",
       "bls": "BLS LAUS · Lehigh County, June 2026",
@@ -22849,6 +27153,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -22887,7 +27209,7 @@
       "aurora-il",
       "milwaukee-wi"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (South Bend city, 1600000US1871000)",
       "bls": "BLS LAUS · St. Joseph County, June 2026",
@@ -22962,6 +27284,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -23000,7 +27340,7 @@
       "dallas-tx",
       "irving-tx"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Waco city, 1600000US4876000)",
       "bls": "BLS LAUS · McLennan County, June 2026",
@@ -23075,6 +27415,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -23118,7 +27476,7 @@
       "las-vegas-nv",
       "henderson-nv"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Provo city, 1600000US4962470)",
       "bls": "BLS LAUS · Utah County, June 2026",
@@ -23193,6 +27551,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   },
   {
@@ -23236,7 +27612,7 @@
       "augusta-ga",
       "knoxville-tn"
     ],
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-09-01",
     "sources": {
       "census": "U.S. Census Bureau ACS 2023 5-year (Greenville city, 1600000US4530850)",
       "bls": "BLS LAUS · Greenville County, June 2026",
@@ -23311,6 +27687,24 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sourceFreshness": {
+      "census": {
+        "asOf": "2026-08-03",
+        "vintage": "ACS 2023 5-year"
+      },
+      "bls": {
+        "asOf": "2026-08-03",
+        "vintage": "June 2026"
+      },
+      "climate": {
+        "asOf": "2026-08-03",
+        "vintage": "1991–2020 NOAA normals"
+      },
+      "population": {
+        "asOf": "2026-08-03",
+        "vintage": "Census PEP 2024"
+      }
     }
   }
 ]

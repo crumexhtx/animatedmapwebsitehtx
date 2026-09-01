@@ -2,9 +2,15 @@ import type { StyleSpecification } from 'maplibre-gl'
 
 const CARTO_SUBDOMAINS = ['a', 'b', 'c', 'd'] as const
 
-/** CARTO raster tiles now require a free API key — see https://carto.com/basemaps/apikey */
+let warnedOsmFallback = false
+
+/**
+ * CARTO basemap keys are browser keys (like Google Maps) — restrict by HTTP referrer
+ * in the CARTO dashboard, not by hiding the value. Must use NEXT_PUBLIC_ so Next.js
+ * inlines it into client bundles (CityMap is a client component).
+ */
 export function cartoApiKey() {
-  return process.env.NEXT_CARTO_API_KEY?.trim() || ''
+  return process.env.NEXT_PUBLIC_CARTO_API_KEY?.trim() || ''
 }
 
 function cartoTileUrl(subdomain: string, key: string) {
@@ -17,14 +23,26 @@ function osmTileUrl() {
 
 export type BasemapProvider = 'carto' | 'osm'
 
-/** Pick basemap at build/runtime. Without a CARTO key we use OSM so visitors never see the watermark. */
+/** Pick basemap at runtime. Without a CARTO key we fall back to OSM (see warn below). */
 export function resolveBasemapProvider(): BasemapProvider {
   return cartoApiKey() ? 'carto' : 'osm'
+}
+
+function warnOsmFallbackOnce() {
+  if (warnedOsmFallback || typeof console === 'undefined') return
+  warnedOsmFallback = true
+  console.warn(
+    '[MapsToIt] CARTO basemap key missing or invalid — using OpenStreetMap tiles. ' +
+      'OSM tile servers are for light/non-production use only; set NEXT_PUBLIC_CARTO_API_KEY ' +
+      'or configure an alternate paid tile provider before scaling traffic.',
+  )
 }
 
 export function buildRasterBasemapStyle(provider: BasemapProvider = resolveBasemapProvider()): StyleSpecification {
   const key = cartoApiKey()
   const useCarto = provider === 'carto' && Boolean(key)
+
+  if (!useCarto) warnOsmFallbackOnce()
 
   const tiles = useCarto
     ? CARTO_SUBDOMAINS.map((subdomain) => cartoTileUrl(subdomain, key))
@@ -61,4 +79,12 @@ export function buildRasterBasemapStyle(provider: BasemapProvider = resolveBasem
       },
     ],
   }
+}
+
+/** @internal Test helper — whether tile URLs include a CARTO key query param. */
+export function cartoTilesIncludeKey(style: StyleSpecification) {
+  const source = style.sources?.['raster-tiles']
+  if (!source || source.type !== 'raster') return false
+  const tiles = source.tiles ?? []
+  return tiles.some((url) => /[?&]key=.+/.test(url))
 }

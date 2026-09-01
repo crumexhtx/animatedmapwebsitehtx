@@ -4,9 +4,12 @@ import type { SnapshotMetric } from '@/lib/snapshot'
 type Props = {
   title: string
   directAnswer: string
-  asOf: string
+  /** When the catalog row was last rebuilt (not necessarily every source vintage). */
+  catalogRefreshed: string
   methodologyHref?: string
   metrics: SnapshotMetric[]
+  /** Optional callout when headline metrics rely on an older upstream vintage (e.g. FBI Table 8). */
+  staleSourceHint?: string
 }
 
 /**
@@ -15,9 +18,10 @@ type Props = {
 export function ContentSnapshot({
   title,
   directAnswer,
-  asOf,
+  catalogRefreshed,
   methodologyHref = '/methodology',
   metrics,
+  staleSourceHint,
 }: Props) {
   return (
     <section className="content-snapshot" aria-label={title}>
@@ -26,12 +30,13 @@ export function ContentSnapshot({
         <h2 className="content-snapshot-title">{title}</h2>
         <p className="content-snapshot-answer">{directAnswer}</p>
         <p className="content-snapshot-meta">
-          <time dateTime={asOf}>As of {asOf}</time>
+          <time dateTime={catalogRefreshed}>Catalog refreshed {catalogRefreshed}</time>
+          {' · '}
+          Source vintages vary — see per-metric labels below
           {' · '}
           <Link href={methodologyHref}>Methodology &amp; sources</Link>
-          {' · '}
-          Proprietary ACS/BLS/FBI/NOAA-derived figures compiled by MapsToIt
         </p>
+        {staleSourceHint ? <p className="content-snapshot-stale-hint">{staleSourceHint}</p> : null}
       </div>
       <dl className="stat-grid content-snapshot-grid">
         {metrics.map((metric) => (

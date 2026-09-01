@@ -1,26 +1,60 @@
 import type { CityRecord } from '@/lib/types'
 import { publicSourceLabel } from '@/lib/sources'
+import { formatFreshnessLabel, freshnessForKey, resolveSourceFreshness } from '@/lib/source-freshness'
+
+const SOURCE_KEYS = [
+  { label: 'Census / ACS', key: 'census' as const, value: (city: CityRecord) => city.sources.census },
+  { label: 'BLS', key: 'bls' as const, value: (city: CityRecord) => city.sources.bls },
+  { label: 'Crime', key: 'crime' as const, value: (city: CityRecord) => city.sources.fbi },
+  { label: 'Climate', key: 'climate' as const, value: (city: CityRecord) => city.sources.noaa },
+  {
+    label: 'Population trend',
+    key: 'population' as const,
+    value: (city: CityRecord) => city.populationHistory?.source,
+  },
+]
 
 export function SourceList({ city }: { city: CityRecord }) {
-  const entries = [
-    city.sources.census && ['Census / ACS', city.sources.census],
-    city.sources.bls && ['BLS', city.sources.bls],
-    city.sources.fbi && ['Crime', city.sources.fbi],
-    city.sources.noaa && ['Climate', city.sources.noaa],
-    city.populationHistory && ['Population trend', city.populationHistory.source],
-  ].filter(Boolean) as [string, string][]
+  const freshness = resolveSourceFreshness(city)
+
+  const entries = SOURCE_KEYS.map(({ label, key, value }) => {
+    const sourceValue = value(city)
+    if (!sourceValue) return null
+    const { entry, stale } = freshnessForKey(city, key)
+    const asOfLabel = formatFreshnessLabel(entry, stale)
+    return { label, sourceValue, asOfLabel, stale }
+  }).filter(Boolean) as Array<{
+    label: string
+    sourceValue: string
+    asOfLabel: string | null
+    stale: boolean
+  }>
 
   return (
     <section className="sources-block">
       <h2>Sources</h2>
       <ul>
-        {entries.map(([label, value]) => (
+        {entries.map(({ label, sourceValue, asOfLabel, stale }) => (
           <li key={label}>
-            <strong>{label}:</strong> {publicSourceLabel(value)}
+            <strong>{label}:</strong> {publicSourceLabel(sourceValue)}
+            {asOfLabel ? (
+              <span className={stale ? 'source-freshness source-freshness-stale' : 'source-freshness'}>
+                {' '}
+                — {asOfLabel}
+              </span>
+            ) : null}
           </li>
         ))}
       </ul>
-      <p className="sources-updated">Last updated {city.lastUpdated}</p>
+      <p className="sources-updated">
+        Catalog refreshed {city.lastUpdated}
+        {freshness.crime?.vintage?.includes('2019') ? (
+          <span className="source-freshness-stale">
+            {' '}
+            · Crime figures may reflect an older FBI vintage than income or housing metrics
+          </span>
+        ) : null}
+      </p>
     </section>
   )
 }

@@ -31,6 +31,7 @@ import {
   buildCityDirectAnswer,
   buildCitySnapshotMetrics,
 } from '@/lib/snapshot'
+import { freshnessForKey } from '@/lib/source-freshness'
 import { absoluteUrl, cityJsonLd, cityMetadata, safeJsonLd } from '@/lib/seo'
 
 type Props = {
@@ -74,6 +75,11 @@ export default async function CityPage({ params }: Props) {
   const directAnswer = buildCityDirectAnswer(city, nationalBaselines)
   const snapshotMetrics = buildCitySnapshotMetrics(city, nationalBaselines)
   const answerSections = buildCityAnswerSections(city, nationalBaselines)
+  const crimeFreshness = freshnessForKey(city, 'crime')
+  const staleSourceHint =
+    crimeFreshness.stale && crimeFreshness.entry?.vintage
+      ? `Crime rates on this page reflect ${crimeFreshness.entry.vintage} — older than income, housing, and other metrics refreshed more recently. Treat safety as a neighborhood-level check.`
+      : undefined
 
   const placeLd = cityJsonLd(city)
   const faqLd = {
@@ -144,7 +150,8 @@ export default async function CityPage({ params }: Props) {
           <ContentSnapshot
             title={`How much does it cost to live in ${city.name}?`}
             directAnswer={directAnswer}
-            asOf={city.lastUpdated}
+            catalogRefreshed={city.lastUpdated}
+            staleSourceHint={staleSourceHint}
             metrics={snapshotMetrics}
           />
 

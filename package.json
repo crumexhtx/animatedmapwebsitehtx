@@ -17,7 +17,8 @@
     "enrich:bls": "tsx scripts/enrich-bls.ts",
     "enrich:crime": "tsx scripts/enrich-crime.ts",
     "enrich:climate": "tsx scripts/enrich-climate.ts",
-    "detect-duplicate-content": "tsx scripts/detect-duplicate-content.ts"
+    "detect-duplicate-content": "tsx scripts/detect-duplicate-content.ts",
+    "check-tracked-secrets": "tsx scripts/check-tracked-secrets.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

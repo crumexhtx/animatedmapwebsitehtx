@@ -54,7 +54,7 @@ export default async function StatePage({ params }: Props) {
       <ContentSnapshot
         title={`What does MapsToIt cover in ${state.name}?`}
         directAnswer={buildStateDirectAnswer(state)}
-        asOf={asOf}
+        catalogRefreshed={asOf}
         metrics={buildStateSnapshotMetrics(state)}
       />
 

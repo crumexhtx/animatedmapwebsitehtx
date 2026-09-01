@@ -5,7 +5,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import type { CatalogIndex, CityRecord, NationalBaselines, StateRecord } from '../lib/types'
+import type { CatalogIndex, CityRecord, CitySourceFreshness, NationalBaselines, StateRecord } from '../lib/types'
 import type { BlsEnrichment } from './enrich-bls'
 import type { CensusEnrichment } from './enrich-census'
 import type { ClimateEnrichment } from './enrich-climate'
@@ -69,6 +69,74 @@ function buildStates(cities: CityRecord[]): StateRecord[] {
       } satisfies StateRecord
     })
     .sort((a, b) => a.name.localeCompare(b.name))
+}
+
+function toIsoDate(iso: string) {
+  return iso.slice(0, 10)
+}
+
+function crimeVintageLabel(source: string, crimeBatch: CrimeEnrichment | null) {
+  const year = /\((\d{4})\)/.exec(source)?.[1]
+  if (source.includes('CIUS Table 8') && year) return `${year} offenses (FBI Table 8 fallback)`
+  if (crimeBatch?.from && crimeBatch?.to) {
+    const endYear = crimeBatch.to.slice(-4)
+    return `${endYear} CDE monthly rates`
+  }
+  if (year) return `${year} data`
+  return undefined
+}
+
+function buildSourceFreshness(
+  census: CensusEnrichment | null,
+  bls: BlsEnrichment | null,
+  crime: CrimeEnrichment | null,
+  climate: ClimateEnrichment | null,
+  populationHistory: PopulationHistoryEnrichment | null,
+  censusRow: CensusEnrichment['cities'][string] | undefined,
+  blsRow: BlsEnrichment['cities'][string] | undefined,
+  crimeRow: CrimeEnrichment['cities'][string] | undefined,
+  climateRow: ClimateEnrichment['cities'][string] | undefined,
+  populationHistoryRow: PopulationHistoryEnrichment['cities'][string] | undefined,
+): CitySourceFreshness | undefined {
+  const freshness: CitySourceFreshness = {}
+
+  if (census?.generatedAt && censusRow) {
+    freshness.census = {
+      asOf: toIsoDate(census.generatedAt),
+      vintage: census.vintage,
+    }
+  }
+
+  if (bls?.generatedAt && blsRow) {
+    freshness.bls = {
+      asOf: toIsoDate(bls.generatedAt),
+      vintage: blsRow.period,
+    }
+  }
+
+  if (crime?.generatedAt && crimeRow) {
+    freshness.crime = {
+      asOf: toIsoDate(crime.generatedAt),
+      vintage: crimeVintageLabel(crimeRow.source, crime),
+    }
+  }
+
+  if (climate?.generatedAt && climateRow) {
+    freshness.climate = {
+      asOf: toIsoDate(climate.generatedAt),
+      vintage: '1991–2020 NOAA normals',
+    }
+  }
+
+  if (populationHistory?.generatedAt && populationHistoryRow) {
+    const latestYear = populationHistoryRow.points.at(-1)?.year
+    freshness.population = {
+      asOf: toIsoDate(populationHistory.generatedAt),
+      vintage: latestYear ? `Census PEP ${latestYear}` : undefined,
+    }
+  }
+
+  return Object.keys(freshness).length ? freshness : undefined
 }
 
 function mergeCity(
@@ -138,6 +206,18 @@ function mergeCity(
       fbi: crimeRow?.source ?? seed.sources.fbi,
       noaa: climateRow?.source ?? seed.sources.noaa,
     },
+    sourceFreshness: buildSourceFreshness(
+      census,
+      bls,
+      crime,
+      climate,
+      populationHistory,
+      censusRow,
+      blsRow,
+      crimeRow,
+      climateRow,
+      populationHistoryRow,
+    ),
     lastUpdated: new Date().toISOString().slice(0, 10),
   }
 

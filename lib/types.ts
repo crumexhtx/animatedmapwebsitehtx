@@ -23,6 +23,22 @@ export type CitySources = {
   noaa?: string
 }
 
+/** When each upstream enrichment batch was last refreshed and what data vintage it represents. */
+export type SourceFreshnessEntry = {
+  /** ISO date (YYYY-MM-DD) when MapsToIt last pulled or merged this source. */
+  asOf: string
+  /** Human-readable coverage window, e.g. "ACS 2023 5-year" or "2019 offenses". */
+  vintage?: string
+}
+
+export type CitySourceFreshness = {
+  census?: SourceFreshnessEntry
+  bls?: SourceFreshnessEntry
+  crime?: SourceFreshnessEntry
+  climate?: SourceFreshnessEntry
+  population?: SourceFreshnessEntry
+}
+
 export type PopulationHistoryPoint = {
   year: number
   population: number
@@ -59,6 +75,7 @@ export type CityRecord = {
   neighborhoods?: string[]
   nearbyCities: string[]
   lastUpdated: string
+  sourceFreshness?: CitySourceFreshness
   sources: CitySources
   coordinates: [number, number]
   featured?: boolean
