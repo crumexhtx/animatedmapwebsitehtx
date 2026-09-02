@@ -1,6 +1,7 @@
 import type { CityRecord } from '@/lib/types'
 import { publicSourceLabel } from '@/lib/sources'
 import { formatFreshnessLabel, freshnessForKey, resolveSourceFreshness } from '@/lib/source-freshness'
+import { SourceFreshnessNote, STALE_TOOLTIP, StaleInfoIcon } from '@/components/SourceFreshnessNote'
 
 const SOURCE_KEYS = [
   { label: 'Census / ACS', key: 'census' as const, value: (city: CityRecord) => city.sources.census },
@@ -16,12 +17,13 @@ const SOURCE_KEYS = [
 
 export function SourceList({ city }: { city: CityRecord }) {
   const freshness = resolveSourceFreshness(city)
+  const crimeStale = freshness.crime?.vintage?.includes('2019')
 
   const entries = SOURCE_KEYS.map(({ label, key, value }) => {
     const sourceValue = value(city)
     if (!sourceValue) return null
     const { entry, stale } = freshnessForKey(city, key)
-    const asOfLabel = formatFreshnessLabel(entry, stale)
+    const asOfLabel = formatFreshnessLabel(entry)
     return { label, sourceValue, asOfLabel, stale }
   }).filter(Boolean) as Array<{
     label: string
@@ -38,21 +40,22 @@ export function SourceList({ city }: { city: CityRecord }) {
           <li key={label}>
             <strong>{label}:</strong> {publicSourceLabel(sourceValue)}
             {asOfLabel ? (
-              <span className={stale ? 'source-freshness source-freshness-stale' : 'source-freshness'}>
+              <>
                 {' '}
-                — {asOfLabel}
-              </span>
+                —{' '}
+                <SourceFreshnessNote label={asOfLabel} stale={stale} className="source-freshness source-freshness-inline" />
+              </>
             ) : null}
           </li>
         ))}
       </ul>
       <p className="sources-updated">
         Catalog refreshed {city.lastUpdated}
-        {freshness.crime?.vintage?.includes('2019') ? (
-          <span className="source-freshness-stale">
+        {crimeStale ? (
+          <>
             {' '}
-            · Crime figures may reflect an older FBI vintage than income or housing metrics
-          </span>
+            <StaleInfoIcon tip={`Crime figures may use an older FBI vintage than income or housing. ${STALE_TOOLTIP}`} />
+          </>
         ) : null}
       </p>
     </section>

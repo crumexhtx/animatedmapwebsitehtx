@@ -3,26 +3,31 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { PopulationHistory } from '@/lib/types'
 import { formatNumber } from '@/lib/format'
+import {
+  expandYearlyPointsToMonthly,
+  formatPopulationPeriod,
+  monthlyPlaybackIntervalMs,
+  type MonthlyPopulationPoint,
+} from '@/lib/population-trend'
 
 const WIDTH = 600
 const HEIGHT = 200
 const PAD_X = 8
 const PAD_TOP = 16
 const PAD_BOTTOM = 28
-const PLAY_MS = 700
 
-function buildPath(points: { year: number; population: number }[]) {
-  const years = points.map((point) => point.year)
+function buildPath(points: MonthlyPopulationPoint[]) {
+  const ts = points.map((point) => point.t)
   const values = points.map((point) => point.population)
-  const minYear = Math.min(...years)
-  const maxYear = Math.max(...years)
+  const minT = Math.min(...ts)
+  const maxT = Math.max(...ts)
   const minValue = Math.min(...values)
   const maxValue = Math.max(...values)
-  const yearSpan = Math.max(maxYear - minYear, 1)
+  const tSpan = Math.max(maxT - minT, 1 / 12)
   const valueSpan = Math.max(maxValue - minValue, 1)
 
   const coords = points.map((point) => {
-    const x = PAD_X + ((point.year - minYear) / yearSpan) * (WIDTH - PAD_X * 2)
+    const x = PAD_X + ((point.t - minT) / tSpan) * (WIDTH - PAD_X * 2)
     const y =
       HEIGHT -
       PAD_BOTTOM -
@@ -35,7 +40,7 @@ function buildPath(points: { year: number; population: number }[]) {
     `${line} L ${coords[coords.length - 1].x.toFixed(1)} ${HEIGHT - PAD_BOTTOM} ` +
     `L ${coords[0].x.toFixed(1)} ${HEIGHT - PAD_BOTTOM} Z`
 
-  return { line, area, coords, minYear, maxYear }
+  return { line, area, coords, minT, maxT }
 }
 
 function usePrefersReducedMotion() {
@@ -58,38 +63,40 @@ export function PopulationTrend({
   cityName: string
 }) {
   const reducedMotion = usePrefersReducedMotion()
-  const points = history?.points ?? []
-  const lastIndex = Math.max(points.length - 1, 0)
-  const [yearIndex, setYearIndex] = useState(lastIndex)
+  const yearlyPoints = useMemo(() => history?.points ?? [], [history?.points])
+  const monthlyPoints = useMemo(() => expandYearlyPointsToMonthly(yearlyPoints), [yearlyPoints])
+  const lastIndex = Math.max(monthlyPoints.length - 1, 0)
+  const playMs = monthlyPlaybackIntervalMs(yearlyPoints.length)
+  const [pointIndex, setPointIndex] = useState(lastIndex)
   const [playing, setPlaying] = useState(false)
 
   useEffect(() => {
-    setYearIndex(lastIndex)
+    setPointIndex(lastIndex)
     setPlaying(false)
   }, [lastIndex, history?.source])
 
   useEffect(() => {
-    if (!playing || reducedMotion || points.length < 2) return
-    if (yearIndex >= lastIndex) {
+    if (!playing || reducedMotion || monthlyPoints.length < 2) return
+    if (pointIndex >= lastIndex) {
       setPlaying(false)
       return
     }
     const id = window.setTimeout(() => {
-      setYearIndex((value) => Math.min(value + 1, lastIndex))
-    }, PLAY_MS)
+      setPointIndex((value) => Math.min(value + 1, lastIndex))
+    }, playMs)
     return () => window.clearTimeout(id)
-  }, [playing, yearIndex, lastIndex, reducedMotion, points.length])
+  }, [playing, pointIndex, lastIndex, reducedMotion, monthlyPoints.length, playMs])
 
   const visiblePoints = useMemo(() => {
-    if (reducedMotion || points.length < 2) return points
-    return points.slice(0, yearIndex + 1)
-  }, [points, yearIndex, reducedMotion])
+    if (reducedMotion || monthlyPoints.length < 2) return monthlyPoints
+    return monthlyPoints.slice(0, pointIndex + 1)
+  }, [monthlyPoints, pointIndex, reducedMotion])
 
-  if (!history || points.length < 2) return null
+  if (!history || yearlyPoints.length < 2 || monthlyPoints.length < 2) return null
 
-  const first = points[0]
-  const last = points[points.length - 1]
-  const active = points[Math.min(yearIndex, lastIndex)]
+  const first = yearlyPoints[0]
+  const last = yearlyPoints[yearlyPoints.length - 1]
+  const active = monthlyPoints[Math.min(pointIndex, lastIndex)]
   const pctChange = ((active.population - first.population) / first.population) * 100
   const fullPct = ((last.population - first.population) / first.population) * 100
   const direction = fullPct > 0.5 ? 'grew' : fullPct < -0.5 ? 'declined' : 'stayed roughly flat'
@@ -98,12 +105,16 @@ export function PopulationTrend({
       ? `stayed roughly flat (${fullPct >= 0 ? '+' : ''}${fullPct.toFixed(1)}%)`
       : `${direction} ${Math.abs(fullPct).toFixed(1)}%`
 
-  const { line, area, coords, minYear, maxYear } = buildPath(visiblePoints)
+  const { line, area, coords } = buildPath(visiblePoints)
   const midIndex = Math.floor(coords.length / 2)
+  const activeLabel = formatPopulationPeriod(active.year, active.month)
+  const startYear = yearlyPoints[0].year
+  const endYear = yearlyPoints[yearlyPoints.length - 1].year
+  const midYear = Math.round((startYear + endYear) / 2)
 
   const togglePlay = () => {
     if (reducedMotion) return
-    if (yearIndex >= lastIndex) setYearIndex(0)
+    if (pointIndex >= lastIndex) setPointIndex(0)
     setPlaying((value) => !value)
   }
 
@@ -119,7 +130,7 @@ export function PopulationTrend({
 
       <div className="population-trend-chart">
         <div className="population-trend-readout" aria-live="polite">
-          <strong>{active.year}</strong>
+          <strong>{activeLabel}</strong>
           <span>{formatNumber(active.population)} people</span>
           <span>
             {pctChange >= 0 ? '+' : ''}
@@ -127,56 +138,67 @@ export function PopulationTrend({
           </span>
         </div>
 
-        <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label={`${cityName} population, ${minYear} to ${active.year}`}>
+        <svg
+          viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+          role="img"
+          aria-label={`${cityName} population, ${startYear} to ${activeLabel}`}
+        >
           <path d={area} className="population-trend-area" />
           <path d={line} className="population-trend-line" />
-          {coords.map((c, i) => (
-            <circle
-              key={visiblePoints[i].year}
-              cx={c.x}
-              cy={c.y}
-              r={i === 0 || i === coords.length - 1 ? 3.5 : 2}
-              className="population-trend-dot"
-            />
-          ))}
+          {coords.map((c, i) => {
+            const isEndpoint = i === 0 || i === coords.length - 1
+            const isActive = i === coords.length - 1
+            if (!isEndpoint && !isActive) return null
+            return (
+              <circle
+                key={`${visiblePoints[i].t}-${i}`}
+                cx={c.x}
+                cy={c.y}
+                r={isActive ? 3.5 : 3}
+                className="population-trend-dot"
+              />
+            )
+          })}
           <text x={coords[0].x} y={HEIGHT - 8} className="population-trend-axis-label" textAnchor="start">
-            {visiblePoints[0].year}
+            {startYear}
           </text>
           {coords.length > 2 && (
             <text x={coords[midIndex].x} y={HEIGHT - 8} className="population-trend-axis-label" textAnchor="middle">
-              {visiblePoints[midIndex].year}
+              {midYear}
             </text>
           )}
           <text x={coords[coords.length - 1].x} y={HEIGHT - 8} className="population-trend-axis-label" textAnchor="end">
-            {active.year}
+            {pointIndex >= lastIndex ? endYear : Math.floor(active.t)}
           </text>
         </svg>
 
         {!reducedMotion && (
           <div className="year-play-controls">
             <button type="button" className="button button-secondary year-play-button" onClick={togglePlay}>
-              {playing ? 'Pause' : yearIndex >= lastIndex ? 'Replay' : 'Play'}
+              {playing ? 'Pause' : pointIndex >= lastIndex ? 'Replay' : 'Play'}
             </button>
             <label className="year-play-slider">
-              <span className="visually-hidden">Year</span>
+              <span className="visually-hidden">Timeline</span>
               <input
                 type="range"
                 min={0}
                 max={lastIndex}
                 step={1}
-                value={yearIndex}
+                value={pointIndex}
                 onChange={(event) => {
                   setPlaying(false)
-                  setYearIndex(Number(event.target.value))
+                  setPointIndex(Number(event.target.value))
                 }}
               />
-              <span aria-hidden>{active.year}</span>
+              <span aria-hidden>{activeLabel}</span>
             </label>
           </div>
         )}
       </div>
 
-      <p className="population-trend-source">Source: {history.source}</p>
+      <p className="population-trend-source">
+        Source: {history.source}. Playback steps monthly between annual Census PEP estimates.
+      </p>
     </section>
   )
 }

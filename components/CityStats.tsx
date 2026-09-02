@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { formatCurrency, formatNumber, formatPercent } from '@/lib/format'
 import { freshnessForKey } from '@/lib/source-freshness'
+import { SourceFreshnessNote } from '@/components/SourceFreshnessNote'
 import Link from 'next/link'
 
 type CompareTone = 'higher' | 'lower' | 'near' | 'neutral'
@@ -30,11 +31,7 @@ function toneFromDelta(delta: number): CompareTone {
 function FreshnessNote({ city, source }: { city: CityRecord; source: 'census' | 'bls' | 'crime' | 'climate' | 'population' }) {
   const { label, stale } = freshnessForKey(city, source)
   if (!label) return null
-  return (
-    <span className={stale ? 'source-freshness source-freshness-stale' : 'source-freshness'} title={label}>
-      {label}
-    </span>
-  )
+  return <SourceFreshnessNote label={label} stale={stale} />
 }
 
 function statNote(base: string | undefined, freshness: ReactNode) {

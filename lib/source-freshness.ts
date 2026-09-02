@@ -109,11 +109,10 @@ export function isMeaningfullyStale(
   return false
 }
 
-export function formatFreshnessLabel(entry: SourceFreshnessEntry | undefined, stale = false) {
+export function formatFreshnessLabel(entry: SourceFreshnessEntry | undefined) {
   if (!entry) return null
   const vintage = entry.vintage ? ` · ${entry.vintage}` : ''
-  const prefix = stale ? 'Older data' : 'Data'
-  return `${prefix} as of ${entry.asOf}${vintage}`
+  return `As of ${entry.asOf}${vintage}`
 }
 
 export type FreshnessKey = keyof CitySourceFreshness
@@ -123,5 +122,5 @@ export function freshnessForKey(city: CityRecord, key: FreshnessKey) {
   const entry = freshness[key]
   const reference = newestAsOf(freshness) ?? city.lastUpdated
   const stale = isMeaningfullyStale(entry, reference)
-  return { entry, stale, label: formatFreshnessLabel(entry, stale) }
+  return { entry, stale, label: formatFreshnessLabel(entry) ?? '' }
 }

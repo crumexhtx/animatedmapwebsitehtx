@@ -25,6 +25,9 @@ export default function HomePage() {
           <Link className="button" href="/cities" prefetch={false}>
             Browse cities
           </Link>
+          <Link className="button button-secondary" href="/afford" prefetch={false}>
+            Find a city
+          </Link>
           <Link className="button button-secondary" href="/cities/rankings" prefetch={false}>
             Rankings
           </Link>

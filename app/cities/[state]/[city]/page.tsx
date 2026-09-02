@@ -78,7 +78,7 @@ export default async function CityPage({ params }: Props) {
   const crimeFreshness = freshnessForKey(city, 'crime')
   const staleSourceHint =
     crimeFreshness.stale && crimeFreshness.entry?.vintage
-      ? `Crime rates on this page reflect ${crimeFreshness.entry.vintage} — older than income, housing, and other metrics refreshed more recently. Treat safety as a neighborhood-level check.`
+      ? `Crime rates reflect ${crimeFreshness.entry.vintage} — older than income, housing, and other metrics on this page. Treat safety as a neighborhood-level check, not a citywide average.`
       : undefined
 
   const placeLd = cityJsonLd(city)

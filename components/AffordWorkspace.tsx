@@ -60,8 +60,9 @@ export function AffordWorkspace({
     <div className="afford-workspace">
       <aside className="afford-sidebar">
         <AffordFiltersPanel filters={filters} bounds={bounds} onChange={setFilter} />
-        <p className="compare-share">
-          Shareable link: <Link href={shareHref}>{shareHref}</Link>
+        <p className="afford-share">
+          <strong>Shareable link:</strong>{' '}
+          <Link href={shareHref}>{shareHref}</Link>
         </p>
       </aside>
 

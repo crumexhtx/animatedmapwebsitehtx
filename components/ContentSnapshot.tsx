@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { SnapshotMetric } from '@/lib/snapshot'
+import { StaleInfoIcon } from '@/components/SourceFreshnessNote'
 
 type Props = {
   title: string
@@ -36,7 +37,12 @@ export function ContentSnapshot({
           {' · '}
           <Link href={methodologyHref}>Methodology &amp; sources</Link>
         </p>
-        {staleSourceHint ? <p className="content-snapshot-stale-hint">{staleSourceHint}</p> : null}
+        {staleSourceHint ? (
+          <p className="content-snapshot-stale-hint">
+            <StaleInfoIcon tip={staleSourceHint} />
+            <span>Crime figures may use an older source vintage than housing and income on this page.</span>
+          </p>
+        ) : null}
       </div>
       <dl className="stat-grid content-snapshot-grid">
         {metrics.map((metric) => (
