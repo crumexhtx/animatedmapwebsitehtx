@@ -1405,6 +1405,161 @@ a:hover { color: var(--map-deep); }
   gap: 0.5rem;
 }
 
+.afford-workspace {
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (min-width: 960px) {
+  .afford-workspace {
+    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+.afford-sidebar {
+  display: grid;
+  gap: 1rem;
+}
+
+.afford-filters {
+  display: grid;
+  gap: 1rem;
+}
+
+.afford-mode-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.afford-mode-toggle label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.afford-mode-toggle label.is-active {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.afford-budget-input {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.afford-budget-input input,
+.afford-sort-select select {
+  width: 100%;
+  max-width: 16rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.afford-sort-select {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.afford-range-pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75rem;
+}
+
+.afford-range-pair label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.afford-range-pair input {
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.afford-main {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.afford-summary {
+  margin: 0;
+}
+
+.afford-count {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.afford-map-panel {
+  min-height: 280px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.afford-map-panel .city-map,
+.afford-map-panel .maplibregl-map {
+  min-height: 280px;
+}
+
+.afford-map-empty {
+  min-height: 160px;
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  color: var(--muted);
+}
+
+.afford-empty {
+  margin: 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--muted);
+}
+
+.afford-empty p {
+  margin: 0 0 0.65rem;
+}
+
+.afford-empty p:last-child {
+  margin-bottom: 0;
+}
+
+.afford-result-stats {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.afford-headroom {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .compare-tool {
   display: grid;
   gap: 1.5rem;
