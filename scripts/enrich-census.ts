@@ -94,6 +94,11 @@ const PLACE_OVERRIDES: Record<string, PlaceHit> = {
     geoid: '1600000US2148006',
     name: 'Louisville/Jefferson County metro government (balance), Kentucky',
   },
+  // Arlington County is unincorporated; ACS stats are published for Arlington CDP
+  'arlington-va': {
+    geoid: '1600000US5103000',
+    name: 'Arlington CDP, Virginia',
+  },
 }
 
 async function geocodePlace(lon: number, lat: number): Promise<PlaceHit | null> {

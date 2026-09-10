@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T14:50:52.199Z",
+  "generatedAt": "2026-09-10T22:46:02.181Z",
   "cities": {
     "new-york-ny": {
       "stationId": "USW00094728",
@@ -2050,6 +2050,206 @@
       "annualRainfall": 47,
       "sunnyDays": 244,
       "source": "NOAA 1991–2020 Monthly Normals (USW00013886 GREENVILLE DWTN AP)"
+    },
+    "arlington-va": {
+      "stationId": "USW00013743",
+      "stationName": "WASHINGTON REAGAN AP",
+      "distanceMiles": 3.8,
+      "avgHighSummer": 88,
+      "avgLowWinter": 32,
+      "annualRainfall": 41.8,
+      "sunnyDays": 247,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013743 WASHINGTON REAGAN AP)"
+    },
+    "cambridge-ma": {
+      "stationId": "USW00014739",
+      "stationName": "BOSTON LOGAN INTL AP",
+      "distanceMiles": 5.1,
+      "avgHighSummer": 80,
+      "avgLowWinter": 26,
+      "annualRainfall": 43.6,
+      "sunnyDays": 237,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014739 BOSTON LOGAN INTL AP)"
+    },
+    "wilmington-nc": {
+      "stationId": "USW00013748",
+      "stationName": "WILMINGTON INTL AP",
+      "distanceMiles": 3.9,
+      "avgHighSummer": 88,
+      "avgLowWinter": 38,
+      "annualRainfall": 60.1,
+      "sunnyDays": 243,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013748 WILMINGTON INTL AP)"
+    },
+    "mcallen-tx": {
+      "stationId": "USW00012959",
+      "stationName": "MCALLEN MILLER INTL AP",
+      "distanceMiles": 2,
+      "avgHighSummer": 99,
+      "avgLowWinter": 55,
+      "annualRainfall": 22.2,
+      "sunnyDays": 303,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012959 MCALLEN MILLER INTL AP)"
+    },
+    "brownsville-tx": {
+      "stationId": "USW00012919",
+      "stationName": "BROWNSVILLE",
+      "distanceMiles": 5,
+      "avgHighSummer": 95,
+      "avgLowWinter": 55,
+      "annualRainfall": 26.8,
+      "sunnyDays": 288,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012919 BROWNSVILLE)"
+    },
+    "west-palm-beach-fl": {
+      "stationId": "USW00012844",
+      "stationName": "WEST PALM BEACH INTL AP",
+      "distanceMiles": 3.5,
+      "avgHighSummer": 89,
+      "avgLowWinter": 60,
+      "annualRainfall": 61.7,
+      "sunnyDays": 228,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012844 WEST PALM BEACH INTL AP)"
+    },
+    "clearwater-fl": {
+      "stationId": "USW00012873",
+      "stationName": "ST PETERSBURG INTL AP",
+      "distanceMiles": 7.9,
+      "avgHighSummer": 90,
+      "avgLowWinter": 55,
+      "annualRainfall": 53.6,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012873 ST PETERSBURG INTL AP)"
+    },
+    "fort-myers-fl": {
+      "stationId": "USW00012835",
+      "stationName": "FT MYERS PAGE FLD AP",
+      "distanceMiles": 3.9,
+      "avgHighSummer": 91,
+      "avgLowWinter": 56,
+      "annualRainfall": 57.4,
+      "sunnyDays": 249,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012835 FT MYERS PAGE FLD AP)"
+    },
+    "berkeley-ca": {
+      "stationId": "USW00023230",
+      "stationName": "OAKLAND METRO INTL AP",
+      "distanceMiles": 10.8,
+      "avgHighSummer": 72,
+      "avgLowWinter": 43,
+      "annualRainfall": 18.7,
+      "sunnyDays": 297,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023230 OAKLAND METRO INTL AP)"
+    },
+    "santa-barbara-ca": {
+      "stationId": "USW00023190",
+      "stationName": "SANTA BARBARA MUNI AP",
+      "distanceMiles": 8.2,
+      "avgHighSummer": 73,
+      "avgLowWinter": 42,
+      "annualRainfall": 17.3,
+      "sunnyDays": 326,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023190 SANTA BARBARA MUNI AP)"
+    },
+    "bend-or": {
+      "stationId": "USW00024230",
+      "stationName": "REDMOND ROBERTS FLD",
+      "distanceMiles": 16.2,
+      "avgHighSummer": 84,
+      "avgLowWinter": 25,
+      "annualRainfall": 8.5,
+      "sunnyDays": 287,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024230 REDMOND ROBERTS FLD)"
+    },
+    "bozeman-mt": {
+      "stationId": "USW00024132",
+      "stationName": "BOZEMAN GALLATIN FLD",
+      "distanceMiles": 9.6,
+      "avgHighSummer": 81,
+      "avgLowWinter": 11,
+      "annualRainfall": 13.4,
+      "sunnyDays": 258,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024132 BOZEMAN GALLATIN FLD)"
+    },
+    "missoula-mt": {
+      "stationId": "USW00024153",
+      "stationName": "MISSOULA INTL AP",
+      "distanceMiles": 5.7,
+      "avgHighSummer": 81,
+      "avgLowWinter": 19,
+      "annualRainfall": 14.1,
+      "sunnyDays": 241,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024153 MISSOULA INTL AP)"
+    },
+    "st-george-ut": {
+      "stationId": "USW00093129",
+      "stationName": "CEDAR CITY MUNI AP",
+      "distanceMiles": 49.7,
+      "avgHighSummer": 88,
+      "avgLowWinter": 19,
+      "annualRainfall": 11,
+      "sunnyDays": 296,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093129 CEDAR CITY MUNI AP)"
+    },
+    "ogden-ut": {
+      "stationId": "USW00024126",
+      "stationName": "OGDEN HINKLEY AP",
+      "distanceMiles": 2.7,
+      "avgHighSummer": 87,
+      "avgLowWinter": 23,
+      "annualRainfall": 16.4,
+      "sunnyDays": 279,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024126 OGDEN HINKLEY AP)"
+    },
+    "murfreesboro-tn": {
+      "stationId": "USW00013897",
+      "stationName": "NASHVILLE INTL AP",
+      "distanceMiles": 25.2,
+      "avgHighSummer": 90,
+      "avgLowWinter": 32,
+      "annualRainfall": 50.5,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013897 NASHVILLE INTL AP)"
+    },
+    "denton-tx": {
+      "stationId": "USW00003991",
+      "stationName": "DENTON MUNI AP",
+      "distanceMiles": 3.9,
+      "avgHighSummer": 94,
+      "avgLowWinter": 34,
+      "annualRainfall": 35.6,
+      "sunnyDays": 283,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003991 DENTON MUNI AP)"
+    },
+    "everett-wa": {
+      "stationId": "USW00024222",
+      "stationName": "EVERETT SNOHOMISH AP",
+      "distanceMiles": 6.1,
+      "avgHighSummer": 71,
+      "avgLowWinter": 37,
+      "annualRainfall": 33.4,
+      "sunnyDays": 187,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024222 EVERETT SNOHOMISH AP)"
+    },
+    "stamford-ct": {
+      "stationId": "USW00094745",
+      "stationName": "WESTCHESTER CO AP",
+      "distanceMiles": 8.8,
+      "avgHighSummer": 81,
+      "avgLowWinter": 25,
+      "annualRainfall": 47.8,
+      "sunnyDays": 241,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00094745 WESTCHESTER CO AP)"
+    },
+    "norman-ok": {
+      "stationId": "USW00013967",
+      "stationName": "OKLAHOMA CITY WILL ROGERS AP",
+      "distanceMiles": 14.6,
+      "avgHighSummer": 91,
+      "avgLowWinter": 29,
+      "annualRainfall": 36.4,
+      "sunnyDays": 282,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00013967 OKLAHOMA CITY WILL ROGERS AP)"
     }
   }
 }

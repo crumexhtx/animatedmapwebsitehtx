@@ -63,7 +63,7 @@ const FROM = '01-2023'
 const TO = '12-2023'
 const CACHE_DIR = join(ROOT, 'data', 'raw', 'cache', 'fbi')
 const TABLE8_URL =
-  'https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8.xls'
+  'https://web.archive.org/web/20201109024128id_/https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8.xls'
 const TABLE8_PATH = join(CACHE_DIR, 'cius-table8-2019.xls')
 const AGENCIES_URL =
   'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-18/agencies.csv'
@@ -336,6 +336,10 @@ function parseCsvLine(line: string): string[] {
 }
 
 async function tryLiveApi(seed: ReturnType<typeof loadSeedCities>) {
+  if (process.env.FORCE_CIUS_TABLE8 === '1') {
+    console.warn('FORCE_CIUS_TABLE8=1 — skipping FBI CDE API probe')
+    return null
+  }
   const byState = new Map<string, Agency[]>()
   const stateCodes = [...new Set(seed.map((city) => city.stateCode))]
   let healthy = 0

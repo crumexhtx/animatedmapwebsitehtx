@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T18:10:23.685Z",
+  "generatedAt": "2026-09-10T22:54:57.734Z",
   "from": "2019",
   "to": "2019",
   "cities": {
@@ -1391,6 +1391,362 @@
       "agencyName": "Amarillo Police Department",
       "violent": 719.8,
       "property": 3897.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "columbia-sc": {
+      "available": true,
+      "ori": "SC0400100",
+      "agencyName": "Columbia Police Department",
+      "violent": 775.1,
+      "property": 5252.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "hartford-ct": {
+      "available": true,
+      "ori": "CT0006400",
+      "agencyName": "Hartford Police Department",
+      "violent": 858.1,
+      "property": 2800.9,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "new-haven-ct": {
+      "available": true,
+      "ori": "CT0009300",
+      "agencyName": "New Haven Police Department",
+      "violent": 895.1,
+      "property": 3799.4,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "albany-ny": {
+      "available": true,
+      "ori": "NY0010100",
+      "agencyName": "Albany Police Department",
+      "violent": 757,
+      "property": 3002.4,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "syracuse-ny": {
+      "available": true,
+      "ori": "NY0330100",
+      "agencyName": "Syracuse Police Department",
+      "violent": 792.6,
+      "property": 3134,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "topeka-ks": {
+      "available": true,
+      "ori": "KS0890100",
+      "agencyName": "Topeka Police Department",
+      "violent": 712.3,
+      "property": 4990.6,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "cheyenne-wy": {
+      "available": true,
+      "ori": "WY0110100",
+      "agencyName": "Cheyenne Police Department",
+      "violent": 341.1,
+      "property": 3099.2,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "billings-mt": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "fargo-nd": {
+      "available": true,
+      "ori": "ND0090200",
+      "agencyName": "Fargo Police Department",
+      "violent": 450.5,
+      "property": 3121.9,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "charleston-wv": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "burlington-vt": {
+      "available": true,
+      "ori": "VT0040100",
+      "agencyName": "Burlington Police Department",
+      "violent": 405,
+      "property": 2583.9,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "manchester-nh": {
+      "available": true,
+      "ori": "NH0063400",
+      "agencyName": "Manchester Police Department",
+      "violent": 600.6,
+      "property": 2372.1,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "portland-me": {
+      "available": true,
+      "ori": "ME0030500",
+      "agencyName": "Portland Police Department",
+      "violent": 242.3,
+      "property": 2580.6,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "wilmington-de": {
+      "available": true,
+      "ori": "DE0020600",
+      "agencyName": "Wilmington Police Department",
+      "violent": 1498.1,
+      "property": 4460.2,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "boulder-co": {
+      "available": true,
+      "ori": "CO0070100",
+      "agencyName": "Boulder Police Department",
+      "violent": 256.2,
+      "property": 3026.2,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "ann-arbor-mi": {
+      "available": true,
+      "ori": "MI8121800",
+      "agencyName": "Ann Arbor Police Department",
+      "violent": 251.4,
+      "property": 1728.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "athens-ga": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "asheville-nc": {
+      "available": true,
+      "ori": "NC0110100",
+      "agencyName": "Asheville Police Department",
+      "violent": 742.2,
+      "property": 6325.2,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "santa-fe-nm": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "gainesville-fl": {
+      "available": true,
+      "ori": "FL0010100",
+      "agencyName": "Gainesville Police Department",
+      "violent": 687,
+      "property": 3488.2,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "dayton-oh": {
+      "available": true,
+      "ori": "OH0570200",
+      "agencyName": "Dayton Police Department",
+      "violent": 962.1,
+      "property": 4039.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "allentown-pa": {
+      "available": true,
+      "ori": "PA0390100",
+      "agencyName": "Allentown Police Department",
+      "violent": 386.5,
+      "property": 2283,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "south-bend-in": {
+      "available": true,
+      "ori": "IN0710200",
+      "agencyName": "South Bend Police Department",
+      "violent": 1331.1,
+      "property": 4214.1,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "waco-tx": {
+      "available": true,
+      "ori": "TX1551200",
+      "agencyName": "Waco Police Department",
+      "violent": 571.2,
+      "property": 3288.1,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "provo-ut": {
+      "available": true,
+      "ori": "UT0250600",
+      "agencyName": "Provo Police Department",
+      "violent": 115.2,
+      "property": 1507.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "greenville-sc": {
+      "available": true,
+      "ori": "SC0230200",
+      "agencyName": "Greenville Police Department",
+      "violent": 575.7,
+      "property": 4016.9,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "arlington-va": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "cambridge-ma": {
+      "available": true,
+      "ori": "MA0091100",
+      "agencyName": "Cambridge Police Department",
+      "violent": 278.5,
+      "property": 1653.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "wilmington-nc": {
+      "available": true,
+      "ori": "NC0650200",
+      "agencyName": "Wilmington Police Department",
+      "violent": 608.4,
+      "property": 2880.2,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "mcallen-tx": {
+      "available": true,
+      "ori": "TX1080800",
+      "agencyName": "McAllen Police Department",
+      "violent": 96.6,
+      "property": 2480.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "brownsville-tx": {
+      "available": true,
+      "ori": "TX0310100",
+      "agencyName": "Brownsville Police Department",
+      "violent": 420.8,
+      "property": 2468.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "west-palm-beach-fl": {
+      "available": true,
+      "ori": "FL0500800",
+      "agencyName": "West Palm Beach Police Department",
+      "violent": 761.5,
+      "property": 3751,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "clearwater-fl": {
+      "available": true,
+      "ori": "FL0520300",
+      "agencyName": "Clearwater Police Department",
+      "violent": 399.3,
+      "property": 2392.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "fort-myers-fl": {
+      "available": true,
+      "ori": "FL0360100",
+      "agencyName": "Fort Myers Police Department",
+      "violent": 570.9,
+      "property": 2293,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "berkeley-ca": {
+      "available": true,
+      "ori": "CA0010300",
+      "agencyName": "Berkeley Police Department",
+      "violent": 503.3,
+      "property": 5095,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "santa-barbara-ca": {
+      "available": true,
+      "ori": "CA0420300",
+      "agencyName": "Santa Barbara Police Department",
+      "violent": 436.1,
+      "property": 2309.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "bend-or": {
+      "available": true,
+      "ori": "OR0090100",
+      "agencyName": "Bend Police Department",
+      "violent": 153.1,
+      "property": 1907.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "bozeman-mt": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "missoula-mt": {
+      "available": true,
+      "ori": "MT0320100",
+      "agencyName": "Missoula Police Department",
+      "violent": 411,
+      "property": 4086.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "st-george-ut": {
+      "available": true,
+      "ori": "UT0270100",
+      "agencyName": "St. George Police Department",
+      "violent": 203,
+      "property": 1566.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "ogden-ut": {
+      "available": true,
+      "ori": "UT0290100",
+      "agencyName": "Ogden Police Department",
+      "violent": 437,
+      "property": 3654.1,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "murfreesboro-tn": {
+      "available": true,
+      "ori": "TN0750100",
+      "agencyName": "Murfreesboro Police Department",
+      "violent": 418.7,
+      "property": 2897.3,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "denton-tx": {
+      "available": true,
+      "ori": "TX0610200",
+      "agencyName": "Denton Police Department",
+      "violent": 233.9,
+      "property": 1883.5,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "everett-wa": {
+      "available": true,
+      "ori": "WA0310300",
+      "agencyName": "Everett Police Department",
+      "violent": 303.6,
+      "property": 3553.8,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "stamford-ct": {
+      "available": true,
+      "ori": "CT0013500",
+      "agencyName": "Stamford Police Department",
+      "violent": 202,
+      "property": 1379.7,
+      "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "norman-ok": {
+      "available": true,
+      "ori": "OK0140200",
+      "agencyName": "Norman Police Department",
+      "violent": 267.8,
+      "property": 2612,
       "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
     }
   }

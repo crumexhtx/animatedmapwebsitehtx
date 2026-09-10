@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T14:49:20.755Z",
+  "generatedAt": "2026-09-10T22:51:44.039Z",
   "earliestYear": 2010,
   "latestYear": 2024,
   "cities": {
@@ -1104,6 +1104,71 @@
         {
           "year": 2024,
           "population": 417468
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "berkeley-ca": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 112889
+        },
+        {
+          "year": 2011,
+          "population": 113968
+        },
+        {
+          "year": 2012,
+          "population": 115309
+        },
+        {
+          "year": 2013,
+          "population": 116944
+        },
+        {
+          "year": 2014,
+          "population": 118697
+        },
+        {
+          "year": 2015,
+          "population": 120749
+        },
+        {
+          "year": 2016,
+          "population": 121547
+        },
+        {
+          "year": 2017,
+          "population": 122164
+        },
+        {
+          "year": 2018,
+          "population": 121663
+        },
+        {
+          "year": 2019,
+          "population": 121363
+        },
+        {
+          "year": 2020,
+          "population": 124219
+        },
+        {
+          "year": 2021,
+          "population": 115555
+        },
+        {
+          "year": 2022,
+          "population": 119429
+        },
+        {
+          "year": 2023,
+          "population": 120320
+        },
+        {
+          "year": 2024,
+          "population": 121749
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -2928,6 +2993,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "santa-barbara-ca": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 88468
+        },
+        {
+          "year": 2011,
+          "population": 88605
+        },
+        {
+          "year": 2012,
+          "population": 89285
+        },
+        {
+          "year": 2013,
+          "population": 90082
+        },
+        {
+          "year": 2014,
+          "population": 90815
+        },
+        {
+          "year": 2015,
+          "population": 91275
+        },
+        {
+          "year": 2016,
+          "population": 91518
+        },
+        {
+          "year": 2017,
+          "population": 91517
+        },
+        {
+          "year": 2018,
+          "population": 91203
+        },
+        {
+          "year": 2019,
+          "population": 91364
+        },
+        {
+          "year": 2020,
+          "population": 88768
+        },
+        {
+          "year": 2021,
+          "population": 88203
+        },
+        {
+          "year": 2022,
+          "population": 87535
+        },
+        {
+          "year": 2023,
+          "population": 87140
+        },
+        {
+          "year": 2024,
+          "population": 87291
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "santa-clara-ca": {
       "points": [
         {
@@ -3903,6 +4033,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "stamford-ct": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 122781
+        },
+        {
+          "year": 2011,
+          "population": 123988
+        },
+        {
+          "year": 2012,
+          "population": 125046
+        },
+        {
+          "year": 2013,
+          "population": 126306
+        },
+        {
+          "year": 2014,
+          "population": 127951
+        },
+        {
+          "year": 2015,
+          "population": 128352
+        },
+        {
+          "year": 2016,
+          "population": 128974
+        },
+        {
+          "year": 2017,
+          "population": 129880
+        },
+        {
+          "year": 2018,
+          "population": 129806
+        },
+        {
+          "year": 2019,
+          "population": 129638
+        },
+        {
+          "year": 2020,
+          "population": 135474
+        },
+        {
+          "year": 2021,
+          "population": 136837
+        },
+        {
+          "year": 2022,
+          "population": 136721
+        },
+        {
+          "year": 2023,
+          "population": 137578
+        },
+        {
+          "year": 2024,
+          "population": 139134
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "wilmington-de": {
       "points": [
         {
@@ -4098,6 +4293,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "clearwater-fl": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 109052
+        },
+        {
+          "year": 2011,
+          "population": 109204
+        },
+        {
+          "year": 2012,
+          "population": 109538
+        },
+        {
+          "year": 2013,
+          "population": 110279
+        },
+        {
+          "year": 2014,
+          "population": 111167
+        },
+        {
+          "year": 2015,
+          "population": 112939
+        },
+        {
+          "year": 2016,
+          "population": 114175
+        },
+        {
+          "year": 2017,
+          "population": 115482
+        },
+        {
+          "year": 2018,
+          "population": 116324
+        },
+        {
+          "year": 2019,
+          "population": 116946
+        },
+        {
+          "year": 2020,
+          "population": 117343
+        },
+        {
+          "year": 2021,
+          "population": 117133
+        },
+        {
+          "year": 2022,
+          "population": 117344
+        },
+        {
+          "year": 2023,
+          "population": 117555
+        },
+        {
+          "year": 2024,
+          "population": 116811
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "fort-lauderdale-fl": {
       "points": [
         {
@@ -4159,6 +4419,71 @@
         {
           "year": 2024,
           "population": 190641
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "fort-myers-fl": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 62503
+        },
+        {
+          "year": 2011,
+          "population": 63818
+        },
+        {
+          "year": 2012,
+          "population": 65504
+        },
+        {
+          "year": 2013,
+          "population": 67802
+        },
+        {
+          "year": 2014,
+          "population": 70449
+        },
+        {
+          "year": 2015,
+          "population": 73470
+        },
+        {
+          "year": 2016,
+          "population": 76752
+        },
+        {
+          "year": 2017,
+          "population": 80015
+        },
+        {
+          "year": 2018,
+          "population": 82229
+        },
+        {
+          "year": 2019,
+          "population": 87103
+        },
+        {
+          "year": 2020,
+          "population": 87288
+        },
+        {
+          "year": 2021,
+          "population": 93307
+        },
+        {
+          "year": 2022,
+          "population": 96324
+        },
+        {
+          "year": 2023,
+          "population": 98378
+        },
+        {
+          "year": 2024,
+          "population": 99918
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -4874,6 +5199,71 @@
         {
           "year": 2024,
           "population": 414547
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "west-palm-beach-fl": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 100813
+        },
+        {
+          "year": 2011,
+          "population": 101498
+        },
+        {
+          "year": 2012,
+          "population": 102526
+        },
+        {
+          "year": 2013,
+          "population": 103420
+        },
+        {
+          "year": 2014,
+          "population": 104314
+        },
+        {
+          "year": 2015,
+          "population": 106850
+        },
+        {
+          "year": 2016,
+          "population": 108740
+        },
+        {
+          "year": 2017,
+          "population": 110328
+        },
+        {
+          "year": 2018,
+          "population": 111058
+        },
+        {
+          "year": 2019,
+          "population": 111955
+        },
+        {
+          "year": 2020,
+          "population": 117512
+        },
+        {
+          "year": 2021,
+          "population": 117924
+        },
+        {
+          "year": 2022,
+          "population": 122120
+        },
+        {
+          "year": 2023,
+          "population": 126017
+        },
+        {
+          "year": 2024,
+          "population": 127744
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -6763,6 +7153,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "cambridge-ma": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 105008
+        },
+        {
+          "year": 2011,
+          "population": 105884
+        },
+        {
+          "year": 2012,
+          "population": 107886
+        },
+        {
+          "year": 2013,
+          "population": 112036
+        },
+        {
+          "year": 2014,
+          "population": 112993
+        },
+        {
+          "year": 2015,
+          "population": 113471
+        },
+        {
+          "year": 2016,
+          "population": 115685
+        },
+        {
+          "year": 2017,
+          "population": 116869
+        },
+        {
+          "year": 2018,
+          "population": 118151
+        },
+        {
+          "year": 2019,
+          "population": 118927
+        },
+        {
+          "year": 2020,
+          "population": 118204
+        },
+        {
+          "year": 2021,
+          "population": 117215
+        },
+        {
+          "year": 2022,
+          "population": 117973
+        },
+        {
+          "year": 2023,
+          "population": 119315
+        },
+        {
+          "year": 2024,
+          "population": 121186
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "worcester-ma": {
       "points": [
         {
@@ -7539,6 +7994,136 @@
         {
           "year": 2024,
           "population": 121483
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "bozeman-mt": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 37320
+        },
+        {
+          "year": 2011,
+          "population": 38077
+        },
+        {
+          "year": 2012,
+          "population": 38629
+        },
+        {
+          "year": 2013,
+          "population": 39773
+        },
+        {
+          "year": 2014,
+          "population": 41631
+        },
+        {
+          "year": 2015,
+          "population": 43327
+        },
+        {
+          "year": 2016,
+          "population": 45187
+        },
+        {
+          "year": 2017,
+          "population": 46907
+        },
+        {
+          "year": 2018,
+          "population": 48437
+        },
+        {
+          "year": 2019,
+          "population": 49831
+        },
+        {
+          "year": 2020,
+          "population": 53865
+        },
+        {
+          "year": 2021,
+          "population": 55409
+        },
+        {
+          "year": 2022,
+          "population": 56293
+        },
+        {
+          "year": 2023,
+          "population": 57106
+        },
+        {
+          "year": 2024,
+          "population": 57894
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "missoula-mt": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 67466
+        },
+        {
+          "year": 2011,
+          "population": 68078
+        },
+        {
+          "year": 2012,
+          "population": 68877
+        },
+        {
+          "year": 2013,
+          "population": 69487
+        },
+        {
+          "year": 2014,
+          "population": 70227
+        },
+        {
+          "year": 2015,
+          "population": 71292
+        },
+        {
+          "year": 2016,
+          "population": 72779
+        },
+        {
+          "year": 2017,
+          "population": 74077
+        },
+        {
+          "year": 2018,
+          "population": 74882
+        },
+        {
+          "year": 2019,
+          "population": 75516
+        },
+        {
+          "year": 2020,
+          "population": 74406
+        },
+        {
+          "year": 2021,
+          "population": 75407
+        },
+        {
+          "year": 2022,
+          "population": 76879
+        },
+        {
+          "year": 2023,
+          "population": 77647
+        },
+        {
+          "year": 2024,
+          "population": 78204
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -9233,6 +9818,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "wilmington-nc": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 106754
+        },
+        {
+          "year": 2011,
+          "population": 108141
+        },
+        {
+          "year": 2012,
+          "population": 109658
+        },
+        {
+          "year": 2013,
+          "population": 111686
+        },
+        {
+          "year": 2014,
+          "population": 113320
+        },
+        {
+          "year": 2015,
+          "population": 115050
+        },
+        {
+          "year": 2016,
+          "population": 118770
+        },
+        {
+          "year": 2017,
+          "population": 120836
+        },
+        {
+          "year": 2018,
+          "population": 122616
+        },
+        {
+          "year": 2019,
+          "population": 123744
+        },
+        {
+          "year": 2020,
+          "population": 115887
+        },
+        {
+          "year": 2021,
+          "population": 117969
+        },
+        {
+          "year": 2022,
+          "population": 121353
+        },
+        {
+          "year": 2023,
+          "population": 123599
+        },
+        {
+          "year": 2024,
+          "population": 125284
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "winston-salem-nc": {
       "points": [
         {
@@ -9753,6 +10403,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "norman-ok": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 111402
+        },
+        {
+          "year": 2011,
+          "population": 113882
+        },
+        {
+          "year": 2012,
+          "population": 115600
+        },
+        {
+          "year": 2013,
+          "population": 118695
+        },
+        {
+          "year": 2014,
+          "population": 118228
+        },
+        {
+          "year": 2015,
+          "population": 120239
+        },
+        {
+          "year": 2016,
+          "population": 121974
+        },
+        {
+          "year": 2017,
+          "population": 123390
+        },
+        {
+          "year": 2018,
+          "population": 123844
+        },
+        {
+          "year": 2019,
+          "population": 124880
+        },
+        {
+          "year": 2020,
+          "population": 128179
+        },
+        {
+          "year": 2021,
+          "population": 129099
+        },
+        {
+          "year": 2022,
+          "population": 129779
+        },
+        {
+          "year": 2023,
+          "population": 130349
+        },
+        {
+          "year": 2024,
+          "population": 131010
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "oklahoma-city-ok": {
       "points": [
         {
@@ -9879,6 +10594,71 @@
         {
           "year": 2024,
           "population": 415154
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "bend-or": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 76663
+        },
+        {
+          "year": 2011,
+          "population": 77575
+        },
+        {
+          "year": 2012,
+          "population": 78617
+        },
+        {
+          "year": 2013,
+          "population": 80906
+        },
+        {
+          "year": 2014,
+          "population": 83526
+        },
+        {
+          "year": 2015,
+          "population": 86277
+        },
+        {
+          "year": 2016,
+          "population": 90665
+        },
+        {
+          "year": 2017,
+          "population": 94557
+        },
+        {
+          "year": 2018,
+          "population": 97620
+        },
+        {
+          "year": 2019,
+          "population": 100421
+        },
+        {
+          "year": 2020,
+          "population": 99687
+        },
+        {
+          "year": 2021,
+          "population": 102412
+        },
+        {
+          "year": 2022,
+          "population": 103208
+        },
+        {
+          "year": 2023,
+          "population": 104707
+        },
+        {
+          "year": 2024,
+          "population": 106926
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -10858,6 +11638,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "murfreesboro-tn": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 109572
+        },
+        {
+          "year": 2011,
+          "population": 111901
+        },
+        {
+          "year": 2012,
+          "population": 114141
+        },
+        {
+          "year": 2013,
+          "population": 117042
+        },
+        {
+          "year": 2014,
+          "population": 120808
+        },
+        {
+          "year": 2015,
+          "population": 125958
+        },
+        {
+          "year": 2016,
+          "population": 131409
+        },
+        {
+          "year": 2017,
+          "population": 136217
+        },
+        {
+          "year": 2018,
+          "population": 141442
+        },
+        {
+          "year": 2019,
+          "population": 146900
+        },
+        {
+          "year": 2020,
+          "population": 153816
+        },
+        {
+          "year": 2021,
+          "population": 156473
+        },
+        {
+          "year": 2022,
+          "population": 162595
+        },
+        {
+          "year": 2023,
+          "population": 166023
+        },
+        {
+          "year": 2024,
+          "population": 168387
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "nashville-tn": {
       "points": [
         {
@@ -11118,6 +11963,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "brownsville-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 175362
+        },
+        {
+          "year": 2011,
+          "population": 178154
+        },
+        {
+          "year": 2012,
+          "population": 179652
+        },
+        {
+          "year": 2013,
+          "population": 180648
+        },
+        {
+          "year": 2014,
+          "population": 181656
+        },
+        {
+          "year": 2015,
+          "population": 181528
+        },
+        {
+          "year": 2016,
+          "population": 182311
+        },
+        {
+          "year": 2017,
+          "population": 182384
+        },
+        {
+          "year": 2018,
+          "population": 182333
+        },
+        {
+          "year": 2019,
+          "population": 182781
+        },
+        {
+          "year": 2020,
+          "population": 186648
+        },
+        {
+          "year": 2021,
+          "population": 187415
+        },
+        {
+          "year": 2022,
+          "population": 189239
+        },
+        {
+          "year": 2023,
+          "population": 190572
+        },
+        {
+          "year": 2024,
+          "population": 191967
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "corpus-christi-tx": {
       "points": [
         {
@@ -11244,6 +12154,71 @@
         {
           "year": 2024,
           "population": 1326087
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "denton-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 117010
+        },
+        {
+          "year": 2011,
+          "population": 120101
+        },
+        {
+          "year": 2012,
+          "population": 123573
+        },
+        {
+          "year": 2013,
+          "population": 125030
+        },
+        {
+          "year": 2014,
+          "population": 128217
+        },
+        {
+          "year": 2015,
+          "population": 131154
+        },
+        {
+          "year": 2016,
+          "population": 134261
+        },
+        {
+          "year": 2017,
+          "population": 135629
+        },
+        {
+          "year": 2018,
+          "population": 138315
+        },
+        {
+          "year": 2019,
+          "population": 141541
+        },
+        {
+          "year": 2020,
+          "population": 141128
+        },
+        {
+          "year": 2021,
+          "population": 147234
+        },
+        {
+          "year": 2022,
+          "population": 150850
+        },
+        {
+          "year": 2023,
+          "population": 159223
+        },
+        {
+          "year": 2024,
+          "population": 165998
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -11833,6 +12808,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "mcallen-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 132093
+        },
+        {
+          "year": 2011,
+          "population": 134639
+        },
+        {
+          "year": 2012,
+          "population": 136277
+        },
+        {
+          "year": 2013,
+          "population": 137421
+        },
+        {
+          "year": 2014,
+          "population": 138719
+        },
+        {
+          "year": 2015,
+          "population": 139909
+        },
+        {
+          "year": 2016,
+          "population": 141888
+        },
+        {
+          "year": 2017,
+          "population": 142249
+        },
+        {
+          "year": 2018,
+          "population": 142530
+        },
+        {
+          "year": 2019,
+          "population": 143268
+        },
+        {
+          "year": 2020,
+          "population": 142401
+        },
+        {
+          "year": 2021,
+          "population": 143762
+        },
+        {
+          "year": 2022,
+          "population": 144837
+        },
+        {
+          "year": 2023,
+          "population": 147264
+        },
+        {
+          "year": 2024,
+          "population": 148782
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "mckinney-tx": {
       "points": [
         {
@@ -12158,6 +13198,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "ogden-ut": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 83100
+        },
+        {
+          "year": 2011,
+          "population": 83312
+        },
+        {
+          "year": 2012,
+          "population": 83874
+        },
+        {
+          "year": 2013,
+          "population": 84180
+        },
+        {
+          "year": 2014,
+          "population": 84406
+        },
+        {
+          "year": 2015,
+          "population": 85295
+        },
+        {
+          "year": 2016,
+          "population": 86742
+        },
+        {
+          "year": 2017,
+          "population": 87061
+        },
+        {
+          "year": 2018,
+          "population": 87202
+        },
+        {
+          "year": 2019,
+          "population": 87773
+        },
+        {
+          "year": 2020,
+          "population": 87299
+        },
+        {
+          "year": 2021,
+          "population": 86659
+        },
+        {
+          "year": 2022,
+          "population": 86934
+        },
+        {
+          "year": 2023,
+          "population": 87525
+        },
+        {
+          "year": 2024,
+          "population": 88656
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "provo-ut": {
       "points": [
         {
@@ -12219,6 +13324,71 @@
         {
           "year": 2024,
           "population": 115479
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "st-george-ut": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 72837
+        },
+        {
+          "year": 2011,
+          "population": 73789
+        },
+        {
+          "year": 2012,
+          "population": 75010
+        },
+        {
+          "year": 2013,
+          "population": 76275
+        },
+        {
+          "year": 2014,
+          "population": 77942
+        },
+        {
+          "year": 2015,
+          "population": 79574
+        },
+        {
+          "year": 2016,
+          "population": 81696
+        },
+        {
+          "year": 2017,
+          "population": 84547
+        },
+        {
+          "year": 2018,
+          "population": 87113
+        },
+        {
+          "year": 2019,
+          "population": 89587
+        },
+        {
+          "year": 2020,
+          "population": 96050
+        },
+        {
+          "year": 2021,
+          "population": 100241
+        },
+        {
+          "year": 2022,
+          "population": 102673
+        },
+        {
+          "year": 2023,
+          "population": 104732
+        },
+        {
+          "year": 2024,
+          "population": 106288
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -12808,6 +13978,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "everett-wa": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 103173
+        },
+        {
+          "year": 2011,
+          "population": 103445
+        },
+        {
+          "year": 2012,
+          "population": 104436
+        },
+        {
+          "year": 2013,
+          "population": 105048
+        },
+        {
+          "year": 2014,
+          "population": 106460
+        },
+        {
+          "year": 2015,
+          "population": 107077
+        },
+        {
+          "year": 2016,
+          "population": 108931
+        },
+        {
+          "year": 2017,
+          "population": 110169
+        },
+        {
+          "year": 2018,
+          "population": 111088
+        },
+        {
+          "year": 2019,
+          "population": 111475
+        },
+        {
+          "year": 2020,
+          "population": 110892
+        },
+        {
+          "year": 2021,
+          "population": 111218
+        },
+        {
+          "year": 2022,
+          "population": 111842
+        },
+        {
+          "year": 2023,
+          "population": 112233
+        },
+        {
+          "year": 2024,
+          "population": 113011
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "seattle-wa": {
       "points": [
         {
@@ -13327,6 +14562,71 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "arlington-va": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 209295
+        },
+        {
+          "year": 2011,
+          "population": 215990
+        },
+        {
+          "year": 2012,
+          "population": 221454
+        },
+        {
+          "year": 2013,
+          "population": 224894
+        },
+        {
+          "year": 2014,
+          "population": 225980
+        },
+        {
+          "year": 2015,
+          "population": 228548
+        },
+        {
+          "year": 2016,
+          "population": 231259
+        },
+        {
+          "year": 2017,
+          "population": 234647
+        },
+        {
+          "year": 2018,
+          "population": 236025
+        },
+        {
+          "year": 2019,
+          "population": 236842
+        },
+        {
+          "year": 2020,
+          "population": 238829
+        },
+        {
+          "year": 2021,
+          "population": 233478
+        },
+        {
+          "year": 2022,
+          "population": 233976
+        },
+        {
+          "year": 2023,
+          "population": 235181
+        },
+        {
+          "year": 2024,
+          "population": 239807
+        }
+      ],
+      "source": "U.S. Census Bureau PEP county estimates for Arlington County, VA (CDP coterminous; 2010–2024)"
     }
   }
 }

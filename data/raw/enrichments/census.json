@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T14:48:35.390Z",
+  "generatedAt": "2026-09-10T22:45:07.117Z",
   "vintage": "ACS 2023 5-year",
   "national": {
     "medianHomeValue": 303400,
@@ -2056,6 +2056,206 @@
       "medianRent": 1248,
       "costOfLivingIndex": 121,
       "source": "U.S. Census Bureau ACS 2023 5-year (Greenville city, 1600000US4530850)"
+    },
+    "arlington-va": {
+      "geoid": "1600000US5103000",
+      "placeName": "Arlington CDP, Virginia",
+      "population": 235463,
+      "medianHouseholdIncome": 140160,
+      "medianHomePrice": 864800,
+      "medianRent": 2275,
+      "costOfLivingIndex": 227,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Arlington CDP, Virginia, 1600000US5103000)"
+    },
+    "cambridge-ma": {
+      "geoid": "1600000US2511000",
+      "placeName": "Cambridge city",
+      "population": 117794,
+      "medianHouseholdIncome": 126469,
+      "medianHomePrice": 1040500,
+      "medianRent": 2742,
+      "costOfLivingIndex": 273,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Cambridge city, 1600000US2511000)"
+    },
+    "wilmington-nc": {
+      "geoid": "1600000US3774440",
+      "placeName": "Wilmington city",
+      "population": 118578,
+      "medianHouseholdIncome": 63900,
+      "medianHomePrice": 350300,
+      "medianRent": 1311,
+      "costOfLivingIndex": 106,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Wilmington city, 1600000US3774440)"
+    },
+    "mcallen-tx": {
+      "geoid": "1600000US4845384",
+      "placeName": "McAllen city",
+      "population": 143789,
+      "medianHouseholdIncome": 60165,
+      "medianHomePrice": 173800,
+      "medianRent": 1017,
+      "costOfLivingIndex": 66,
+      "source": "U.S. Census Bureau ACS 2023 5-year (McAllen city, 1600000US4845384)"
+    },
+    "brownsville-tx": {
+      "geoid": "1600000US4810768",
+      "placeName": "Brownsville city",
+      "population": 188023,
+      "medianHouseholdIncome": 48675,
+      "medianHomePrice": 122400,
+      "medianRent": 906,
+      "costOfLivingIndex": 54,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Brownsville city, 1600000US4810768)"
+    },
+    "west-palm-beach-fl": {
+      "geoid": "1600000US1276600",
+      "placeName": "West Palm Beach city",
+      "population": 119508,
+      "medianHouseholdIncome": 69261,
+      "medianHomePrice": 369800,
+      "medianRent": 1709,
+      "costOfLivingIndex": 124,
+      "source": "U.S. Census Bureau ACS 2023 5-year (West Palm Beach city, 1600000US1276600)"
+    },
+    "clearwater-fl": {
+      "geoid": "1600000US1212875",
+      "placeName": "Clearwater city",
+      "population": 117075,
+      "medianHouseholdIncome": 64440,
+      "medianHomePrice": 326100,
+      "medianRent": 1539,
+      "costOfLivingIndex": 111,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Clearwater city, 1600000US1212875)"
+    },
+    "fort-myers-fl": {
+      "geoid": "1600000US1224125",
+      "placeName": "Fort Myers city",
+      "population": 91730,
+      "medianHouseholdIncome": 62160,
+      "medianHomePrice": 351600,
+      "medianRent": 1442,
+      "costOfLivingIndex": 111,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fort Myers city, 1600000US1224125)"
+    },
+    "berkeley-ca": {
+      "geoid": "1600000US0606000",
+      "placeName": "Berkeley city",
+      "population": 120223,
+      "medianHouseholdIncome": 108558,
+      "medianHomePrice": 1351100,
+      "medianRent": 2127,
+      "costOfLivingIndex": 302,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Berkeley city, 1600000US0606000)"
+    },
+    "santa-barbara-ca": {
+      "geoid": "1600000US0669070",
+      "placeName": "Santa Barbara city",
+      "population": 88024,
+      "medianHouseholdIncome": 101672,
+      "medianHomePrice": 1466400,
+      "medianRent": 2302,
+      "costOfLivingIndex": 327,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Santa Barbara city, 1600000US0669070)"
+    },
+    "bend-or": {
+      "geoid": "1600000US4105800",
+      "placeName": "Bend city",
+      "population": 101472,
+      "medianHouseholdIncome": 88792,
+      "medianHomePrice": 646800,
+      "medianRent": 1767,
+      "costOfLivingIndex": 172,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Bend city, 1600000US4105800)"
+    },
+    "bozeman-mt": {
+      "geoid": "1600000US3008950",
+      "placeName": "Bozeman city",
+      "population": 55042,
+      "medianHouseholdIncome": 79903,
+      "medianHomePrice": 614900,
+      "medianRent": 1611,
+      "costOfLivingIndex": 161,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Bozeman city, 1600000US3008950)"
+    },
+    "missoula-mt": {
+      "geoid": "1600000US3050200",
+      "placeName": "Missoula city",
+      "population": 75600,
+      "medianHouseholdIncome": 65329,
+      "medianHomePrice": 427400,
+      "medianRent": 1120,
+      "costOfLivingIndex": 112,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Missoula city, 1600000US3050200)"
+    },
+    "st-george-ut": {
+      "geoid": "1600000US4965330",
+      "placeName": "St. George city",
+      "population": 99184,
+      "medianHouseholdIncome": 72870,
+      "medianHomePrice": 456900,
+      "medianRent": 1429,
+      "costOfLivingIndex": 128,
+      "source": "U.S. Census Bureau ACS 2023 5-year (St. George city, 1600000US4965330)"
+    },
+    "ogden-ut": {
+      "geoid": "1600000US4955980",
+      "placeName": "Ogden city",
+      "population": 86973,
+      "medianHouseholdIncome": 70053,
+      "medianHomePrice": 311300,
+      "medianRent": 1128,
+      "costOfLivingIndex": 93,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Ogden city, 1600000US4955980)"
+    },
+    "murfreesboro-tn": {
+      "geoid": "1600000US4751560",
+      "placeName": "Murfreesboro city",
+      "population": 157547,
+      "medianHouseholdIncome": 76241,
+      "medianHomePrice": 365100,
+      "medianRent": 1376,
+      "costOfLivingIndex": 111,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Murfreesboro city, 1600000US4751560)"
+    },
+    "denton-tx": {
+      "geoid": "1600000US4819972",
+      "placeName": "Denton city",
+      "population": 146987,
+      "medianHouseholdIncome": 73719,
+      "medianHomePrice": 325700,
+      "medianRent": 1344,
+      "costOfLivingIndex": 104,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Denton city, 1600000US4819972)"
+    },
+    "everett-wa": {
+      "geoid": "1600000US5322640",
+      "placeName": "Everett city",
+      "population": 111083,
+      "medianHouseholdIncome": 81502,
+      "medianHomePrice": 532300,
+      "medianRent": 1675,
+      "costOfLivingIndex": 150,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Everett city, 1600000US5322640)"
+    },
+    "stamford-ct": {
+      "geoid": "1600000US0973000",
+      "placeName": "Stamford city",
+      "population": 135806,
+      "medianHouseholdIncome": 107474,
+      "medianHomePrice": 614300,
+      "medianRent": 2207,
+      "costOfLivingIndex": 183,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Stamford city, 1600000US0973000)"
+    },
+    "norman-ok": {
+      "geoid": "1600000US4052500",
+      "placeName": "Norman city",
+      "population": 128714,
+      "medianHouseholdIncome": 65060,
+      "medianHomePrice": 239300,
+      "medianRent": 1064,
+      "costOfLivingIndex": 79,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Norman city, 1600000US4052500)"
     }
   }
 }
