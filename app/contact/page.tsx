@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { githubRepoUrl } from '@/lib/paths'
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact the MapsToIt team about data corrections, partnerships, or city coverage requests.',
+  description: 'Contact João Bermudez about MapsToIt data corrections, partnerships, or city coverage requests.',
   alternates: { canonical: '/contact' },
 }
 
@@ -16,6 +17,13 @@ export default function ContactPage() {
       <p>
         Email <a href="mailto:hello@mapstoit.com">hello@mapstoit.com</a> and include the city slug if you are reporting
         a data issue.
+      </p>
+      <p>
+        Source and issue tracker:{' '}
+        <a href={githubRepoUrl} rel="noopener noreferrer">
+          GitHub
+        </a>
+        .
       </p>
     </article>
   )

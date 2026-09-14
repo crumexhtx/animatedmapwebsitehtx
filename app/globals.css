@@ -1831,6 +1831,17 @@ a:hover { color: var(--map-deep); }
   margin: 0 0 0.8rem;
 }
 
+.content-page h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 2rem 0 0.6rem;
+}
+
+.content-page .cta-row {
+  margin: 0 0 1.5rem;
+}
+
 @media (max-width: 860px) {
   .city-layout {
     grid-template-columns: 1fr;

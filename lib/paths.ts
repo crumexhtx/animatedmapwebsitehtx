@@ -1,5 +1,8 @@
 import type { CityRecord, StateRecord } from '@/lib/types'
 
+export const githubProfileUrl = 'https://github.com/crumexhtx'
+export const githubRepoUrl = 'https://github.com/crumexhtx/animatedmapwebsitehtx'
+
 export function cityPath(city: Pick<CityRecord, 'stateSlug' | 'slug'>) {
   return `/cities/${city.stateSlug}/${city.slug}`
 }

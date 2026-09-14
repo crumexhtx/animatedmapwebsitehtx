@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Brand } from '@/components/Brand'
+import { githubRepoUrl } from '@/lib/paths'
 
 export function SiteFooter() {
   return (
@@ -18,6 +19,7 @@ export function SiteFooter() {
         <Link href="/methodology" prefetch={false}>Data sources</Link>
         <Link href="/about" prefetch={false}>About</Link>
         <Link href="/contact" prefetch={false}>Contact</Link>
+        <a href={githubRepoUrl} rel="noopener noreferrer">GitHub</a>
       </div>
       <p className="footer-note">
         Figures compile Census ACS, BLS LAUS, FBI CDE, and NOAA normals for research — see methodology for citations and

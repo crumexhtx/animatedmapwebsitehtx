@@ -2,12 +2,21 @@
   "name": "mapstoit",
   "private": true,
   "version": "0.2.0",
+  "license": "MIT",
+  "homepage": "https://mapstoit.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crumexhtx/animatedmapwebsitehtx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crumexhtx/animatedmapwebsitehtx/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "npm run validate-catalog && npm run detect-duplicate-content && next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "tsx --test scripts/test-ai-search.ts",
+    "test": "tsx --test scripts/test-ai-search.ts scripts/test-afford.ts scripts/test-match.ts",
     "generate-catalog": "tsx scripts/generate-seed-catalog.ts",
     "build-catalog": "tsx scripts/build-catalog.ts",
     "validate-catalog": "tsx scripts/validate-catalog.ts",
