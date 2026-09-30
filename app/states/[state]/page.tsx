@@ -6,7 +6,7 @@ import { ContentSnapshot } from '@/components/ContentSnapshot'
 import {
   allStates,
   cityPath,
-  comparePath,
+  compareToolPath,
   getCitiesByState,
   getNotableUnmapped,
   getState,
@@ -65,7 +65,9 @@ export default async function StatePage({ params }: Props) {
         <p className="answer-lead">
           {state.cityCount} cities are fully mapped below — each page includes proprietary housing, income, commute,
           climate, and safety figures versus U.S. baselines. Compare any two with the{' '}
-          <Link href={comparePath(cities.slice(0, 2).map((city) => city.slug))}>compare tool</Link>.
+          <Link href={compareToolPath(cities.slice(0, 2).map((city) => city.slug))} rel="nofollow">
+            compare tool
+          </Link>.
         </p>
         <ul className="city-list">
           {cities.map((city) => (

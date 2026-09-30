@@ -13,7 +13,7 @@ import {
   type MatchFilters,
   type MatchWeights,
 } from '@/lib/match'
-import { cityPath, comparePath, matchPath } from '@/lib/paths'
+import { cityPath, compareToolPath, matchPath } from '@/lib/paths'
 
 export function MatchCities({
   cities,
@@ -180,7 +180,7 @@ export function MatchCities({
                 ))}
               </div>
               <div className="match-result-actions">
-                <Link className="button button-secondary" href={comparePath([city.slug, baselineSlug ?? ''].filter(Boolean))}>
+                <Link className="button button-secondary" href={compareToolPath([city.slug, baselineSlug ?? ''].filter(Boolean))}>
                   {baselineSlug ? `Compare with ${baseline?.name ?? 'baseline'}` : 'Open in Compare'}
                 </Link>
                 <Link className="button button-secondary" href={cityPath(city)}>

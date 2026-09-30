@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import { CompareCities } from '@/components/CompareCities'
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import type { MatchFilters, MatchWeights } from '@/lib/match'
-import { comparePath, matchPath } from '@/lib/paths'
+import { compareToolPath, matchPath } from '@/lib/paths'
 
 const MatchCities = dynamic(
   () => import('@/components/MatchCities').then((mod) => mod.MatchCities),
@@ -37,7 +37,7 @@ export function CompareWorkspace({
   const switchMode = (next: CompareMode) => {
     if (next === mode) return
     if (next === 'compare') {
-      router.push(comparePath(initialSlugs))
+      router.push(compareToolPath(initialSlugs))
       return
     }
     router.push(
@@ -99,7 +99,7 @@ export function CompareWorkspace({
         ) : (
           <>
             Prefer a side-by-side table?{' '}
-            <Link href={comparePath(initialSlugs)}>Switch to Compare cities</Link>.
+            <Link href={compareToolPath(initialSlugs)}>Switch to Compare cities</Link>.
           </>
         )}
       </p>

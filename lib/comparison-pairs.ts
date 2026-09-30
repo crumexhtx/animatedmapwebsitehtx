@@ -33,6 +33,13 @@ export function getComparisonPair(slug: string) {
   return COMPARISON_PAIRS.find((pair) => pair.slug === slug)
 }
 
+/** Curated pair for two city slugs, either order. */
+export function findComparisonPair(a: string, b: string) {
+  return COMPARISON_PAIRS.find(
+    (pair) => (pair.a === a && pair.b === b) || (pair.a === b && pair.b === a),
+  )
+}
+
 export function comparisonsForCity(citySlug: string) {
   return COMPARISON_PAIRS.filter((pair) => pair.a === citySlug || pair.b === citySlug)
 }

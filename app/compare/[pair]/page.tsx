@@ -8,7 +8,7 @@ import {
   getComparisonPair,
 } from '@/lib/comparison-pairs'
 import { buildCompareRows } from '@/lib/compare'
-import { cityPath, getCity, nationalBaselines, siteUrl } from '@/lib/catalog'
+import { cityPath, compareToolPath, getCity, nationalBaselines, siteUrl } from '@/lib/catalog'
 import { absoluteUrl, safeJsonLd } from '@/lib/seo'
 
 type Props = {
@@ -169,7 +169,7 @@ export default async function ComparisonPairPage({ params }: Props) {
         <h2>Short verdict</h2>
         <p className="answer-lead">{copy.verdict}</p>
         <div className="cta-row">
-          <Link className="button" href={`/compare?cities=${a.slug},${b.slug}`}>
+          <Link className="button" href={compareToolPath([a.slug, b.slug])} rel="nofollow">
             Open interactive compare tool
           </Link>
           <Link className="button button-secondary" href="/compare">

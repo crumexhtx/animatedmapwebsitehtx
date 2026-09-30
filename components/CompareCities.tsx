@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { buildCompareRows } from '@/lib/compare'
 import { buildRadarSeries } from '@/lib/charts'
-import { cityPath, comparePath } from '@/lib/paths'
+import { cityPath, compareToolPath } from '@/lib/paths'
 
 const CompareRadarChart = dynamic(
   () => import('@/components/CompareRadarChart').then((mod) => mod.CompareRadarChart),
@@ -64,7 +64,7 @@ export function CompareCities({
         onSubmit={(event) => {
           event.preventDefault()
           if (selectedSlugs.length < 2) return
-          window.location.assign(comparePath(selectedSlugs))
+          window.location.assign(compareToolPath(selectedSlugs))
         }}
       >
         <CitySelect
@@ -154,7 +154,7 @@ export function CompareCities({
 
           <p className="compare-share">
             Shareable link:{' '}
-            <Link href={comparePath(selectedSlugs)}>{comparePath(selectedSlugs)}</Link>
+            <Link href={compareToolPath(selectedSlugs)}>{compareToolPath(selectedSlugs)}</Link>
           </p>
         </>
       ) : (

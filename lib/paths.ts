@@ -1,4 +1,5 @@
 import type { CityRecord, StateRecord } from '@/lib/types'
+import { comparisonPath, findComparisonPair } from '@/lib/comparison-pairs'
 
 export const githubProfileUrl = 'https://github.com/crumexhtx'
 export const githubRepoUrl = 'https://github.com/crumexhtx/animatedmapwebsitehtx'
@@ -12,10 +13,22 @@ export function statePath(state: StateRecord | string) {
   return `/states/${slug}`
 }
 
+/** Interactive compare tool (query string). Use for shareable tool state, not crawlable nav. */
+export function compareToolPath(slugs: string[]) {
+  const cities = slugs.filter(Boolean).slice(0, 3)
+  if (!cities.length) return '/compare'
+  return `/compare?cities=${cities.join(',')}`
+}
+
+/** Best public URL for a comparison: curated pair page when we have one, otherwise the tool. */
 export function comparePath(slugs: string[]) {
   const cities = slugs.filter(Boolean).slice(0, 3)
   if (!cities.length) return '/compare'
-  return `/compare?mode=compare&cities=${cities.join(',')}`
+  if (cities.length === 2) {
+    const pair = findComparisonPair(cities[0], cities[1])
+    if (pair) return comparisonPath(pair.slug)
+  }
+  return compareToolPath(cities)
 }
 
 /** Matcher mode on /compare — optional baseline city for “find cities like this”. */

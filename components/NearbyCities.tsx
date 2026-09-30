@@ -29,15 +29,20 @@ export function NearbyCities({
               <Link className="nearby-state" href={statePath(city.stateSlug)}>
                 {city.state}
               </Link>
-              {fromSlug ? (
-                <Link className="nearby-compare" href={comparePath([fromSlug, city.slug])}>
-                  Compare
-                </Link>
-              ) : null}
+              {fromSlug ? <NearbyCompareLink fromSlug={fromSlug} toSlug={city.slug} /> : null}
             </div>
           </li>
         ))}
       </ul>
     </section>
+  )
+}
+
+function NearbyCompareLink({ fromSlug, toSlug }: { fromSlug: string; toSlug: string }) {
+  const href = comparePath([fromSlug, toSlug])
+  return (
+    <Link className="nearby-compare" href={href} rel={href.includes('?') ? 'nofollow' : undefined}>
+      Compare
+    </Link>
   )
 }

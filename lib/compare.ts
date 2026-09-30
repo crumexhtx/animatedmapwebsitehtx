@@ -1,4 +1,5 @@
 import type { CityRecord, NationalBaselines } from '@/lib/types'
+import { comparisonPath, findComparisonPair } from '@/lib/comparison-pairs'
 import { formatCurrency, formatNumber, formatPercent } from '@/lib/format'
 
 export type CompareRow = {
@@ -133,4 +134,25 @@ export function parseCompareSlugs(raw: string | string[] | undefined, limit = 3)
     if (slugs.length >= limit) break
   }
   return slugs
+}
+
+function slugsFromCompareParams(params: Record<string, string | string[] | undefined>) {
+  const fromCities = parseCompareSlugs(params.cities)
+  if (fromCities.length) return fromCities
+  return parseCompareSlugs([params.a, params.b, params.c].filter(Boolean).join(','))
+}
+
+/**
+ * Canonical for /compare and its query variants.
+ * Query URLs are the interactive tool — they must not be noindexed (that is what
+ * Search Console reports as “Excluded by noindex”). Point Google at the hub, or
+ * at a curated pair page when the query is exactly that pair.
+ */
+export function compareCanonicalPath(params: Record<string, string | string[] | undefined>) {
+  const slugs = slugsFromCompareParams(params)
+  if (slugs.length === 2) {
+    const pair = findComparisonPair(slugs[0], slugs[1])
+    if (pair) return comparisonPath(pair.slug)
+  }
+  return '/compare'
 }

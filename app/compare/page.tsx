@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { CompareWorkspace } from '@/components/CompareWorkspace'
 import { allCities, cityPath, getCity, nationalBaselines } from '@/lib/catalog'
 import { COMPARISON_PAIRS, comparisonPath } from '@/lib/comparison-pairs'
-import { parseCompareSlugs } from '@/lib/compare'
+import { parseCompareSlugs, compareCanonicalPath } from '@/lib/compare'
 import { formatCurrency } from '@/lib/format'
 import {
   parseMatchFilters,
@@ -14,25 +14,16 @@ type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>
 }
 
-function hasQueryParams(params: Record<string, string | string[] | undefined>) {
-  return Object.values(params).some((value) => {
-    if (value == null) return false
-    if (Array.isArray(value)) return value.some(Boolean)
-    return value.length > 0
-  })
-}
-
-/** Always canonicalize to clean /compare. Query variants (cities=, mode=, like=)
- * are tools for users/sharing — do not ask Google to index each combination. */
+/** Query variants (cities=, mode=, like=) are the interactive tool. Canonicalize
+ * them to /compare or a curated pair page — do not noindex (Search Console
+ * reports that as “Excluded by noindex”). */
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const params = await searchParams
-  const queried = hasQueryParams(params)
   return {
-    title: '⚖️ Compare & Match U.S. Cities — Income, Housing & Safety',
+    title: 'Compare & Match U.S. Cities — Income, Housing & Safety',
     description:
       'Compare U.S. cities side by side or find best-fit matches with weighted priorities for cost, safety, income, and climate — plus curated high-intent pair pages.',
-    alternates: { canonical: '/compare' },
-    ...(queried ? { robots: { index: false, follow: true } } : {}),
+    alternates: { canonical: compareCanonicalPath(params) },
   }
 }
 

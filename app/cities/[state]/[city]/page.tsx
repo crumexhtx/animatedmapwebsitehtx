@@ -16,7 +16,7 @@ import { SourceList } from '@/components/SourceList'
 import {
   allCities,
   cityPath,
-  comparePath,
+  compareToolPath,
   matchPath,
   getCity,
   getNearbyCities,
@@ -170,11 +170,12 @@ export default async function CityPage({ params }: Props) {
           <div className="compare-cta-row">
             <Link
               className="button"
-              href={comparePeer ? comparePath([city.slug, comparePeer]) : comparePath([city.slug])}
+              href={comparePeer ? compareToolPath([city.slug, comparePeer]) : compareToolPath([city.slug])}
+              rel="nofollow"
             >
               Compare {city.name} to another city
             </Link>
-            <Link className="button button-secondary" href={matchPath({ like: city.slug })}>
+            <Link className="button button-secondary" href={matchPath({ like: city.slug })} rel="nofollow">
               Find cities like {city.name}
             </Link>
           </div>
