@@ -177,6 +177,10 @@ function mergeCity(
     medianRent: censusRow?.medianRent ?? seedCity.medianRent,
     costOfLivingIndex: censusRow?.costOfLivingIndex ?? seedCity.costOfLivingIndex,
     unemploymentRate: blsRow?.unemploymentRate ?? seedCity.unemploymentRate,
+    commute: {
+      avgMinutes: censusRow?.commuteMinutes ?? seedCity.commute.avgMinutes,
+      ...(seedCity.commute.walkScore != null ? { walkScore: seedCity.commute.walkScore } : {}),
+    },
     crimeIndex: crimeRow
       ? {
           violent: crimeRow.violent,

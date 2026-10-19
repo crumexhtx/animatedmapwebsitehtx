@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:46:52.327Z",
+  "generatedAt": "2026-10-19T15:32:16.565Z",
   "cities": {
     "new-york-ny": {
       "seriesId": "LAUCN360610000000003",
@@ -1768,6 +1768,166 @@
       "unemploymentRate": 4.1,
       "period": "July 2026",
       "source": "BLS LAUS · Cleveland County, July 2026"
+    },
+    "sugar-land-tx": {
+      "seriesId": "LAUCN481570000000003",
+      "countyFips": "48157",
+      "countyName": "Fort Bend County",
+      "unemploymentRate": 4.8,
+      "period": "August 2026",
+      "source": "BLS LAUS · Fort Bend County, August 2026"
+    },
+    "pearland-tx": {
+      "seriesId": "LAUCN480390000000003",
+      "countyFips": "48039",
+      "countyName": "Brazoria County",
+      "unemploymentRate": 5.1,
+      "period": "August 2026",
+      "source": "BLS LAUS · Brazoria County, August 2026"
+    },
+    "league-city-tx": {
+      "seriesId": "LAUCN481670000000003",
+      "countyFips": "48167",
+      "countyName": "Galveston County",
+      "unemploymentRate": 4.9,
+      "period": "August 2026",
+      "source": "BLS LAUS · Galveston County, August 2026"
+    },
+    "conroe-tx": {
+      "seriesId": "LAUCN483390000000003",
+      "countyFips": "48339",
+      "countyName": "Montgomery County",
+      "unemploymentRate": 4.6,
+      "period": "August 2026",
+      "source": "BLS LAUS · Montgomery County, August 2026"
+    },
+    "pasadena-tx": {
+      "seriesId": "LAUCN482010000000003",
+      "countyFips": "48201",
+      "countyName": "Harris County",
+      "unemploymentRate": 5,
+      "period": "August 2026",
+      "source": "BLS LAUS · Harris County, August 2026"
+    },
+    "new-braunfels-tx": {
+      "seriesId": "LAUCN480910000000003",
+      "countyFips": "48091",
+      "countyName": "Comal County",
+      "unemploymentRate": 4.3,
+      "period": "August 2026",
+      "source": "BLS LAUS · Comal County, August 2026"
+    },
+    "college-station-tx": {
+      "seriesId": "LAUCN480410000000003",
+      "countyFips": "48041",
+      "countyName": "Brazos County",
+      "unemploymentRate": 3.9,
+      "period": "August 2026",
+      "source": "BLS LAUS · Brazos County, August 2026"
+    },
+    "killeen-tx": {
+      "seriesId": "LAUCN480270000000003",
+      "countyFips": "48027",
+      "countyName": "Bell County",
+      "unemploymentRate": 5.2,
+      "period": "August 2026",
+      "source": "BLS LAUS · Bell County, August 2026"
+    },
+    "meridian-id": {
+      "seriesId": "LAUCN160010000000003",
+      "countyFips": "16001",
+      "countyName": "Ada County",
+      "unemploymentRate": 3.3,
+      "period": "August 2026",
+      "source": "BLS LAUS · Ada County, August 2026"
+    },
+    "surprise-az": {
+      "seriesId": "LAUCN040130000000003",
+      "countyFips": "04013",
+      "countyName": "Maricopa County",
+      "unemploymentRate": 4.8,
+      "period": "August 2026",
+      "source": "BLS LAUS · Maricopa County, August 2026"
+    },
+    "buckeye-az": {
+      "seriesId": "LAUCN040130000000003",
+      "countyFips": "04013",
+      "countyName": "Maricopa County",
+      "unemploymentRate": 4.8,
+      "period": "August 2026",
+      "source": "BLS LAUS · Maricopa County, August 2026"
+    },
+    "elk-grove-ca": {
+      "seriesId": "LAUCN060670000000003",
+      "countyFips": "06067",
+      "countyName": "Sacramento County",
+      "unemploymentRate": 5.3,
+      "period": "August 2026",
+      "source": "BLS LAUS · Sacramento County, August 2026"
+    },
+    "roseville-ca": {
+      "seriesId": "LAUCN060610000000003",
+      "countyFips": "06061",
+      "countyName": "Placer County",
+      "unemploymentRate": 4.5,
+      "period": "August 2026",
+      "source": "BLS LAUS · Placer County, August 2026"
+    },
+    "lakeland-fl": {
+      "seriesId": "LAUCN121050000000003",
+      "countyFips": "12105",
+      "countyName": "Polk County",
+      "unemploymentRate": 5.6,
+      "period": "August 2026",
+      "source": "BLS LAUS · Polk County, August 2026"
+    },
+    "olathe-ks": {
+      "seriesId": "LAUCN200910000000003",
+      "countyFips": "20091",
+      "countyName": "Johnson County",
+      "unemploymentRate": 4.1,
+      "period": "August 2026",
+      "source": "BLS LAUS · Johnson County, August 2026"
+    },
+    "thornton-co": {
+      "seriesId": "LAUCN080010000000003",
+      "countyFips": "08001",
+      "countyName": "Adams County",
+      "unemploymentRate": 4.8,
+      "period": "August 2026",
+      "source": "BLS LAUS · Adams County, August 2026"
+    },
+    "fayetteville-ar": {
+      "seriesId": "LAUCN051430000000003",
+      "countyFips": "05143",
+      "countyName": "Washington County",
+      "unemploymentRate": 2.9,
+      "period": "August 2026",
+      "source": "BLS LAUS · Washington County, August 2026"
+    },
+    "columbia-mo": {
+      "seriesId": "LAUCN290190000000003",
+      "countyFips": "29019",
+      "countyName": "Boone County",
+      "unemploymentRate": 3.6,
+      "period": "August 2026",
+      "source": "BLS LAUS · Boone County, August 2026"
+    },
+    "rochester-mn": {
+      "seriesId": "LAUCN271090000000003",
+      "countyFips": "27109",
+      "countyName": "Olmsted County",
+      "unemploymentRate": 3.8,
+      "period": "August 2026",
+      "source": "BLS LAUS · Olmsted County, August 2026"
+    },
+    "columbus-ga": {
+      "seriesId": "LAUCN132150000000003",
+      "countyFips": "13215",
+      "countyName": "Muscogee County",
+      "unemploymentRate": 4.2,
+      "period": "August 2026",
+      "source": "BLS LAUS · Muscogee County, August 2026"
     }
   }
 }

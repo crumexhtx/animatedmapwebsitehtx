@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:54:57.734Z",
+  "generatedAt": "2026-10-19T15:38:40.695Z",
   "from": "2019",
   "to": "2019",
   "cities": {
@@ -1748,6 +1748,160 @@
       "violent": 267.8,
       "property": 2612,
       "source": "FBI CIUS Table 8 (2019) city offenses known to law enforcement — rates per 100k; CDE API unavailable at enrich time"
+    },
+    "sugar-land-tx": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "pearland-tx": {
+      "available": true,
+      "ori": "TX0201000",
+      "agencyName": "Pearland Police Department",
+      "violent": 89.5,
+      "property": 1641,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "league-city-tx": {
+      "available": true,
+      "ori": "TX0840800",
+      "agencyName": "League City Police Department",
+      "violent": 110.6,
+      "property": 1359.2,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "conroe-tx": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
+    },
+    "pasadena-tx": {
+      "available": true,
+      "ori": "TX1011500",
+      "agencyName": "Pasadena Police Department",
+      "violent": 545.9,
+      "property": 2512.2,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "new-braunfels-tx": {
+      "available": true,
+      "ori": "TX0460100",
+      "agencyName": "New Braunfels Police Department",
+      "violent": 246.9,
+      "property": 1262.6,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "college-station-tx": {
+      "available": true,
+      "ori": "TX0210200",
+      "agencyName": "College Station Police Department",
+      "violent": 188.7,
+      "property": 1759.4,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "killeen-tx": {
+      "available": true,
+      "ori": "TX0140400",
+      "agencyName": "Killeen Police Department",
+      "violent": 384,
+      "property": 2260.4,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "meridian-id": {
+      "available": true,
+      "ori": "ID0010300",
+      "agencyName": "Meridian Police Department",
+      "violent": 159.2,
+      "property": 1068.4,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "surprise-az": {
+      "available": true,
+      "ori": "AZ0072700",
+      "agencyName": "Surprise Police Department",
+      "violent": 97.9,
+      "property": 1477.7,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "buckeye-az": {
+      "available": true,
+      "ori": "AZ0070300",
+      "agencyName": "Buckeye Police Department",
+      "violent": 137.3,
+      "property": 1623.8,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "elk-grove-ca": {
+      "available": true,
+      "ori": "CA0340H00",
+      "agencyName": "Elk Grove Police Department",
+      "violent": 212,
+      "property": 1481,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "roseville-ca": {
+      "available": true,
+      "ori": "CA0310500",
+      "agencyName": "Roseville Police Department",
+      "violent": 182.7,
+      "property": 2225.1,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "lakeland-fl": {
+      "available": true,
+      "ori": "FL0531200",
+      "agencyName": "Lakeland Police Department",
+      "violent": 311.8,
+      "property": 2877.8,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "olathe-ks": {
+      "available": true,
+      "ori": "KS0460500",
+      "agencyName": "Olathe Police Department",
+      "violent": 205.1,
+      "property": 1134.6,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "thornton-co": {
+      "available": true,
+      "ori": "CO0010400",
+      "agencyName": "Thornton Police Department",
+      "violent": 272.9,
+      "property": 3026.7,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "fayetteville-ar": {
+      "available": true,
+      "ori": "AR0720100",
+      "agencyName": "Fayetteville Police Department",
+      "violent": 447.5,
+      "property": 4481.4,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "columbia-mo": {
+      "available": true,
+      "ori": "MO0100200",
+      "agencyName": "Columbia Police Department",
+      "violent": 320.8,
+      "property": 2594,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "rochester-mn": {
+      "available": true,
+      "ori": "MN0550100",
+      "agencyName": "Rochester Police Department",
+      "violent": 214.8,
+      "property": 1881.3,
+      "source": "FBI CIUS Table 8 (2019), city offenses per 100k"
+    },
+    "columbus-ga": {
+      "available": false,
+      "violent": 0,
+      "property": 0,
+      "source": "data unavailable"
     }
   }
 }

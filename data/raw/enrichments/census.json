@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:45:07.117Z",
+  "generatedAt": "2026-10-19T15:32:31.678Z",
   "vintage": "ACS 2023 5-year",
   "national": {
     "medianHomeValue": 303400,
@@ -2256,6 +2256,226 @@
       "medianRent": 1064,
       "costOfLivingIndex": 79,
       "source": "U.S. Census Bureau ACS 2023 5-year (Norman city, 1600000US4052500)"
+    },
+    "sugar-land-tx": {
+      "geoid": "1600000US4870808",
+      "placeName": "Sugar Land city",
+      "population": 109735,
+      "medianHouseholdIncome": 137511,
+      "medianHomePrice": 406600,
+      "medianRent": 1939,
+      "costOfLivingIndex": 139,
+      "commuteMinutes": 23,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Sugar Land city, 1600000US4870808)"
+    },
+    "pearland-tx": {
+      "geoid": "1600000US4856348",
+      "placeName": "Pearland city",
+      "population": 125983,
+      "medianHouseholdIncome": 112470,
+      "medianHomePrice": 330900,
+      "medianRent": 1759,
+      "costOfLivingIndex": 120,
+      "commuteMinutes": 30,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Pearland city, 1600000US4856348)"
+    },
+    "league-city-tx": {
+      "geoid": "1600000US4841980",
+      "placeName": "League City city",
+      "population": 114885,
+      "medianHouseholdIncome": 119870,
+      "medianHomePrice": 334000,
+      "medianRent": 1628,
+      "costOfLivingIndex": 115,
+      "commuteMinutes": 26,
+      "source": "U.S. Census Bureau ACS 2023 5-year (League City city, 1600000US4841980)"
+    },
+    "conroe-tx": {
+      "geoid": "1600000US4816432",
+      "placeName": "Conroe city",
+      "population": 96976,
+      "medianHouseholdIncome": 75245,
+      "medianHomePrice": 283100,
+      "medianRent": 1350,
+      "costOfLivingIndex": 97,
+      "commuteMinutes": 25,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Conroe city, 1600000US4816432)"
+    },
+    "pasadena-tx": {
+      "geoid": "1600000US4856000",
+      "placeName": "Pasadena city, Texas",
+      "population": 149345,
+      "medianHouseholdIncome": 64270,
+      "medianHomePrice": 193600,
+      "medianRent": 1201,
+      "costOfLivingIndex": 76,
+      "commuteMinutes": 24,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Pasadena city, Texas, 1600000US4856000)"
+    },
+    "new-braunfels-tx": {
+      "geoid": "1600000US4850820",
+      "placeName": "New Braunfels city",
+      "population": 98700,
+      "medianHouseholdIncome": 88257,
+      "medianHomePrice": 315100,
+      "medianRent": 1536,
+      "costOfLivingIndex": 109,
+      "commuteMinutes": 23,
+      "source": "U.S. Census Bureau ACS 2023 5-year (New Braunfels city, 1600000US4850820)"
+    },
+    "college-station-tx": {
+      "geoid": "1600000US4815976",
+      "placeName": "College Station city",
+      "population": 122280,
+      "medianHouseholdIncome": 51776,
+      "medianHomePrice": 326500,
+      "medianRent": 1168,
+      "costOfLivingIndex": 97,
+      "commuteMinutes": 15,
+      "source": "U.S. Census Bureau ACS 2023 5-year (College Station city, 1600000US4815976)"
+    },
+    "killeen-tx": {
+      "geoid": "1600000US4839148",
+      "placeName": "Killeen city",
+      "population": 156144,
+      "medianHouseholdIncome": 58339,
+      "medianHomePrice": 196000,
+      "medianRent": 1147,
+      "costOfLivingIndex": 75,
+      "commuteMinutes": 22,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Killeen city, 1600000US4839148)"
+    },
+    "meridian-id": {
+      "geoid": "1600000US1652120",
+      "placeName": "Meridian city",
+      "population": 124865,
+      "medianHouseholdIncome": 98686,
+      "medianHomePrice": 485000,
+      "medianRent": 1714,
+      "costOfLivingIndex": 144,
+      "commuteMinutes": 18,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Meridian city, 1600000US1652120)"
+    },
+    "surprise-az": {
+      "geoid": "1600000US0471510",
+      "placeName": "Surprise city",
+      "population": 149519,
+      "medianHouseholdIncome": 93371,
+      "medianHomePrice": 396000,
+      "medianRent": 1917,
+      "costOfLivingIndex": 136,
+      "commuteMinutes": 25,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Surprise city, 1600000US0471510)"
+    },
+    "buckeye-az": {
+      "geoid": "1600000US0407940",
+      "placeName": "Buckeye city",
+      "population": 99844,
+      "medianHouseholdIncome": 98778,
+      "medianHomePrice": 384100,
+      "medianRent": 1742,
+      "costOfLivingIndex": 128,
+      "commuteMinutes": 27,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Buckeye city, 1600000US0407940)"
+    },
+    "elk-grove-ca": {
+      "geoid": "1600000US0622020",
+      "placeName": "Elk Grove city",
+      "population": 177221,
+      "medianHouseholdIncome": 122229,
+      "medianHomePrice": 603400,
+      "medianRent": 2180,
+      "costOfLivingIndex": 180,
+      "commuteMinutes": 26,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Elk Grove city, 1600000US0622020)"
+    },
+    "roseville-ca": {
+      "geoid": "1600000US0662938",
+      "placeName": "Roseville city",
+      "population": 152438,
+      "medianHouseholdIncome": 117354,
+      "medianHomePrice": 630600,
+      "medianRent": 2099,
+      "costOfLivingIndex": 182,
+      "commuteMinutes": 22,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Roseville city, 1600000US0662938)"
+    },
+    "lakeland-fl": {
+      "geoid": "1600000US1238250",
+      "placeName": "Lakeland city",
+      "population": 117030,
+      "medianHouseholdIncome": 60947,
+      "medianHomePrice": 229100,
+      "medianRent": 1299,
+      "costOfLivingIndex": 86,
+      "commuteMinutes": 21,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Lakeland city, 1600000US1238250)"
+    },
+    "olathe-ks": {
+      "geoid": "1600000US2052575",
+      "placeName": "Olathe city",
+      "population": 143720,
+      "medianHouseholdIncome": 112232,
+      "medianHomePrice": 340600,
+      "medianRent": 1314,
+      "costOfLivingIndex": 105,
+      "commuteMinutes": 17,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Olathe city, 1600000US2052575)"
+    },
+    "thornton-co": {
+      "geoid": "1600000US0877290",
+      "placeName": "Thornton city",
+      "population": 142878,
+      "medianHouseholdIncome": 100985,
+      "medianHomePrice": 482200,
+      "medianRent": 1810,
+      "costOfLivingIndex": 147,
+      "commuteMinutes": 27,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Thornton city, 1600000US0877290)"
+    },
+    "fayetteville-ar": {
+      "geoid": "1600000US0523290",
+      "placeName": "Fayetteville city, Arkansas",
+      "population": 97227,
+      "medianHouseholdIncome": 59074,
+      "medianHomePrice": 322500,
+      "medianRent": 1003,
+      "costOfLivingIndex": 90,
+      "commuteMinutes": 16,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Fayetteville city, Arkansas, 1600000US0523290)"
+    },
+    "columbia-mo": {
+      "geoid": "1600000US2915670",
+      "placeName": "Columbia city, Missouri",
+      "population": 127200,
+      "medianHouseholdIncome": 64488,
+      "medianHomePrice": 268300,
+      "medianRent": 1067,
+      "costOfLivingIndex": 84,
+      "commuteMinutes": 15,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Columbia city, Missouri, 1600000US2915670)"
+    },
+    "rochester-mn": {
+      "geoid": "1600000US2754880",
+      "placeName": "Rochester city, Minnesota",
+      "population": 121638,
+      "medianHouseholdIncome": 87767,
+      "medianHomePrice": 287500,
+      "medianRent": 1316,
+      "costOfLivingIndex": 96,
+      "commuteMinutes": 15,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Rochester city, Minnesota, 1600000US2754880)"
+    },
+    "columbus-ga": {
+      "geoid": "1600000US1319000",
+      "placeName": "Columbus city, Georgia",
+      "population": 204383,
+      "medianHouseholdIncome": 56622,
+      "medianHomePrice": 182300,
+      "medianRent": 1072,
+      "costOfLivingIndex": 70,
+      "commuteMinutes": 18,
+      "source": "U.S. Census Bureau ACS 2023 5-year (Columbus city, Georgia, 1600000US1319000)"
     }
   }
 }

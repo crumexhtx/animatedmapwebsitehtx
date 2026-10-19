@@ -27,7 +27,7 @@ export function CompareCities({
   const options = useMemo(
     () =>
       [...cities]
-        .sort((a, b) => a.name.localeCompare(b.name))
+        .sort((a, b) => a.name.localeCompare(b.name) || a.stateCode.localeCompare(b.stateCode))
         .map((city) => ({
           slug: city.slug,
           name: city.name,

@@ -5,7 +5,7 @@
  * Output: data/raw/enrichments/climate.json
  */
 
-import { fetchText, haversineMiles, loadSeedCities, sleep, writeEnrichment } from './lib/io'
+import { fetchText, haversineMiles, loadSeedCities, readEnrichment, seedCitiesToRefresh, sleep, writeEnrichment } from './lib/io'
 
 type Station = {
   id: string
@@ -158,14 +158,21 @@ function nearestCandidates(stations: Station[], lon: number, lat: number) {
 }
 
 async function main() {
+  const previous = readEnrichment<ClimateEnrichment>('climate')
+  const seed = loadSeedCities()
+  const missing = seedCitiesToRefresh(Object.keys(previous?.cities ?? {}))
+  const cities: ClimateEnrichment['cities'] = { ...(previous?.cities ?? {}) }
+  if (!missing.length) {
+    console.log(`climate: all ${seed.length} seed cities already enriched`)
+    return
+  }
+
   const inventory = parseInventory(await fetchText(INVENTORY_URL))
   console.log(`Loaded ${inventory.length} NOAA normals stations`)
-  const seed = loadSeedCities()
-  const cities: ClimateEnrichment['cities'] = {}
-  let ok = 0
+  let ok = Object.keys(previous?.cities ?? {}).length
   let failed = 0
 
-  for (const city of seed) {
+  for (const city of missing) {
     const [lon, lat] = city.coordinates
     const candidates = nearestCandidates(inventory, lon, lat)
     let placed = false

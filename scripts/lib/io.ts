@@ -25,6 +25,14 @@ export function readEnrichment<T>(name: string): T | null {
   return JSON.parse(readFileSync(path, 'utf8')) as T
 }
 
+/** When REFRESH_ALL=1, re-pull every seed city. Otherwise skip slugs already in the enrichment. */
+export function seedCitiesToRefresh(existingSlugs: Iterable<string>) {
+  const seed = loadSeedCities()
+  if (process.env.REFRESH_ALL === '1') return seed
+  const have = new Set(existingSlugs)
+  return seed.filter((city) => !have.has(city.slug))
+}
+
 export async function sleep(ms: number) {
   await new Promise((resolve) => setTimeout(resolve, ms))
 }

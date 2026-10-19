@@ -24,6 +24,9 @@ export const COMPARISON_PAIRS: ComparisonPair[] = [
   { slug: 'nashville-tn-vs-atlanta-ga', a: 'nashville-tn', b: 'atlanta-ga', intent: 'Southeast growth destinations' },
   { slug: 'miami-fl-vs-tampa-fl', a: 'miami-fl', b: 'tampa-fl', intent: 'Florida cost and climate tradeoff' },
   { slug: 'raleigh-nc-vs-charlotte-nc', a: 'raleigh-nc', b: 'charlotte-nc', intent: 'North Carolina Triangle vs banking hub' },
+  { slug: 'houston-tx-vs-sugar-land-tx', a: 'houston-tx', b: 'sugar-land-tx', intent: 'Houston core vs Fort Bend suburb' },
+  { slug: 'sugar-land-tx-vs-pearland-tx', a: 'sugar-land-tx', b: 'pearland-tx', intent: 'Houston suburb housing and commute tradeoff' },
+  { slug: 'boise-id-vs-meridian-id', a: 'boise-id', b: 'meridian-id', intent: 'Boise metro core vs fastest-growing suburb' },
 ]
 
 export function comparisonPath(slug: string) {

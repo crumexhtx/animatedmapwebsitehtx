@@ -17,6 +17,10 @@ function pick<T>(items: T[], slug: string, salt = 0) {
   return items[(hashSlug(slug) + salt) % items.length]
 }
 
+function cityLabel(city: CityRecord) {
+  return `${city.name}, ${city.stateCode}`
+}
+
 function colPhrase(index: number) {
   if (index >= 140) return 'well above the U.S. housing-cost baseline'
   if (index >= 115) return 'above the U.S. housing-cost baseline'
@@ -210,7 +214,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
 
   const sections: AnswerSection[] = [
     {
-      heading: `Is ${city.name} expensive compared to the U.S. average?`,
+      heading: `Is ${cityLabel(city)} expensive compared to the U.S. average?`,
       answer: expensiveAnswer,
       bullets: [
         `Housing cost index ${city.costOfLivingIndex} (U.S. ${national.costOfLivingIndex})`,
@@ -219,7 +223,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
       ],
     },
     {
-      heading: `How much does housing cost in ${city.name}?`,
+      heading: `How much does housing cost in ${cityLabel(city)}?`,
       answer: housingAnswer,
       bullets: [
         `Median home value ${formatCurrency(city.medianHomePrice)}`,
@@ -228,7 +232,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
       ],
     },
     {
-      heading: `What is the job market like in ${city.name}?`,
+      heading: `What is the job market like in ${cityLabel(city)}?`,
       answer: jobsAnswer,
       bullets: [
         `Unemployment ${formatPercent(city.unemploymentRate)} (U.S. ${formatPercent(national.unemploymentRate)})`,
@@ -236,7 +240,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
       ],
     },
     {
-      heading: `How long is the typical commute in ${city.name}?`,
+      heading: `How long is the typical commute in ${cityLabel(city)}?`,
       answer: commuteAnswer,
       bullets: [
         `${city.commute.avgMinutes} minutes average one-way`,
@@ -244,7 +248,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
       ],
     },
     {
-      heading: `Is ${city.name} safer than similar U.S. cities?`,
+      heading: `Is ${cityLabel(city)} safer than similar U.S. cities?`,
       answer: safetyAnswer,
       bullets:
         city.crimeIndex.source === 'data unavailable'
@@ -255,7 +259,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
             ],
     },
     {
-      heading: `What is the climate like year-round in ${city.name}?`,
+      heading: `What is the climate like year-round in ${cityLabel(city)}?`,
       answer: climateAnswer,
       bullets: [
         `Summer high ${city.climate.avgHighSummer}°F`,
@@ -268,7 +272,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
   if (city.neighborhoods?.length) {
     const hoods = city.neighborhoods.slice(0, 3)
     sections.push({
-      heading: `Which neighborhoods do relocators research in ${city.name}?`,
+      heading: `Which neighborhoods do relocators research in ${cityLabel(city)}?`,
       answer: pick(
         [
           `Newcomers often start with ${hoods.join(', ')} — tour at commute hour before signing. Neighborhood lists are curated research starting points, not rankings.`,

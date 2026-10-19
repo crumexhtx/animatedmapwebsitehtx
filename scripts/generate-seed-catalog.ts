@@ -6,7 +6,7 @@
  * Usage: npm run generate-catalog && npm run build-catalog && npm run validate-catalog
  */
 
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { CityRecord } from '../lib/types'
@@ -292,6 +292,27 @@ const SEEDS: Seed[] = [
   { name: 'Everett', stateCode: 'WA', state: 'Washington', population: 112000, income: 75000, col: 120, home: 550000, rent: 1700, violent: 38, property: 62, high: 75, low: 36, rain: 38.0, sun: 155, commute: 30, walk: 45, unemp: 4.2, lat: 47.9789, lon: -122.2021 },
   { name: 'Stamford', stateCode: 'CT', state: 'Connecticut', population: 136000, income: 100000, col: 145, home: 650000, rent: 2300, violent: 28, property: 42, high: 84, low: 24, rain: 48.0, sun: 200, commute: 32, walk: 55, unemp: 3.5, lat: 41.0534, lon: -73.5387, neighborhoods: ['Downtown', 'Harbor Point', 'North Stamford'] },
   { name: 'Norman', stateCode: 'OK', state: 'Oklahoma', population: 128000, income: 58000, col: 88, home: 250000, rent: 1100, violent: 28, property: 48, high: 93, low: 28, rain: 37.0, sun: 235, commute: 20, walk: 32, unemp: 3.0, lat: 35.2226, lon: -97.4395, neighborhoods: ['Campus Corner', 'Downtown', 'East Norman'] },
+  // --- Batch 5: suburbs, military/university, same-name disambiguation ---
+  { name: 'Sugar Land', stateCode: 'TX', state: 'Texas', population: 111026, income: 123000, col: 110, home: 420000, rent: 1800, violent: 18, property: 32, high: 94, low: 45, rain: 50.0, sun: 204, commute: 30, unemp: 4.0, lat: 29.6197, lon: -95.6349, neighborhoods: ['Town Square', 'First Colony', 'Telfair'] },
+  { name: 'Pearland', stateCode: 'TX', state: 'Texas', population: 125990, income: 110000, col: 105, home: 360000, rent: 1650, violent: 22, property: 38, high: 93, low: 46, rain: 52.0, sun: 204, commute: 32, unemp: 4.2, lat: 29.5636, lon: -95.286, neighborhoods: ['Shadow Creek Ranch', 'Downtown Pearland', 'Silverlake'] },
+  { name: 'League City', stateCode: 'TX', state: 'Texas', population: 115220, income: 115000, col: 108, home: 380000, rent: 1700, violent: 20, property: 35, high: 91, low: 47, rain: 54.0, sun: 208, commute: 31, unemp: 4.1, lat: 29.5075, lon: -95.0949, neighborhoods: ['South Shore Harbour', 'The Landing', 'League Park'] },
+  { name: 'Conroe', stateCode: 'TX', state: 'Texas', population: 98900, income: 72000, col: 98, home: 310000, rent: 1450, violent: 32, property: 48, high: 94, low: 43, rain: 48.0, sun: 208, commute: 29, unemp: 4.3, lat: 30.3119, lon: -95.4561, neighborhoods: ['Downtown', 'Grand Central Park', 'Lake Conroe'] },
+  { name: 'Pasadena', stateCode: 'TX', state: 'Texas', population: 148626, income: 62000, col: 92, home: 220000, rent: 1250, violent: 42, property: 55, high: 93, low: 47, rain: 56.0, sun: 204, commute: 27, unemp: 5.0, lat: 29.6911, lon: -95.2091, neighborhoods: ['Downtown', 'Golden Acres', 'Red Bluff'] },
+  { name: 'New Braunfels', stateCode: 'TX', state: 'Texas', population: 104707, income: 78000, col: 102, home: 340000, rent: 1500, violent: 22, property: 40, high: 95, low: 40, rain: 34.0, sun: 224, commute: 26, unemp: 3.8, lat: 29.703, lon: -98.1245, neighborhoods: ['Gruene', 'Downtown', 'Milltown'] },
+  { name: 'College Station', stateCode: 'TX', state: 'Texas', population: 120511, income: 48000, col: 95, home: 310000, rent: 1300, violent: 22, property: 42, high: 95, low: 42, rain: 40.0, sun: 226, commute: 16, unemp: 3.5, lat: 30.628, lon: -96.3344, neighborhoods: ['Northgate', 'Wolf Pen Creek', 'Southwood'] },
+  { name: 'Killeen', stateCode: 'TX', state: 'Texas', population: 156261, income: 54000, col: 88, home: 210000, rent: 1150, violent: 48, property: 52, high: 96, low: 40, rain: 33.0, sun: 228, commute: 20, unemp: 5.2, lat: 31.1171, lon: -97.7278 },
+  { name: 'Meridian', stateCode: 'ID', state: 'Idaho', population: 135629, income: 88000, col: 108, home: 480000, rent: 1600, violent: 18, property: 32, high: 91, low: 24, rain: 11.0, sun: 210, commute: 22, unemp: 3.4, lat: 43.6121, lon: -116.3915, neighborhoods: ['Downtown', 'Paramount', 'South Meridian'] },
+  { name: 'Surprise', stateCode: 'AZ', state: 'Arizona', population: 147804, income: 82000, col: 105, home: 420000, rent: 1700, violent: 20, property: 35, high: 106, low: 42, rain: 8.0, sun: 299, commute: 30, unemp: 3.9, lat: 33.6292, lon: -112.3679, neighborhoods: ['Surprise Farms', 'Asante', 'Sun City Grand-adjacent'] },
+  { name: 'Buckeye', stateCode: 'AZ', state: 'Arizona', population: 101466, income: 90000, col: 102, home: 400000, rent: 1650, violent: 22, property: 38, high: 107, low: 41, rain: 7.5, sun: 300, commute: 32, unemp: 3.8, lat: 33.3703, lon: -112.5838, neighborhoods: ['Downtown', 'Verrado', 'Tartesso'] },
+  { name: 'Elk Grove', stateCode: 'CA', state: 'California', population: 178684, income: 115000, col: 130, home: 620000, rent: 2100, violent: 28, property: 42, high: 93, low: 39, rain: 18.0, sun: 265, commute: 32, unemp: 4.5, lat: 38.4088, lon: -121.3716, neighborhoods: ['Old Town', 'Laguna', 'Franklin'] },
+  { name: 'Roseville', stateCode: 'CA', state: 'California', population: 155488, income: 110000, col: 132, home: 640000, rent: 2150, violent: 22, property: 40, high: 94, low: 38, rain: 20.0, sun: 250, commute: 28, unemp: 4.2, lat: 38.7521, lon: -121.288, neighborhoods: ['Downtown', 'West Roseville', 'Galleria'] },
+  { name: 'Lakeland', stateCode: 'FL', state: 'Florida', population: 115425, income: 58000, col: 95, home: 280000, rent: 1400, violent: 42, property: 55, high: 92, low: 51, rain: 52.0, sun: 240, commute: 24, unemp: 3.8, lat: 28.0395, lon: -81.9498, neighborhoods: ['Downtown', 'Lake Hollingsworth', 'South Lakeland'] },
+  { name: 'Olathe', stateCode: 'KS', state: 'Kansas', population: 143014, income: 104000, col: 98, home: 360000, rent: 1500, violent: 18, property: 32, high: 89, low: 20, rain: 40.0, sun: 220, commute: 22, unemp: 3.2, lat: 38.8814, lon: -94.8191, neighborhoods: ['Downtown', 'Cedar Creek', 'Ridgeview'] },
+  { name: 'Thornton', stateCode: 'CO', state: 'Colorado', population: 144444, income: 95000, col: 120, home: 520000, rent: 1800, violent: 28, property: 42, high: 89, low: 18, rain: 15.0, sun: 245, commute: 28, unemp: 4.0, lat: 39.868, lon: -104.9719, neighborhoods: ['Original Thornton', 'Eastlake', 'Thorncreek'] },
+  { name: 'Fayetteville', stateCode: 'AR', state: 'Arkansas', population: 99285, income: 56000, col: 95, home: 320000, rent: 1100, violent: 32, property: 48, high: 90, low: 27, rain: 46.0, sun: 217, commute: 18, unemp: 2.8, lat: 36.0626, lon: -94.1574, neighborhoods: ['Downtown Square', 'Dickson Street', 'University of Arkansas'] },
+  { name: 'Columbia', stateCode: 'MO', state: 'Missouri', population: 126254, income: 58000, col: 92, home: 250000, rent: 1050, violent: 38, property: 52, high: 89, low: 22, rain: 43.0, sun: 192, commute: 17, unemp: 2.9, lat: 38.9517, lon: -92.3341, neighborhoods: ['Downtown', 'The District', 'South Providence'] },
+  { name: 'Rochester', stateCode: 'MN', state: 'Minnesota', population: 121395, income: 82000, col: 100, home: 310000, rent: 1300, violent: 22, property: 38, high: 82, low: 7, rain: 31.0, sun: 188, commute: 16, unemp: 2.6, lat: 44.0121, lon: -92.4802, neighborhoods: ['Downtown', 'Mayo Clinic campus', 'Northwest'] },
+  { name: 'Columbus', stateCode: 'GA', state: 'Georgia', population: 206922, income: 50000, col: 86, home: 180000, rent: 1050, violent: 48, property: 58, high: 92, low: 36, rain: 49.0, sun: 217, commute: 20, unemp: 4.0, lat: 32.461, lon: -84.9877, neighborhoods: ['Uptown', 'Midtown', 'Midland'] },
 ]
 
 const CLEAN_SEEDS = SEEDS
@@ -397,9 +418,17 @@ function expand(seed: Seed, all: Seed[]): CityRecord {
 
 function main() {
   mkdirSync(dirname(OUT), { recursive: true })
-  const cities = CLEAN_SEEDS.map((seed) => expand(seed, CLEAN_SEEDS))
-  writeFileSync(OUT, JSON.stringify(cities, null, 2))
-  console.log(`Wrote ${cities.length} cities → ${OUT}`)
+  const generated = CLEAN_SEEDS.map((seed) => expand(seed, CLEAN_SEEDS))
+  const existing = existsSync(OUT) ? (JSON.parse(readFileSync(OUT, 'utf8')) as CityRecord[]) : []
+  const existingBySlug = new Map(existing.map((city) => [city.slug, city]))
+  const merged = generated.map((city) => existingBySlug.get(city.slug) ?? city)
+  const generatedSlugs = new Set(generated.map((city) => city.slug))
+  for (const city of existing) {
+    if (!generatedSlugs.has(city.slug)) merged.push(city)
+  }
+  writeFileSync(OUT, JSON.stringify(merged, null, 2))
+  const added = generated.filter((city) => !existingBySlug.has(city.slug)).length
+  console.log(`Wrote ${merged.length} cities (${added} new, ${existing.length} preserved) → ${OUT}`)
 }
 
 main()

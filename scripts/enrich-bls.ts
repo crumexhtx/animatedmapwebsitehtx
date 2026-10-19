@@ -6,7 +6,7 @@
  * Output: data/raw/enrichments/bls.json
  */
 
-import { fetchJson, loadSeedCities, sleep, writeEnrichment } from './lib/io'
+import { fetchJson, loadSeedCities, readEnrichment, seedCitiesToRefresh, sleep, writeEnrichment } from './lib/io'
 
 type FccResponse = {
   County?: { FIPS: string; name: string }
@@ -83,7 +83,15 @@ async function fetchBatch(seriesIds: string[]) {
 }
 
 async function main() {
+  const previous = readEnrichment<BlsEnrichment>('bls')
   const seed = loadSeedCities()
+  const missing = seedCitiesToRefresh(Object.keys(previous?.cities ?? {}))
+  const cities: BlsEnrichment['cities'] = { ...(previous?.cities ?? {}) }
+  if (!missing.length) {
+    console.log(`bls: all ${seed.length} seed cities already enriched`)
+    return
+  }
+
   const meta: Array<{
     slug: string
     seriesId: string
@@ -91,8 +99,8 @@ async function main() {
     countyName: string
   }> = []
 
-  for (let i = 0; i < seed.length; i++) {
-    const city = seed[i]
+  for (let i = 0; i < missing.length; i++) {
+    const city = missing[i]
     process.stdout.write(`\rfcc [${i + 1}/${seed.length}] ${city.slug}          `)
     try {
       const [lon, lat] = city.coordinates
@@ -111,10 +119,9 @@ async function main() {
     }
     await sleep(100)
   }
-  console.log(`\nResolved ${meta.length}/${seed.length} counties`)
+  console.log(`\nResolved ${meta.length}/${missing.length} new counties`)
 
-  const cities: BlsEnrichment['cities'] = {}
-  let ok = 0
+  let ok = Object.keys(previous?.cities ?? {}).length
   for (let i = 0; i < meta.length; i += BATCH_SIZE) {
     const batch = meta.slice(i, i + BATCH_SIZE)
     console.log(`bls batch ${i / BATCH_SIZE + 1}: ${batch.length} series`)

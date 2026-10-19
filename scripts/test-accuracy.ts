@@ -8,6 +8,7 @@ import { METRIC_BASELINE_KIND, baselineAvgPhrase } from '../lib/baselines'
 import { compareCurrency, compareNumber, compareUnemployment } from '../lib/stat-compare'
 import { publicCrimeSource, crimeRateNote, crimeSourceKind } from '../lib/crime-source'
 import { nearestCitySlugs } from '../lib/geo'
+import { allCities, getCity, getSameNameCities } from '../lib/catalog'
 
 describe('METRIC_BASELINE_KIND', () => {
   it('marks ACS/BLS fields as U.S. and crime/climate/commute as catalog', () => {
@@ -76,5 +77,44 @@ describe('nearestCitySlugs', () => {
     assert.equal(nearby[0], 'sugar-land-tx')
     assert.ok(!nearby.includes('houston-tx'))
     assert.ok(!nearby.includes('seattle-wa'))
+  })
+})
+
+describe('catalog expansion', () => {
+  it('publishes the 20 new cities including Houston suburbs', () => {
+    assert.ok(allCities.length >= 245)
+    for (const slug of [
+      'sugar-land-tx',
+      'pearland-tx',
+      'league-city-tx',
+      'conroe-tx',
+      'pasadena-tx',
+      'meridian-id',
+      'columbus-ga',
+    ]) {
+      assert.ok(getCity(slug), `missing ${slug}`)
+    }
+  })
+
+  it('lists Houston suburbs among Houston nearby cities', () => {
+    const houston = getCity('houston-tx')
+    assert.ok(houston)
+    const nearby = houston.nearbyCities
+    for (const slug of ['sugar-land-tx', 'pearland-tx', 'pasadena-tx', 'league-city-tx']) {
+      assert.ok(nearby.includes(slug), `expected ${slug} near Houston, got ${nearby.join(', ')}`)
+    }
+  })
+
+  it('keeps same-name cities on distinct state slugs', () => {
+    for (const name of ['Pasadena', 'Fayetteville', 'Columbia', 'Rochester', 'Columbus']) {
+      const matches = allCities.filter((city) => city.name === name)
+      assert.ok(matches.length >= 2, `expected twins for ${name}`)
+      const states = new Set(matches.map((city) => city.stateCode))
+      assert.equal(states.size, matches.length, `${name} state collision`)
+    }
+    const pasadenaTx = getCity('pasadena-tx')
+    assert.ok(pasadenaTx)
+    const twins = getSameNameCities(pasadenaTx)
+    assert.ok(twins.some((city) => city.slug === 'pasadena-ca'))
   })
 })

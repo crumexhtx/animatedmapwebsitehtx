@@ -20,6 +20,7 @@ import {
   matchPath,
   getCity,
   getNearbyCities,
+  getSameNameCities,
   nationalBaselines,
   siteUrl,
   statePath,
@@ -58,6 +59,7 @@ export default async function CityPage({ params }: Props) {
   if (!city || city.stateSlug !== state) notFound()
 
   const nearby = getNearbyCities(city)
+  const sameNameCities = getSameNameCities(city)
   const comparePeer =
     nearby[0]?.slug ?? allCities.find((item) => item.slug !== city.slug)?.slug
   const relatedComparisons = comparisonsForCity(city.slug)
@@ -128,7 +130,7 @@ export default async function CityPage({ params }: Props) {
           <span>/</span>
           <Link href={statePath(city.stateSlug)}>{city.state}</Link>
           <span>/</span>
-          <span>{city.name}</span>
+          <span>{city.name}, {city.stateCode}</span>
         </nav>
         <div className="city-title-row">
           <StateFlag stateCode={city.stateCode} stateName={city.state} eager />
@@ -141,14 +143,28 @@ export default async function CityPage({ params }: Props) {
           />
         </div>
         <p className="lead">
-          Cost of living, housing, income, commute, climate, and safety — compiled for relocators researching {city.name}.
+          Cost of living, housing, income, commute, climate, and safety — compiled for relocators researching {city.name}, {city.stateCode}.
         </p>
+        {sameNameCities.length ? (
+          <p className="city-disambiguation">
+            This profile is {city.name}, {city.stateCode}. Looking for{' '}
+            {sameNameCities.map((other, index) => (
+              <span key={other.slug}>
+                {index > 0 ? ' or ' : ''}
+                <Link href={cityPath(other)}>
+                  {other.name}, {other.stateCode}
+                </Link>
+              </span>
+            ))}
+            ?
+          </p>
+        ) : null}
       </div>
 
       <div className="city-layout">
         <div>
           <ContentSnapshot
-            title={`How much does it cost to live in ${city.name}?`}
+            title={`How much does it cost to live in ${city.name}, ${city.stateCode}?`}
             directAnswer={directAnswer}
             catalogRefreshed={city.lastUpdated}
             staleSourceHint={staleSourceHint}
@@ -192,7 +208,7 @@ export default async function CityPage({ params }: Props) {
                   <li key={pair.slug}>
                     <Link href={comparisonPath(pair.slug)}>
                       <strong>
-                        {city.name} vs {other.name}
+                        {city.name}, {city.stateCode} vs {other.name}, {other.stateCode}
                       </strong>
                       <span>{pair.intent}</span>
                     </Link>

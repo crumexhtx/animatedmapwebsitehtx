@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:46:02.181Z",
+  "generatedAt": "2026-10-19T15:32:21.270Z",
   "cities": {
     "new-york-ny": {
       "stationId": "USW00094728",
@@ -2250,6 +2250,206 @@
       "annualRainfall": 36.4,
       "sunnyDays": 282,
       "source": "NOAA 1991–2020 Monthly Normals (USW00013967 OKLAHOMA CITY WILL ROGERS AP)"
+    },
+    "sugar-land-tx": {
+      "stationId": "USW00012977",
+      "stationName": "HOUSTON SUGARLAND MEM",
+      "distanceMiles": 1.3,
+      "avgHighSummer": 94,
+      "avgLowWinter": 47,
+      "annualRainfall": 49.7,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012977 HOUSTON SUGARLAND MEM)"
+    },
+    "pearland-tx": {
+      "stationId": "USW00012975",
+      "stationName": "HOUSTON CLOVER FLD",
+      "distanceMiles": 4.1,
+      "avgHighSummer": 93,
+      "avgLowWinter": 48,
+      "annualRainfall": 53.3,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012975 HOUSTON CLOVER FLD)"
+    },
+    "league-city-tx": {
+      "stationId": "USW00012975",
+      "stationName": "HOUSTON CLOVER FLD",
+      "distanceMiles": 8.9,
+      "avgHighSummer": 93,
+      "avgLowWinter": 48,
+      "annualRainfall": 53.3,
+      "sunnyDays": 246,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012975 HOUSTON CLOVER FLD)"
+    },
+    "conroe-tx": {
+      "stationId": "USW00053902",
+      "stationName": "CONROE MONTGOMERY CO AP",
+      "distanceMiles": 4,
+      "avgHighSummer": 93,
+      "avgLowWinter": 41,
+      "annualRainfall": 47.7,
+      "sunnyDays": 242,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00053902 CONROE MONTGOMERY CO AP)"
+    },
+    "pasadena-tx": {
+      "stationId": "USW00012918",
+      "stationName": "HOUSTON HOBBY AP",
+      "distanceMiles": 5.7,
+      "avgHighSummer": 92,
+      "avgLowWinter": 48,
+      "annualRainfall": 55.6,
+      "sunnyDays": 258,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012918 HOUSTON HOBBY AP)"
+    },
+    "new-braunfels-tx": {
+      "stationId": "USW00012971",
+      "stationName": "AUSTIN SAN ANTONIO",
+      "distanceMiles": 5.8,
+      "avgHighSummer": 96,
+      "avgLowWinter": 42,
+      "annualRainfall": 31.3,
+      "sunnyDays": 287,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012971 AUSTIN SAN ANTONIO)"
+    },
+    "college-station-tx": {
+      "stationId": "USW00003904",
+      "stationName": "COLLEGE STN",
+      "distanceMiles": 3.2,
+      "avgHighSummer": 95,
+      "avgLowWinter": 43,
+      "annualRainfall": 41.8,
+      "sunnyDays": 273,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003904 COLLEGE STN)"
+    },
+    "killeen-tx": {
+      "stationId": "USW00003999",
+      "stationName": "BURNET MUNI AP",
+      "distanceMiles": 39.8,
+      "avgHighSummer": 94,
+      "avgLowWinter": 40,
+      "annualRainfall": 28.4,
+      "sunnyDays": 289,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003999 BURNET MUNI AP)"
+    },
+    "meridian-id": {
+      "stationId": "USW00024131",
+      "stationName": "BOISE AIR TERMINAL",
+      "distanceMiles": 8.2,
+      "avgHighSummer": 88,
+      "avgLowWinter": 27,
+      "annualRainfall": 11.5,
+      "sunnyDays": 276,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00024131 BOISE AIR TERMINAL)"
+    },
+    "surprise-az": {
+      "stationId": "USW00003184",
+      "stationName": "PHOENIX DEER VALLEY MUNI AP",
+      "distanceMiles": 17,
+      "avgHighSummer": 103,
+      "avgLowWinter": 44,
+      "annualRainfall": 8.9,
+      "sunnyDays": 330,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003184 PHOENIX DEER VALLEY MUNI AP)"
+    },
+    "buckeye-az": {
+      "stationId": "USW00023183",
+      "stationName": "PHOENIX SKY HARBOR INTL AP",
+      "distanceMiles": 33.7,
+      "avgHighSummer": 105,
+      "avgLowWinter": 47,
+      "annualRainfall": 7.2,
+      "sunnyDays": 332,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023183 PHOENIX SKY HARBOR INTL AP)"
+    },
+    "elk-grove-ca": {
+      "stationId": "USW00023232",
+      "stationName": "SACRAMENTO EXECUTIVE AP",
+      "distanceMiles": 9.5,
+      "avgHighSummer": 91,
+      "avgLowWinter": 40,
+      "annualRainfall": 18.1,
+      "sunnyDays": 307,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023232 SACRAMENTO EXECUTIVE AP)"
+    },
+    "roseville-ca": {
+      "stationId": "USW00023271",
+      "stationName": "SACRAMENTO 5 ESE",
+      "distanceMiles": 15.3,
+      "avgHighSummer": 92,
+      "avgLowWinter": 42,
+      "annualRainfall": 19.2,
+      "sunnyDays": 304,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023271 SACRAMENTO 5 ESE)"
+    },
+    "lakeland-fl": {
+      "stationId": "USW00012876",
+      "stationName": "WINTER HAVEN GILBERT AP",
+      "distanceMiles": 12,
+      "avgHighSummer": 93,
+      "avgLowWinter": 54,
+      "annualRainfall": 46.1,
+      "sunnyDays": 237,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00012876 WINTER HAVEN GILBERT AP)"
+    },
+    "olathe-ks": {
+      "stationId": "USW00003967",
+      "stationName": "OLATHE JOHNSON CO EXEC AP",
+      "distanceMiles": 4.8,
+      "avgHighSummer": 86,
+      "avgLowWinter": 24,
+      "annualRainfall": 37.7,
+      "sunnyDays": 265,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003967 OLATHE JOHNSON CO EXEC AP)"
+    },
+    "thornton-co": {
+      "stationId": "USW00023062",
+      "stationName": "DENVER-STAPLETON",
+      "distanceMiles": 9.1,
+      "avgHighSummer": 87,
+      "avgLowWinter": 18,
+      "annualRainfall": 15.4,
+      "sunnyDays": 281,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00023062 DENVER-STAPLETON)"
+    },
+    "fayetteville-ar": {
+      "stationId": "USW00093993",
+      "stationName": "FAYETTEVILLE DRAKE FLD",
+      "distanceMiles": 3.7,
+      "avgHighSummer": 88,
+      "avgLowWinter": 27,
+      "annualRainfall": 47,
+      "sunnyDays": 252,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093993 FAYETTEVILLE DRAKE FLD)"
+    },
+    "columbia-mo": {
+      "stationId": "USW00003945",
+      "stationName": "COLUMBIA RGNL AP",
+      "distanceMiles": 11.2,
+      "avgHighSummer": 87,
+      "avgLowWinter": 25,
+      "annualRainfall": 41.4,
+      "sunnyDays": 254,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00003945 COLUMBIA RGNL AP)"
+    },
+    "rochester-mn": {
+      "stationId": "USW00014925",
+      "stationName": "ROCHESTER INTL AP",
+      "distanceMiles": 7.5,
+      "avgHighSummer": 79,
+      "avgLowWinter": 10,
+      "annualRainfall": 34.7,
+      "sunnyDays": 241,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00014925 ROCHESTER INTL AP)"
+    },
+    "columbus-ga": {
+      "stationId": "USW00093842",
+      "stationName": "COLUMBUS METRO AP",
+      "distanceMiles": 4.6,
+      "avgHighSummer": 92,
+      "avgLowWinter": 40,
+      "annualRainfall": 48.8,
+      "sunnyDays": 256,
+      "source": "NOAA 1991–2020 Monthly Normals (USW00093842 COLUMBUS METRO AP)"
     }
   }
 }

@@ -33,14 +33,11 @@ export function CitiesBrowser({
     const list = cities.filter((city) => {
       if (stateFilter && city.stateSlug !== stateFilter) return false
       if (!normalized) return true
-      return (
-        city.name.toLowerCase().includes(normalized)
-        || city.state.toLowerCase().includes(normalized)
-        || city.stateCode.toLowerCase().includes(normalized)
-        || city.slug.includes(normalized.replace(/\s+/g, '-'))
-      )
+      const haystack = `${city.name} ${city.stateCode} ${city.state} ${city.slug}`.toLowerCase()
+      const slugQuery = normalized.replace(/[^a-z0-9]+/g, '-')
+      return haystack.includes(normalized) || city.slug.includes(slugQuery)
     })
-    return [...list].sort((a, b) => a.name.localeCompare(b.name))
+    return [...list].sort((a, b) => a.name.localeCompare(b.name) || a.stateCode.localeCompare(b.stateCode))
   }, [cities, stateFilter, query])
 
   return (

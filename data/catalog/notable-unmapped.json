@@ -23,16 +23,13 @@
   ],
   "texas": [
     { "name": "Beaumont" },
-    { "name": "Brownsville" },
     { "name": "Midland" }
   ],
   "florida": [
-    { "name": "Clearwater" },
     { "name": "Palm Bay" },
     { "name": "Miramar" }
   ],
   "california": [
-    { "name": "Berkeley" },
     { "name": "Pomona" },
     { "name": "Salinas" },
     { "name": "Palmdale" }

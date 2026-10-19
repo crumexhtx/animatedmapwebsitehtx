@@ -65,8 +65,8 @@ describe('answer-first sections', () => {
 })
 
 describe('comparison pairs', () => {
-  it('defines 8–10 curated pairs with resolvable cities', () => {
-    assert.ok(COMPARISON_PAIRS.length >= 8 && COMPARISON_PAIRS.length <= 12)
+  it('defines curated pairs with resolvable cities', () => {
+    assert.ok(COMPARISON_PAIRS.length >= 8 && COMPARISON_PAIRS.length <= 16)
     for (const pair of COMPARISON_PAIRS) {
       assert.ok(getCity(pair.a), `missing ${pair.a}`)
       assert.ok(getCity(pair.b), `missing ${pair.b}`)

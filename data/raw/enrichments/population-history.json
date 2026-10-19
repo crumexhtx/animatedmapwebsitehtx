@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:51:44.039Z",
+  "generatedAt": "2026-10-19T15:40:22.779Z",
   "earliestYear": 2010,
   "latestYear": 2024,
   "cities": {
@@ -324,6 +324,71 @@
         {
           "year": 2024,
           "population": 289600
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "buckeye-az": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 51350
+        },
+        {
+          "year": 2011,
+          "population": 52486
+        },
+        {
+          "year": 2012,
+          "population": 54389
+        },
+        {
+          "year": 2013,
+          "population": 56603
+        },
+        {
+          "year": 2014,
+          "population": 59100
+        },
+        {
+          "year": 2015,
+          "population": 61633
+        },
+        {
+          "year": 2016,
+          "population": 64641
+        },
+        {
+          "year": 2017,
+          "population": 68534
+        },
+        {
+          "year": 2018,
+          "population": 74339
+        },
+        {
+          "year": 2019,
+          "population": 79620
+        },
+        {
+          "year": 2020,
+          "population": 93741
+        },
+        {
+          "year": 2021,
+          "population": 101678
+        },
+        {
+          "year": 2022,
+          "population": 105576
+        },
+        {
+          "year": 2023,
+          "population": 109374
+        },
+        {
+          "year": 2024,
+          "population": 114334
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -783,6 +848,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "surprise-az": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 117643
+        },
+        {
+          "year": 2011,
+          "population": 119617
+        },
+        {
+          "year": 2012,
+          "population": 122266
+        },
+        {
+          "year": 2013,
+          "population": 125035
+        },
+        {
+          "year": 2014,
+          "population": 127880
+        },
+        {
+          "year": 2015,
+          "population": 130336
+        },
+        {
+          "year": 2016,
+          "population": 132846
+        },
+        {
+          "year": 2017,
+          "population": 134781
+        },
+        {
+          "year": 2018,
+          "population": 137717
+        },
+        {
+          "year": 2019,
+          "population": 141664
+        },
+        {
+          "year": 2020,
+          "population": 144393
+        },
+        {
+          "year": 2021,
+          "population": 149281
+        },
+        {
+          "year": 2022,
+          "population": 154208
+        },
+        {
+          "year": 2023,
+          "population": 159128
+        },
+        {
+          "year": 2024,
+          "population": 167564
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "tempe-az": {
       "points": [
         {
@@ -909,6 +1039,71 @@
         {
           "year": 2024,
           "population": 554013
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "fayetteville-ar": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 73962
+        },
+        {
+          "year": 2011,
+          "population": 75604
+        },
+        {
+          "year": 2012,
+          "population": 76969
+        },
+        {
+          "year": 2013,
+          "population": 78652
+        },
+        {
+          "year": 2014,
+          "population": 80417
+        },
+        {
+          "year": 2015,
+          "population": 82332
+        },
+        {
+          "year": 2016,
+          "population": 83620
+        },
+        {
+          "year": 2017,
+          "population": 85587
+        },
+        {
+          "year": 2018,
+          "population": 86615
+        },
+        {
+          "year": 2019,
+          "population": 87590
+        },
+        {
+          "year": 2020,
+          "population": 94784
+        },
+        {
+          "year": 2021,
+          "population": 97298
+        },
+        {
+          "year": 2022,
+          "population": 99872
+        },
+        {
+          "year": 2023,
+          "population": 101511
+        },
+        {
+          "year": 2024,
+          "population": 103134
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -1299,6 +1494,71 @@
         {
           "year": 2024,
           "population": 161540
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "elk-grove-ca": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 153375
+        },
+        {
+          "year": 2011,
+          "population": 155615
+        },
+        {
+          "year": 2012,
+          "population": 158083
+        },
+        {
+          "year": 2013,
+          "population": 160251
+        },
+        {
+          "year": 2014,
+          "population": 162701
+        },
+        {
+          "year": 2015,
+          "population": 165997
+        },
+        {
+          "year": 2016,
+          "population": 169156
+        },
+        {
+          "year": 2017,
+          "population": 171425
+        },
+        {
+          "year": 2018,
+          "population": 172603
+        },
+        {
+          "year": 2019,
+          "population": 174775
+        },
+        {
+          "year": 2020,
+          "population": 176579
+        },
+        {
+          "year": 2021,
+          "population": 177966
+        },
+        {
+          "year": 2022,
+          "population": 178468
+        },
+        {
+          "year": 2023,
+          "population": 179843
+        },
+        {
+          "year": 2024,
+          "population": 182797
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -2603,6 +2863,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "roseville-ca": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 119916
+        },
+        {
+          "year": 2011,
+          "population": 122725
+        },
+        {
+          "year": 2012,
+          "population": 124432
+        },
+        {
+          "year": 2013,
+          "population": 126769
+        },
+        {
+          "year": 2014,
+          "population": 128397
+        },
+        {
+          "year": 2015,
+          "population": 130018
+        },
+        {
+          "year": 2016,
+          "population": 132708
+        },
+        {
+          "year": 2017,
+          "population": 135077
+        },
+        {
+          "year": 2018,
+          "population": 138953
+        },
+        {
+          "year": 2019,
+          "population": 141500
+        },
+        {
+          "year": 2020,
+          "population": 148520
+        },
+        {
+          "year": 2021,
+          "population": 152515
+        },
+        {
+          "year": 2022,
+          "population": 156070
+        },
+        {
+          "year": 2023,
+          "population": 159230
+        },
+        {
+          "year": 2024,
+          "population": 163304
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "sacramento-ca": {
       "points": [
         {
@@ -3838,6 +4163,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "thornton-co": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 119391
+        },
+        {
+          "year": 2011,
+          "population": 121911
+        },
+        {
+          "year": 2012,
+          "population": 124361
+        },
+        {
+          "year": 2013,
+          "population": 127022
+        },
+        {
+          "year": 2014,
+          "population": 129479
+        },
+        {
+          "year": 2015,
+          "population": 132176
+        },
+        {
+          "year": 2016,
+          "population": 134574
+        },
+        {
+          "year": 2017,
+          "population": 136777
+        },
+        {
+          "year": 2018,
+          "population": 139352
+        },
+        {
+          "year": 2019,
+          "population": 141464
+        },
+        {
+          "year": 2020,
+          "population": 142191
+        },
+        {
+          "year": 2021,
+          "population": 142942
+        },
+        {
+          "year": 2022,
+          "population": 143459
+        },
+        {
+          "year": 2023,
+          "population": 145533
+        },
+        {
+          "year": 2024,
+          "population": 146689
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "bridgeport-ct": {
       "points": [
         {
@@ -4748,6 +5138,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "lakeland-fl": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 97640
+        },
+        {
+          "year": 2011,
+          "population": 98834
+        },
+        {
+          "year": 2012,
+          "population": 99000
+        },
+        {
+          "year": 2013,
+          "population": 100326
+        },
+        {
+          "year": 2014,
+          "population": 102034
+        },
+        {
+          "year": 2015,
+          "population": 103550
+        },
+        {
+          "year": 2016,
+          "population": 105837
+        },
+        {
+          "year": 2017,
+          "population": 107712
+        },
+        {
+          "year": 2018,
+          "population": 110421
+        },
+        {
+          "year": 2019,
+          "population": 112136
+        },
+        {
+          "year": 2020,
+          "population": 113881
+        },
+        {
+          "year": 2021,
+          "population": 117320
+        },
+        {
+          "year": 2022,
+          "population": 120604
+        },
+        {
+          "year": 2023,
+          "population": 123046
+        },
+        {
+          "year": 2024,
+          "population": 124990
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "miami-fl": {
       "points": [
         {
@@ -5463,6 +5918,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "columbus-ga": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 191101
+        },
+        {
+          "year": 2011,
+          "population": 195271
+        },
+        {
+          "year": 2012,
+          "population": 198965
+        },
+        {
+          "year": 2013,
+          "population": 203225
+        },
+        {
+          "year": 2014,
+          "population": 200563
+        },
+        {
+          "year": 2015,
+          "population": 198702
+        },
+        {
+          "year": 2016,
+          "population": 196219
+        },
+        {
+          "year": 2017,
+          "population": 193836
+        },
+        {
+          "year": 2018,
+          "population": 194169
+        },
+        {
+          "year": 2019,
+          "population": 195769
+        },
+        {
+          "year": 2020,
+          "population": 207015
+        },
+        {
+          "year": 2021,
+          "population": 205094
+        },
+        {
+          "year": 2022,
+          "population": 202658
+        },
+        {
+          "year": 2023,
+          "population": 201959
+        },
+        {
+          "year": 2024,
+          "population": 201830
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "macon-ga": {
       "points": [
         {
@@ -5719,6 +6239,71 @@
         {
           "year": 2024,
           "population": 237963
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "meridian-id": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 77428
+        },
+        {
+          "year": 2011,
+          "population": 79723
+        },
+        {
+          "year": 2012,
+          "population": 82125
+        },
+        {
+          "year": 2013,
+          "population": 85086
+        },
+        {
+          "year": 2014,
+          "population": 89174
+        },
+        {
+          "year": 2015,
+          "population": 92144
+        },
+        {
+          "year": 2016,
+          "population": 96227
+        },
+        {
+          "year": 2017,
+          "population": 100539
+        },
+        {
+          "year": 2018,
+          "population": 106464
+        },
+        {
+          "year": 2019,
+          "population": 114161
+        },
+        {
+          "year": 2020,
+          "population": 119496
+        },
+        {
+          "year": 2021,
+          "population": 125865
+        },
+        {
+          "year": 2022,
+          "population": 130176
+        },
+        {
+          "year": 2023,
+          "population": 135322
+        },
+        {
+          "year": 2024,
+          "population": 139740
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -6434,6 +7019,71 @@
         {
           "year": 2024,
           "population": 156752
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "olathe-ks": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 126269
+        },
+        {
+          "year": 2011,
+          "population": 128325
+        },
+        {
+          "year": 2012,
+          "population": 129963
+        },
+        {
+          "year": 2013,
+          "population": 131798
+        },
+        {
+          "year": 2014,
+          "population": 132839
+        },
+        {
+          "year": 2015,
+          "population": 134298
+        },
+        {
+          "year": 2016,
+          "population": 135928
+        },
+        {
+          "year": 2017,
+          "population": 137526
+        },
+        {
+          "year": 2018,
+          "population": 139758
+        },
+        {
+          "year": 2019,
+          "population": 140545
+        },
+        {
+          "year": 2020,
+          "population": 141560
+        },
+        {
+          "year": 2021,
+          "population": 142958
+        },
+        {
+          "year": 2022,
+          "population": 144741
+        },
+        {
+          "year": 2023,
+          "population": 147145
+        },
+        {
+          "year": 2024,
+          "population": 149035
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -7608,6 +8258,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "rochester-mn": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 107047
+        },
+        {
+          "year": 2011,
+          "population": 108097
+        },
+        {
+          "year": 2012,
+          "population": 108916
+        },
+        {
+          "year": 2013,
+          "population": 110427
+        },
+        {
+          "year": 2014,
+          "population": 111198
+        },
+        {
+          "year": 2015,
+          "population": 112160
+        },
+        {
+          "year": 2016,
+          "population": 114051
+        },
+        {
+          "year": 2017,
+          "population": 115586
+        },
+        {
+          "year": 2018,
+          "population": 117047
+        },
+        {
+          "year": 2019,
+          "population": 118935
+        },
+        {
+          "year": 2020,
+          "population": 121575
+        },
+        {
+          "year": 2021,
+          "population": 121845
+        },
+        {
+          "year": 2022,
+          "population": 121979
+        },
+        {
+          "year": 2023,
+          "population": 122658
+        },
+        {
+          "year": 2024,
+          "population": 123624
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "saint-paul-mn": {
       "points": [
         {
@@ -7734,6 +8449,71 @@
         {
           "year": 2024,
           "population": 141449
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "columbia-mo": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 109429
+        },
+        {
+          "year": 2011,
+          "population": 111514
+        },
+        {
+          "year": 2012,
+          "population": 113553
+        },
+        {
+          "year": 2013,
+          "population": 115440
+        },
+        {
+          "year": 2014,
+          "population": 117028
+        },
+        {
+          "year": 2015,
+          "population": 118570
+        },
+        {
+          "year": 2016,
+          "population": 120248
+        },
+        {
+          "year": 2017,
+          "population": 121539
+        },
+        {
+          "year": 2018,
+          "population": 122533
+        },
+        {
+          "year": 2019,
+          "population": 123195
+        },
+        {
+          "year": 2020,
+          "population": 126314
+        },
+        {
+          "year": 2021,
+          "population": 127409
+        },
+        {
+          "year": 2022,
+          "population": 128409
+        },
+        {
+          "year": 2023,
+          "population": 129780
+        },
+        {
+          "year": 2024,
+          "population": 130900
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -12028,6 +12808,136 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "college-station-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 94666
+        },
+        {
+          "year": 2011,
+          "population": 95671
+        },
+        {
+          "year": 2012,
+          "population": 97761
+        },
+        {
+          "year": 2013,
+          "population": 100601
+        },
+        {
+          "year": 2014,
+          "population": 103469
+        },
+        {
+          "year": 2015,
+          "population": 108952
+        },
+        {
+          "year": 2016,
+          "population": 111068
+        },
+        {
+          "year": 2017,
+          "population": 114483
+        },
+        {
+          "year": 2018,
+          "population": 116035
+        },
+        {
+          "year": 2019,
+          "population": 117911
+        },
+        {
+          "year": 2020,
+          "population": 120779
+        },
+        {
+          "year": 2021,
+          "population": 122696
+        },
+        {
+          "year": 2022,
+          "population": 124587
+        },
+        {
+          "year": 2023,
+          "population": 126838
+        },
+        {
+          "year": 2024,
+          "population": 128023
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "conroe-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 65731
+        },
+        {
+          "year": 2011,
+          "population": 67352
+        },
+        {
+          "year": 2012,
+          "population": 69662
+        },
+        {
+          "year": 2013,
+          "population": 70676
+        },
+        {
+          "year": 2014,
+          "population": 73779
+        },
+        {
+          "year": 2015,
+          "population": 76322
+        },
+        {
+          "year": 2016,
+          "population": 82068
+        },
+        {
+          "year": 2017,
+          "population": 84809
+        },
+        {
+          "year": 2018,
+          "population": 87578
+        },
+        {
+          "year": 2019,
+          "population": 91079
+        },
+        {
+          "year": 2020,
+          "population": 91234
+        },
+        {
+          "year": 2021,
+          "population": 95529
+        },
+        {
+          "year": 2022,
+          "population": 101749
+        },
+        {
+          "year": 2023,
+          "population": 108905
+        },
+        {
+          "year": 2024,
+          "population": 114581
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "corpus-christi-tx": {
       "points": [
         {
@@ -12678,6 +13588,71 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "killeen-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 129024
+        },
+        {
+          "year": 2011,
+          "population": 130838
+        },
+        {
+          "year": 2012,
+          "population": 134240
+        },
+        {
+          "year": 2013,
+          "population": 136294
+        },
+        {
+          "year": 2014,
+          "population": 137589
+        },
+        {
+          "year": 2015,
+          "population": 140147
+        },
+        {
+          "year": 2016,
+          "population": 142854
+        },
+        {
+          "year": 2017,
+          "population": 145149
+        },
+        {
+          "year": 2018,
+          "population": 148683
+        },
+        {
+          "year": 2019,
+          "population": 151666
+        },
+        {
+          "year": 2020,
+          "population": 153758
+        },
+        {
+          "year": 2021,
+          "population": 157075
+        },
+        {
+          "year": 2022,
+          "population": 159374
+        },
+        {
+          "year": 2023,
+          "population": 159953
+        },
+        {
+          "year": 2024,
+          "population": 160616
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "laredo-tx": {
       "points": [
         {
@@ -12739,6 +13714,71 @@
         {
           "year": 2024,
           "population": 261260
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "league-city-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 84096
+        },
+        {
+          "year": 2011,
+          "population": 86278
+        },
+        {
+          "year": 2012,
+          "population": 88242
+        },
+        {
+          "year": 2013,
+          "population": 90790
+        },
+        {
+          "year": 2014,
+          "population": 94121
+        },
+        {
+          "year": 2015,
+          "population": 97860
+        },
+        {
+          "year": 2016,
+          "population": 101669
+        },
+        {
+          "year": 2017,
+          "population": 104442
+        },
+        {
+          "year": 2018,
+          "population": 106005
+        },
+        {
+          "year": 2019,
+          "population": 107536
+        },
+        {
+          "year": 2020,
+          "population": 114659
+        },
+        {
+          "year": 2021,
+          "population": 115672
+        },
+        {
+          "year": 2022,
+          "population": 115603
+        },
+        {
+          "year": 2023,
+          "population": 116624
+        },
+        {
+          "year": 2024,
+          "population": 118456
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -12938,6 +13978,201 @@
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
     },
+    "new-braunfels-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 58059
+        },
+        {
+          "year": 2011,
+          "population": 59319
+        },
+        {
+          "year": 2012,
+          "population": 60885
+        },
+        {
+          "year": 2013,
+          "population": 63025
+        },
+        {
+          "year": 2014,
+          "population": 65902
+        },
+        {
+          "year": 2015,
+          "population": 70133
+        },
+        {
+          "year": 2016,
+          "population": 73351
+        },
+        {
+          "year": 2017,
+          "population": 78902
+        },
+        {
+          "year": 2018,
+          "population": 84495
+        },
+        {
+          "year": 2019,
+          "population": 90209
+        },
+        {
+          "year": 2020,
+          "population": 91683
+        },
+        {
+          "year": 2021,
+          "population": 99130
+        },
+        {
+          "year": 2022,
+          "population": 104840
+        },
+        {
+          "year": 2023,
+          "population": 111202
+        },
+        {
+          "year": 2024,
+          "population": 116477
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "pasadena-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 149523
+        },
+        {
+          "year": 2011,
+          "population": 151156
+        },
+        {
+          "year": 2012,
+          "population": 152662
+        },
+        {
+          "year": 2013,
+          "population": 153532
+        },
+        {
+          "year": 2014,
+          "population": 154447
+        },
+        {
+          "year": 2015,
+          "population": 154530
+        },
+        {
+          "year": 2016,
+          "population": 154525
+        },
+        {
+          "year": 2017,
+          "population": 153858
+        },
+        {
+          "year": 2018,
+          "population": 152733
+        },
+        {
+          "year": 2019,
+          "population": 151227
+        },
+        {
+          "year": 2020,
+          "population": 151449
+        },
+        {
+          "year": 2021,
+          "population": 148776
+        },
+        {
+          "year": 2022,
+          "population": 148518
+        },
+        {
+          "year": 2023,
+          "population": 148792
+        },
+        {
+          "year": 2024,
+          "population": 149617
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "pearland-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 94063
+        },
+        {
+          "year": 2011,
+          "population": 96271
+        },
+        {
+          "year": 2012,
+          "population": 99283
+        },
+        {
+          "year": 2013,
+          "population": 102832
+        },
+        {
+          "year": 2014,
+          "population": 106027
+        },
+        {
+          "year": 2015,
+          "population": 111267
+        },
+        {
+          "year": 2016,
+          "population": 115926
+        },
+        {
+          "year": 2017,
+          "population": 119312
+        },
+        {
+          "year": 2018,
+          "population": 121424
+        },
+        {
+          "year": 2019,
+          "population": 122460
+        },
+        {
+          "year": 2020,
+          "population": 126011
+        },
+        {
+          "year": 2021,
+          "population": 126071
+        },
+        {
+          "year": 2022,
+          "population": 127402
+        },
+        {
+          "year": 2023,
+          "population": 128536
+        },
+        {
+          "year": 2024,
+          "population": 129620
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
     "plano-tx": {
       "points": [
         {
@@ -13129,6 +14364,71 @@
         {
           "year": 2024,
           "population": 1526656
+        }
+      ],
+      "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
+    },
+    "sugar-land-tx": {
+      "points": [
+        {
+          "year": 2010,
+          "population": 108403
+        },
+        {
+          "year": 2011,
+          "population": 109854
+        },
+        {
+          "year": 2012,
+          "population": 111277
+        },
+        {
+          "year": 2013,
+          "population": 113490
+        },
+        {
+          "year": 2014,
+          "population": 116807
+        },
+        {
+          "year": 2015,
+          "population": 118405
+        },
+        {
+          "year": 2016,
+          "population": 118784
+        },
+        {
+          "year": 2017,
+          "population": 118967
+        },
+        {
+          "year": 2018,
+          "population": 118777
+        },
+        {
+          "year": 2019,
+          "population": 118488
+        },
+        {
+          "year": 2020,
+          "population": 110844
+        },
+        {
+          "year": 2021,
+          "population": 109683
+        },
+        {
+          "year": 2022,
+          "population": 110001
+        },
+        {
+          "year": 2023,
+          "population": 109801
+        },
+        {
+          "year": 2024,
+          "population": 109851
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
@@ -14562,71 +15862,6 @@
         }
       ],
       "source": "U.S. Census Bureau PEP city/town estimates (2010–2024)"
-    },
-    "arlington-va": {
-      "points": [
-        {
-          "year": 2010,
-          "population": 209295
-        },
-        {
-          "year": 2011,
-          "population": 215990
-        },
-        {
-          "year": 2012,
-          "population": 221454
-        },
-        {
-          "year": 2013,
-          "population": 224894
-        },
-        {
-          "year": 2014,
-          "population": 225980
-        },
-        {
-          "year": 2015,
-          "population": 228548
-        },
-        {
-          "year": 2016,
-          "population": 231259
-        },
-        {
-          "year": 2017,
-          "population": 234647
-        },
-        {
-          "year": 2018,
-          "population": 236025
-        },
-        {
-          "year": 2019,
-          "population": 236842
-        },
-        {
-          "year": 2020,
-          "population": 238829
-        },
-        {
-          "year": 2021,
-          "population": 233478
-        },
-        {
-          "year": 2022,
-          "population": 233976
-        },
-        {
-          "year": 2023,
-          "population": 235181
-        },
-        {
-          "year": 2024,
-          "population": 239807
-        }
-      ],
-      "source": "U.S. Census Bureau PEP county estimates for Arlington County, VA (CDP coterminous; 2010–2024)"
     }
   }
 }

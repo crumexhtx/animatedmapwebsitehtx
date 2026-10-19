@@ -997,6 +997,12 @@ a:hover { color: var(--map-deep); }
   margin: 0;
 }
 
+.city-disambiguation {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .city-url-button {
   display: inline-flex;
   align-items: center;

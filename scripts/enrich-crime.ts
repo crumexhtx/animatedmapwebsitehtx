@@ -13,7 +13,7 @@ import { join } from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { pipeline } from 'node:stream/promises'
 import { Readable } from 'node:stream'
-import { fetchJson, loadSeedCities, sleep, writeEnrichment, ROOT } from './lib/io'
+import { fetchJson, loadSeedCities, readEnrichment, seedCitiesToRefresh, sleep, writeEnrichment, ROOT } from './lib/io'
 
 type Agency = {
   ori: string
@@ -269,6 +269,9 @@ const TABLE8_ALIASES: Record<string, string[]> = {
   'saint-paul-mn': ['st paul', 'saint paul'],
   'st-petersburg-fl': ['st petersburg', 'saint petersburg'],
   'winston-salem-nc': ['winston salem'],
+  'sugar-land-tx': ['sugar land', 'sugarland'],
+  'conroe-tx': ['conroe'],
+  'columbus-ga': ['columbus', 'columbus-muscogee county', 'columbismuscogee', 'muscogee'],
 }
 
 function matchTable8(cityName: string, stateCode: string, slug: string, rows: Table8Row[]) {
@@ -408,17 +411,28 @@ async function tryLiveApi(seed: ReturnType<typeof loadSeedCities>) {
 
 async function main() {
   mkdirSync(CACHE_DIR, { recursive: true })
+  const previous = readEnrichment<CrimeEnrichment>('crime')
   const seed = loadSeedCities()
-  const cities: CrimeEnrichment['cities'] = {}
-  let ok = 0
-  let unavailableCount = 0
+  const missing = seedCitiesToRefresh(
+    Object.entries(previous?.cities ?? {})
+      .filter(([, row]) => row.available)
+      .map(([slug]) => slug),
+  )
+  const cities: CrimeEnrichment['cities'] = { ...(previous?.cities ?? {}) }
+  let ok = Object.values(previous?.cities ?? {}).filter((row) => row.available).length
+  let unavailableCount = Object.values(previous?.cities ?? {}).filter((row) => !row.available).length
   let mode: 'cde-api' | 'cius-table8' = 'cius-table8'
 
-  const live = await tryLiveApi(seed)
+  if (!missing.length) {
+    console.log(`crime: all ${seed.length} seed cities already enriched`)
+    return
+  }
+
+  const live = await tryLiveApi(missing)
   if (live) {
     mode = 'cde-api'
     console.log('Using live FBI CDE API')
-    for (const city of seed) {
+    for (const city of missing) {
       try {
         const agency = pickAgency(city.name, live.get(city.stateCode) ?? [])
         if (!agency) {
@@ -463,7 +477,7 @@ async function main() {
     const agencies = loadAgenciesCsv(AGENCIES_PATH)
     console.log(`Loaded Table 8 rows=${table8.length}, agency states=${agencies.size}`)
 
-    for (const city of seed) {
+    for (const city of missing) {
       const row = matchTable8(city.name, city.stateCode, city.slug, table8)
       if (!row || row.violent < 0 || row.property < 0) {
         cities[city.slug] = unavailable()

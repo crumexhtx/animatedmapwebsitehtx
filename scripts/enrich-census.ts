@@ -13,7 +13,7 @@ import { createWriteStream, existsSync, mkdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { pipeline } from 'node:stream/promises'
 import { Readable } from 'node:stream'
-import { loadSeedCities, sleep, writeEnrichment, ROOT } from './lib/io'
+import { loadSeedCities, readEnrichment, seedCitiesToRefresh, sleep, writeEnrichment, ROOT } from './lib/io'
 
 const ACS_YEAR = '2023'
 const BASE = `https://www2.census.gov/programs-surveys/acs/summary_file/${ACS_YEAR}/table-based-SF/data/5YRData`
@@ -22,6 +22,8 @@ const TABLES = {
   income: 'acsdt5y2023-b19013.dat',
   homeValue: 'acsdt5y2023-b25077.dat',
   rent: 'acsdt5y2023-b25064.dat',
+  travelTime: 'acsdt5y2023-b08013.dat',
+  workers: 'acsdt5y2023-b08301.dat',
 } as const
 
 const CACHE_DIR = join(ROOT, 'data', 'raw', 'cache', 'acs')
@@ -44,6 +46,7 @@ export type CensusEnrichment = {
       medianHomePrice: number
       medianRent: number
       costOfLivingIndex: number
+      commuteMinutes?: number
       source: string
     }
   >
@@ -99,6 +102,11 @@ const PLACE_OVERRIDES: Record<string, PlaceHit> = {
     geoid: '1600000US5103000',
     name: 'Arlington CDP, Virginia',
   },
+  'pasadena-tx': { geoid: '1600000US4856000', name: 'Pasadena city, Texas' },
+  'fayetteville-ar': { geoid: '1600000US0523290', name: 'Fayetteville city, Arkansas' },
+  'columbia-mo': { geoid: '1600000US2915670', name: 'Columbia city, Missouri' },
+  'rochester-mn': { geoid: '1600000US2754880', name: 'Rochester city, Minnesota' },
+  'columbus-ga': { geoid: '1600000US1319000', name: 'Columbus city, Georgia' },
 }
 
 async function geocodePlace(lon: number, lat: number): Promise<PlaceHit | null> {
@@ -131,7 +139,9 @@ function costIndex(home: number, rent: number, natHome: number, natRent: number)
 }
 
 async function main() {
+  const previous = readEnrichment<CensusEnrichment>('census')
   const seed = loadSeedCities()
+  const missing = seedCitiesToRefresh(Object.keys(previous?.cities ?? {}))
   mkdirSync(CACHE_DIR, { recursive: true })
 
   const paths: Record<keyof typeof TABLES, string> = {
@@ -139,17 +149,33 @@ async function main() {
     income: join(CACHE_DIR, TABLES.income),
     homeValue: join(CACHE_DIR, TABLES.homeValue),
     rent: join(CACHE_DIR, TABLES.rent),
+    travelTime: join(CACHE_DIR, TABLES.travelTime),
+    workers: join(CACHE_DIR, TABLES.workers),
   }
 
-  for (const [key, file] of Object.entries(TABLES) as Array<[keyof typeof TABLES, string]>) {
-    await downloadFile(`${BASE}/${file}`, paths[key])
+  const coreTables: Array<keyof typeof TABLES> = ['population', 'income', 'homeValue', 'rent']
+  for (const key of coreTables) {
+    await downloadFile(`${BASE}/${TABLES[key]}`, paths[key])
+  }
+  let haveCommuteTables = true
+  try {
+    await downloadFile(`${BASE}/${TABLES.travelTime}`, paths.travelTime)
+    await downloadFile(`${BASE}/${TABLES.workers}`, paths.workers)
+  } catch (error) {
+    haveCommuteTables = false
+    console.warn('ACS commute tables unavailable — keeping seed commute minutes', error)
+  }
+
+  if (!missing.length) {
+    console.log(`census: all ${seed.length} seed cities already enriched`)
+    return
   }
 
   const placeBySlug = new Map<string, PlaceHit>()
   let geoOk = 0
-  for (let i = 0; i < seed.length; i++) {
-    const city = seed[i]
-    process.stdout.write(`\rgeocode [${i + 1}/${seed.length}] ${city.slug}          `)
+  for (let i = 0; i < missing.length; i++) {
+    const city = missing[i]
+    process.stdout.write(`\rgeocode [${i + 1}/${missing.length}] ${city.slug}          `)
     if (PLACE_OVERRIDES[city.slug]) {
       placeBySlug.set(city.slug, PLACE_OVERRIDES[city.slug])
       geoOk += 1
@@ -169,7 +195,7 @@ async function main() {
     }
     await sleep(80)
   }
-  console.log(`\nGeocoded ${geoOk}/${seed.length} places`)
+  console.log(`\nGeocoded ${geoOk}/${missing.length} new places`)
 
   const needed = new Set<string>(['0100000US'])
   for (const hit of placeBySlug.values()) needed.add(hit.geoid)
@@ -179,17 +205,19 @@ async function main() {
   const income = loadTableEstimates(paths.income, needed)
   const home = loadTableEstimates(paths.homeValue, needed)
   const rent = loadTableEstimates(paths.rent, needed)
+  const travelTime = haveCommuteTables ? loadTableEstimates(paths.travelTime, needed) : new Map<string, number>()
+  const workers = haveCommuteTables ? loadTableEstimates(paths.workers, needed) : new Map<string, number>()
 
-  const natHome = home.get('0100000US')
-  const natRent = rent.get('0100000US')
-  const natIncome = income.get('0100000US')
+  const natHome = home.get('0100000US') ?? previous?.national.medianHomeValue
+  const natRent = rent.get('0100000US') ?? previous?.national.medianGrossRent
+  const natIncome = income.get('0100000US') ?? previous?.national.medianHouseholdIncome
   if (natHome == null || natRent == null || natIncome == null) {
     throw new Error('Missing national ACS baselines (0100000US)')
   }
 
-  const cities: CensusEnrichment['cities'] = {}
-  let ok = 0
-  for (const city of seed) {
+  const cities: CensusEnrichment['cities'] = { ...(previous?.cities ?? {}) }
+  let ok = Object.keys(previous?.cities ?? {}).length
+  for (const city of missing) {
     const hit = placeBySlug.get(city.slug)
     if (!hit) continue
     const population = pop.get(hit.geoid)
@@ -207,6 +235,12 @@ async function main() {
     }
     const col = costIndex(medianHomePrice, medianRent, natHome, natRent)
     if (col == null) continue
+    const aggregateMinutes = travelTime.get(hit.geoid)
+    const workerCount = workers.get(hit.geoid)
+    const commuteMinutes =
+      aggregateMinutes != null && workerCount != null && workerCount > 0
+        ? Math.round(aggregateMinutes / workerCount)
+        : undefined
     cities[city.slug] = {
       geoid: hit.geoid,
       placeName: hit.name,
@@ -215,6 +249,7 @@ async function main() {
       medianHomePrice: Math.round(medianHomePrice),
       medianRent: Math.round(medianRent),
       costOfLivingIndex: col,
+      ...(commuteMinutes != null && commuteMinutes > 0 ? { commuteMinutes } : {}),
       source: `U.S. Census Bureau ACS ${ACS_YEAR} 5-year (${hit.name}, ${hit.geoid})`,
     }
     ok += 1
@@ -231,7 +266,7 @@ async function main() {
     cities,
   }
   const out = writeEnrichment('census', payload)
-  console.log(`Wrote ${ok}/${seed.length} census enrichments → ${out}`)
+  console.log(`Wrote ${ok}/${seed.length} census enrichments (${missing.length} attempted) → ${out}`)
   if (ok < seed.length * 0.85) process.exitCode = 1
 }
 

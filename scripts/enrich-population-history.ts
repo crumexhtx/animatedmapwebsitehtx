@@ -100,7 +100,8 @@ async function main() {
   for (const line of legacy.lines) {
     const cells = parseCsvLine(line)
     const sumlev = cells[legacy.col.get('SUMLEV')!]
-    if (sumlev !== '162') continue
+    // 162 = incorporated place; 170 = consolidated city (Columbus GA, Nashville, etc.)
+    if (sumlev !== '162' && sumlev !== '170') continue
     const state = cells[legacy.col.get('STATE')!]
     const place = cells[legacy.col.get('PLACE')!]
     const slug = slugByFips.get(fipsKey(state, place))
@@ -120,7 +121,8 @@ async function main() {
   for (const line of current.lines) {
     const cells = parseCsvLine(line)
     const sumlev = cells[current.col.get('SUMLEV')!]
-    if (sumlev !== '162') continue
+    // 162 = incorporated place; 170 = consolidated city (Columbus GA, Nashville, etc.)
+    if (sumlev !== '162' && sumlev !== '170') continue
     const state = cells[current.col.get('STATE')!]
     const place = cells[current.col.get('PLACE')!]
     const slug = slugByFips.get(fipsKey(state, place))

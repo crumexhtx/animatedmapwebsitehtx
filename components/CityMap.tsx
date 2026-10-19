@@ -141,7 +141,7 @@ export function CityMap({
       if (city.population >= 350_000 || focused) {
         const label = document.createElement('span')
         label.className = 'city-marker-label'
-        label.textContent = city.name
+        label.textContent = `${city.name}, ${city.stateCode}`
         button.appendChild(label)
       }
 

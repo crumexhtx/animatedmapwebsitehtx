@@ -44,6 +44,13 @@ export function getNearbyCities(city: CityRecord) {
     .filter((item): item is CityRecord => Boolean(item))
 }
 
+/** Other catalog cities that share this name (Pasadena TX vs CA, Columbus GA vs OH). */
+export function getSameNameCities(city: CityRecord) {
+  return allCities
+    .filter((item) => item.name === city.name && item.slug !== city.slug)
+    .sort((a, b) => a.stateCode.localeCompare(b.stateCode))
+}
+
 /** Curated name-only directory of commonly researched places not yet in the catalog. */
 export function getNotableUnmapped(stateSlug: string) {
   const mappedNames = new Set(
