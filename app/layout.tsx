@@ -24,7 +24,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: {
-    default: '🗺️ Explore U.S. Cities — Cost of Living, Housing & Safety Data',
+    default: 'Compare U.S. Cities: Cost of Living, Housing & Safety | MapsToIt',
     template: '%s | MapsToIt',
   },
   description:

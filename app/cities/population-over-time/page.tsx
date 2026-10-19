@@ -5,7 +5,7 @@ import { allCities } from '@/lib/catalog'
 import { populationRaceCities, populationRaceYears } from '@/lib/charts'
 
 export const metadata: Metadata = {
-  title: '📈 Watch U.S. City Population Change Over Time',
+  title: 'U.S. City Population Change Over Time',
   description:
     'Play Census population estimates year by year — follow the largest MapsToIt cities as ranks and sizes shift from 2010 through the latest PEP release.',
   alternates: { canonical: '/cities/population-over-time' },

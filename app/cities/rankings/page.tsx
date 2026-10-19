@@ -6,7 +6,7 @@ import { cheapestCities, mostExpensiveCities } from '@/lib/charts'
 import { formatCurrency, formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: '📊 Rank Cheapest & Most Expensive U.S. Cities — Housing Cost Index',
+  title: 'Cheapest & Most Expensive U.S. Cities — Housing Cost Index',
   description:
     'Compare the 10 cheapest and 10 most expensive U.S. cities by MapsToIt housing cost index — ACS-derived home value and rent versus the national average.',
   alternates: { canonical: '/cities/rankings' },

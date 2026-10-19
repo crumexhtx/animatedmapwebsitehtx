@@ -4,7 +4,7 @@ import { CitiesBrowser } from '@/components/CitiesBrowser'
 import { allCities, allStates, statePath } from '@/lib/catalog'
 
 export const metadata: Metadata = {
-  title: '🗺️ Browse U.S. Cities — Cost of Living, Housing & Climate',
+  title: 'Browse U.S. Cities — Cost of Living, Housing & Climate',
   description:
     'Browse MapsToIt city profiles by state — compare cost of living, housing prices, income, climate, commute, and safety before you relocate.',
   alternates: { canonical: '/cities' },

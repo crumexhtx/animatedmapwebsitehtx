@@ -18,9 +18,9 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const params = await searchParams
   const queried = hasBudgetParam(params)
   return {
-    title: 'What Can I Afford? — Find U.S. Cities by Budget | MapsToIt',
+    title: 'What Can I Afford? — Find U.S. Cities by Budget',
     description:
-      'Enter your rent or home-buying budget and filter 205 U.S. cities by crime, walk score, commute, climate, and income. Live results with shareable search links.',
+      `Enter your rent or home-buying budget and filter ${allCities.length} U.S. cities by crime, walk score, commute, climate, and income. Live results with shareable search links.`,
     alternates: { canonical: '/afford' },
     ...(queried ? { robots: { index: false, follow: true } } : {}),
   }

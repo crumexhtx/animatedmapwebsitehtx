@@ -5,7 +5,7 @@ import { allCities, statePath } from '@/lib/catalog'
 import { stateColAverages } from '@/lib/charts'
 
 export const metadata: Metadata = {
-  title: '🗺️ Explore State Housing Costs — U.S. Cost of Living Choropleth',
+  title: 'State Housing Costs — U.S. Housing Cost Choropleth',
   description:
     'Color-coded U.S. map of MapsToIt catalog-average housing cost index by state. Click a mapped state to open its city list.',
   alternates: { canonical: '/cities/state-costs' },

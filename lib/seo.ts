@@ -7,9 +7,10 @@ export function absoluteUrl(path: string) {
 }
 
 export function cityMetadata(city: CityRecord): Metadata {
-  const title = `📍 Compare ${city.name}, ${city.stateCode} Cost of Living, Housing & Safety`
+  const title = `Compare ${city.name}, ${city.stateCode}: Cost of Living, Housing & Safety`
+  const ogTitle = `📍 Compare ${city.name}, ${city.stateCode} Cost of Living, Housing & Safety`
   const description =
-    `Discover ${city.name}, ${city.state} cost of living (index ${city.costOfLivingIndex}), ` +
+    `Discover ${city.name}, ${city.state} housing cost (index ${city.costOfLivingIndex}), ` +
     `median home value, rent, income, commute, climate, and crime context — built for relocators comparing cities.`
   const url = absoluteUrl(cityPath(city))
 
@@ -18,7 +19,7 @@ export function cityMetadata(city: CityRecord): Metadata {
     description,
     alternates: { canonical: url },
     openGraph: {
-      title,
+      title: ogTitle,
       description,
       url,
       siteName: 'MapsToIt',
@@ -28,7 +29,8 @@ export function cityMetadata(city: CityRecord): Metadata {
 }
 
 export function stateMetadata(state: StateRecord): Metadata {
-  const title = `🗺️ Explore ${state.name} Cities — Housing Costs & Relocation Data`
+  const title = `Explore ${state.name} Cities — Housing Costs & Relocation Data`
+  const ogTitle = `🗺️ Explore ${state.name} Cities — Housing Costs & Relocation Data`
   const description =
     `Browse ${state.cityCount} mapped ${state.name} cities — compare cost of living, income, housing prices, commute, climate, and safety before you move.`
   const url = absoluteUrl(statePath(state))
@@ -38,7 +40,7 @@ export function stateMetadata(state: StateRecord): Metadata {
     description,
     alternates: { canonical: url },
     openGraph: {
-      title,
+      title: ogTitle,
       description,
       url,
       siteName: 'MapsToIt',

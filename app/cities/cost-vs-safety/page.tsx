@@ -6,7 +6,7 @@ import { costVsSafetyPoints } from '@/lib/charts'
 import { formatNumber } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: '📈 Explore Cost of Living vs Safety — U.S. City Scatter Plot',
+  title: 'Housing Cost vs Safety — U.S. City Scatter Plot',
   description:
     'Plot MapsToIt cities by housing cost index versus violent crime rate. Hover or click any point to open that city profile.',
   alternates: { canonical: '/cities/cost-vs-safety' },
