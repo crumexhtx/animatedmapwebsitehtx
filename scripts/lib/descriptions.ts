@@ -1,4 +1,5 @@
 import type { CityRecord } from '../../lib/types'
+import { crimeAgencyPhrase, crimeSourceKind } from '../../lib/crime-source'
 
 const REGION_NOTES: Record<string, string> = {
   AL: 'Gulf Coast humidity and inland pine hills shape day-to-day living here.',
@@ -111,31 +112,34 @@ function climateAngle(city: CityRecord) {
 }
 
 function safetyAngle(city: CityRecord) {
-  if (city.crimeIndex.source === 'data unavailable') {
+  const kind = crimeSourceKind(city.crimeIndex.source)
+  if (kind === 'unavailable') {
     return pick(
       [
         `Official FBI agency crime rates were not published for this place in the latest pull, so treat safety as a neighborhood-level research task.`,
-        `FBI Crime Data Explorer did not return usable agency rates here — verify recent local PD reports block by block.`,
-        `Crime rates are marked unavailable for this municipality in our FBI CDE pull; do not rely on a citywide index.`,
+        `FBI tables did not return a usable citywide rate here — verify recent local PD reports block by block.`,
+        `Crime rates are marked unavailable for this municipality; do not rely on a citywide index.`,
       ],
       city.slug,
       7,
     )
   }
-  if (city.crimeIndex.source.includes('curated')) {
+  if (kind === 'curated') {
     return pick(
       [
-        `Crime figures here are a directional launch estimate pending a live FBI Crime Data Explorer pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.`,
+        `Crime figures here are a directional launch estimate pending a live FBI pull — not yet a per-100k rate, so treat it as a rough signal rather than a citywide index.`,
         `This city hasn't had its FBI crime data refreshed yet, so the safety figure is a placeholder estimate — verify current numbers before treating it as authoritative.`,
-        `Safety figures are still on the curated-seed baseline for this city; check back once FBI Crime Data Explorer enrichment has run for an actual per-100k rate.`,
+        `Safety figures are still on the curated-seed baseline for this city; check back once FBI enrichment has run for an actual per-100k rate.`,
       ],
       city.slug,
       31,
     )
   }
+  const agency = crimeAgencyPhrase(city.crimeIndex.source)
   const violent = city.crimeIndex.violent
+  const annualized = kind === 'cde' ? ' annualized' : ''
   if (violent >= 800) {
-    return `FBI CDE violent-offense rates run comparatively high (~${violent} per 100k annualized), so block-by-block due diligence is especially important.`
+    return `${agency} violent-offense rates run comparatively high (~${violent} per 100k${annualized}), so block-by-block due diligence is especially important.`
   }
   if (violent >= 400) {
     return `Violent-offense rates near ${violent} per 100k sit in a mid-to-elevated band versus many peer cities in this catalog.`
@@ -250,7 +254,7 @@ export function buildUniqueDescription(city: CityRecord) {
   const blocks = [
     `${opener(city)} ${incomeLine(city)} ${housingAngle(city)}`,
     `${region} ${climateAngle(city)} ${commuteLine(city)} ${workAngle(city)} ${safetyAngle(city)}`,
-    `${placeHook(city)} Figures on this page are merged from Census ACS, BLS LAUS, FBI Crime Data Explorer, and NOAA Climate Normals — use them to compare ${city.name} with nearby alternatives before you relocate.`,
+    `${placeHook(city)} Figures on this page are merged from Census ACS, BLS LAUS, FBI crime figures, and NOAA Climate Normals — use them to compare ${city.name} with nearby alternatives before you relocate.`,
   ]
 
   // Rotate paragraph order slightly so unrelated cities share fewer leading shingles.

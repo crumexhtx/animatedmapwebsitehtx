@@ -58,9 +58,26 @@ export type CrimeEnrichment = {
   >
 }
 
-const API_KEY = process.env.FBI_API_KEY || process.env.DATA_GOV_API_KEY || 'DEMO_KEY'
-const FROM = '01-2023'
-const TO = '12-2023'
+function lastCompletedCalendarYear(now = new Date()) {
+  return now.getUTCFullYear() - 1
+}
+
+function requireCrimeApiKey() {
+  const key = process.env.FBI_API_KEY || process.env.DATA_GOV_API_KEY || ''
+  if (key && key !== 'DEMO_KEY') return key
+  console.error(
+    'enrich-crime: FBI_API_KEY or DATA_GOV_API_KEY is required (DEMO_KEY is not allowed).\n' +
+      'Get a free key at https://api.data.gov/signup/\n' +
+      'To publish 2019 CIUS Table 8 rates on purpose, set FORCE_CIUS_TABLE8=1.',
+  )
+  process.exit(1)
+}
+
+const FORCE_TABLE8 = process.env.FORCE_CIUS_TABLE8 === '1'
+const API_KEY = FORCE_TABLE8 ? '' : requireCrimeApiKey()
+const CDE_YEAR = lastCompletedCalendarYear()
+const FROM = `01-${CDE_YEAR}`
+const TO = `12-${CDE_YEAR}`
 const CACHE_DIR = join(ROOT, 'data', 'raw', 'cache', 'fbi')
 const TABLE8_URL =
   'https://web.archive.org/web/20201109024128id_/https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8.xls'
@@ -131,12 +148,24 @@ function normalizeName(value: string) {
     .trim()
 }
 
+function yearsFromMonthlyKeys(monthly: Record<string, number>) {
+  const years = new Set<number>()
+  for (const key of Object.keys(monthly)) {
+    const match = /\b((?:19|20)\d{2})\b/.exec(key)
+    if (match) years.add(Number(match[1]))
+  }
+  return [...years].sort((a, b) => a - b)
+}
+
 function annualizeRate(monthly: Record<string, number> | undefined) {
   if (!monthly) return null
   const values = Object.values(monthly).filter((value) => Number.isFinite(value) && value >= 0)
   if (!values.length) return null
   const meanMonthly = values.reduce((sum, value) => sum + value, 0) / values.length
-  return Number((meanMonthly * 12).toFixed(1))
+  return {
+    rate: Number((meanMonthly * 12).toFixed(1)),
+    years: yearsFromMonthlyKeys(monthly),
+  }
 }
 
 function pickAgency(cityName: string, agencies: Agency[]) {
@@ -272,10 +301,16 @@ function unavailable(
   }
 }
 
-async function fetchOffenseRate(ori: string, agencyName: string, offense: 'violent-crime' | 'property-crime') {
+async function fetchOffenseRate(
+  ori: string,
+  agencyName: string,
+  offense: 'violent-crime' | 'property-crime',
+  from: string,
+  to: string,
+) {
   const url =
     `https://api.usa.gov/crime/fbi/cde/summarized/agency/${ori}/${offense}` +
-    `?from=${FROM}&to=${TO}&api_key=${API_KEY}`
+    `?from=${from}&to=${to}&api_key=${API_KEY}`
   const data = await fetchJson<OffensePayload>(url)
   const rates = data.offenses?.rates ?? {}
   return annualizeRate(pickAgencySeries(rates, agencyName) ?? undefined)
@@ -392,24 +427,25 @@ async function main() {
           continue
         }
         await sleep(300)
-        const violent = await fetchOffenseRate(agency.ori, agency.agency_name, 'violent-crime')
+        const violent = await fetchOffenseRate(agency.ori, agency.agency_name, 'violent-crime', FROM, TO)
         await sleep(300)
-        const property = await fetchOffenseRate(agency.ori, agency.agency_name, 'property-crime')
+        const property = await fetchOffenseRate(agency.ori, agency.agency_name, 'property-crime', FROM, TO)
         if (violent == null || property == null) {
           cities[city.slug] = unavailable({ ori: agency.ori, agencyName: agency.agency_name })
           unavailableCount += 1
           continue
         }
+        const vintageYear = violent.years.at(-1) ?? property.years.at(-1) ?? CDE_YEAR
         cities[city.slug] = {
           available: true,
           ori: agency.ori,
           agencyName: agency.agency_name,
-          violent,
-          property,
-          source: `FBI CDE ${agency.agency_name} (${agency.ori}), annualized monthly rates per 100k, 2023`,
+          violent: violent.rate,
+          property: property.rate,
+          source: `FBI Crime Data Explorer · ${agency.agency_name} (${agency.ori}), annualized monthly rates per 100k (${vintageYear})`,
         }
         ok += 1
-        console.log(`crime OK ${city.slug} v=${violent} p=${property}`)
+        console.log(`crime OK ${city.slug} v=${violent.rate} p=${property.rate} year=${vintageYear}`)
       } catch (error) {
         cities[city.slug] = unavailable()
         unavailableCount += 1
@@ -417,7 +453,10 @@ async function main() {
       }
     }
   } else {
-    console.warn('FBI CDE API gateway unavailable — falling back to CIUS Table 8 (2019)')
+    console.warn(
+      'FBI CDE API gateway unavailable — falling back to CIUS Table 8 (2019). ' +
+        'This is a pipeline fallback, not a public source note.',
+    )
     await downloadFile(TABLE8_URL, TABLE8_PATH)
     await downloadFile(AGENCIES_URL, AGENCIES_PATH)
     const table8 = loadTable8(TABLE8_PATH)
@@ -441,9 +480,7 @@ async function main() {
         agencyName: agency?.agency_name ?? `${city.name} (CIUS Table 8)`,
         violent,
         property,
-        source:
-          `FBI CIUS Table 8 (2019) city offenses known to law enforcement` +
-          ` — rates per 100k; CDE API unavailable at enrich time`,
+        source: 'FBI CIUS Table 8 (2019), city offenses per 100k',
       }
       ok += 1
       console.log(`crime OK ${city.slug} (table8) v=${violent} p=${property}`)

@@ -89,7 +89,7 @@ export function buildCitySnapshotMetrics(city: CityRecord, national: NationalBas
     {
       label: 'Violent crime',
       value: crimeUnavailable ? 'Unavailable' : `${city.crimeIndex.violent}`,
-      note: crimeUnavailable ? 'FBI gap' : `per 100k · avg ${national.crimeViolent}`,
+      note: crimeUnavailable ? 'FBI gap' : `per 100k · catalog avg ${national.crimeViolent}`,
     },
     {
       label: 'Summer high',
@@ -190,7 +190,7 @@ export function buildCityAnswerSections(city: CityRecord, national: NationalBase
           [
             `Published violent-offense rates are about ${city.crimeIndex.violent} per 100k and property about ${city.crimeIndex.property} per 100k, ` +
               `versus catalog averages of ${national.crimeViolent} and ${national.crimeProperty}. Citywide rates hide large neighborhood differences.`,
-            `${city.name}'s FBI-derived violent rate (~${city.crimeIndex.violent}/100k) sits ${city.crimeIndex.violent >= national.crimeViolent ? 'at or above' : 'below'} the average of mapped MapsToIt cities. ` +
+            `${city.name}'s FBI-derived violent rate (~${city.crimeIndex.violent}/100k) sits ${city.crimeIndex.violent >= national.crimeViolent ? 'at or above' : 'below'} the catalog average of mapped MapsToIt cities. ` +
               `Use the figure as a screening signal, then verify the blocks you would actually live on.`,
           ],
           city.slug,

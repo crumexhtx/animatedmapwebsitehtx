@@ -3,6 +3,8 @@ import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { formatCurrency, formatNumber, formatPercent } from '@/lib/format'
 import { freshnessForKey } from '@/lib/source-freshness'
 import { SourceFreshnessNote } from '@/components/SourceFreshnessNote'
+import { compareCurrency, compareNumber, comparePoints, compareUnemployment } from '@/lib/stat-compare'
+import { crimeRateNote, crimeSourceKind } from '@/lib/crime-source'
 import Link from 'next/link'
 
 type CompareTone = 'higher' | 'lower' | 'near' | 'neutral'
@@ -16,16 +18,6 @@ type StatItem = {
     deltaLabel: string
     tone: CompareTone
   }
-}
-
-function pctDelta(city: number, national: number) {
-  if (!Number.isFinite(city) || !Number.isFinite(national) || national === 0) return null
-  return ((city - national) / Math.abs(national)) * 100
-}
-
-function toneFromDelta(delta: number): CompareTone {
-  if (Math.abs(delta) < 5) return 'near'
-  return delta > 0 ? 'higher' : 'lower'
 }
 
 function FreshnessNote({ city, source }: { city: CityRecord; source: 'census' | 'bls' | 'crime' | 'climate' | 'population' }) {
@@ -45,54 +37,6 @@ function statNote(base: string | undefined, freshness: ReactNode) {
   )
 }
 
-function compareCurrency(city: number, national: number): StatItem['compare'] {
-  const delta = pctDelta(city, national)
-  if (delta == null) return undefined
-  const abs = Math.abs(delta)
-  const direction = delta >= 0 ? 'above' : 'below'
-  return {
-    national: formatCurrency(national),
-    deltaLabel:
-      abs < 5 ? `Near U.S. avg (${formatCurrency(national)})` : `${abs.toFixed(0)}% ${direction} U.S. avg`,
-    tone: toneFromDelta(delta),
-  }
-}
-
-function compareNumber(
-  city: number,
-  national: number,
-  formatNational: (value: number) => string,
-  unit = '',
-): StatItem['compare'] {
-  const delta = pctDelta(city, national)
-  if (delta == null) return undefined
-  const abs = Math.abs(delta)
-  const direction = delta >= 0 ? 'above' : 'below'
-  return {
-    national: `${formatNational(national)}${unit}`,
-    deltaLabel:
-      abs < 5
-        ? `Near U.S. avg (${formatNational(national)}${unit})`
-        : `${abs.toFixed(0)}% ${direction} U.S. avg`,
-    tone: toneFromDelta(delta),
-  }
-}
-
-function comparePoints(city: number, national: number, unit: string): StatItem['compare'] {
-  const delta = city - national
-  if (!Number.isFinite(delta)) return undefined
-  const abs = Math.abs(delta)
-  const direction = delta >= 0 ? 'above' : 'below'
-  return {
-    national: `${national}${unit}`,
-    deltaLabel:
-      abs < 1.5
-        ? `Near U.S. avg (${national}${unit})`
-        : `${abs.toFixed(1)}${unit} ${direction} U.S. avg`,
-    tone: Math.abs(delta) < 1.5 ? 'near' : delta > 0 ? 'higher' : 'lower',
-  }
-}
-
 export function CityStats({
   city,
   national,
@@ -100,15 +44,8 @@ export function CityStats({
   city: CityRecord
   national: NationalBaselines
 }) {
-  const crimeUnavailable = city.crimeIndex.source === 'data unavailable'
-  // Curated-seed crime figures are a small 0-100 launch placeholder, not a real FBI
-  // per-100k rate — comparing it against the national per-100k average would be
-  // misleading, so treat it like the "unavailable" case for the compare column.
-  const crimeIsCuratedSeed = city.crimeIndex.source.includes('curated')
-  const crimeNeedsCaveat = crimeUnavailable || crimeIsCuratedSeed
-  // city.population is already the latest Census PEP point when one exists (set once, at
-  // build time, in build-catalog.ts) — read it directly here rather than recomputing it, so
-  // this display can't drift out of sync with the trend chart or any other consumer again.
+  const crimeKind = crimeSourceKind(city.crimeIndex.source)
+  const crimeNeedsCaveat = crimeKind === 'unavailable' || crimeKind === 'curated'
   const latestPep = city.populationHistory?.points.at(-1)
   const populationNote = statNote(
     latestPep ? `City limits · Census PEP ${latestPep.year} estimate` : 'City limits · not metro/MSA',
@@ -124,110 +61,102 @@ export function CityStats({
       label: 'Median household income',
       value: formatCurrency(city.medianHouseholdIncome),
       note: statNote('Incorporated place (ACS)', <FreshnessNote city={city} source="census" />),
-      compare: compareCurrency(city.medianHouseholdIncome, national.medianHouseholdIncome),
+      compare: compareCurrency(city.medianHouseholdIncome, national.medianHouseholdIncome, 'us'),
     },
     {
       label: 'Housing cost index',
       value: `${city.costOfLivingIndex}`,
       note: statNote('ACS home+rent vs U.S. (100 = avg)', <FreshnessNote city={city} source="census" />),
-      compare: compareNumber(city.costOfLivingIndex, national.costOfLivingIndex, (v) => String(v)),
+      compare: compareNumber(city.costOfLivingIndex, national.costOfLivingIndex, (v) => String(v), 'us'),
     },
     {
       label: 'Median home value',
       value: formatCurrency(city.medianHomePrice),
       note: statNote('City limits (ACS)', <FreshnessNote city={city} source="census" />),
-      compare: compareCurrency(city.medianHomePrice, national.medianHomeValue),
+      compare: compareCurrency(city.medianHomePrice, national.medianHomeValue, 'us'),
     },
     {
       label: 'Median rent',
       value: formatCurrency(city.medianRent),
       note: statNote('City limits (ACS)', <FreshnessNote city={city} source="census" />),
-      compare: compareCurrency(city.medianRent, national.medianRent),
+      compare: compareCurrency(city.medianRent, national.medianRent, 'us'),
     },
     {
       label: 'Unemployment',
       value: formatPercent(city.unemploymentRate),
       note: statNote('County LAUS · not city-only', <FreshnessNote city={city} source="bls" />),
-      compare: comparePoints(city.unemploymentRate, national.unemploymentRate, ' pts'),
+      compare: compareUnemployment(city.unemploymentRate, national.unemploymentRate),
     },
     {
       label: 'Avg commute',
       value: `${city.commute.avgMinutes} min`,
-      compare: compareNumber(city.commute.avgMinutes, national.commuteMinutes, (v) => String(v), ' min'),
+      compare: compareNumber(city.commute.avgMinutes, national.commuteMinutes, (v) => String(v), 'catalog', ' min'),
     },
     ...(city.commute.walkScore != null
       ? [
           {
             label: 'Walk Score',
             value: String(city.commute.walkScore),
-            compare: compareNumber(city.commute.walkScore, national.walkScore, (v) => String(v)),
+            compare: compareNumber(city.commute.walkScore, national.walkScore, (v) => String(v), 'catalog'),
           } satisfies StatItem,
         ]
       : []),
     {
       label: 'Violent crime rate',
-      value: crimeUnavailable ? 'Unavailable' : String(city.crimeIndex.violent),
-      note: statNote(
-        crimeUnavailable
-          ? 'FBI CDE gap'
-          : crimeIsCuratedSeed
-            ? 'launch estimate, not FBI-verified yet'
-            : 'annualized per 100k · citywide',
-        <FreshnessNote city={city} source="crime" />,
-      ),
+      value: crimeKind === 'unavailable' ? 'Unavailable' : String(city.crimeIndex.violent),
+      note: statNote(crimeRateNote(city.crimeIndex.source), <FreshnessNote city={city} source="crime" />),
       compare: crimeNeedsCaveat
         ? undefined
-        : compareNumber(city.crimeIndex.violent, national.crimeViolent, (v) => String(v)),
+        : compareNumber(city.crimeIndex.violent, national.crimeViolent, (v) => String(v), 'catalog'),
     },
     {
       label: 'Property crime rate',
-      value: crimeUnavailable ? 'Unavailable' : String(city.crimeIndex.property),
-      note: statNote(
-        crimeUnavailable
-          ? 'FBI CDE gap'
-          : crimeIsCuratedSeed
-            ? 'launch estimate, not FBI-verified yet'
-            : 'annualized per 100k · citywide',
-        <FreshnessNote city={city} source="crime" />,
-      ),
+      value: crimeKind === 'unavailable' ? 'Unavailable' : String(city.crimeIndex.property),
+      note: statNote(crimeRateNote(city.crimeIndex.source), <FreshnessNote city={city} source="crime" />),
       compare: crimeNeedsCaveat
         ? undefined
-        : compareNumber(city.crimeIndex.property, national.crimeProperty, (v) => String(v)),
+        : compareNumber(city.crimeIndex.property, national.crimeProperty, (v) => String(v), 'catalog'),
     },
     {
       label: 'Summer high',
       value: `${city.climate.avgHighSummer}°F`,
       note: <FreshnessNote city={city} source="climate" />,
-      compare: comparePoints(city.climate.avgHighSummer, national.avgHighSummer, '°F'),
+      compare: comparePoints(city.climate.avgHighSummer, national.avgHighSummer, 'catalog', {
+        nearThreshold: 1.5,
+        formatNational: (v) => `${v}°F`,
+      }),
     },
     {
       label: 'Winter low',
       value: `${city.climate.avgLowWinter}°F`,
       note: <FreshnessNote city={city} source="climate" />,
-      compare: comparePoints(city.climate.avgLowWinter, national.avgLowWinter, '°F'),
+      compare: comparePoints(city.climate.avgLowWinter, national.avgLowWinter, 'catalog', {
+        nearThreshold: 1.5,
+        formatNational: (v) => `${v}°F`,
+      }),
     },
     {
       label: 'Annual rainfall',
       value: `${city.climate.annualRainfall} in`,
       note: <FreshnessNote city={city} source="climate" />,
-      compare: compareNumber(city.climate.annualRainfall, national.annualRainfall, (v) => String(v), ' in'),
+      compare: compareNumber(city.climate.annualRainfall, national.annualRainfall, (v) => String(v), 'catalog', ' in'),
     },
     {
       label: 'Sunny days',
       value: String(city.climate.sunnyDays),
       note: <FreshnessNote city={city} source="climate" />,
-      compare: compareNumber(city.climate.sunnyDays, national.sunnyDays, (v) => String(v)),
+      compare: compareNumber(city.climate.sunnyDays, national.sunnyDays, (v) => String(v), 'catalog'),
     },
   ]
 
   return (
-    <section className="stats-block" aria-label="City statistics compared with national averages">
+    <section className="stats-block" aria-label="City statistics compared with U.S. and catalog averages">
       <div className="stats-heading">
         <h2>Key figures</h2>
         <p>
-          Each metric shows how {city.name} compares with the U.S. baseline (ACS/BLS nationals where available;
-          catalog-city averages for crime, climate, and commute). Income, housing, population, and crime are for the
-          incorporated city (city limits), not the broader metro/MSA — unemployment is county-level (BLS LAUS).
+          Each metric shows how {city.name} compares with a U.S. baseline (ACS/BLS nationals) or a MapsToIt catalog
+          average (crime, climate, and commute). Income, housing, population, and crime are for the incorporated city
+          (city limits), not the broader metro/MSA — unemployment is county-level (BLS LAUS).
         </p>
       </div>
       <dl className="stat-grid">
@@ -240,7 +169,7 @@ export function CityStats({
               {item.compare ? (
                 <small className={`stat-compare tone-${item.compare.tone}`}>
                   {item.compare.deltaLabel}
-                  <span className="stat-compare-national">U.S. {item.compare.national}</span>
+                  <span className="stat-compare-national">{item.compare.national}</span>
                 </small>
               ) : null}
             </dd>

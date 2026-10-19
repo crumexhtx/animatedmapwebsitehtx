@@ -6,6 +6,8 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { CatalogIndex, CityRecord, CitySourceFreshness, NationalBaselines, StateRecord } from '../lib/types'
+import { publicCrimeSource } from '../lib/crime-source'
+import { nearestCitySlugs } from '../lib/geo'
 import type { BlsEnrichment } from './enrich-bls'
 import type { CensusEnrichment } from './enrich-census'
 import type { ClimateEnrichment } from './enrich-climate'
@@ -14,6 +16,8 @@ import type { PopulationHistoryEnrichment } from './enrich-population-history'
 import type { PhotosEnrichment } from './enrich-photos'
 import { buildUniqueDescription } from './lib/descriptions'
 import { ENRICH_DIR, SEED_PATH } from './lib/io'
+
+type SeedCity = CityRecord & { nearbyCitiesOverride?: string[] }
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -140,7 +144,7 @@ function buildSourceFreshness(
 }
 
 function mergeCity(
-  seed: CityRecord,
+  seed: SeedCity,
   census: CensusEnrichment | null,
   bls: BlsEnrichment | null,
   crime: CrimeEnrichment | null,
@@ -148,12 +152,14 @@ function mergeCity(
   populationHistory: PopulationHistoryEnrichment | null,
   photos: PhotosEnrichment | null,
 ): CityRecord {
-  const censusRow = census?.cities[seed.slug]
-  const blsRow = bls?.cities[seed.slug]
-  const crimeRow = crime?.cities[seed.slug]
-  const climateRow = climate?.cities[seed.slug]
-  const populationHistoryRow = populationHistory?.cities[seed.slug]
-  const photosRow = photos?.cities[seed.slug]
+  const { nearbyCitiesOverride, ...seedCity } = seed
+  void nearbyCitiesOverride
+  const censusRow = census?.cities[seedCity.slug]
+  const blsRow = bls?.cities[seedCity.slug]
+  const crimeRow = crime?.cities[seedCity.slug]
+  const climateRow = climate?.cities[seedCity.slug]
+  const populationHistoryRow = populationHistory?.cities[seedCity.slug]
+  const photosRow = photos?.cities[seedCity.slug]
 
   // Population prefers the latest Census PEP point (also what the Population trend chart
   // ends on) over the ACS 5-year figure — PEP is the Bureau's own preferred product for a
@@ -164,20 +170,23 @@ function mergeCity(
   const latestPepPoint = populationHistoryRow?.points.at(-1)
 
   const merged: CityRecord = {
-    ...seed,
-    population: latestPepPoint?.population ?? censusRow?.population ?? seed.population,
-    medianHouseholdIncome: censusRow?.medianHouseholdIncome ?? seed.medianHouseholdIncome,
-    medianHomePrice: censusRow?.medianHomePrice ?? seed.medianHomePrice,
-    medianRent: censusRow?.medianRent ?? seed.medianRent,
-    costOfLivingIndex: censusRow?.costOfLivingIndex ?? seed.costOfLivingIndex,
-    unemploymentRate: blsRow?.unemploymentRate ?? seed.unemploymentRate,
+    ...seedCity,
+    population: latestPepPoint?.population ?? censusRow?.population ?? seedCity.population,
+    medianHouseholdIncome: censusRow?.medianHouseholdIncome ?? seedCity.medianHouseholdIncome,
+    medianHomePrice: censusRow?.medianHomePrice ?? seedCity.medianHomePrice,
+    medianRent: censusRow?.medianRent ?? seedCity.medianRent,
+    costOfLivingIndex: censusRow?.costOfLivingIndex ?? seedCity.costOfLivingIndex,
+    unemploymentRate: blsRow?.unemploymentRate ?? seedCity.unemploymentRate,
     crimeIndex: crimeRow
       ? {
           violent: crimeRow.violent,
           property: crimeRow.property,
-          source: crimeRow.source,
+          source: publicCrimeSource(crimeRow.source),
         }
-      : seed.crimeIndex,
+      : {
+          ...seedCity.crimeIndex,
+          source: publicCrimeSource(seedCity.crimeIndex.source),
+        },
     climate: climateRow
       ? {
           avgHighSummer: climateRow.avgHighSummer,
@@ -185,13 +194,13 @@ function mergeCity(
           annualRainfall: climateRow.annualRainfall,
           sunnyDays: climateRow.sunnyDays,
         }
-      : seed.climate,
+      : seedCity.climate,
     populationHistory: populationHistoryRow
       ? {
           points: populationHistoryRow.points,
           source: populationHistoryRow.source,
         }
-      : seed.populationHistory,
+      : seedCity.populationHistory,
     images: photosRow
       ? photosRow.images.map((image) => ({
           url: image.url,
@@ -199,12 +208,15 @@ function mergeCity(
           credit: image.credit,
           creditUrl: image.creditUrl,
         }))
-      : seed.images,
+      : seedCity.images,
     sources: {
-      census: censusRow?.source ?? seed.sources.census,
-      bls: blsRow?.source ?? seed.sources.bls,
-      fbi: crimeRow?.source ?? seed.sources.fbi,
-      noaa: climateRow?.source ?? seed.sources.noaa,
+      census: censusRow?.source ?? seedCity.sources.census,
+      bls: blsRow?.source ?? seedCity.sources.bls,
+      fbi: (() => {
+        const fbiSource = crimeRow?.source ?? seedCity.sources.fbi
+        return fbiSource ? publicCrimeSource(fbiSource) : fbiSource
+      })(),
+      noaa: climateRow?.source ?? seedCity.sources.noaa,
     },
     sourceFreshness: buildSourceFreshness(
       census,
@@ -221,12 +233,22 @@ function mergeCity(
     lastUpdated: new Date().toISOString().slice(0, 10),
   }
 
-  merged.description = buildUniqueDescription(merged)
   return merged
 }
 
+function assignNearbyCities(cities: CityRecord[], seed: SeedCity[]) {
+  const overrideBySlug = new Map(
+    seed
+      .filter((city) => city.nearbyCitiesOverride?.length)
+      .map((city) => [city.slug, city.nearbyCitiesOverride!] as const),
+  )
+  for (const city of cities) {
+    city.nearbyCities = overrideBySlug.get(city.slug) ?? nearestCitySlugs(city, cities, 6)
+  }
+}
+
 function main() {
-  const seed = JSON.parse(readFileSync(SEED_PATH, 'utf8')) as CityRecord[]
+  const seed = JSON.parse(readFileSync(SEED_PATH, 'utf8')) as SeedCity[]
   const census = readJson<CensusEnrichment>(join(ENRICH_DIR, 'census.json'))
   const bls = readJson<BlsEnrichment>(join(ENRICH_DIR, 'bls.json'))
   const crime = readJson<CrimeEnrichment>(join(ENRICH_DIR, 'crime.json'))
@@ -239,6 +261,10 @@ function main() {
   const cities = seed.map((city) =>
     mergeCity(city, census, bls, crime, climate, populationHistory, photos),
   )
+  assignNearbyCities(cities, seed)
+  for (const city of cities) {
+    city.description = buildUniqueDescription(city)
+  }
   mkdirSync(OUT_DIR, { recursive: true })
   writeFileSync(join(OUT_DIR, 'cities.json'), JSON.stringify(cities, null, 2))
 

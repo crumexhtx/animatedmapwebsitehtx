@@ -62,8 +62,9 @@ export default function MethodologyPage() {
 
       <h2>What we still curate</h2>
       <p>
-        Commute minutes, Walk Score (where shown), featured flags, neighborhood shortlists, and nearby-city links remain
-        curated companion fields. They are not overwritten by the enrichment scripts.
+        Commute minutes, Walk Score (where shown), featured flags, and neighborhood shortlists remain curated companion
+        fields. They are not overwritten by the enrichment scripts. Nearby-city links default to the six closest catalog
+        cities by great-circle distance; a city may optionally keep a curated override in the seed.
       </p>
       <p>
         New cities launch with a curated-seed baseline — population, income, housing, climate, and crime figures that

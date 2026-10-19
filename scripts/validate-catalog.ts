@@ -7,6 +7,7 @@ import { readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { CityRecord } from '../lib/types'
+import { parseVintageYear } from '../lib/source-freshness'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const CITIES = join(__dirname, '..', 'data', 'catalog', 'cities.json')
@@ -120,6 +121,22 @@ function main() {
     for (const error of errors.slice(0, 40)) console.error(`  - ${error}`)
     if (errors.length > 40) console.error(`  …and ${errors.length - 40} more`)
     process.exit(1)
+  }
+
+  const currentYear = new Date().getUTCFullYear()
+  const staleCrime = cities.filter((city) => {
+    const year = parseVintageYear(city.crimeIndex?.source)
+    return year != null && currentYear - year > 3
+  })
+  if (staleCrime.length) {
+    const sample = staleCrime
+      .slice(0, 8)
+      .map((city) => `${city.slug} (${parseVintageYear(city.crimeIndex.source)})`)
+      .join(', ')
+    console.warn(
+      `validate-catalog warning: ${staleCrime.length} cities have crime vintage older than 3 years` +
+        (sample ? ` — e.g. ${sample}` : ''),
+    )
   }
 
   console.log(`validate-catalog OK: ${cities.length} complete city records`)

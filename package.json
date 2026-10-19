@@ -16,7 +16,7 @@
     "build": "npm run validate-catalog && npm run detect-duplicate-content && next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "tsx --test scripts/test-ai-search.ts scripts/test-afford.ts scripts/test-match.ts scripts/test-compare-seo.ts",
+    "test": "tsx --test scripts/test-ai-search.ts scripts/test-afford.ts scripts/test-match.ts scripts/test-compare-seo.ts scripts/test-accuracy.ts",
     "generate-catalog": "tsx scripts/generate-seed-catalog.ts",
     "build-catalog": "tsx scripts/build-catalog.ts",
     "validate-catalog": "tsx scripts/validate-catalog.ts",

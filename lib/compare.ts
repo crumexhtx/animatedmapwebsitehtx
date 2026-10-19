@@ -1,5 +1,6 @@
 import type { CityRecord, NationalBaselines } from '@/lib/types'
 import { comparisonPath, findComparisonPair } from '@/lib/comparison-pairs'
+import { baselineAvgPhrase, type BaselineKind } from '@/lib/baselines'
 import { formatCurrency, formatNumber, formatPercent } from '@/lib/format'
 
 export type CompareRow = {
@@ -14,11 +15,17 @@ function pctDelta(city: number, national: number) {
   return ((city - national) / Math.abs(national)) * 100
 }
 
-function gapLabel(city: number, national: number, betterWhen: 'higher' | 'lower' | 'neutral' = 'neutral') {
+function gapLabel(
+  city: number,
+  national: number,
+  kind: BaselineKind,
+  betterWhen: 'higher' | 'lower' | 'neutral' = 'neutral',
+) {
   const delta = pctDelta(city, national)
   if (delta == null) return '—'
   const abs = Math.abs(delta)
-  if (abs < 5) return 'Near national average'
+  const avg = baselineAvgPhrase(kind)
+  if (abs < 5) return `Near ${avg}`
   const direction = delta >= 0 ? 'above' : 'below'
   const tip =
     betterWhen === 'neutral'
@@ -28,7 +35,7 @@ function gapLabel(city: number, national: number, betterWhen: 'higher' | 'lower'
         : betterWhen === 'higher' && delta > 0
           ? ' · relatively higher'
           : ''
-  return `${abs.toFixed(0)}% ${direction} national average${tip}`
+  return `${abs.toFixed(0)}% ${direction} ${avg}${tip}`
 }
 
 export function buildCompareRows(
@@ -49,37 +56,37 @@ export function buildCompareRows(
       label: 'Median household income',
       values: cities.map((city) => formatCurrency(city.medianHouseholdIncome)),
       national: formatCurrency(national.medianHouseholdIncome),
-      context: gapLabel(primary.medianHouseholdIncome, national.medianHouseholdIncome, 'higher'),
+      context: `U.S. avg · ${gapLabel(primary.medianHouseholdIncome, national.medianHouseholdIncome, 'us', 'higher')}`,
     },
     {
       label: 'Median home value',
       values: cities.map((city) => formatCurrency(city.medianHomePrice)),
       national: formatCurrency(national.medianHomeValue),
-      context: gapLabel(primary.medianHomePrice, national.medianHomeValue, 'lower'),
+      context: `U.S. avg · ${gapLabel(primary.medianHomePrice, national.medianHomeValue, 'us', 'lower')}`,
     },
     {
       label: 'Median rent',
       values: cities.map((city) => formatCurrency(city.medianRent)),
       national: formatCurrency(national.medianRent),
-      context: gapLabel(primary.medianRent, national.medianRent, 'lower'),
+      context: `U.S. avg · ${gapLabel(primary.medianRent, national.medianRent, 'us', 'lower')}`,
     },
     {
       label: 'Housing cost index',
       values: cities.map((city) => String(city.costOfLivingIndex)),
       national: String(national.costOfLivingIndex),
-      context: '100 = U.S. average (ACS home + rent)',
+      context: 'U.S. avg · 100 = U.S. average (ACS home + rent)',
     },
     {
       label: 'Unemployment',
       values: cities.map((city) => formatPercent(city.unemploymentRate)),
       national: formatPercent(national.unemploymentRate),
-      context: 'County LAUS rate, not city-only',
+      context: 'U.S. rate · county LAUS, not city-only',
     },
     {
       label: 'Avg commute',
       values: cities.map((city) => `${city.commute.avgMinutes} min`),
       national: `${national.commuteMinutes} min`,
-      context: gapLabel(primary.commute.avgMinutes, national.commuteMinutes, 'lower'),
+      context: `Catalog avg · ${gapLabel(primary.commute.avgMinutes, national.commuteMinutes, 'catalog', 'lower')}`,
     },
     {
       label: 'Violent crime rate',
@@ -88,8 +95,8 @@ export function buildCompareRows(
       ),
       national: `${national.crimeViolent} / 100k`,
       context: crimeUnavailable
-        ? 'FBI data gap for at least one city'
-        : 'Citywide rate — inspect neighborhood / block data',
+        ? 'Catalog avg · FBI data gap for at least one city'
+        : 'Catalog avg · citywide rate — inspect neighborhood / block data',
     },
     {
       label: 'Property crime rate',
@@ -98,26 +105,26 @@ export function buildCompareRows(
       ),
       national: `${national.crimeProperty} / 100k`,
       context: crimeUnavailable
-        ? 'FBI data gap for at least one city'
-        : 'Citywide rate — inspect neighborhood / block data',
+        ? 'Catalog avg · FBI data gap for at least one city'
+        : 'Catalog avg · citywide rate — inspect neighborhood / block data',
     },
     {
       label: 'Sunny days',
       values: cities.map((city) => `${city.climate.sunnyDays} days`),
       national: `${national.sunnyDays} days`,
-      context: gapLabel(primary.climate.sunnyDays, national.sunnyDays, 'higher'),
+      context: `Catalog avg · ${gapLabel(primary.climate.sunnyDays, national.sunnyDays, 'catalog', 'higher')}`,
     },
     {
       label: 'Summer high',
       values: cities.map((city) => `${city.climate.avgHighSummer}°F`),
       national: `${national.avgHighSummer}°F`,
-      context: 'NOAA normals · nearest station',
+      context: 'Catalog avg · NOAA normals · nearest station',
     },
     {
       label: 'Winter low',
       values: cities.map((city) => `${city.climate.avgLowWinter}°F`),
       national: `${national.avgLowWinter}°F`,
-      context: 'NOAA normals · nearest station',
+      context: 'Catalog avg · NOAA normals · nearest station',
     },
   ]
 }

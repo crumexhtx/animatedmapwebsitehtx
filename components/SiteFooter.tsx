@@ -22,7 +22,7 @@ export function SiteFooter() {
         <a href={githubRepoUrl} rel="noopener noreferrer">GitHub</a>
       </div>
       <p className="footer-note">
-        Figures compile Census ACS, BLS LAUS, FBI CDE, and NOAA normals for research — see methodology for citations and
+        Figures compile Census ACS, BLS LAUS, FBI crime figures, and NOAA normals for research — see methodology for citations and
         coverage gaps. Curated comparisons:{' '}
         <Link href="/compare/austin-tx-vs-denver-co" prefetch={false}>Austin vs Denver</Link>
         {', '}

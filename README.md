@@ -32,7 +32,7 @@ validate-catalog    →  next build (SSG city/state pages)
 
 **Runtime split.** Ranking and filtering live in pure functions (`lib/afford.ts`, `lib/match.ts`). Shareable `/afford` and `/compare` URLs are parsed from query params, so the same result can be linked without server state. The map is MapLibre GL circle layers, lazy-loaded on the homepage.
 
-**What stays curated.** Commute minutes, Walk Score, featured flags, neighborhood shortlists, and nearby-city links are companion fields — they are not overwritten by enrichment. See [methodology](https://mapstoit.com/methodology).
+**What stays curated.** Commute minutes, Walk Score, featured flags, and neighborhood shortlists are companion fields — they are not overwritten by enrichment. Nearby cities default to the six closest catalog cities by distance (optional seed override). See [methodology](https://mapstoit.com/methodology).
 
 ### Stack
 

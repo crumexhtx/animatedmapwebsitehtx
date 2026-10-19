@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${a.name} vs ${b.name}: Cost of Living, Housing & Commute`
   const description =
     `Side-by-side MapsToIt comparison of ${a.name}, ${a.stateCode} and ${b.name}, ${b.stateCode} — ` +
-    `housing index, rent, income, unemployment, crime, and climate versus U.S. baselines.`
+    `housing index, rent, income, unemployment, crime, and climate versus U.S. and catalog averages.`
   const url = absoluteUrl(comparisonPath(pair.slug))
 
   return {

@@ -121,6 +121,22 @@ export function freshnessForKey(city: CityRecord, key: FreshnessKey) {
   const freshness = resolveSourceFreshness(city)
   const entry = freshness[key]
   const reference = newestAsOf(freshness) ?? city.lastUpdated
-  const stale = isMeaningfullyStale(entry, reference)
-  return { entry, stale, label: formatFreshnessLabel(entry) ?? '' }
+  let stale = isMeaningfullyStale(entry, reference)
+  let label = formatFreshnessLabel(entry) ?? ''
+
+  if (key === 'crime') {
+    const year =
+      parseVintageYear(entry?.vintage) ?? parseVintageYear(city.crimeIndex.source)
+    const currentYear = new Date().getUTCFullYear()
+    if (year != null && currentYear - year > 3) {
+      stale = true
+      if (label && !label.includes('older data')) {
+        label = `${label} · older data (${year})`
+      } else if (!label) {
+        label = `older data (${year})`
+      }
+    }
+  }
+
+  return { entry, stale, label }
 }

@@ -123,7 +123,7 @@ export function CompareCities({
                       </Link>
                     </th>
                   ))}
-                  <th scope="col">U.S. baseline</th>
+                  <th scope="col">U.S. / catalog avg</th>
                   <th scope="col">Context / gap</th>
                 </tr>
               </thead>

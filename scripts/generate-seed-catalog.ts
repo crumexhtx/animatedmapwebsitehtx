@@ -10,6 +10,7 @@ import { mkdirSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { CityRecord } from '../lib/types'
+import { haversineMiles } from '../lib/geo'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -295,19 +296,6 @@ const SEEDS: Seed[] = [
 
 const CLEAN_SEEDS = SEEDS
 
-function haversine(a: [number, number], b: [number, number]) {
-  const toRad = (d: number) => (d * Math.PI) / 180
-  const R = 3958.8
-  const dLat = toRad(b[1] - a[1])
-  const dLon = toRad(b[0] - a[0])
-  const lat1 = toRad(a[1])
-  const lat2 = toRad(b[1])
-  const h =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2
-  return 2 * R * Math.asin(Math.sqrt(h))
-}
-
 function colLabel(col: number) {
   if (col >= 140) return 'well above the national average'
   if (col >= 115) return 'above the national average'
@@ -359,7 +347,7 @@ function expand(seed: Seed, all: Seed[]): CityRecord {
     .filter((other) => other !== seed)
     .map((other) => ({
       slug: slugify(other.name, other.stateCode),
-      miles: haversine(here, [other.lon, other.lat]),
+      miles: haversineMiles(here, [other.lon, other.lat]),
     }))
     .sort((a, b) => a.miles - b.miles)
     .slice(0, 6)
